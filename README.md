@@ -25,10 +25,14 @@ The role of this curated list is to gather scientific articles that use deep lea
 | [Deep Karaoke: Extracting Vocals from Musical Mixtures Using a Convolutional Deep Neural Network](https://arxiv.org/ftp/arxiv/papers/1504/1504.04658.pdf) | |
 | [The Munich LSTM-RNN Approach to the MediaEval 2014 “Emotion in Music” Task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
 | [Robust Downbeat Tracking Using an Ensemble of Convolutional Networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | |
-| [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | |
+| [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
 | [Musical instrument sound classification with deep convolutional neural network using feature fusion approach](https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf) | |
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | |
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | |
+| [Singing voice detection with deep recurrent neural networks](https://hal-imt.archives-ouvertes.fr/hal-01110035/document) | |
+| [A hybrid recurrent neural network for music transcription](https://arxiv.org/pdf/1411.1623.pdf) | |
+| [A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction](http://ieeexplore.ieee.org/document/7471734/) | |
+| [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
 
 ## Additional resources of the deep learning for music (dl4m)
 - [dl4m.bib](dl4m.bib) - the corresponding bibliography
@@ -43,7 +47,14 @@ The role of this curated list is to gather scientific articles that use deep lea
 	- Number of layers
 	- Task
 	- Dataset
+	- Computation time
+	- Hardware
+	- Data augmentation
 	- Additional notes
 
 ## Code without articles
 - [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
+
+## Contributors
+- [Vincent Lostanlen](https://github.com/lostanlen)
+- [Keunwoo Choi](https://github.com/keunwoochoi)
