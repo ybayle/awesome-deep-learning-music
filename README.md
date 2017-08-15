@@ -1,7 +1,14 @@
-# Deep Learning applied to Music
+# Deep Learning four Music (DL4M)
 The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
+The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
 
-## Contents
+## Table of contents
+- [DL4M Articles](dl4m-articles)
+- [Additional resources of the DL4M](additional-resources-of-the-dl4m)
+- [Code without articles](code-without-articles)
+- [Contributors](contributors)
+
+## DL4M Articles 
 | Article | Code |
 |---------------------|-------------------------|
 | [Timbre Analysis of Music Audio Signals with Convolutional Neural Networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) [GitHub 2](https://github.com/ronggong/EUSIPCO2017) [GitHub 3](https://github.com/Veleslavia/EUSIPCO2017) |
@@ -34,7 +41,7 @@ The role of this curated list is to gather scientific articles that use deep lea
 | [A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction](http://ieeexplore.ieee.org/document/7471734/) | |
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
 
-## Additional resources of the deep learning for music (dl4m)
+## Additional resources of the DL4M
 - [dl4m.bib](dl4m.bib) - the corresponding bibliography
 - [dl4m.csv](dl4m.csv) - more details about each article:
 	- Author
