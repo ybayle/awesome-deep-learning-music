@@ -1,4 +1,4 @@
-# Deep Learning four Music (DL4M)
+# Deep Learning for Music (DL4M)
 The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
 The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
 
@@ -42,7 +42,7 @@ The list is currently under construction but feel free to contribute to the miss
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
 
 ## Additional resources of the DL4M
-- [dl4m.bib](dl4m.bib) - the corresponding bibliography
+- [dl4m.bib](dl4m.bib) - the corresponding bibliography.
 - [dl4m.csv](dl4m.csv) - more details about each article:
 	- Author
 	- Year
