@@ -3,10 +3,10 @@ The role of this curated list is to gather scientific articles that use deep lea
 The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
 
 ## Table of contents
-- [DL4M Articles](dl4m-articles)
-- [Additional resources of the DL4M](additional-resources-of-the-dl4m)
-- [Code without articles](code-without-articles)
-- [Contributors](contributors)
+- [DL4M Articles](#dl4m-articles)
+- [Code without articles](#code-without-articles)
+- [Additional resources](#additional-resources)
+- [Contributors](#contributors)
 
 ## DL4M Articles 
 | Article | Code |
@@ -41,7 +41,10 @@ The list is currently under construction but feel free to contribute to the miss
 | [A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction](http://ieeexplore.ieee.org/document/7471734/) | |
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
 
-## Additional resources of the DL4M
+## Code without articles
+- [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
+
+## Additional resources
 - [dl4m.bib](dl4m.bib) - the corresponding bibliography.
 - [dl4m.csv](dl4m.csv) - more details about each article:
 	- Author
@@ -58,9 +61,6 @@ The list is currently under construction but feel free to contribute to the miss
 	- Hardware
 	- Data augmentation
 	- Additional notes
-
-## Code without articles
-- [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
 
 ## Contributors
 - [Vincent Lostanlen](https://github.com/lostanlen)
