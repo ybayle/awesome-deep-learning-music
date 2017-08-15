@@ -2,9 +2,9 @@
 The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
 
 ## Contents
-| Link to the article | Link to the source code |
+| Article | Code |
 |---------------------|-------------------------|
-| [Timbre Analysis of Music Audio Signals with Convolutional Neural Networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
+| [Timbre Analysis of Music Audio Signals with Convolutional Neural Networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) [GitHub 2](https://github.com/ronggong/EUSIPCO2017) [GitHub 3](https://github.com/Veleslavia/EUSIPCO2017) |
 | [Extending Temporal Feature Integration for Semantic Audio Analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | |
 | [Event Localization in Music Auto-tagging](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) | [GitHub](https://github.com/ciaua/clip2frame) |
 | [An Efficient Approach for Segmentation, Feature Extraction and Classification of Audio Signals](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | |
@@ -30,17 +30,20 @@ The role of this curated list is to gather scientific articles that use deep lea
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | |
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | |
 
-## Details of the deep learning for music (dl4m)
-You can download the [dl4m.bib](dl4m.bib) that stores the entire bibliography.
-In the [dl4m.csv](dl4m.csv) file, you can found for each article:
-- Author
-- Year
-- Article name
-- PDF link
-- if some code if available on GitHub
-- if the code is currently reproducible
-- the architecture
-- the number of layers
-- the task
-- Dataset
-- Additional notes
+## Additional resources of the deep learning for music (dl4m)
+- [dl4m.bib](dl4m.bib) - the corresponding bibliography
+- [dl4m.csv](dl4m.csv) - more details about each article:
+	- Author
+	- Year
+	- Article name
+	- PDF link
+	- Source code link
+	- Source code reproducible
+	- Architecture
+	- Number of layers
+	- Task
+	- Dataset
+	- Additional notes
+
+## Code without articles
+- [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)

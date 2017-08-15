@@ -23,7 +23,6 @@ Senac,2017,,Non,Non,CNN,8,genre,GTzan,Compare input CNN spectro & features audio
 ,,http://ieeexplore.ieee.org/abstract/document/7952660/,,,,,,,,
 ,,https://arxiv.org/ftp/arxiv/papers/1504/1504.04658.pdf,,,,,,,,
 ,,,https://github.com/drscotthawley/audio-classifier-keras-cnn,,,,,,,
-https://www.youtube.com/watch?v=sI_8EA0_ha8&feature=youtu.be,,,,,,,,,,
 ,,https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf,,,LSTM-RNN,,emotion recognition,,,
 Durand,2016,http://ieeexplore.ieee.org/abstract/document/7728057/,,,CNN,,Downbeat detection,,Combine multiple CNN on multiple features,
 Ycart,2017,https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946,http://www.eecs.qmul.ac.uk/~ay304/code/ismir17,TODO,LSTM-RNN,1,polyphonic music sequence modelling,Synthetic MIDI & Piano-midi.de,data augmentation = pitch shift,
