@@ -7,6 +7,7 @@ The list is currently under construction but feel free to contribute to the miss
 - [Code without articles](#code-without-articles)
 - [Additional resources](#additional-resources)
 - [How To Contribute](#how-to-contribute)
+- [FAQ](#faq)
 - [Contributors](#contributors)
 
 ## DL4M Articles 
@@ -51,7 +52,7 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## Additional resources
 - [dl4m.bib](dl4m.bib) - the corresponding bibliography.
-- [dl4m.csv](dl4m.csv) - more details about each article:
+- [dl4m.tsv](dl4m.tsv) - more details about each article:
 	- Author
 	- Year
 	- Article name
@@ -69,8 +70,12 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## How To Contribute
 1. Fork the repo.
-2. Add one line per article in [dl4m.csv](dl4m.csv) with every column correctly filled.
+2. Add one line per article in [dl4m.tsv](dl4m.tsv) with every column correctly filled.
 3. Submit your pull request and that's it! (Note: the table in the ReadMe is automatically generated thanks to a python script.)
+
+## FAQ
+> Why a tsv file for storing the detailed information about articles?
+Because some articles have a comma in their title and [GitHub currently only display csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
 
 ## Contributors
 - [Vincent Lostanlen](https://github.com/lostanlen)

@@ -21,7 +21,7 @@ import os
 import sys
 
 
-def main(filen="dl4m.csv"):
+def main(filen="dl4m.tsv"):
     """Description of main
     Parse dl4m.csv to create a simple and readable ReadMe.md table.
     """
@@ -33,7 +33,7 @@ def main(filen="dl4m.csv"):
         # Skip csv header
         next(filep)
         for line in filep:
-            row = line.split(";")
+            row = line.split("\t")
             articles += "| [" + row[0] + "](" + row[3] + ") | "
             if len(row[4]) > 1:
                 if "No" in row[4]:
