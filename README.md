@@ -10,6 +10,7 @@ The list is currently under construction but feel free to contribute to the miss
 - [Code without articles](#code-without-articles)
 - [How To Contribute](#how-to-contribute)
 - [FAQ](#faq)
+- [Abbreviations used](#abbreviations-used)
 - [Contributors](#contributors)
 
 ## DL4M summary 
@@ -20,14 +21,14 @@ The list is currently under construction but feel free to contribute to the miss
 | [An evaluation of Convolutional Neural Networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
 | [Deep Convolutional Neural Networks for Predominant Instrument Recognition in Polyphonic Music](http://dl.acm.org/citation.cfm?id=3068697) | No |
 | [End-to-End Musical Key Estimation Using a Convolutional Neural Network](https://arxiv.org/pdf/1706.02921.pdf) | |
-| [Multi-Level and Multi-Scale Feature Aggregation Using Sample-level Deep Convolutional Neural Networks for Music Classification](https://arxiv.org/pdf/1706.06810.pdf) | |
+| [Multi-Level and Multi-Scale Feature, Aggregation Using Sample-level Deep Convolutional Neural Networks for Music Classification](https://arxiv.org/pdf/1706.06810.pdf) | |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
 | [Timbre Analysis of Music Audio Signals with Convolutional Neural Networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | [Music Feature Maps with Convolutional Neural Networks for Music Genre Classification](https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/) | No |
 | [Extending Temporal Feature Integration for Semantic Audio Analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | No |
 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
-| [An Efficient Approach for Segmentation, Feature Extraction and Classification of Audio Signals ](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
+| [An Efficient Approach for Segmentation, Feature Extraction and Classification of Audio Signals](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
 | [Towards Playlist Generation Algorithms Using RNNs Trained on Within-Track Transitions](https://arxiv.org/pdf/1606.02096.pdf) | No |
 | [Automatic tagging using deep convolutional neural networks](https://arxiv.org/pdf/1606.00298.pdf) | No |
 | [Robust Downbeat Tracking Using an Ensemble of Convolutional Networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | |
@@ -81,10 +82,28 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## FAQ
 
-> Why a tsv file for storing the detailed information about the articles?
+> Why a tsv file instead of a regular csv file for storing the detailed information about the articles?
 
-Because some articles have a comma in their title and [GitHub currently only display csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
+Because:
+1. Some articles have a comma in their title and the .bib of each article contains commas.
+2. [GitHub currently only display csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
 The built-in GitHub csv/tsv parser is handy because you can easily search in the file in your browser without downloading anything.
+
+> How are the articles sorted?
+
+In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up with the latest news) and then alphabetically.
+
+## Abbreviations used
+
+- DNN Deep Neural Network
+- CNN Convolutional Neural Network
+- VAD Voice Activity Detection
+
+| Abbreviation | Full name |
+|--------------|-----------|
+| DNN | Deep Neural Network |
+| CNN | Convolutional Neural Network |
+| VAD | Voice Activity Detection |
 
 ## Contributors
 
