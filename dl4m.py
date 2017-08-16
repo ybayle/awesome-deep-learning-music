@@ -19,10 +19,12 @@ Parse dl4m.csv to create a simple and readable ReadMe.md table.
 
 import os
 import sys
+import numpy as np
+import matplotlib.pyplot as plt
 
 
-def main(filen="dl4m.tsv"):
-    """Description of main
+def generate_summary_table(filen="dl4m.tsv"):
+    """Description of generate_summary_table
     Parse dl4m.csv to create a simple and readable ReadMe.md table.
     """
     if not os.path.isfile(filen):
@@ -47,6 +49,38 @@ def main(filen="dl4m.tsv"):
             articles += "|\n"
     with open("paste_in_ReadMe.md", "w") as filep:
         filep.write(articles)
+
+
+def articles_per_year(filen="dl4m.tsv"):
+    """Description of main
+    Display the number of articles published per year
+    input: file name storing articles details
+    """
+    years = []
+    with open(filen, "r") as filep:
+        next(filep)
+        for line in filep:
+            years.append(int(line.split("\t")[2]))
+
+    plt.xlabel('Years')
+    plt.ylabel('Number of articles')
+    year_bins = np.arange(min(years), max(years) + 2.0, 1.0)
+    plt.hist(years, bins=year_bins, color="#401153", align="left")
+    ax = plt.gca()
+    ax.spines['right'].set_color('none')
+    ax.spines['top'].set_color('none')
+    ax.xaxis.set_ticks_position('bottom')
+    ax.yaxis.set_ticks_position('left')
+    plt.savefig("fig/articles_per_year.png", dpi=200)
+
+
+def main(filen="dl4m.tsv"):
+    """Description of main
+    Main entry point
+    input: file name storing articles details
+    """
+    # generate_summary_table(filen)
+    articles_per_year(filen)
 
 
 if __name__ == "__main__":

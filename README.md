@@ -8,6 +8,7 @@ The list is currently under construction but feel free to contribute to the miss
 - [DL4M summary](#dl4m-summary)
 - [DL4M details](#dl4m-details)
 - [Code without articles](#code-without-articles)
+- [Statistics and visualisations](#statistics-and-visualisations)
 - [How To Contribute](#how-to-contribute)
 - [FAQ](#faq)
 - [Abbreviations used](#abbreviations-used)
@@ -111,6 +112,12 @@ The list is currently under construction but feel free to contribute to the miss
 
 - [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
 
+## Statistics and visualisations
+
+- 70 articles currently referenced.
+- Number of articles per year
+![Number of articles per year](fig/articles_per_year.png)
+
 ## How To Contribute
 
 1. Adding/Updating information
@@ -118,8 +125,8 @@ The list is currently under construction but feel free to contribute to the miss
 	2. Add one line per article in [dl4m.tsv](dl4m.tsv) with every column correctly filled.
 	3. Submit your pull request and that's it! (Note: the table in the ReadMe is automatically generated thanks to a python script.)
 2. Visualisation
-	1. Please submit your idea for new visualisation of the data
-	2. I am looking for a way to display relations between articles automatically like a mindmap. Tell me if you know anything able to handle that.
+	- Please submit your idea for new visualisation of the data
+	- I am looking for a way to display relations between articles automatically like a mindmap. Tell me if you know anything able to handle that.
 
 ## FAQ
 
