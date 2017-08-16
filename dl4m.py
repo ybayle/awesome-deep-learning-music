@@ -22,7 +22,6 @@ import sys
 
 
 def main(filen="dl4m.csv"):
-# def main(filen="dl4m.csv"):
     """Description of main
     Parse dl4m.csv to create a simple and readable ReadMe.md table.
     """
@@ -30,7 +29,7 @@ def main(filen="dl4m.csv"):
         print("Invalid input file name provided")
         sys.exit()
     articles = ""
-    with open(filen, "r") as filep:
+    with open(filen, "r", encoding="utf-8") as filep:
         # Skip csv header
         next(filep)
         for line in filep:
