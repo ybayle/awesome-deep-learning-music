@@ -34,12 +34,12 @@ def main(filen="dl4m.tsv"):
         next(filep)
         for line in filep:
             row = line.split("\t")
-            articles += "| [" + row[0] + "](" + row[3] + ") | "
-            if len(row[4]) > 1:
-                if "No" in row[4]:
+            articles += "| [" + row[0] + "](" + row[4] + ") | "
+            if len(row[5]) > 1:
+                if "No" in row[5]:
                     articles += "No "
                 else:
-                    if "github" in row[4]:
+                    if "github" in row[5]:
                         articles += "[GitHub"
                     else:
                         articles += "[Website"

@@ -17,64 +17,94 @@ The list is currently under construction but feel free to contribute to the miss
 
 | Article | Code |
 |---------------------|-------------------------|
-| [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
-| [An evaluation of Convolutional Neural Networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
-| [Deep Convolutional Neural Networks for Predominant Instrument Recognition in Polyphonic Music](http://dl.acm.org/citation.cfm?id=3068697) | No |
-| [End-to-End Musical Key Estimation Using a Convolutional Neural Network](https://arxiv.org/pdf/1706.02921.pdf) | |
-| [Multi-Level and Multi-Scale Feature Aggregation Using Sample-level Deep Convolutional Neural Networks for Music Classification](https://arxiv.org/pdf/1706.06810.pdf) | |
-| [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
-| [Timbre Analysis of Music Audio Signals with Convolutional Neural Networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
-| [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
-| [Music Feature Maps with Convolutional Neural Networks for Music Genre Classification](https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/) | No |
-| [Extending Temporal Feature Integration for Semantic Audio Analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | No |
-| [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
-| [An Efficient Approach for Segmentation, Feature Extraction and Classification of Audio Signals ](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
-| [Towards Playlist Generation Algorithms Using RNNs Trained on Within-Track Transitions](https://arxiv.org/pdf/1606.02096.pdf) | No |
+| [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](http://ieeexplore.ieee.org/abstract/document/7952585/) |
+| [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
+| [Deep convolutional neural networks for predominant instrument recognition in polyphonic music](http://dl.acm.org/citation.cfm?id=3068697) | No |
+| [End-to-end musical key estimation using a convolutional neural network](https://arxiv.org/pdf/1706.02921.pdf) | |
+| [Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification](https://arxiv.org/pdf/1706.06810.pdf) | |
+| [Melody extraction and detection through lstm-rnn with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
+| [Timbre analysis of music audio signals with convolutional neural networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://arxiv.org/pdf/1703.06697.pdf) |
+| [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](http://ieeexplore.ieee.org/document/7952601/) |
+| [Music feature maps with convolutional neural networks for music genre classification](https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/) | No |
+| [Extending temporal feature integration for semantic audio analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | No |
+| [A study on lstm networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) |
+| [An efficient approach for segmentation, feature extraction and classification of audio signals ](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
+| [Towards playlist generation algorithms using rnns trained on within-track transitions](https://arxiv.org/pdf/1606.02096.pdf) | No |
 | [Automatic tagging using deep convolutional neural networks](https://arxiv.org/pdf/1606.00298.pdf) | No |
 | [Automatic chord estimation on seventhsbass chord vocabulary using deep neural network](http://ieeexplore.ieee.org/abstract/document/7471677/) | |
-| [Robust Downbeat Tracking Using an Ensemble of Convolutional Networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | |
+| [Robust downbeat tracking using an ensemble of convolutional networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | |
+| [Bayesian meter tracking on learned signal representations](http://www.rhythmos.org/MMILab-Andre_files/ISMIR2016_CNNDBNbeats_camready.pdf) | |
 | [Learning temporal features using a deep neural network and its application to music genre classification](https://www.researchgate.net/profile/Il_Young_Jeong/publication/305683876_Learning_temporal_features_using_a_deep_neural_network_and_its_application_to_music_genre_classification/links/5799a27c08aec89db7bb9f92.pdf) | |
 | [On the potential of simple framewise approaches to piano transcription](https://arxiv.org/abs/1612.05153) | |
 | [Feature learning for chord recognition: the deep chroma extractor](https://arxiv.org/pdf/1612.05065.pdf) | |
 | [A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction](http://ieeexplore.ieee.org/document/7471734/) | |
-| [Event Localization in Music Auto-tagging](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) | [GitHub](https://github.com/ciaua/clip2frame) |
+| [Event localization in music auto-tagging](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) | [GitHub](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) |
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | |
-| [Robust Audio Event Recognition with 1-Max Pooling Convolutional Neural Networks](https://arxiv.org/pdf/1604.06338.pdf) | No |
+| [Robust audio event recognition with 1-max pooling convolutional neural networks](https://arxiv.org/pdf/1604.06338.pdf) | No |
 | [Singing voice melody transcription using deep neural networks](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf) | |
 | [Note onset detection in musical signals via neural–network–based multi–odf fusion](https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf) | No |
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
-| [Deep Convolutional Neural Networks and Data Augmentation for Acoustic Event Detection](https://arxiv.org/pdf/1604.07160.pdf) | No |
-| [Unsupervised Feature Learning Based on Deep Models for Environmental Audio Tagging](https://arxiv.org/pdf/1607.03681.pdf) | |
+| [Deep convolutional neural networks and data augmentation for acoustic event detection](https://arxiv.org/pdf/1604.07160.pdf) | No |
+| [Unsupervised feature learning based on deep models for environmental audio tagging](https://arxiv.org/pdf/1607.03681.pdf) | |
+| [Learning to pinpoint singing voice from weakly labeled examples](http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf) | |
+| [Auralisation of deep convolutional neural networks: listening to learned features](http://ismir2015.uma.es/LBD/LBD24.pdf) | |
 | [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | |
+| [Music boundary detection using neural networks on spectrograms and self-similarity lag matrices](http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf) | |
+| [Classification of spatial audio location and content using convolutional neural networks](https://www.researchgate.net/profile/Toni_Hirvonen/publication/276061831_Classification_of_Spatial_Audio_Location_and_Content_Using_Convolutional_Neural_Networks/links/5550665908ae12808b37fe5a/Classification-of-Spatial-Audio-Location-and-Content-Using-Convolutional-Neural-Networks.pdf) | |
+| [Deep learning, audio adversaries, and music content analysis](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6905/pdf/imm6905.pdf) | |
 | [Singing voice detection with deep recurrent neural networks](https://hal-imt.archives-ouvertes.fr/hal-01110035/document) | |
+| [Automatic instrument recognition in polyphonic music using convolutional neural networks](https://arxiv.org/pdf/1511.05520.pdf) | |
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | |
+| [A deep bag-of-features model for music auto-tagging](https://arxiv.org/pdf/1508.04999v1.pdf) | |
+| [Music-noise segmentation in spectrotemporal domain using convolutional neural networks](http://ismir2015.uma.es/LBD/LBD27.pdf) | |
 | [Musical instrument sound classification with deep convolutional neural network using feature fusion approach](https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf) | |
-| [Deep Karaoke: Extracting Vocals from Musical Mixtures Using a Convolutional Deep Neural Network](https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50) | |
+| [Environmental sound classification with convolutional neural networks](https://scholar.google.co.kr/scholar?hl=en&q=Environmental+sound+classification+with+convolutional+neural+networks&btnG=&as_sdt=1%2C5&as_sdtp=) | |
+| [An end-to-end neural network for polyphonic music transcription](https://arxiv.org/pdf/1508.01774.pdf) | |
+| [Deep karaoke: extracting vocals from musical mixtures using a convolutional deep neural network](https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50) | |
 | [Deep neural network based instrument extraction from music](https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf) | |
-| [The Munich LSTM-RNN Approach to the MediaEval 2014 “Emotion in Music” Task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
+| [A deep neural network for modeling music](https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf) | |
+| [The munich lstm-rnn approach to the mediaeval 2014 “emotion in music” task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
 | [End-to-end learning for music audio](http://ieeexplore.ieee.org/abstract/document/6854950/) | No |
 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
+| [Recognition of acoustic events using deep neural networks](https://www.cs.tut.fi/sgn/arg/music/tuomasv/dnn_eusipco2014.pdf) | |
+| [Deep image features in music information retrieval](https://www.degruyter.com/downloadpdf/j/eletel.2014.60.issue-4/eletel-2014-0042/eletel-2014-0042.pdf) | |
+| [From music audio to chord tablature: teaching deep convolutional networks to play guitar](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7024-humphrey.pdf) | |
 | [Improved musical onset detection with convolutional neural networks](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf) | No |
 | [A hybrid recurrent neural network for music transcription](https://arxiv.org/pdf/1411.1623.pdf) | |
+| [Boundary detection in music structure analysis using convolutional neural networks](https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf) | |
+| [Improving content-based and hybrid music recommendation using deep learning](http://www.smcnus.org/wp-content/uploads/2014/08/reco_MM14.pdf) | |
+| [A deep representation for invariance and music classification](https://arxiv.org/pdf/1404.0400.pdf) | |
+| [Multiscale approaches to music audio feature learning](http://ismir2013.ismir.net/wp-content/uploads/2013/09/69_Paper.pdf) | |
+| [Deep content-based music recommendation](http://papers.nips.cc/paper/5004-deep-content-based-music-recommendation.pdf) | |
+| [Musical onset detection with convolutional neural networks](http://phenicx.upf.edu/system/files/publications/Schlueter_MML13.pdf) | |
+| [Rethinking automatic chord recognition with convolutional neural networks](http://ieeexplore.ieee.org/document/6406762/) | |
+| [Moving beyond feature design: deep architectures and automatic feature learning in music informatics](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.294.2304&rep=rep1&type=pdf) | |
+| [Local-feature-map integration using convolutional neural networks for music genre classification.](http://liris.cnrs.fr/Documents/Liris-5602.pdf) | |
+| [Unsupervised learning of local features for music classification.](http://www.ismir2012.ismir.net/event/papers/139_ISMIR_2012.pdf) | |
+| [Audio-based music classification with a pretrained convolutional network](http://www.ismir2011.ismir.net/papers/PS6-3.pdf) | |
+| [Automatic musical pattern feature extraction using convolutional neural network](https://www.researchgate.net/profile/Antoni_Chan2/publication/44260643_Automatic_Musical_Pattern_Feature_Extraction_Using_Convolutional_Neural_Network/links/02e7e523dac6bb86b0000000.pdf) | |
+| [Audio musical genre classification using convolutional neural networks and pitch and tempo transformations](http://lbms03.cityu.edu.hk/theses/c_ftt/mphil-cs-b39478026f.pdf) | |
 | [Unsupervised feature learning for audio classification using convolutional deep belief networks](http://papers.nips.cc/paper/3674-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks.pdf) | No |
+| [A convolutional-kernel based approach for note onset detection in piano-solo audio signals](http://www.murase.nuie.nagoya-u.ac.jp/~ide/res/paper/E04-conference-pablo-1.pdf) | |
+| [A supervised learning approach to musical style recognition](https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf) | |
 
 ## DL4M details
 
 - [dl4m.bib](dl4m.bib) - the corresponding bibliography.
 - [dl4m.tsv](dl4m.tsv) - more details about each article:
-	- Author
-	- Year
+	- First author name
+	- Publication year
 	- Article name
 	- PDF link
 	- Source code link
-	- Source code reproducible
-	- Architecture
+	- Source code reproducible (Yes/No) If Yes, indicates to what extent
+	- Neural network architecture
 	- Number of layers
 	- Task
 	- Dataset
 	- Computation time
 	- Hardware
-	- Data augmentation
+	- Data augmentation technique if used
 	- Additional notes
 
 ## Code without articles
@@ -83,9 +113,13 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## How To Contribute
 
-1. Fork the repo.
-2. Add one line per article in [dl4m.tsv](dl4m.tsv) with every column correctly filled.
-3. Submit your pull request and that's it! (Note: the table in the ReadMe is automatically generated thanks to a python script.)
+1. Adding/Updating information
+	1. Fork the repo.
+	2. Add one line per article in [dl4m.tsv](dl4m.tsv) with every column correctly filled.
+	3. Submit your pull request and that's it! (Note: the table in the ReadMe is automatically generated thanks to a python script.)
+2. Visualisation
+	1. Please submit your idea for new visualisation of the data
+	2. I am looking for a way to display relations between articles automatically like a mindmap. Tell me if you know anything able to handle that.
 
 ## FAQ
 
@@ -93,7 +127,7 @@ The list is currently under construction but feel free to contribute to the miss
 
 Because:
 1. Some articles have a comma in their title and the .bib of each article contains commas.
-2. [GitHub currently only display csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
+2. [GitHub currently only displays csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
 The built-in GitHub csv/tsv parser is handy because you can easily search in the file in your browser without downloading anything.
 
 > How are the articles sorted?
