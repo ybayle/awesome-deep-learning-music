@@ -1,35 +1,34 @@
-Article,Author,Year,Article,Code,Repro?,Archi,Layers,Task,Dataset,Note,
-,Pons,2017,https://arxiv.org/pdf/1703.06697.pdf,https://github.com/jordipons/EUSIPCO2017,,CNN,,,,https://github.com/ronggong/EUSIPCO2017,https://github.com/Veleslavia/EUSIPCO2017
-,Vrysis,2017,http://www.aes.org/e-lib/browse.cfm?elib=18682,Non,Non,ANN,,,,,
-,Liu,2016,http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf,https://github.com/ciaua/clip2frame,,CNN,,,,,
-,Arumugam,2016,http://file.scirp.org/pdf/CS_2016042615054817.pdf,Non,Non,PNN,,,,,
-,Choi,2016,https://arxiv.org/pdf/1606.02096.pdf,Non,Non,RNN,,Playlist generation,,,
-,Choi,2017,http://ieeexplore.ieee.org/abstract/document/7952585/,https://github.com/keunwoochoi/icassp_2017,Models & split sets only,CRNN (CNN+RNN),,"50tags (genre, instru, mood,...)",MSD,Compare CRNN against CNN,
-,Pons,2017,http://ieeexplore.ieee.org/document/7952601/,https://github.com/jordipons/ICASSP2017,,CNN,,Genre,Ballroom,,
-,Choi,2016,https://arxiv.org/pdf/1606.00298.pdf,Non,Non,FCN,,"genre, instru, mood, other,...","MSD, MTT",,
-,Han,2017,http://dl.acm.org/citation.cfm?id=3068697,Non,Non,CNN,,instru,IRMAS,,
-,Dieleman,2014,http://ieeexplore.ieee.org/abstract/document/6854950/,Non,Non,CNN,,"50tags (genre, instru, mood,...)",MTT,compare input = raw audio & spectrogram,
-,Lee,2009,Lien,Non,Non,CDBN,,Speaker gender recognition,TIMIT,,
-,Phan,2016,https://arxiv.org/pdf/1604.06338.pdf,Non,Non,CNN,,audio event recognition,RWC,compare MFCC & deep learning,
-,Stasiak,2016,Lien,Non,Non,NNMODFF,,Onset Detection,Daudet2004,not input spectro but onset activation,
-,SchlÃ¼ter,2014,Lien,Non,Non,CNN,,Onset Detection,internal,,
-,Takahashi,2016,https://arxiv.org/pdf/1604.07160.pdf,Non,Non,CNN,9,Acoustic Event Detection,FreeSound,Data augmentation = mixing,
-,Costa,2017,http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf,Non,Non,CNN,,,"LMD, ISMIR, African",Compare CNN vs handcarfted feat + SVM & combinaison,
-,Feng,2014,https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf,Non,Non,,5,genre,GTzan,technical report,
-,Xu,2016,https://arxiv.org/pdf/1607.03681.pdf,,,,,,,,
-,Lee,2017,https://arxiv.org/pdf/1706.06810.pdf,,,,,,,,
-,Senac,2017,,Non,Non,CNN,8,genre,GTzan,Compare input CNN spectro & features audio,
-,,,https://arxiv.org/pdf/1706.02921.pdf,,,,,,,,
-,,,http://ieeexplore.ieee.org/abstract/document/7952660/,,,,,,,,
-,,,https://arxiv.org/ftp/arxiv/papers/1504/1504.04658.pdf,,,,,,,,
-,,,,https://github.com/drscotthawley/audio-classifier-keras-cnn,,,,,,,
-,,,https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf,,,LSTM-RNN,,emotion recognition,,,
-,Durand,2016,http://ieeexplore.ieee.org/abstract/document/7728057/,,,CNN,,Downbeat detection,,Combine multiple CNN on multiple features,
-,Ycart,2017,https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946,http://www.eecs.qmul.ac.uk/~ay304/code/ismir17,TODO,LSTM-RNN,1,polyphonic music sequence modelling,Synthetic MIDI & Piano-midi.de,data augmentation = pitch shift,
-,Park,2015,https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf,,,,,,,,
-,McFee,,https://bmcfee.github.io/papers/ismir2015_augmentation.pdf,,,,4,Instrument detection,MedleyDB,precise description architecture,
-,Lostanlen,2016,https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf,,,,,,,,
-Singing voice detection with deep recurrent neural networks,Leglaive,2015,https://hal-imt.archives-ouvertes.fr/hal-01110035/document,,,,,,,,
-A hybrid recurrent neural network for music transcription,Sigtia,2014,https://arxiv.org/pdf/1411.1623.pdf,,,RNN,,,,,
-A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction,Li,2016,http://ieeexplore.ieee.org/document/7471734/,,,BILSTM & ELM,,,,,
-Convolutional neural network for robust pitch determination,Su,2016,http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf,,,CNN & MLP,,,,,
+Name;Author;Year;Link;Code;Reproducible;Architecture;Layers;Task;Dataset;Note;
+Convolutional recurrent neural networks for music classification;Choi;2017;http://ieeexplore.ieee.org/abstract/document/7952585/;https://github.com/keunwoochoi/icassp_2017;Models & split sets only;CRNN (CNN+RNN);;50tags (genre;;;
+An evaluation of Convolutional Neural Networks for music classification using spectrograms;Costa;2017;http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf;No;No;CNN;;;LMD;;
+Deep Convolutional Neural Networks for Predominant Instrument Recognition in Polyphonic Music;Han;2017;http://dl.acm.org/citation.cfm?id=3068697;No;No;CNN;;instru;IRMAS;;
+End-to-End Musical Key Estimation Using a Convolutional Neural Network;Korzeniowski;2017;https://arxiv.org/pdf/1706.02921.pdf;;;;;;;;
+Multi-Level and Multi-Scale Feature Aggregation Using Sample-level Deep Convolutional Neural Networks for Music Classification;Lee;2017;https://arxiv.org/pdf/1706.06810.pdf;;;;;;;;
+Melody extraction and detection through LSTM-RNN with harmonic sum loss;Park;2017;http://ieeexplore.ieee.org/abstract/document/7952660/;;;;;;;;
+Timbre Analysis of Music Audio Signals with Convolutional Neural Networks;Pons;2017;https://arxiv.org/pdf/1703.06697.pdf;https://github.com/jordipons/EUSIPCO2017;;CNN;;;;https://github.com/ronggong/EUSIPCO2017;https://github.com/Veleslavia/EUSIPCO2017
+Designing efficient architectures for modeling temporal features with convolutional neural networks;Pons;2017;http://ieeexplore.ieee.org/document/7952601/;https://github.com/jordipons/ICASSP2017;;CNN;;Genre;Ballroom;;
+Music Feature Maps with Convolutional Neural Networks for Music Genre Classification;Senac;2017;https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/;No;No;CNN;8;genre;GTzan;Compare input CNN spectro & features audio;
+Extending Temporal Feature Integration for Semantic Audio Analysis;Vrysis;2017;http://www.aes.org/e-lib/browse.cfm?elib=18682;No;No;ANN;;;;;
+A study on LSTM networks for polyphonic music sequence modelling;Ycart;2017;https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946;http://www.eecs.qmul.ac.uk/~ay304/code/ismir17;TODO;LSTM-RNN;1;polyphonic music sequence modelling;Synthetic MIDI & Piano-midi.de;data augmentation = pitch shift;
+An Efficient Approach for Segmentation, Feature Extraction and Classification of Audio Signals ;Arumugam;2016;http://file.scirp.org/pdf/CS_2016042615054817.pdf;No;No;PNN;;;;;
+Towards Playlist Generation Algorithms Using RNNs Trained on Within-Track Transitions;Choi;2016;https://arxiv.org/pdf/1606.02096.pdf;No;No;RNN;;Playlist generation;;;
+Automatic tagging using deep convolutional neural networks;Choi;2016;https://arxiv.org/pdf/1606.00298.pdf;No;No;FCN;;genre;;;
+Robust Downbeat Tracking Using an Ensemble of Convolutional Networks;Durand;2016;http://ieeexplore.ieee.org/abstract/document/7728057/;;;CNN;;Downbeat detection;;Combine multiple CNN on multiple features;
+A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction;Li;2016;http://ieeexplore.ieee.org/document/7471734/;;;BILSTM & ELM;;;;;
+Event Localization in Music Auto-tagging;Liu;2016;http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf;https://github.com/ciaua/clip2frame;;CNN;;;;;
+Deep convolutional networks on the pitch spiral for musical instrument recognition;Lostanlen;2016;https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf;;;;;;;;
+Robust Audio Event Recognition with 1-Max Pooling Convolutional Neural Networks;Phan;2016;https://arxiv.org/pdf/1604.06338.pdf;No;No;CNN;;audio event recognition;RWC;compare MFCC & deep learning;
+Note onset detection in musical signals via neural–network–based multi–odf fusion;Stasiak;2016;https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf;No;No;NNMODFF;;Onset Detection;Daudet2004;not input spectro but onset activation;
+Convolutional neural network for robust pitch determination;Su;2016;http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf;;;CNN & MLP;;;;;
+Deep Convolutional Neural Networks and Data Augmentation for Acoustic Event Detection;Takahashi;2016;https://arxiv.org/pdf/1604.07160.pdf;No;No;CNN;9;Acoustic Event Detection;FreeSound;Data augmentation = mixing;
+Unsupervised Feature Learning Based on Deep Models for Environmental Audio Tagging;Xu;2016;https://arxiv.org/pdf/1607.03681.pdf;;;;;;;;
+Singing voice detection with deep recurrent neural networks;Leglaive;2015;https://hal-imt.archives-ouvertes.fr/hal-01110035/document;;;;;;;;
+A software framework for musical data augmentation;McFee;2015;https://bmcfee.github.io/papers/ismir2015_augmentation.pdf;;;;4;Instrument detection;MedleyDB;precise description architecture;
+Musical instrument sound classification with deep convolutional neural network using feature fusion approach;Park;2015;https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf;;;;;;;;
+Deep Karaoke: Extracting Vocals from Musical Mixtures Using a Convolutional Deep Neural Network;Simpson;2015;https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50;;;;;;;;
+The Munich LSTM-RNN Approach to the MediaEval 2014 “Emotion in Music” Task;Coutinho;2014;https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf;;;LSTM-RNN;;emotion recognition;;;
+End-to-end learning for music audio;Dieleman;2014;http://ieeexplore.ieee.org/abstract/document/6854950/;No;No;CNN;;50tags (genre;;;
+Deep learning for music genre classification;Feng;2014;https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf;No;No;;5;genre;GTzan;technical report;
+Improved musical onset detection with convolutional neural networks;Schlüter;2014;http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf;No;No;CNN;;Onset Detection;internal;;
+A hybrid recurrent neural network for music transcription;Sigtia;2014;https://arxiv.org/pdf/1411.1623.pdf;;;RNN;;;;;
+Unsupervised feature learning for audio classification using convolutional deep belief networks;Lee;2009;http://papers.nips.cc/paper/3674-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks.pdf;No;No;CDBN;;Speaker gender recognition;TIMIT;;
