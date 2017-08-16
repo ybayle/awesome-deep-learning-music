@@ -10,7 +10,7 @@ Designing efficient architectures for modeling temporal features with convolutio
 Music Feature Maps with Convolutional Neural Networks for Music Genre Classification	Senac	2017	https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/	No	No	CNN	8	genre	GTzan	Compare input CNN spectro & features audio	
 Extending Temporal Feature Integration for Semantic Audio Analysis	Vrysis	2017	http://www.aes.org/e-lib/browse.cfm?elib=18682	No	No	ANN					
 A study on LSTM networks for polyphonic music sequence modelling	Ycart	2017	https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946	http://www.eecs.qmul.ac.uk/~ay304/code/ismir17	TODO	LSTM-RNN	1	polyphonic music sequence modelling	Synthetic MIDI & Piano-midi.de	data augmentation = pitch shift	
-An Efficient Approach for Segmentation Feature Extraction and Classification of Audio Signals 	Arumugam	2016	http://file.scirp.org/pdf/CS_2016042615054817.pdf	No	No	PNN					
+An Efficient Approach for Segmentation, Feature Extraction and Classification of Audio Signals	Arumugam	2016	http://file.scirp.org/pdf/CS_2016042615054817.pdf	No	No	PNN					
 Towards Playlist Generation Algorithms Using RNNs Trained on Within-Track Transitions	Choi	2016	https://arxiv.org/pdf/1606.02096.pdf	No	No	RNN		Playlist generation			
 Automatic tagging using deep convolutional neural networks	Choi	2016	https://arxiv.org/pdf/1606.00298.pdf	No	No	FCN		genre			
 Robust Downbeat Tracking Using an Ensemble of Convolutional Networks	Durand	2016	http://ieeexplore.ieee.org/abstract/document/7728057/			CNN		Downbeat detection		Combine multiple CNN on multiple features	

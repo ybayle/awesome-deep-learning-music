@@ -1,16 +1,19 @@
 # Deep Learning for Music (DL4M)
+
 The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
 The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
 
 ## Table of contents
-- [DL4M Articles](#dl4m-articles)
+
+- [DL4M summary](#dl4m-summary)
+- [DL4M details](#dl4m-details)
 - [Code without articles](#code-without-articles)
-- [Additional resources](#additional-resources)
 - [How To Contribute](#how-to-contribute)
 - [FAQ](#faq)
 - [Contributors](#contributors)
 
-## DL4M Articles 
+## DL4M summary 
+
 | Article | Code |
 |---------------------|-------------------------|
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
@@ -47,10 +50,8 @@ The list is currently under construction but feel free to contribute to the miss
 | [A hybrid recurrent neural network for music transcription](https://arxiv.org/pdf/1411.1623.pdf) | |
 | [Unsupervised feature learning for audio classification using convolutional deep belief networks](http://papers.nips.cc/paper/3674-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks.pdf) | No |
 
-## Code without articles
-- [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
+## DL4M details
 
-## Additional resources
 - [dl4m.bib](dl4m.bib) - the corresponding bibliography.
 - [dl4m.tsv](dl4m.tsv) - more details about each article:
 	- Author
@@ -68,15 +69,24 @@ The list is currently under construction but feel free to contribute to the miss
 	- Data augmentation
 	- Additional notes
 
+## Code without articles
+
+- [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
+
 ## How To Contribute
+
 1. Fork the repo.
 2. Add one line per article in [dl4m.tsv](dl4m.tsv) with every column correctly filled.
 3. Submit your pull request and that's it! (Note: the table in the ReadMe is automatically generated thanks to a python script.)
 
 ## FAQ
-> Why a tsv file for storing the detailed information about articles?
+
+> Why a tsv file for storing the detailed information about the articles?
+
 Because some articles have a comma in their title and [GitHub currently only display csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
+The built-in GitHub csv/tsv parser is handy because you can easily search in the file in your browser without downloading anything.
 
 ## Contributors
+
 - [Vincent Lostanlen](https://github.com/lostanlen)
 - [Keunwoo Choi](https://github.com/keunwoochoi)
