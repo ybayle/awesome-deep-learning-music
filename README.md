@@ -169,6 +169,8 @@ In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up 
 - [Awesome Python Scientific Audio](https://github.com/faroit/awesome-python-scientific-audio) - Python resources for Audio and Machine Learning
 - [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
+- [ISMIR resources](http://ismir.net/resources.php) - Community maintained list
+- [Awesome Python](https://github.com/vinta/awesome-python#audio) - Audio section of Python resources
 - [Awesome Web Audio](https://github.com/notthetup/awesome-webaudio) - WebAudio packages and resources
 - [Awesome Music](https://github.com/ciconia/awesome-music) - Music softwares
 - [Awesome Music Production](https://github.com/adius/awesome-music-production) - Music creation
