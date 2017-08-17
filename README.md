@@ -23,6 +23,8 @@ The list is currently under construction but feel free to contribute to the miss
 | [Transfer learning for music classification and regression tasks](https://arxiv.org/pdf/1703.09179v3.pdf) | [GitHub](https://arxiv.org/pdf/1703.09179v3.pdf) |
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](http://ieeexplore.ieee.org/abstract/document/7952585/) |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
+| [Music signal processing using vector product neural networks](https://arxiv.org/pdf/1706.09555.pdf) | No |
+| [Transforming musical signals through a genre classifying convolutional neural network](https://arxiv.org/pdf/1706.09553.pdf) | No |
 | [Deep convolutional neural networks for predominant instrument recognition in polyphonic music](http://dl.acm.org/citation.cfm?id=3068697) | No |
 | [CNN architectures for large-scale audio classification](https://arxiv.org/pdf/1609.09430v2.pdf) | No |
 | [End-to-end musical key estimation using a convolutional neural network](https://arxiv.org/pdf/1706.02921.pdf) | |
@@ -33,6 +35,7 @@ The list is currently under construction but feel free to contribute to the miss
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](http://ieeexplore.ieee.org/document/7952601/) |
 | [Music feature maps with convolutional neural networks for music genre classification](https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/) | No |
 | [Extending temporal feature integration for semantic audio analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | No |
+| [Audio spectrogram representations for processing with convolutional neural networks](https://arxiv.org/pdf/1706.09559.pdf) | No |
 | [A study on lstm networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) |
 | [An efficient approach for segmentation, feature extraction and classification of audio signals ](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
 | [Towards playlist generation algorithms using rnns trained on within-track transitions](https://arxiv.org/pdf/1606.02096.pdf) | No |
@@ -48,6 +51,7 @@ The list is currently under construction but feel free to contribute to the miss
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | |
 | [Robust audio event recognition with 1-max pooling convolutional neural networks](https://arxiv.org/pdf/1604.06338.pdf) | No |
 | [Singing voice melody transcription using deep neural networks](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf) | |
+| [Singing voice separation using deep neural networks and F0 estimation](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) | [Website](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) |
 | [Learning to pinpoint singing voice from weakly labeled examples](http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf) | |
 | [Note onset detection in musical signals via neural–network–based multi–odf fusion](https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf) | No |
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
@@ -120,7 +124,7 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## Statistics and visualisations
 
-- 74 articles currently referenced.
+- 78 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
@@ -153,14 +157,26 @@ In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up 
 |--------------|-----------|
 | DNN | Deep Neural Network |
 | CNN | Convolutional Neural Network |
+| RNN | Recurrent Neural Network |
+| VPNN | Vector Product Neural Network |
 | VAD | Voice Activity Detection |
+| SVS | Singing Voice Separation |
 
 ## Sources
+
+#### Conferences and journals
+
+- [ISMIR](http://ismir.net/)
+- [MIREX](http://ismir.net/)
+- [ICASSP](http://ismir.net/)
+- [SMC](http://ismir.net/)
+- [IWDLM](http://ismir.net/)
+
+#### Aggregators 
 
 - [PaperScape](http://paperscape.org/)
 - [arXiv](https://arxiv.org/)
 - [SciRate](https://scirate.com/)
-- [ISMIR](http://ismir.net/)
 - [Scholar](https://scholar.google.com/scholar?q=neural+network+audio+music)
 
 ## Contributors

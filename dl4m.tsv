@@ -2,6 +2,8 @@ Name	Author	Year	Source	Link	Code	Reproducible	Architecture	Conv Type	Input	Laye
 Transfer learning for music classification and regression tasks	Choi	2017	ISMIR	https://arxiv.org/pdf/1703.09179v3.pdf	https://github.com/keunwoochoi/transfer_learning_music											
 Convolutional recurrent neural networks for music classification	Choi	2017		http://ieeexplore.ieee.org/abstract/document/7952585/	https://github.com/keunwoochoi/icassp_2017	Models & split sets only	CRNN (CNN+RNN)						50tags (genre			
 An evaluation of convolutional neural networks for music classification using spectrograms	Costa	2017		http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf	No	No	CNN							LMD		
+Music signal processing using vector product neural networks	Fan	2017	IWDLM	https://arxiv.org/pdf/1706.09555.pdf	No	No	VPNN & DNN					No	SVS	iKala		
+Transforming musical signals through a genre classifying convolutional neural network	Geng	2017	IWDLM	https://arxiv.org/pdf/1706.09553.pdf	No	No	CNN			3		No	Music Creation		https://sites.google.com/site/modificationofmusicsignals/audio-files	
 Deep convolutional neural networks for predominant instrument recognition in polyphonic music	Han	2017		http://dl.acm.org/citation.cfm?id=3068697	No	No	CNN						instru	IRMAS		
 CNN architectures for large-scale audio classification	Hershey	2017	ICASSP	https://arxiv.org/pdf/1609.09430v2.pdf	No	No	CNN									
 End-to-end musical key estimation using a convolutional neural network	Korzeniowski	2017		https://arxiv.org/pdf/1706.02921.pdf												
@@ -12,6 +14,7 @@ Timbre analysis of music audio signals with convolutional neural networks	Pons	2
 Designing efficient architectures for modeling temporal features with convolutional neural networks	Pons	2017		http://ieeexplore.ieee.org/document/7952601/	https://github.com/jordipons/ICASSP2017		CNN						Genre	Ballroom		
 Music feature maps with convolutional neural networks for music genre classification	Senac	2017		https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/	No	No	CNN			8			genre	GTzan	Compare input CNN spectro & features audio	
 Extending temporal feature integration for semantic audio analysis	Vrysis	2017		http://www.aes.org/e-lib/browse.cfm?elib=18682	No	No	ANN									
+Audio spectrogram representations for processing with convolutional neural networks	Wyse	2017	IWDLM	https://arxiv.org/pdf/1706.09559.pdf	No	No	CNN			2					http://lonce.org/research/audioST/	
 A study on lstm networks for polyphonic music sequence modelling	Ycart	2017		https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946	http://www.eecs.qmul.ac.uk/~ay304/code/ismir17	TODO	LSTM-RNN			1			polyphonic music sequence modelling	Synthetic MIDI & Piano-midi.de	data augmentation = pitch shift	
 An efficient approach for segmentation, feature extraction and classification of audio signals 	Arumugam	2016		http://file.scirp.org/pdf/CS_2016042615054817.pdf	No	No	PNN									
 Towards playlist generation algorithms using rnns trained on within-track transitions	Choi	2016		https://arxiv.org/pdf/1606.02096.pdf	No	No	RNN						Playlist generation			
@@ -27,6 +30,7 @@ Event localization in music auto-tagging	Liu	2016		http://mac.citi.sinica.edu.tw
 Deep convolutional networks on the pitch spiral for musical instrument recognition	Lostanlen	2016		https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf												
 Robust audio event recognition with 1-max pooling convolutional neural networks	Phan	2016		https://arxiv.org/pdf/1604.06338.pdf	No	No	CNN						audio event recognition	RWC	compare MFCC & deep learning	
 Singing voice melody transcription using deep neural networks	Rigaud	2016		https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf			DNN and LSTM						f0 and VAD			
+Singing voice separation using deep neural networks and F0 estimation	Roma	2016	MIREX	http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf	http://cvssp.org/projects/maruss/mirex2016/		DNN			3		No	SVS	iKala	F0 estimation	
 Learning to pinpoint singing voice from weakly labeled examples	Schlüter	2016	ISMIR	http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf					STFT				few conv layers			
 Note onset detection in musical signals via neural–network–based multi–odf fusion	Stasiak	2016		https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf	No	No	NNMODFF						Onset Detection	Daudet2004	not input spectro but onset activation	
 Convolutional neural network for robust pitch determination	Su	2016		http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf			CNN & MLP									
