@@ -1,4 +1,4 @@
-# Deep Learning for Music (DL4M)
+# Deep Learning for Music (DL4M) ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
 The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
 The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
@@ -12,7 +12,9 @@ The list is currently under construction but feel free to contribute to the miss
 - [How To Contribute](#how-to-contribute)
 - [FAQ](#faq)
 - [Abbreviations used](#abbreviations-used)
+- [Sources](#sources)
 - [Contributors](#contributors)
+- [Other useful related lists](#other-useful-related-lists)
 
 ## DL4M summary 
 
@@ -149,7 +151,25 @@ In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up 
 | CNN | Convolutional Neural Network |
 | VAD | Voice Activity Detection |
 
+## Sources
+
+- [PaperScape](http://paperscape.org/)
+- [arXiv](https://arxiv.org/)
+- [SciRate](https://scirate.com/)
+- [ISMIR](http://ismir.net/)
+- [Scholar](https://scholar.google.com/scholar?q=neural+network+audio+music)
+
 ## Contributors
 
 - [Vincent Lostanlen](https://github.com/lostanlen)
 - [Keunwoo Choi](https://github.com/keunwoochoi)
+
+## Other useful related lists
+
+- [Awesome Python Scientific Audio](https://github.com/faroit/awesome-python-scientific-audio) - Python resources for Audio and Machine Learning
+- [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
+- [Awesome Web Audio](https://github.com/notthetup/awesome-webaudio) - WebAudio packages and resources
+- [Awesome Music](https://github.com/ciconia/awesome-music) - Music softwares
+- [Awesome Music Production](https://github.com/adius/awesome-music-production) - Music creation
+- General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
