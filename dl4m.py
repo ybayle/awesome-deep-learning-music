@@ -57,7 +57,7 @@ def articles_per_year(filen="dl4m.tsv"):
     input: file name storing articles details
     """
     years = []
-    with open(filen, "r") as filep:
+    with open(filen, "r", encoding="utf-8") as filep:
         next(filep)
         for line in filep:
             years.append(int(line.split("\t")[2]))
@@ -79,7 +79,7 @@ def main(filen="dl4m.tsv"):
     Main entry point
     input: file name storing articles details
     """
-    # generate_summary_table(filen)
+    generate_summary_table(filen)
     articles_per_year(filen)
 
 
