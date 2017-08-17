@@ -120,7 +120,7 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## Statistics and visualisations
 
-- 70 articles currently referenced.
+- 74 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
