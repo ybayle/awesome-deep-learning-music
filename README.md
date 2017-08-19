@@ -53,7 +53,7 @@ The list is currently under construction but feel free to contribute to the miss
 | [Singing voice melody transcription using deep neural networks](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf) | |
 | [Singing voice separation using deep neural networks and F0 estimation](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) | [Website](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) |
 | [Learning to pinpoint singing voice from weakly labeled examples](http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf) | |
-| [Note onset detection in musical signals via neural–network–based multi–odf fusion](https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf) | No |
+| [Note onset detection in musical signals via neuralÃ¢â‚¬â€œnetworkÃ¢â‚¬â€œbased multiÃ¢â‚¬â€œodf fusion](https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf) | No |
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | |
 | [Deep convolutional neural networks and data augmentation for acoustic event detection](https://arxiv.org/pdf/1604.07160.pdf) | No |
 | [Unsupervised feature learning based on deep models for environmental audio tagging](https://arxiv.org/pdf/1607.03681.pdf) | |
@@ -69,11 +69,12 @@ The list is currently under construction but feel free to contribute to the miss
 | [Music-noise segmentation in spectrotemporal domain using convolutional neural networks](http://ismir2015.uma.es/LBD/LBD27.pdf) | |
 | [Musical instrument sound classification with deep convolutional neural network using feature fusion approach](https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf) | |
 | [Environmental sound classification with convolutional neural networks](https://scholar.google.co.kr/scholar?hl=en&q=Environmental+sound+classification+with+convolutional+neural+networks&btnG=&as_sdt=1%2C5&as_sdtp=) | |
+| [Exploring data augmentation for improved singing voice detection with neural networks](https://grrrr.org/pub/schlueter-2015-ismir.pdf) | No |
 | [An end-to-end neural network for polyphonic music transcription](https://arxiv.org/pdf/1508.01774.pdf) | |
 | [Deep karaoke: extracting vocals from musical mixtures using a convolutional deep neural network](https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50) | |
 | [Deep neural network based instrument extraction from music](https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf) | |
 | [A deep neural network for modeling music](https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf) | |
-| [The munich lstm-rnn approach to the mediaeval 2014 “emotion in music” task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
+| [The munich lstm-rnn approach to the mediaeval 2014 Ã¢â‚¬Å“emotion in musicÃ¢â‚¬Â task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
 | [End-to-end learning for music audio](http://ieeexplore.ieee.org/abstract/document/6854950/) | No |
 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
 | [Recognition of acoustic events using deep neural networks](https://www.cs.tut.fi/sgn/arg/music/tuomasv/dnn_eusipco2014.pdf) | |
@@ -124,7 +125,7 @@ The list is currently under construction but feel free to contribute to the miss
 
 ## Statistics and visualisations
 
-- 78 articles currently referenced.
+- 79 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
@@ -161,6 +162,7 @@ In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up 
 | VPNN | Vector Product Neural Network |
 | VAD | Voice Activity Detection |
 | SVS | Singing Voice Separation |
+| SVD | Singing Voice Detection |
 
 ## Sources
 

@@ -47,8 +47,10 @@ def generate_summary_table(filen="dl4m.tsv"):
                         articles += "[Website"
                     articles += "](" + row[4] + ") "
             articles += "|\n"
-    with open("paste_in_ReadMe.md", "w") as filep:
+    table_fn = "paste_in_ReadMe.md"
+    with open(table_fn, "w", encoding="utf-8") as filep:
         filep.write(articles)
+    print("Summary table saved in", table_fn)
 
 
 def articles_per_year(filen="dl4m.tsv"):
@@ -71,7 +73,23 @@ def articles_per_year(filen="dl4m.tsv"):
     ax.spines['top'].set_color('none')
     ax.xaxis.set_ticks_position('bottom')
     ax.yaxis.set_ticks_position('left')
-    plt.savefig("fig/articles_per_year.png", dpi=200)
+    fig_fn = "fig/articles_per_year.png"
+    plt.savefig(fig_fn, dpi=200)
+    print("Fig. with number of articles per year saved in", fig_fn)
+
+
+def get_nb_articles(filen="dl4m.tsv"):
+    """Description of get_nb_articles
+    Count the number of articles in the database
+    input: file name storing articles details
+    """
+    cpt = 0
+    with open(filen, "r", encoding="utf-8") as filep:
+        next(filep)
+        for line in filep:
+            cpt += 1
+    print("There are", cpt, "articles.")
+    return cpt
 
 
 def main(filen="dl4m.tsv"):
@@ -79,6 +97,7 @@ def main(filen="dl4m.tsv"):
     Main entry point
     input: file name storing articles details
     """
+    get_nb_articles(filen)
     generate_summary_table(filen)
     articles_per_year(filen)
 
