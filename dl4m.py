@@ -45,7 +45,7 @@ def generate_summary_table(filen="dl4m.tsv"):
                         articles += "[GitHub"
                     else:
                         articles += "[Website"
-                    articles += "](" + row[4] + ") "
+                    articles += "](" + row[5] + ") "
             articles += "|\n"
     table_fn = "paste_in_ReadMe.md"
     with open(table_fn, "w", encoding="utf-8") as filep:
