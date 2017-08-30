@@ -1,4 +1,5 @@
 Name	Author	Year	Source	Link	Code	Reproducible	Architecture	Conv Type	Input	Layers	Loss Function	Data-augmentation	Task	Dataset	Note	
+Monoaural audio source separation using deep convolutional neural networks	Chandna	2017	LVA/ICA	mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf	https://github.com/MTG/DeepConvSep		CNN						Source Separation	DSD100		
 Transfer learning for music classification and regression tasks	Choi	2017	ISMIR	https://arxiv.org/pdf/1703.09179v3.pdf	https://github.com/keunwoochoi/transfer_learning_music											
 Convolutional recurrent neural networks for music classification	Choi	2017		http://ieeexplore.ieee.org/abstract/document/7952585/	https://github.com/keunwoochoi/icassp_2017	Models & split sets only	CRNN (CNN+RNN)						50tags (genre			
 An evaluation of convolutional neural networks for music classification using spectrograms	Costa	2017		http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf	No	No	CNN							LMD		

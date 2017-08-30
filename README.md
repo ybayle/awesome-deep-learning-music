@@ -21,6 +21,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 
 | Article | Code |
 |---------------------|-------------------------|
+| [Monoaural audio source separation using deep convolutional neural networks](mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
 | [Transfer learning for music classification and regression tasks](https://arxiv.org/pdf/1703.09179v3.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
@@ -132,7 +133,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 
 ## Statistics and visualisations
 
-- 85 articles currently referenced.
+- 86 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
@@ -185,9 +186,10 @@ In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up 
 - [INTERSPEECH](http://www.isca-speech.org/iscaweb/)
 - [ISMIR](http://ismir.net/)
 - [IWDLM](http://www.dorienherremans.com/dlm2017/index.html)
+- [LVA/ICA](http://lva-ica-2017.com/index.php/aim)
 - [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME)
 - [RECSYS](https://recsys.acm.org/)
-- [SMC](http://www.smc2017.org/)
+- [SMC](http://www.smc-conference.org/)
 
 #### Aggregators 
 
