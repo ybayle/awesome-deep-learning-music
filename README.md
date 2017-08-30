@@ -132,7 +132,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 
 ## Statistics and visualisations
 
-- 81 articles currently referenced.
+- 85 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
