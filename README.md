@@ -28,16 +28,20 @@ The resources provided here come from my review of the state-of-the-art for my P
 | [Transforming musical signals through a genre classifying convolutional neural network](https://arxiv.org/pdf/1706.09553.pdf) | No |
 | [Deep convolutional neural networks for predominant instrument recognition in polyphonic music](http://dl.acm.org/citation.cfm?id=3068697) | No |
 | [CNN architectures for large-scale audio classification](https://arxiv.org/pdf/1609.09430v2.pdf) | No |
+| [Music emotion recognition via end-to-end multimodal neural networks](http://ceur-ws.org/Vol-1905/recsys2017_poster18.pdf) | No |
 | [End-to-end musical key estimation using a convolutional neural network](https://arxiv.org/pdf/1706.02921.pdf) | |
 | [Sample-level deep convolutional neural networks for music auto-tagging using raw waveforms](https://arxiv.org/pdf/1703.01789v2.pdf) | |
-| [Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification](https://arxiv.org/pdf/1706.06810.pdf) | |
+| [Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification](https://arxiv.org/pdf/1706.06810.pdf) | [GitHub](https://github.com/jongpillee/musicTagging_MSD) |
+| [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/abs/1706.09739) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
 | [Timbre analysis of music audio signals with convolutional neural networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | [Music feature maps with convolutional neural networks for music genre classification](https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/) | No |
+| [Automatic drum transcription for polyphonic recordings using soft attention mechanisms and convolutional neural networks](http://www.ryanstables.co.uk/docs/ISMIR2017CamReady.pdf) | [GitHub](https://github.com/CarlSouthall/ADTLib) |
 | [Convolutional methods for music analysis](http://vbn.aau.dk/files/260308151/PHD_Gissel_Velarde_E_pdf.pdf) | |
 | [Extending temporal feature integration for semantic audio analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | No |
 | [Audio spectrogram representations for processing with convolutional neural networks](https://arxiv.org/pdf/1706.09559.pdf) | No |
+| [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0486.PDF) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
 | [An efficient approach for segmentation, feature extraction and classification of audio signals ](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
 | [Towards playlist generation algorithms using rnns trained on within-track transitions](https://arxiv.org/pdf/1606.02096.pdf) | No |
@@ -77,7 +81,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 | [Deep karaoke: extracting vocals from musical mixtures using a convolutional deep neural network](https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50) | |
 | [Deep neural network based instrument extraction from music](https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf) | |
 | [A deep neural network for modeling music](https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf) | |
-| [The munich LSTM-RNN approach to the mediaeval 2014 "emotion in music" task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
+| ["The munich LSTM-RNN approach to the mediaeval 2014 ""emotion in music"" task"](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | |
 | [End-to-end learning for music audio](http://ieeexplore.ieee.org/abstract/document/6854950/) | No |
 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
 | [Recognition of acoustic events using deep neural networks](https://www.cs.tut.fi/sgn/arg/music/tuomasv/dnn_eusipco2014.pdf) | |
@@ -87,7 +91,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 | [A hybrid recurrent neural network for music transcription](https://arxiv.org/pdf/1411.1623.pdf) | |
 | [Boundary detection in music structure analysis using convolutional neural networks](https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf) | |
 | [Improving content-based and hybrid music recommendation using deep learning](http://www.smcnus.org/wp-content/uploads/2014/08/reco_MM14.pdf) | |
-| [A deep representation for invariance and music classification](https://arxiv.org/pdf/1404.0400.pdf) | |
+| [A deep representation for invariance and music classification](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7034-zhang.pdf) | No |
 | [Multiscale approaches to music audio feature learning](http://ismir2013.ismir.net/wp-content/uploads/2013/09/69_Paper.pdf) | |
 | [Deep content-based music recommendation](http://papers.nips.cc/paper/5004-deep-content-based-music-recommendation.pdf) | |
 | [Musical onset detection with convolutional neural networks](http://phenicx.upf.edu/system/files/publications/Schlueter_MML13.pdf) | |
@@ -159,31 +163,38 @@ In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up 
 
 | Abbreviation | Full name |
 |--------------|-----------|
-| DNN | Deep Neural Network |
+| ADT | Automatic Drum Transcription |
+| BRNN | Bidirectional Recurrent Neural Network |
 | CNN | Convolutional Neural Network |
-| RNN | Recurrent Neural Network |
+| DNN | Deep Neural Network |
 | LSTM | Long Short Term Memory |
-| VPNN | Vector Product Neural Network |
-| VAD | Voice Activity Detection |
-| SVS | Singing Voice Separation |
+| MER | Music Emotion Recognition |
+| RNN | Recurrent Neural Network |
 | SVD | Singing Voice Detection |
+| SVS | Singing Voice Separation |
+| VAD | Voice Activity Detection |
+| VPNN | Vector Product Neural Network |
 
 ## Sources
 
 #### Conferences and journals
 
+- [DLRS](http://dlrs-workshop.org/)
+- [ICASSP](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002)
+- [ICML](https://2017.icml.cc/)
+- [INTERSPEECH](http://www.isca-speech.org/iscaweb/)
 - [ISMIR](http://ismir.net/)
-- [MIREX](http://ismir.net/)
-- [ICASSP](http://ismir.net/)
-- [SMC](http://ismir.net/)
-- [IWDLM](http://ismir.net/)
+- [IWDLM](http://www.dorienherremans.com/dlm2017/index.html)
+- [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME)
+- [RECSYS](https://recsys.acm.org/)
+- [SMC](http://www.smc2017.org/)
 
 #### Aggregators 
 
-- [PaperScape](http://paperscape.org/)
 - [arXiv](https://arxiv.org/)
-- [SciRate](https://scirate.com/)
+- [PaperScape](http://paperscape.org/)
 - [Scholar](https://scholar.google.com/scholar?q=neural+network+audio+music)
+- [SciRate](https://scirate.com/)
 
 ## Contributors
 
