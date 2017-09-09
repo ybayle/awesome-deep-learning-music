@@ -25,6 +25,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 | [Transfer learning for music classification and regression tasks](https://arxiv.org/pdf/1703.09179v3.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
+| [Basic Filters for Convolutional Neural Networks: Training or Design?](https://arxiv.org/abs/1709.02291) | No |
 | [Music signal processing using vector product neural networks](https://arxiv.org/pdf/1706.09555.pdf) | No |
 | [Transforming musical signals through a genre classifying convolutional neural network](https://arxiv.org/pdf/1706.09553.pdf) | No |
 | [Deep convolutional neural networks for predominant instrument recognition in polyphonic music](http://dl.acm.org/citation.cfm?id=3068697) | No |
@@ -133,7 +134,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 
 ## Statistics and visualisations
 
-- 86 articles currently referenced.
+- 87 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
@@ -158,7 +159,11 @@ The built-in GitHub csv/tsv parser is handy because you can easily search in the
 
 > How are the articles sorted?
 
-In [dl4m.tsv](dl4m.tsv), the articles are sorted by decreasing year (to keep up with the latest news) and then alphabetically.
+In [dl4m.tsv](dl4m.tsv), the articles are first sorted by decreasing year (to keep up with the latest news) and then alphabetically by author's family name.
+
+> Why are preprint from arXiv included in the list?
+
+I want to have exhaustive research and the latest news on DL4M. However, one should take care of the information provided in the articles currently in review. If possible you should wait for the final accepted and peer-reviewed version before citing an arXiv paper. I regularly update the arXiv links to the corresponding published papers when available.
 
 ## Abbreviations used
 

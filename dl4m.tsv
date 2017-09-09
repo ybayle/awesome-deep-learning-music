@@ -3,6 +3,7 @@ Monoaural audio source separation using deep convolutional neural networks	Chand
 Transfer learning for music classification and regression tasks	Choi	2017	ISMIR	https://arxiv.org/pdf/1703.09179v3.pdf	https://github.com/keunwoochoi/transfer_learning_music											
 Convolutional recurrent neural networks for music classification	Choi	2017		http://ieeexplore.ieee.org/abstract/document/7952585/	https://github.com/keunwoochoi/icassp_2017	Models & split sets only	CRNN (CNN+RNN)						50tags (genre			
 An evaluation of convolutional neural networks for music classification using spectrograms	Costa	2017		http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf	No	No	CNN							LMD		
+Basic Filters for Convolutional Neural Networks: Training or Design?	Doerfler	2017	arXiv	https://arxiv.org/abs/1709.02291	No	No	CNN		Mel-spectro & raw signal	1 to 7		No	SVD	Inhouse	Adam & lr=0.001	
 Music signal processing using vector product neural networks	Fan	2017	IWDLM	https://arxiv.org/pdf/1706.09555.pdf	No	No	VPNN & DNN					No	SVS	iKala		
 Transforming musical signals through a genre classifying convolutional neural network	Geng	2017	IWDLM	https://arxiv.org/pdf/1706.09553.pdf	No	No	CNN			3		No	Music Creation		https://sites.google.com/site/modificationofmusicsignals/audio-files	
 Deep convolutional neural networks for predominant instrument recognition in polyphonic music	Han	2017		http://dl.acm.org/citation.cfm?id=3068697	No	No	CNN						instru	IRMAS		
