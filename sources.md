@@ -17,6 +17,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Applied Sciences Special Issue on Sound and Music Computing](http://www.mdpi.com/journal/applsci/special_issues/Music_Computing)
 - [JCMS](http://jcms.org.uk/)
 - [CSMC](https://csmc2016.wordpress.com/)
+- [ESI](http://www.univie.ac.at/nuhag-php/event_NEW/make.php?event=esi17&page=program)
+- [IWDLM](http://dorienherremans.com/dlm2017/)
 
 ## Aggregators
 
