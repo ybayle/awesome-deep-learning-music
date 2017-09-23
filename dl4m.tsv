@@ -49,6 +49,7 @@ Downbeat tracking with multiple features and deep neural networks	Durand	2015		h
 Music boundary detection using neural networks on spectrograms and self-similarity lag matrices	Grill	2015		http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf					STFT (2048) 46 ms				Boundary detection	SALAMI		
 Classification of spatial audio location and content using convolutional neural networks	Hirvonen	2015		https://www.researchgate.net/profile/Toni_Hirvonen/publication/276061831_Classification_of_Spatial_Audio_Location_and_Content_Using_Convolutional_Neural_Networks/links/5550665908ae12808b37fe5a/Classification-of-Spatial-Audio-Location-and-Content-Using-Convolutional-Neural-Networks.pdf												
 Deep learning, audio adversaries, and music content analysis	Kereliuk	2015		http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6905/pdf/imm6905.pdf												
+Deep Learning and Music Adversaries	Kereliuk	2015		http://ieeexplore.ieee.org/document/7254179/ https://github.com/coreyker/dnn-mgr 												
 Singing voice detection with deep recurrent neural networks	Leglaive	2015		https://hal-imt.archives-ouvertes.fr/hal-01110035/document												
 Automatic instrument recognition in polyphonic music using convolutional neural networks	Li	2015		https://arxiv.org/pdf/1511.05520.pdf				1D Freq	Raw audio	3	cross-entropy		Instrument recognition	MedleyDB		
 A software framework for musical data augmentation	McFee	2015		https://bmcfee.github.io/papers/ismir2015_augmentation.pdf						4			Instrument detection	MedleyDB	precise description architecture	
