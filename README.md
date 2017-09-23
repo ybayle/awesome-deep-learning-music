@@ -71,6 +71,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 | [Music boundary detection using neural networks on spectrograms and self-similarity lag matrices](http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf) | |
 | [Classification of spatial audio location and content using convolutional neural networks](https://www.researchgate.net/profile/Toni_Hirvonen/publication/276061831_Classification_of_Spatial_Audio_Location_and_Content_Using_Convolutional_Neural_Networks/links/5550665908ae12808b37fe5a/Classification-of-Spatial-Audio-Location-and-Content-Using-Convolutional-Neural-Networks.pdf) | |
 | [Deep learning, audio adversaries, and music content analysis](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6905/pdf/imm6905.pdf) | |
+| [Deep Learning and Music Adversaries](http://ieeexplore.ieee.org/document/7254179/) | [GitHub](https://github.com/coreyker/dnn-mgr) |
 | [Singing voice detection with deep recurrent neural networks](https://hal-imt.archives-ouvertes.fr/hal-01110035/document) | |
 | [Automatic instrument recognition in polyphonic music using convolutional neural networks](https://arxiv.org/pdf/1511.05520.pdf) | |
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | |
@@ -134,7 +135,7 @@ The resources provided here come from my review of the state-of-the-art for my P
 
 ## Statistics and visualisations
 
-- 87 articles currently referenced.
+- 88 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
