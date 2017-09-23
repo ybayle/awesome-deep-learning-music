@@ -26,14 +26,14 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Gabor frames and deep scattering networks in audio processing](https://arxiv.org/pdf/1706.08818.pdf) | No |
 | [Deep learning techniques for music generation – a survey](https://arxiv.org/pdf/1709.01620.pdf) | No |
 | [XFlow: 1D <-> 2D cross-modal deep neural networks for audiovisual classification](https://arxiv.org/pdf/1709.00572.pdf) | No |
-| [Monoaural audio source separation using deep convolutional neural networks](mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
+| [Monoaural audio source separation using deep convolutional neural networks](http://mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
 | [Deep multimodal network for multi-label classification](http://ieeexplore.ieee.org/abstract/document/8019322/) | |
 | [A tutorial on deep learning for music information retrieval](https://arxiv.org/pdf/1709.04396.pdf) | [GitHub](https://github.com/keunwoochoi/dl4mir) |
 | [A comparison on audio signal preprocessing methods for deep neural networks on music tagging](https://arxiv.org/pdf/1709.01922.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Transfer learning for music classification and regression tasks](https://arxiv.org/pdf/1703.09179v3.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
-| [Basic Filters for Convolutional Neural Networks: Training or Design?](https://arxiv.org/abs/1709.02291) | No |
+| [Basic Filters for Convolutional Neural Networks: Training or Design?](https://arxiv.org/pdf/1709.02291.pdf) | No |
 | [Music signal processing using vector product neural networks](https://arxiv.org/pdf/1706.09555.pdf) | No |
 | [Transforming musical signals through a genre classifying convolutional neural network](https://arxiv.org/pdf/1706.09553.pdf) | No |
 | [Interactive music generation with positional constraints using anticipation-RNNs](https://arxiv.org/pdf/1709.06404.pdf) | No |
@@ -50,7 +50,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification](https://arxiv.org/pdf/1706.06810.pdf) | [GitHub](https://github.com/jongpillee/musicTagging_MSD) |
 | [Harmonic and percussive source separation using a convolutional auto encoder](http://www.eurasip.org/Proceedings/Eusipco/Eusipco2017/papers/1570346835.pdf) | No |
 | [Monaural score-informed source separation for classical music using convolutional neural networks](https://www.researchgate.net/profile/Marius_Miron/publication/318637038_Monaural_score-informed_source_separation_for_classical_music_using_convolutional_neural_networks/links/597327c6458515e26dfdb007/Monaural-score-informed-source-separation-for-classical-music-using-convolutional-neural-networks.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=Xlvhp7_af0NtWzNjBDJMwVFZKXVR_wdy_LSzWeqrWPW_tzGn8rP1TzAOGjBsa5_aQv792tcOmiSt-dV_bV4F3ILb4fLgeUdXuVGe1VdfLfN0ir7Snqiibz4B.nlqiciBhaFRxXVKWmAZPoO8pWJboNtFtNTJMHipjYmAQFU-zpAG-rm1X_c4T8iUbzCIiZ6Pt9lcgkwFebf6I0AsV4c2X5pyeqUafcg.3gQ-LC6mPG47tnGNCPZb6ZvtZgGhK34UJBpBebt8sKK-b2grBaqp0oFOxPj1J70Jln1UVmV64O0qySfw_04TnVJysDd8eSoQf2T7rQ.jqs7NDRUVlKLwic8ZIqLf0CQfUVaebyBESVFo-ndM6yfTpUlJiEG1DV7jvQpYQl_tRnnfCpkyv8BXYq-U6Cub_Ys3BW5BqVMFdon3A) | [GitHub](https://github.com/MTG/DeepConvSep) |
-| [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/abs/1706.09739) | [GitHub](https://github.com/sergiooramas/tartarus) |
+| [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/pdf/1706.09739.pdf) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
 | [Timbre analysis of music audio signals with convolutional neural networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
@@ -74,7 +74,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Bayesian meter tracking on learned signal representations](http://www.rhythmos.org/MMILab-Andre_files/ISMIR2016_CNNDBNbeats_camready.pdf) | |
 | [Deep learning for music](https://arxiv.org/pdf/1606.04930.pdf) | |
 | [Learning temporal features using a deep neural network and its application to music genre classification](https://www.researchgate.net/profile/Il_Young_Jeong/publication/305683876_Learning_temporal_features_using_a_deep_neural_network_and_its_application_to_music_genre_classification/links/5799a27c08aec89db7bb9f92.pdf) | |
-| [On the potential of simple framewise approaches to piano transcription](https://arxiv.org/abs/1612.05153) | |
+| [On the potential of simple framewise approaches to piano transcription](https://arxiv.org/pdf/1612.05153.pdf) | |
 | [A fully convolutional deep auditory model for musical chord recognition](https://www.researchgate.net/profile/Filip_Korzeniowski/publication/305590295_A_Fully_Convolutional_Deep_Auditory_Model_for_Musical_Chord_Recognition/links/579486ba08aed51475cc6958/A-Fully-Convolutional-Deep-Auditory-Model-for-Musical-Chord-Recognition.pdf?_iepl%5BhomeFeedViewId%5D=HTzFFmKPia2YminQ4psHT5at&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=Dz_6LKHzYcPyP-LmgZPF-m63ayZ6k0entFEntooiu_e32zfETNQXKPQSTFOI87NONIIQuUQdnUtwORdomTXfteTrb09KiAIdDtBJnw_02P6JeRr5zu2eyaCG.2Uxsi_eENxtbYL39lvorIK8LofRYhkgpUHzpzmVzkIEiyHc0wUY87rEa4PH1qbXi4k4RyagHUsA2IsZtewnprglORjx2v9Cwbk9ZfQ.cd67BaqtHul_hE6SX6vUFKuldz81aH6dWq-cYMkq5vQKCHcvB8l9zgeM694Efb_r2wBB5GT9idt3OLeME0UxVHI6ROxamgK3LMNlSw.JtZXAo9HhR9t-8Wl3gxJgnoM4--rtmDEUDbXSWezbFyU-CoB_nyfxbRQ4kdoN4-5aJ3Tgx4YHdikicqAhc_cezB2ZntjxkB4rEDx1A) | No |
 | [Feature learning for chord recognition: the deep chroma extractor](https://arxiv.org/pdf/1612.05065.pdf) | |
 | [A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction](http://ieeexplore.ieee.org/document/7471734/) | |
