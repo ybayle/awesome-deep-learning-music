@@ -14,7 +14,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [Statistics and visualisations](#statistics-and-visualisations)
 - [How To Contribute](#how-to-contribute)
 - [FAQ](#faq)
-- [Abbreviations used](#abbreviations-used)
+- [Acronyms used](#acronyms-used)
 - [Sources](#sources)
 - [Contributors](#contributors)
 - [Other useful related lists](#other-useful-related-lists)
@@ -192,51 +192,18 @@ In [dl4m.tsv](dl4m.tsv), the articles are first sorted by decreasing year (to ke
 
 I want to have exhaustive research and the latest news on DL4M. However, one should take care of the information provided in the articles currently in review. If possible you should wait for the final accepted and peer-reviewed version before citing an arXiv paper. I regularly update the arXiv links to the corresponding published papers when available.
 
-## Abbreviations used
+## Acronyms used
 
-| Abbreviation | Full name |
-|--------------|-----------|
-| ADT | Automatic Drum Transcription |
-| BRNN | Bidirectional Recurrent Neural Network |
-| CNN | Convolutional Neural Network |
-| DNN | Deep Neural Network |
-| LSTM | Long Short Term Memory |
-| MER | Music Emotion Recognition |
-| RNN | Recurrent Neural Network |
-| SVD | Singing Voice Detection |
-| SVS | Singing Voice Separation |
-| VAD | Voice Activity Detection |
-| VPNN | Vector Product Neural Network |
+A list of useful acronyms used in deep learning and music is stored in [acronyms.md](acronyms.md).
 
 ## Sources
 
-#### Conferences and journals
-
-- [DLRS](http://dlrs-workshop.org/)
-- [ICASSP](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002)
-- [ICML](https://2017.icml.cc/)
-- [INTERSPEECH](http://www.isca-speech.org/iscaweb/)
-- [ISMIR](http://ismir.net/)
-- [IWDLM](http://www.dorienherremans.com/dlm2017/index.html)
-- [LVA/ICA](http://lva-ica-2017.com/index.php/aim)
-- [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME)
-- [RECSYS](https://recsys.acm.org/)
-- [SMC](http://www.smc-conference.org/)
-- [Applied Sciences Special Issue on Sound and Music Computing](http://www.mdpi.com/journal/applsci/special_issues/Music_Computing)
-- [JCMS](http://jcms.org.uk/)
-- [CSMC](https://csmc2016.wordpress.com/)
-
-#### Aggregators 
-
-- [arXiv](https://arxiv.org/)
-- [PaperScape](http://paperscape.org/)
-- [Scholar](https://scholar.google.com/scholar?q=neural+network+audio+music)
-- [SciRate](https://scirate.com/)
+The list of conferences, journals and aggregators used to gather the proposed materials is stored in [sources.md](sources.md). 
 
 ## Contributors
 
 - [Vincent Lostanlen](https://github.com/lostanlen)
-- [Keunwoo Choi](https://github.com/keunwoochoi)
+- [Keunwoo Choi](https://keunwoochoi.wordpress.com/) ([GitHub](https://github.com/keunwoochoi))
 - [Bob L. Sturm](http://www.eecs.qmul.ac.uk/~sturm/) ([GitHub](https://github.com/boblsturm))
 
 ## Other useful related lists
