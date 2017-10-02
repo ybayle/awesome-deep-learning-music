@@ -1,6 +1,6 @@
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
+The role of this curated list is to gather scientific articles, thesis and reports that use deep learning approaches applied to music.
 The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
 The resources provided here come from my review of the state-of-the-art for my PhD Thesis for which an article is being written.
 There are already surveys on deep learning for [music generation](https://arxiv.org/pdf/1709.01620.pdf), [speech separation](https://arxiv.org/ftp/arxiv/papers/1708/1708.07524.pdf) and [speaker identification](https://www.researchgate.net/profile/Seyed_Reza_Shahamiri/publication/319158024_Speaker_Identification_Features_Extraction_Methods_A_Systematic_Review/links/599e2816aca272dff12fdef1/Speaker-Identification-Features-Extraction-Methods-A-Systematic-Review.pdf).
@@ -21,11 +21,11 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## DL4M summary 
 
-| Article | Code |
+| Articles, Thesis and Reports | Code |
 |---------------------|-------------------------|
 | [Gabor frames and deep scattering networks in audio processing](https://arxiv.org/pdf/1706.08818.pdf) | No |
 | [Vision-based detection of acoustic timed events: a case study on clarinet note onsets](http://dorienherremans.com/dlm2017/papers/bazzica2017clarinet.pdf) | No |
-| [Deep learning techniques for music generation – a survey](https://arxiv.org/pdf/1709.01620.pdf) | No |
+| [Deep learning techniques for music generation - a survey](https://arxiv.org/pdf/1709.01620.pdf) | No |
 | [XFlow: 1D <-> 2D cross-modal deep neural networks for audiovisual classification](https://arxiv.org/pdf/1709.00572.pdf) | No |
 | [Machine listening intelligence](http://dorienherremans.com/dlm2017/papers/cella2017mli.pdf) | No |
 | [Monoaural audio source separation using deep convolutional neural networks](http://mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
@@ -35,6 +35,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Transfer learning for music classification and regression tasks](https://arxiv.org/pdf/1703.09179v3.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
+| [Large vocabulary automatic chord estimation using deep neural nets: design framework, system variations and limitations](https://arxiv.org/pdf/1709.07153.pdf) | |
 | [Basic Filters for Convolutional Neural Networks: Training or Design?](https://arxiv.org/pdf/1709.02291.pdf) | No |
 | [Music signal processing using vector product neural networks](http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf) | No |
 | [Transforming musical signals through a genre classifying convolutional neural network](http://dorienherremans.com/dlm2017/papers/geng2017genre.pdf) | No |
@@ -61,7 +62,8 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Toward inverse control of physics-based sound synthesis](http://dorienherremans.com/dlm2017/papers/pfalz2017synthesis.pdf) | No |
 | [Timbre analysis of music audio signals with convolutional neural networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
-| [Music feature maps with convolutional neural networks for music genre classification](https://www.micc.unifi.it/cbmi2017/session/poster-and-demo-session/) | No |
+| [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
+| [Music feature maps with convolutional neural networks for music genre classification](https://www.researchgate.net/profile/Thomas_Pellegrini/publication/319326354_Music_Feature_Maps_with_Convolutional_Neural_Networks_for_Music_Genre_Classification/links/59ba5ae3458515bb9c4c6724/Music-Feature-Maps-with-Convolutional-Neural-Networks-for-Music-Genre-Classification.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=wzXuHZAa5zAnqEmErYyZwIRr2H0q01LnNEd4Wd7A15CQfdVLwdy98pmE-AdnrDvoc3-bVENSFrHt0yhaOiE2mQrYllVS9CJZOk-c9R0j_R1rbgcZugS6RtQ_.AUjPuJSF5P_DMngf-woH7W-7jdnQlbNQziR4_h6NnCHfR_zGcEa8vOyyOz5gx5nc4azqKTPQ5ZgGGLUxkLj1qCQLEQ5ThkhGlWHLyA.s6MBZE20-EO_RjRGCOCV4wk0WSFdN56Aloiraxz9hKCbJwRM2Et27RHVUA8jj9H8qvXIB6f7zSIrQgjXGrL2yCpyQlLffuf57rzSwg.KMMXbZrHsihV8DJM53xkHAWf3VebCJESi4KU4btNv9nQsyK2KnkhSQaTILKv0DSZY3c70a61LzywCBuoHtIhVOFhW5hVZN2n5O9uKQ) | No |
 | [Automatic drum transcription for polyphonic recordings using soft attention mechanisms and convolutional neural networks](http://www.ryanstables.co.uk/docs/ISMIR2017CamReady.pdf) | [GitHub](https://github.com/CarlSouthall/ADTLib) |
 | [Taking the models back to music practice: evaluating generative transcription models built using deep learning](http://jcms.org.uk/issues/Vol2Issue1/taking-models-back-to-music-practice/Taking%20the%20Models%20back%20to%20Music%20Practice:%20Evaluating%20Generative%20Transcription%20Models%20built%20using%20Deep%20Learning.pdf) | [GitHub](https://github.com/IraKorshunova/folk-rnn) |
 | [Convolutional methods for music analysis](http://vbn.aau.dk/files/260308151/PHD_Gissel_Velarde_E_pdf.pdf) | |
@@ -109,7 +111,8 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Music-noise segmentation in spectrotemporal domain using convolutional neural networks](http://ismir2015.uma.es/LBD/LBD27.pdf) | |
 | [Musical instrument sound classification with deep convolutional neural network using feature fusion approach](https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf) | |
 | [Environmental sound classification with convolutional neural networks](https://scholar.google.co.kr/scholar?hl=en&q=Environmental+sound+classification+with+convolutional+neural+networks&btnG=&as_sdt=1%2C5&as_sdtp=) | |
-| [Exploring data augmentation for improved singing voice detection with neural networks](https://grrrr.org/pub/schlueter-2015-ismir.pdf) | No |
+| [Exploring data augmentation for improved singing voice detection with neural networks](https://grrrr.org/pub/schlueter-2015-ismir.pdf) | [GitHub](https://github.com/f0k/ismir2015) |
+| [Singer traits identification using deep neural network](https://cs224d.stanford.edu/reports/SkiZhengshan.pdf) | No |
 | [An end-to-end neural network for polyphonic music transcription](https://arxiv.org/pdf/1508.01774.pdf) | |
 | [Deep karaoke: extracting vocals from musical mixtures using a convolutional deep neural network](https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50) | |
 | [Folk music style modelling by recurrent neural networks with long short term memory units](http://ismir2015.uma.es/LBD/LBD13.pdf) | [GitHub](https://github.com/IraKorshunova/folk-rnn) |
@@ -171,7 +174,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## Statistics and visualisations
 
-- 119 articles currently referenced.
+- 122 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
@@ -222,8 +225,9 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Stefan Balke](https://www.audiolabs-erlangen.de/fau/assistant/balke) ([GitHub](https://github.com/stefan-balke))
 - [Jordi Pons](http://www.jordipons.me/) ([GitHub](https://github.com/jordipons))
 
-## Other useful related lists
+## Other useful related lists and resources
 
+- [Slides on DL4M](http://www.jordipons.me/media/DL4Music_Pons.pdf) - A personal (re)view of the state-of-the-art by [Jordi Pons](http://www.jordipons.me/)
 - [DL4MIR tutorial](https://github.com/marl/dl4mir-tutorial) - Python tutorials for learning to solve MIR tasks with DL
 - [Awesome Python Scientific Audio](https://github.com/faroit/awesome-python-scientific-audio) - Python resources for Audio and Machine Learning
 - [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
@@ -235,6 +239,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Awesome Web Audio](https://github.com/notthetup/awesome-webaudio) - WebAudio packages and resources
 - [Awesome Music](https://github.com/ciconia/awesome-music) - Music softwares
 - [Awesome Music Production](https://github.com/adius/awesome-music-production) - Music creation
+- [Awesome Deep Learning Resources](https://github.com/endymecy/awesome-deeplearning-resources) - Papers regarding deep learning and deep reinforcement learning
 - General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
 - [The Asimov Institute](http://www.asimovinstitute.org/analyzing-deep-learning-tools-music/) - 6 deep learning tools for music generation
 - [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers 
