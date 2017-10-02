@@ -1,4 +1,4 @@
-# Deep Learning for Music (DL4M) ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+# Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 The role of this curated list is to gather scientific articles that use deep learning approaches applied to music.
 The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
@@ -167,6 +167,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
 - [Deep learning driven jazz generation using Keras & Theano](https://github.com/jisungk/deepjazz)
 - [Pitch Estimation of Choir Music using Deep Learning Strategies: from Solo to Unison Recordings](https://github.com/helenacuesta/choir-pitch-estimation)
+- [Music Genre classification on GTZAN dataset using CNNs](https://github.com/Hguimaraes/gtzan.keras)
 
 ## Statistics and visualisations
 
@@ -218,6 +219,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Vincent Lostanlen](https://github.com/lostanlen)
 - [Keunwoo Choi](https://keunwoochoi.wordpress.com/) ([GitHub](https://github.com/keunwoochoi))
 - [Bob L. Sturm](http://www.eecs.qmul.ac.uk/~sturm/) ([GitHub](https://github.com/boblsturm))
+- [Stefan Balke](https://www.audiolabs-erlangen.de/fau/assistant/balke) ([GitHub](https://github.com/stefan-balke))
+- [Jordi Pons](http://www.jordipons.me/) ([GitHub](https://github.com/jordipons))
 
 ## Other useful related lists
 
@@ -227,6 +230,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
 - [Awesome RNNs](https://github.com/kjw0612/awesome-rnn) - RNNs code, theory and applications
 - [ISMIR resources](http://ismir.net/resources.php) - Community maintained list
+- [ISMIR Google group](https://groups.google.com/a/ismir.net/forum/#!forum/community) - Daily dose of general MIR
 - [Awesome Python](https://github.com/vinta/awesome-python#audio) - Audio section of Python resources
 - [Awesome Web Audio](https://github.com/notthetup/awesome-webaudio) - WebAudio packages and resources
 - [Awesome Music](https://github.com/ciconia/awesome-music) - Music softwares
@@ -234,3 +238,5 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
 - [The Asimov Institute](http://www.asimovinstitute.org/analyzing-deep-learning-tools-music/) - 6 deep learning tools for music generation
 - [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers 
+- [DLM Google group](https://groups.google.com/forum/#!forum/icdlm) - Deep Learning in Music group
+- [MIR community on Slack](https://slackpass.io/mircommunity) - Link to subscribe to the MIR community's Slack

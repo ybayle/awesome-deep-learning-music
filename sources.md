@@ -2,23 +2,28 @@
 
 The list of conferences, journals and aggregators used to gather the proposed materials
 
-## Conferences and Journals
+## Journals
 
-- [DLRS](http://dlrs-workshop.org/)
-- [ICASSP](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002)
-- [ICML](https://2017.icml.cc/)
-- [INTERSPEECH](http://www.isca-speech.org/iscaweb/)
-- [ISMIR](http://ismir.net/)
-- [IWDLM](http://www.dorienherremans.com/dlm2017/index.html)
-- [LVA/ICA](http://lva-ica-2017.com/index.php/aim)
-- [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME)
-- [RECSYS](https://recsys.acm.org/)
-- [SMC](http://www.smc-conference.org/)
 - [Applied Sciences Special Issue on Sound and Music Computing](http://www.mdpi.com/journal/applsci/special_issues/Music_Computing)
-- [JCMS](http://jcms.org.uk/)
-- [CSMC](https://csmc2016.wordpress.com/)
+- [JCMS](http://jcms.org.uk/) - Journal of Creative Music Systems
+
+## Conferences
+
+- [CSMC](https://csmc2016.wordpress.com/) - Conference on Computer Simulation of Musical Creativity
+- [ICASSP](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002) - IEEE International Conference on Acoustics, Speech, and Signal Processing
+- [ICML](https://2017.icml.cc/) - International Conference on Machine Learning
+- [INTERSPEECH](http://www.isca-speech.org/iscaweb/)
+- [ISMIR](http://ismir.net/) - International Society for Music Information Retrieval
+- [LVA/ICA](http://lva-ica-2017.com/index.php/aim) - International Conference on Latent Variable Analysis and Signal Separation
+- [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME)
+- [RECSYS](https://recsys.acm.org/) - ACM Recommender Systems conference
+- [SMC](http://www.smc-conference.org/) - Sound and Music Computing Conference
+
+## Workshops
+
+- [DLRS](http://dlrs-workshop.org/) - Workshop on Deep Learning for Recommender Systems
 - [ESI](http://www.univie.ac.at/nuhag-php/event_NEW/make.php?event=esi17&page=program)
-- [IWDLM](http://dorienherremans.com/dlm2017/)
+- [IWDLM](http://dorienherremans.com/dlm2017/) - International Workshop on Deep Learning for Music
 
 ## Aggregators
 
