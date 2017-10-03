@@ -20,7 +20,7 @@ Interactive music generation with positional constraints using anticipation-RNNs
 Deep rank-based transposition-invariant distances on musical sequences	Hadjeres	2017	arXiv	https://arxiv.org/pdf/1709.00740.pdf	No	No										
 GLSR-VAE: geodesic latent space regularization for variational autoencoder architectures	Hadjeres	2017	arXiv	https://arxiv.org/pdf/1707.04588.pdf	No	No										
 DeepBach: a steerable model for Bach chorales generation	Hadjeres	2017	ICML	https://arxiv.org/pdf/1612.01010.pdf	https://github.com/Ghadjeres/DeepBach								Composition			
-Deep convolutional neural networks for predominant instrument recognition in polyphonic music	Han	2017		http://dl.acm.org/citation.cfm?id=3068697	No	No	CNN						instru	IRMAS		
+Deep convolutional neural networks for predominant instrument recognition in polyphonic music	Han	2017		http://dl.acm.org/citation.cfm?id=3068697	No	No	CNN						Instrument recognition	IRMAS		
 CNN architectures for large-scale audio classification	Hershey	2017	ICASSP	https://arxiv.org/pdf/1609.09430v2.pdf	No	No	CNN									
 DeepSheet: A sheet music generator based on deep learning	Hsu	2017	IEEE_ICME	http://ieeexplore.ieee.org/abstract/document/8026272/									Composition			
 Talking Drums: Generating drum grooves with neural networks	Hutchings	2017	IWDLM	http://dorienherremans.com/dlm2017/papers/hutchings2017drums.pdf			RNN			3			Composition			

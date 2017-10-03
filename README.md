@@ -59,6 +59,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Monaural score-informed source separation for classical music using convolutional neural networks](https://www.researchgate.net/profile/Marius_Miron/publication/318637038_Monaural_score-informed_source_separation_for_classical_music_using_convolutional_neural_networks/links/597327c6458515e26dfdb007/Monaural-score-informed-source-separation-for-classical-music-using-convolutional-neural-networks.pdf?_iepl%5BhomeFeedViewId%5D=WchoMnlUL1Hk9hBLVTeR8Amh&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=Hp6dDqMepEiRZ5E6WkreaqyjFkFkwMxPFoJvr14etVJsoKZBc5qb99fBnJjVUZrRHLFRhaXvNY9k1sMvYPOouuGbQP0YhEGm28zLw_55Zewu86WGnHck1Tqi.93HH2WqXfTedn6IaZRjjhQGYZVDHBz1X6nr4ABBgMAVv584gvGN3sW5IyBAY-4MBWf5DJFPBGm8zsaC2dKz8G-odZPfosWoXY0afAQ.KoCP2mO9l31lCER0oMZMZBrbuRGvb6ZzeBwHb88pL8AhMfJk03Hj1eLrohQIjPDETBj4hhqb0gniDGJgtZ9GnW64ZNjh9GbQDrIl5A.egNQTyC7t8P26zCQWrbEhf51Pxy2JRBZoTkH6SpRHHhRhFl1_AT_AT481lMcFI34-JbeRq-5oTQR7DpvAuw7iUIivd78ltuxpI9syg) | [GitHub](https://github.com/MTG/DeepConvSep) |
 | [Monaural score-informed source separation for classical music using convolutional neural networks](https://www.researchgate.net/profile/Marius_Miron/publication/318637038_Monaural_score-informed_source_separation_for_classical_music_using_convolutional_neural_networks/links/597327c6458515e26dfdb007/Monaural-score-informed-source-separation-for-classical-music-using-convolutional-neural-networks.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=Xlvhp7_af0NtWzNjBDJMwVFZKXVR_wdy_LSzWeqrWPW_tzGn8rP1TzAOGjBsa5_aQv792tcOmiSt-dV_bV4F3ILb4fLgeUdXuVGe1VdfLfN0ir7Snqiibz4B.nlqiciBhaFRxXVKWmAZPoO8pWJboNtFtNTJMHipjYmAQFU-zpAG-rm1X_c4T8iUbzCIiZ6Pt9lcgkwFebf6I0AsV4c2X5pyeqUafcg.3gQ-LC6mPG47tnGNCPZb6ZvtZgGhK34UJBpBebt8sKK-b2grBaqp0oFOxPj1J70Jln1UVmV64O0qySfw_04TnVJysDd8eSoQf2T7rQ.jqs7NDRUVlKLwic8ZIqLf0CQfUVaebyBESVFo-ndM6yfTpUlJiEG1DV7jvQpYQl_tRnnfCpkyv8BXYq-U6Cub_Ys3BW5BqVMFdon3A) | [GitHub](https://github.com/MTG/DeepConvSep) |
 | [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/pdf/1706.09739.pdf) | [GitHub](https://github.com/sergiooramas/tartarus) |
+| [Multi-label Music Genre Classification from Audio, Text, and Images using Deep Features](https://arxiv.org/abs/1707.04916) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
 | [Toward inverse control of physics-based sound synthesis](http://dorienherremans.com/dlm2017/papers/pfalz2017synthesis.pdf) | No |
 | [Score-informed syllable segmentation for a capella singing voice with convolutional neural networks](https://arxiv.org/pdf/1707.03544.pdf) | [GitHub](https://github.com/ronggong/jingjuSyllabicSegmentaion/tree/v0.1.0) |
@@ -186,7 +187,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## Statistics and visualisations
 
-- 134 articles currently referenced.
+- 135 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
