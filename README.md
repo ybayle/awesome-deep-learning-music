@@ -39,6 +39,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Basic Filters for Convolutional Neural Networks: Training or Design?](https://arxiv.org/pdf/1709.02291.pdf) | No |
 | [Music signal processing using vector product neural networks](http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf) | No |
 | [Transforming musical signals through a genre classifying convolutional neural network](http://dorienherremans.com/dlm2017/papers/geng2017genre.pdf) | No |
+| [Audio to score matching by combining phonetic and duration information](https://arxiv.org/pdf/1707.03547.pdf) | [GitHub](https://github.com/ronggong/jingjuSingingPhraseMatching/tree/v0.1.0) |
 | [Interactive music generation with positional constraints using anticipation-RNNs](https://arxiv.org/pdf/1709.06404.pdf) | No |
 | [Deep rank-based transposition-invariant distances on musical sequences](https://arxiv.org/pdf/1709.00740.pdf) | No |
 | [GLSR-VAE: geodesic latent space regularization for variational autoencoder architectures](https://arxiv.org/pdf/1707.04588.pdf) | No |
@@ -60,6 +61,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/pdf/1706.09739.pdf) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | |
 | [Toward inverse control of physics-based sound synthesis](http://dorienherremans.com/dlm2017/papers/pfalz2017synthesis.pdf) | No |
+| [Score-informed syllable segmentation for a capella singing voice with convolutional neural networks](https://arxiv.org/pdf/1707.03544.pdf) | [GitHub](https://github.com/ronggong/jingjuSyllabicSegmentaion/tree/v0.1.0) |
 | [Timbre analysis of music audio signals with convolutional neural networks](https://arxiv.org/pdf/1703.06697.pdf) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
@@ -90,6 +92,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Event localization in music auto-tagging](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) | [GitHub](https://github.com/ciaua/clip2frame) |
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | |
 | [Robust audio event recognition with 1-max pooling convolutional neural networks](https://arxiv.org/pdf/1604.06338.pdf) | No |
+| [Experimenting with musically motivated convolutional neural networks](https://publik.tuwien.ac.at/files/publik_255991.pdf) | [GitHub](https://github.com/jordipons/CBMI2016) |
 | [Singing voice melody transcription using deep neural networks](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf) | |
 | [Singing voice separation using deep neural networks and F0 estimation](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) | [Website](http://cvssp.org/projects/maruss/mirex2016/) |
 | [Learning to pinpoint singing voice from weakly labeled examples](http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf) | |
@@ -144,7 +147,16 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Unsupervised feature learning for audio classification using convolutional deep belief networks](http://papers.nips.cc/paper/3674-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks.pdf) | No |
 | [A convolutional-kernel based approach for note onset detection in piano-solo audio signals](http://www.murase.nuie.nagoya-u.ac.jp/~ide/res/paper/E04-conference-pablo-1.pdf) | |
 | [A supervised learning approach to musical style recognition](https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf) | |
+| [Multi-phase learning for jazz improvisation and interaction](http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf) | No |
+| [Musical networks: Parallel distributed perception and performance](https://s3.amazonaws.com/academia.edu.documents/3551783/10.1.1.39.6248.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1507055806&Signature=5mGzQc7bvJgUZYfXOmCX8eeNQOs%3D&response-content-disposition=inline%3B%20filename%3DMusical_networks_Parallel_distributed_pe.pdf) | No |
+| [A machine learning approach to musical style recognition](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1496&context=compsci) | No |
 | [Neural network based model for classification of music type](http://ieeexplore.ieee.org/abstract/document/514161/) | No |
+| [Neural network music composition by prediction: Exploring the benefits of psychophysical constraints and multiscale processing](http://www-labs.iro.umontreal.ca/~pift6080/H09/documents/papers/mozer-music.pdf) | No |
+| [The Representation of Pitch in a Neural Net Model of Chord Classification](https://www.jstor.org/stable/3679550) | No |
+| [Algorithms for music composition by neural nets: Improved cbr paradigms]("https://quod.lib.umich.edu/cache//b/b/p/bbp2372.1989.044/bbp2372.1989.044.pdf#page=1;zoom=75") | No |
+| [A connectionist approach to algorithmic composition](https://www.jstor.org/stable/3679551) | No |
+| [Creation by refinement: a creativity paradigm for gradient descent learning networks](http://ieeexplore.ieee.org/document/23933/) | No |
+| [A sequential network design for musical applications]() | |
 
 ## DL4M details
 
@@ -174,7 +186,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## Statistics and visualisations
 
-- 122 articles currently referenced.
+- 134 articles currently referenced.
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 

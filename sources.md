@@ -5,17 +5,19 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 ## Journals
 
 - [Applied Sciences Special Issue on Sound and Music Computing](http://www.mdpi.com/journal/applsci/special_issues/Music_Computing)
+- [CMJ](https://www.jstor.org/journal/computermusicj) - Computer Music Journal
 - [JCMS](http://jcms.org.uk/) - Journal of Creative Music Systems
 
 ## Conferences
 
 - [CSMC](https://csmc2016.wordpress.com/) - Conference on Computer Simulation of Musical Creativity
 - [ICASSP](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002) - IEEE International Conference on Acoustics, Speech, and Signal Processing
+- [ICMC](http://www.computermusic.org/) - International Computer Music Conference
 - [ICML](https://2017.icml.cc/) - International Conference on Machine Learning
 - [INTERSPEECH](http://www.isca-speech.org/iscaweb/)
 - [ISMIR](http://ismir.net/) - International Society for Music Information Retrieval
 - [LVA/ICA](http://lva-ica-2017.com/index.php/aim) - International Conference on Latent Variable Analysis and Signal Separation
-- [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME)
+- [MIREX](http://music-ir.org/mirex/wiki/MIREX_HOME) - Music Information Retrieval Evaluation eXchange
 - [RECSYS](https://recsys.acm.org/) - ACM Recommender Systems conference
 - [SMC](http://www.smc-conference.org/) - Sound and Music Computing Conference
 
