@@ -208,7 +208,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 Because:
 1. Some articles have a comma in their title and the .bib of each article contains commas.
 2. [GitHub currently only displays csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
-The built-in GitHub csv/tsv parser is handy because you can easily search in the file in your browser without downloading anything.
+The built-in GitHub csv/tsv parser is handy because you can easily take a glance at the file in your browser without downloading anything.
 
 > Why are preprint from arXiv included in the list?
 
@@ -232,7 +232,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 ## Contributors
 
-- [Vincent Lostanlen](https://github.com/lostanlen)
+- [Yann Bayle](http://yannbayle.fr/english/index.php) ([GitHub](https://github.com/ybayle)) - Instigator and principal maintainer 
+- Vincent Lostanlen ([GitHub](https://github.com/lostanlen))
 - [Keunwoo Choi](https://keunwoochoi.wordpress.com/) ([GitHub](https://github.com/keunwoochoi))
 - [Bob L. Sturm](http://www.eecs.qmul.ac.uk/~sturm/) ([GitHub](https://github.com/boblsturm))
 - [Stefan Balke](https://www.audiolabs-erlangen.de/fau/assistant/balke) ([GitHub](https://github.com/stefan-balke))
