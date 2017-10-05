@@ -175,48 +175,71 @@ task={MGR},
 dataset={GTzan},
 archi={CNN}
 }
-@inproceedings{ullrich2014boundary,
+@inproceedings{Ullrich2014,
 title={Boundary Detection in Music Structure Analysis using Convolutional Neural Networks},
 author={Ullrich, Karen and Schlüter, Jan and Grill, Thomas},
-booktitle={Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014), Taipei, Taiwan},
-year={2014}
+booktitle={ISMIR},
+address={Taipei, Taiwan},
+year={2014},
+url={https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf},
+loss={Cross-entropy},
+task={Boundary detection},
+input={Mel-spectrogram},
+dataset={SALAMI}
 }
-@inproceedings{humphrey2014music,
+@inproceedings{Humphrey2014,
 title={From music audio to chord tablature: Teaching deep convolutional networks toplay guitar},
 author={Humphrey, Eric J and Bello, Juan P},
-booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on},
+booktitle={ICASSP},
 pages={6974--6978},
 year={2014},
-organization={IEEE}
+organization={IEEE},
+url={http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7024-humphrey.pdf},
+input={CQT},
+task={Chord Recognition},
+dataset={Beatles & RWC Pop & US Pop}
 }
-@article{gwardys2014deep,
+@article{Gwardys2014,
 title={Deep Image Features in Music Information Retrieval},
 author={Gwardys, Grzegorz and Grzywczak, Daniel},
 journal={International Journal of Electronics and Telecommunications},
 volume={60},
 number={4},
 pages={321--326},
-year={2014}
+year={2014},
+url={https://www.degruyter.com/downloadpdf/j/eletel.2014.60.issue-4/eletel-2014-0042/eletel-2014-0042.pdf},
+dataset={GTzan}
 }
-@inproceedings{van2013deep,
+@inproceedings{Oord2013,
 title={Deep content-based music recommendation},
 author={Van den Oord, Aaron and Dieleman, Sander and Schrauwen, Benjamin},
-booktitle={Advances in Neural Information Processing Systems},
+booktitle={NIPS},
 pages={2643--2651},
-year={2013}
+year={2013},
+url={http://papers.nips.cc/paper/5004-deep-content-based-music-recommendation.pdf},
+input={MFCC & Mel-Spectro},
+dataset={MSD}
 }
-@inproceedings{dieleman2013multiscale,
+@inproceedings{Dieleman2013,
 title={Multiscale Approaches To Music Audio Feature Learning.},
 author={Dieleman, Sander and Schrauwen, Benjamin},
 booktitle={ISMIR},
 pages={3--8},
-year={2013}
+year={2013},
+url={http://ismir2013.ismir.net/wp-content/uploads/2013/09/69_Paper.pdf},
+input={Mel-spectrogram},
+loss={cross-entropy},
+dataset={Magnatagatune}
 }
-@inproceedings{schluter2013musical,
+@inproceedings{Schluter2013,
 title={Musical onset detection with convolutional neural networks},
 author={Schlüter, Jan and Böck, Sebastian},
-booktitle={6th International Workshop on Machine Learning and Music (MML), Prague, Czech Republic},
-year={2013}
+booktitle={International Workshop on Machine Learning and Music},
+address={Prague, Czech Republic},,
+input={Mel-spectrogram},
+loss={cross-entropy},
+year={2013},
+url={http://phenicx.upf.edu/system/files/publications/Schlueter_MML13.pdf}
 }
 @inproceedings{nakashika2012local,
 title={Local-feature-map Integration Using Convolutional Neural Networks for Music Genre Classification.},
