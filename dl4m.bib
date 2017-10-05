@@ -235,117 +235,164 @@ dataset={Magnatagatune}
 title={Musical onset detection with convolutional neural networks},
 author={Schlüter, Jan and Böck, Sebastian},
 booktitle={International Workshop on Machine Learning and Music},
-address={Prague, Czech Republic},,
+address={Prague, Czech Republic},
 input={Mel-spectrogram},
 loss={cross-entropy},
 year={2013},
 url={http://phenicx.upf.edu/system/files/publications/Schlueter_MML13.pdf}
 }
-@inproceedings{nakashika2012local,
-title={Local-feature-map Integration Using Convolutional Neural Networks for Music Genre Classification.},
+@inproceedings{Nakashika2012,
+title={Local-feature-map Integration Using Convolutional Neural Networks for Music Genre Classification},
 author={Nakashika, Toru and Garcia, Christophe and Takiguchi, Tetsuya and De Lyon, Insa},
 booktitle={INTERSPEECH},
-year={2012}
+year={2012},
+url={http://liris.cnrs.fr/Documents/Liris-5602.pdf},
+task={MGR},
+dataset={GTzan},
+input={GLCM}
 }
-@inproceedings{wulfing2012unsupervised,
+@inproceedings{Wulfing2012,
 title={Unsupervised Learning of Local Features for Music Classification.},
 author={Wülfing, Jan and Riedmiller, Martin},
 booktitle={ISMIR},
 pages={139--144},
-year={2012}
+year={2012},
+url={http://www.ismir2012.ismir.net/event/papers/139_ISMIR_2012.pdf},
+input={CQT},
+dataset={GTzan}
 }
-@inproceedings{humphrey2012rethinking,
+@inproceedings{Humphrey2012,
 title={Rethinking automatic chord recognition with convolutional neural networks},
-author={Humphrey, Eric J and Bello, Juan P},
-booktitle={Machine Learning and Applications (ICMLA), 2012 11th International Conference on},
+author={Humphrey, Eric J and Bello, Juan P.},
+booktitle={ICMLA},
 volume={2},
 pages={357--362},
 year={2012},
-organization={IEEE}
+organization={IEEE},
+url={http://ieeexplore.ieee.org/document/6406762/},
+loss={Cross-entropy},
+task={Chord recognition},
+dataset={Beatles dataset & RWC Pop & US Pop},
+archi={CNN}
 }
-@inproceedings{li2010automatic,
+@inproceedings{Li2010b,
 title={Automatic musical pattern feature extraction using convolutional neural network},
 author={Li, Tom LH and Chan, Antoni B and Chun, A},
-booktitle={Proc. Int. Conf. Data Mining and Applications},
-year={2010}
+booktitle={Int. Conf. Data Mining and Applications},
+year={2010},
+url={https://www.researchgate.net/profile/Antoni_Chan2/publication/44260643_Automatic_Musical_Pattern_Feature_Extraction_Using_Convolutional_Neural_Network/links/02e7e523dac6bb86b0000000.pdf},
+input={MFCC},
+task={MGR},
+dataset={GTzan}
 }
-@article{li2010audio,
+@phdthesis{Li2010a,
 title={Audio musical genre classification using convolutional neural networks and pitch and tempo transformations},
 author={Li, Lihua},
 year={2010},
-publisher={City University of Hong Kong}
+publisher={City University of Hong Kong},
+url={http://lbms03.cityu.edu.hk/theses/c_ftt/mphil-cs-b39478026f.pdf},
+input={MFCC},
+dataset={GTzan}
 }
-@inproceedings{lee2009unsupervised,
+@inproceedings{Lee2009,
 title={Unsupervised feature learning for audio classification using convolutional deep belief networks},
 author={Lee, Honglak and Pham, Peter and Largman, Yan and Ng, Andrew Y},
 booktitle={Advances in neural information processing systems},
 pages={1096--1104},
-year={2009}
+year={2009},
+url={http://papers.nips.cc/paper/3674-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks.pdf},
+archi={CDBN},
+task={Speaker gender recognition},
+dataset={TIMIT}
 }
-@inproceedings{durand2015downbeat,
+@inproceedings{Durand2015,
 title={Downbeat tracking with multiple features and deep neural networks},
 author={Durand, Simon and Bello, Juan P and David, Bertrand and Richard, Gaël},
 booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
 pages={409--413},
 year={2015},
-organization={IEEE}
+organization={IEEE},
+url={http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf}
 }
-@inproceedings{uhlich2015deep,
+@inproceedings{Uhlich2015,
 title={Deep neural network based instrument extraction from music},
 author={Uhlich, Stefan and Giron, Franck and Mitsufuji, Yuki},
-booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
+booktitle={ICASSP},
 pages={2135--2139},
 year={2015},
-organization={IEEE}
+organization={IEEE},
+url={https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf},
+task={Source separation},
+input={STFT}
 }
-@inproceedings{deng2016automatic,
+@inproceedings{Deng2016,
 title={Automatic chord estimation on seventhsbass chord vocabulary using deep neural network},
 author={Deng, Junqi and Kwok, Yu-Kwong},
-booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on},
+booktitle={ICASSP},
 pages={261--265},
 year={2016},
-organization={IEEE}
+organization={IEEE},
+url={http://ieeexplore.ieee.org/abstract/document/7471677/},
+task={Chord recognition}
 }
-@article{korzeniowski2016feature,
+@article{Korzeniowski2016,
 title={Feature learning for chord recognition: the deep chroma extractor},
 author={Korzeniowski, Filip and Widmer, Gerhard},
 journal={arXiv preprint arXiv:1612.05065},
-year={2016}
+year={2016},
+url={https://arxiv.org/pdf/1612.05065.pdf},
+task={Chord recognition}
 }
-@article{jeonglearning,
+@article{Jeong2016,
 Author = {Jeong, Il-Young and Lee, Kyogu},
-Journal = {Proc. of the 17th Int. Society for Music Information Retrieval Conf.(ISMIR)},
-Title = {LEARNING TEMPORAL FEATURES USING A DEEP NEURAL NETWORK AND ITS APPLICATION TO MUSIC GENRE CLASSIFICATION},
-Year = {2016}
+Journal = {ISMIR},
+Title = {Learning temporal features using a deep neural network and its application to music genre classification},
+Year = {2016},
+url={https://www.researchgate.net/profile/Il_Young_Jeong/publication/305683876_Learning_temporal_features_using_a_deep_neural_network_and_its_application_to_music_genre_classification/links/5799a27c08aec89db7bb9f92.pdf},
+input={STFT & Cepstrum}
 }
-@article{kelz2016potential,
+@article{Kelz2016,
 title={On the Potential of Simple Framewise Approaches to Piano Transcription},
 author={Kelz, Rainer and Dorfer, Matthias and Korzeniowski, Filip and Böck, Sebastian and Arzt, Andreas and Widmer, Gerhard},
 journal={arXiv preprint arXiv:1612.05153},
-year={2016}
+year={2016},
+url={https://arxiv.org/pdf/1612.05153.pdf},
+archi={DNN & ConvNet}
 }
-@inproceedings{rigaud2016singing,
+@inproceedings{Rigaud2016,
 title={Singing Voice Melody Transcription using Deep Neural Networks},
 author={Rigaud, Fran{\c{c}}ois and Radenen, Mathieu},
 booktitle={Proceedings of the International Conference on Music Information Retrieval (ISMIR). New York},
 pages={737--743},
-year={2016}
+year={2016},
+url={https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf},
+archi={DNN & RNN-LSTM},
+task={f0 & VAD}
 }
 @inproceedings{Xu2017,
 author={Yong Xu and Qiuqiang Kong and Qiang Huang and Wenwu Wang and Mark D. Plumbley},
 title={Attention and Localization Based on a Deep Convolutional Recurrent Model for Weakly Supervised Audio Tagging},
 year={2017},
-booktitle={Proc. Interspeech 2017},
+booktitle={INTERSPEECH},
 pages={3083--3087},
 doi={10.21437/Interspeech.2017-486},
-url={http://dx.doi.org/10.21437/Interspeech.2017-486}
+url={http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0486.PDF},
+code={https://github.com/yongxuUSTC/att_loc_cgrnn},
+task={DCASE},
+archi={CRNN},
+link={https://sites.google.com/view/xuyong/demos/attention_model}
 }
 @conference {Chandna2017,
 title = {Monoaural Audio Source Separation Using Deep Convolutional Neural Networks},
-booktitle = {13th International Conference on Latent Variable Analysis and Signal Separation (LVA ICA2017)},
+booktitle = {International Conference on Latent Variable Analysis and Signal Separation (LVA ICA)},
 year = {2017},
 month = {Feb.},
 keywords = {deep learning, neural networks, source separation},
+url={http://mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf},
+archi={CNN},
+task={Source separation},
+dataset={DSD100},
+code={https://github.com/MTG/DeepConvSep},
 author = {Pritish Chandna and Marius Miron and Jordi Janer and Emilia Gomez}
 }
 @INPROCEEDINGS{Lewis1988,
@@ -378,26 +425,32 @@ task={Chord classification}
 title={Musical networks: Parallel distributed perception and performance},
 author={Griffith, Niall and Todd, Peter M.},
 year={1999},
-publisher={MIT Press}
+publisher={MIT Press},
+url={https://s3.amazonaws.com/academia.edu.documents/3551783/10.1.1.39.6248.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1507055806&Signature=5mGzQc7bvJgUZYfXOmCX8eeNQOs%3D&response-content-disposition=inline%3B%20filename%3DMusical_networks_Parallel_distributed_pe.pdf}
 }
 @inproceedings{Franklin2001,
 title={Multi-phase learning for jazz improvisation and interaction},
 author={Franklin, Judy A},
-booktitle={Proceedings of the Eighth Biennial Symposium for Arts and Technology},
-year={2001}
+booktitle={Biennial Symposium for Arts and Technology},
+year={2001},
+url={http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf},
+archi={RNN},
+task={Composition}
 }
 @inproceedings{Pons2016,
-author = {Jordi Pons and Thomas Lidy and Xavier Serra},
+author = {Pons, Jordi and Lidy, Thomas and Serra, Xavier},
 title = {Experimenting with Musically Motivated Convolutional Neural Networks},
-booktitle = {Proceedings of the 14th International Workshop on Content-based Multimedia Indexing (CBMI 2016)},
+booktitle = {CBMI},
 month = {June 15-17},
 year = {2016},
 researchfields = {MIR},
 doi = {10.1109/CBMI.2016.7500246},
-isbn = {978-1-4673-8695-1 },
+isbn = {978-1-4673-8695-1},
 url = {http://jordipons.me/media/CBMI16.pdf},
 pdf = {http://publik.tuwien.ac.at/files/publik_255991.pdf},
-address = {Bucharest, Romania}
+address = {Bucharest, Romania},
+code={https://github.com/jordipons/},
+dataset={Ballroom}
 }
 @article{Todd1989,
 ISSN = {01489267, 15315169},

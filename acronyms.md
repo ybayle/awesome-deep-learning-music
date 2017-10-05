@@ -22,8 +22,9 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | FCN | Fully Convolutional Network |
 | FC-CNN | Fully Convolutional Convolutional Neural Network |
 | FC-LSTM | Fully Connected Long Short-Term Memory |
-| GFNN | Gradient Frequency Neural Networks |
 | GBRCN | Gradient-Boosting Random Convolutional Network |
+| GFNN | Gradient Frequency Neural Networks |
+| GLCM | Gray Level Co-occurrence Matrix |
 | LSTM | Long Short-Term Memory |
 | MER | Music Emotion Recognition |
 | MLP | Multi-Layer Perceptron |
