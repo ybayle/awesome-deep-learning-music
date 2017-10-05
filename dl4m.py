@@ -5,7 +5,7 @@
 # E-mails   bayle.yann@live.fr
 # License   MIT
 # Created   16/08/2017
-# Updated   23/09/2017
+# Updated   06/10/2017
 # Version   1.0.0
 #
 
@@ -13,39 +13,53 @@
 Description of dl4m.py
 ======================
 
-Parse dl4m.csv to create a simple and readable ReadMe.md table.
+Parse dl4m.bib to create a simple and readable ReadMe.md table.
+
+..todo::
+    error handling
+    pylint
 
 """
 
 import os
 import sys
+import bibtexparser
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-def generate_summary_table(filen="dl4m.tsv"):
-    """Description of generate_summary_table
-    Parse dl4m.csv to create a simple and readable ReadMe.md table.
+def read_bib(filen="dl4m.bib"):
+    """Description of read_bib
+    Parse a bib file and load it into memory in a python format
     """
-    if not os.path.isfile(filen):
-        print("Invalid input file name provided")
-        sys.exit()
+    with open(filen, "r", encoding="utf-8") as bibtex_file:
+        bibtex_str = bibtex_file.read()
+    bib_database = bibtexparser.loads(bibtex_str)
+    # print(bib_database.entries)
+    # bib_database.entries[0]['author'].split(" and ")
+    return bib_database.entries
+
+
+def generate_summary_table(bib):
+    """Description of generate_summary_table
+    Parse dl4m.bib to create a simple and readable ReadMe.md table.
+    """
     articles = ""
-    with open(filen, "r", encoding="utf-8") as filep:
-        # Skip csv header
-        next(filep)
-        for line in filep:
-            row = line.split("\t")
-            articles += "| [" + row[0] + "](" + row[4] + ") | "
-            if len(row[5]) > 1:
-                if "No" in row[5]:
+    for entry in bib:
+        if "title" in entry:
+            if "url" in entry:
+                articles += "| [" + entry["title"] + "](" + entry["url"] + ") | "
+            else:
+                articles += "| " + entry["title"] + " | "
+            if "code" in entry:
+                if "No" in entry["code"]:
                     articles += "No "
                 else:
-                    if "github" in row[5]:
+                    if "github" in entry["code"]:
                         articles += "[GitHub"
                     else:
                         articles += "[Website"
-                    articles += "](" + row[5] + ") "
+                    articles += "](" + entry["code"] + ") "
             articles += "|\n"
     table_fn = "paste_in_ReadMe.md"
     with open(table_fn, "w", encoding="utf-8") as filep:
@@ -53,16 +67,15 @@ def generate_summary_table(filen="dl4m.tsv"):
     print("Summary table saved in", table_fn)
 
 
-def articles_per_year(filen="dl4m.tsv"):
+def articles_per_year(bib):
     """Description of main
     Display the number of articles published per year
     input: file name storing articles details
     """
     years = []
-    with open(filen, "r", encoding="utf-8") as filep:
-        next(filep)
-        for line in filep:
-            years.append(int(line.split("\t")[2]))
+    for entry in bib:
+        year = int(entry['year'])
+        years.append(year)
 
     plt.xlabel('Years')
     plt.ylabel('Number of articles')
@@ -78,29 +91,24 @@ def articles_per_year(filen="dl4m.tsv"):
     print("Fig. with number of articles per year saved in", fig_fn)
 
 
-def get_nb_articles(filen="dl4m.tsv"):
+def get_nb_articles(bib):
     """Description of get_nb_articles
     Count the number of articles in the database
-    input: file name storing articles details
     """
-    cpt = 0
-    with open(filen, "r", encoding="utf-8") as filep:
-        next(filep)
-        for line in filep:
-            cpt += 1
-    print("There are", cpt, "articles.")
-    return cpt
+    print("There are", len(bib), "articles.")
+    return len(bib)
 
 
-def main(filen="dl4m.tsv"):
+def main(filen="dl4m.bib"):
     """Description of main
     Main entry point
     input: file name storing articles details
     """
-    get_nb_articles(filen)
-    generate_summary_table(filen)
-    articles_per_year(filen)
+    bib = read_bib(filen)
+    get_nb_articles(bib)
+    articles_per_year(bib)
+    generate_summary_table(bib)
 
 
 if __name__ == "__main__":
-    main()
+    main("dl4m.bib")
