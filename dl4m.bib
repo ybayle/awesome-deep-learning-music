@@ -1,268 +1,329 @@
 @inproceedings{Leglaive2015,
-  title={Singing voice detection with deep recurrent neural networks},
-  author={Leglaive, Simon and Hennequin, Romain and Badeau, Roland},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
-  pages={121--125},
-  year={2015},
-  organization={IEEE}
+title={Singing voice detection with deep recurrent neural networks},
+author={Leglaive, Simon and Hennequin, Romain and Badeau, Roland},
+booktitle={ICASSP},
+pages={121--125},
+year={2015},
+organization={IEEE},
+url={https://hal-imt.archives-ouvertes.fr/hal-01110035/},
+task={SVD}
 }
 @inproceedings{Sigtia2015,
-  title={A hybrid recurrent neural network for music transcription},
-  author={Sigtia, Siddharth and Benetos, Emmanouil and Boulanger-Lewandowski, Nicolas and Weyde, Tillman and Garcez, Artur S d'Avila and Dixon, Simon},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
-  pages={2061--2065},
-  year={2015},
-  organization={IEEE}
+title={A hybrid recurrent neural network for music transcription},
+author={Sigtia, Siddharth and Benetos, Emmanouil and Boulanger-Lewandowski, Nicolas and Weyde, Tillman and Garcez, Artur S d'Avila and Dixon, Simon},
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
+pages={2061--2065},
+year={2015},
+organization={IEEE},
+url={https://arxiv.org/pdf/1411.1623.pdf},
+archi={RNN}
 }
 @inproceedings{Li2016,
-  title={A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction},
-  author={Li, Xinxing and Xianyu, Haishu and Tian, Jiashen and Chen, Wenxiao and Meng, Fanhang and Xu, Mingxing and Cai, Lianhong},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on},
-  pages={544--548},
-  year={2016},
-  organization={IEEE}
+title={A deep bidirectional long short-term memory based multi-scale approach for music dynamic emotion prediction},
+author={Li, Xinxing and Xianyu, Haishu and Tian, Jiashen and Chen, Wenxiao and Meng, Fanhang and Xu, Mingxing and Cai, Lianhong},
+booktitle={ICASSP},
+pages={544--548},
+year={2016},
+organization={IEEE},
+url={http://ieeexplore.ieee.org/document/7471734/},
+archi={RNN & BILSTM & ELM},
+task={MER}
 }
 @inproceedings{Su2016,
-  title={Convolutional neural network for robust pitch determination},
-  author={Su, Hong and Zhang, Hui and Zhang, Xueliang and Gao, Guanglai},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on},
-  pages={579--583},
-  year={2016},
-  organization={IEEE}
+title={Convolutional neural network for robust pitch determination},
+author={Su, Hong and Zhang, Hui and Zhang, Xueliang and Gao, Guanglai},
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on},
+pages={579--583},
+year={2016},
+organization={IEEE},
+url={http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf},
+archi={CNN & MLP}
 }
 @inproceedings{Holzapfel2016,
-  title={Bayesian meter tracking on learned signal representations},
-  author={Holzapfel, Andre and Grill, Thomas},
-  booktitle={ISMIR-International Conference on Music Information Retrieval},
-  pages={262--268},
-  year={2016}
+title={Bayesian meter tracking on learned signal representations},
+author={Holzapfel, Andre and Grill, Thomas},
+booktitle={ISMIR},
+pages={262--268},
+year={2016},
+url={http://www.rhythmos.org/MMILab-Andre_files/ISMIR2016_CNNDBNbeats_camready.pdf},
+archi={CNN},
+task={Beat and backbeat detection}
 }
 @inproceedings{Schluter2016,
-  title={Learning to pinpoint singing voice from weakly labeled examples},
-  author={Schlüter, Jan},
-  booktitle={Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)},
-  pages={44--50},
-  year={2016}
+title={Learning to pinpoint singing voice from weakly labeled examples},
+author={Schlüter, Jan},
+booktitle={ISMIR},
+pages={44--50},
+year={2016},
+url={http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf},
+archi={CNN},
+input={STFT}
 }
 @article{Li2015,
-  title={Automatic Instrument Recognition in Polyphonic Music Using Convolutional Neural Networks},
-  author={Li, Peter and Qian, Jiyuan and Wang, Tian},
-  journal={arXiv preprint arXiv:1511.05520},
-  year={2015}
+title={Automatic Instrument Recognition in Polyphonic Music Using Convolutional Neural Networks},
+author={Li, Peter and Qian, Jiyuan and Wang, Tian},
+journal={arXiv preprint arXiv:1511.05520},
+year={2015},
+url={https://arxiv.org/pdf/1511.05520.pdf},
+task={Instrument recognition},
+dataset={MedleyDB},
+loss={Cross-entropy},
+input={1D Freq Raw audio}
 }
 @article{Choi2015,
-  title={AURALISATION OF DEEP CONVOLUTIONAL NEURAL NETWORKS: LISTENING TO LEARNED FEATURES},
-  author={Choi, Keunwoo and Fazekas, George and Sandler, Mark and Kim, Jeonghee},
-  booktitle={ISMIR},
-  year={2015}
+title={AURALISATION OF DEEP CONVOLUTIONAL NEURAL NETWORKS: LISTENING TO LEARNED FEATURES},
+author={Choi, Keunwoo and Fazekas, George and Sandler, Mark and Kim, Jeonghee},
+booktitle={ISMIR},
+year={2015},
+url={http://ismir2015.uma.es/LBD/LBD24.pdf},
+task={Genre classification},
+dataset={Inhouse},
+input={STFT}
 }
 @article{Park2015a,
-  title={MUSIC-NOISE SEGMENTATION IN SPECTROTEMPORAL DOMAIN USING CONVOLUTIONAL NEURAL NETWORKS},
-  author={Park, Taejin and Lee, Taejin},
- year={2015}
+title={MUSIC-NOISE SEGMENTATION IN SPECTROTEMPORAL DOMAIN USING CONVOLUTIONAL NEURAL NETWORKS},
+author={Park, Taejin and Lee, Taejin},
+booktitle={ISMIR},
+url={http://ismir2015.uma.es/LBD/LBD27.pdf},
+loss={Cross-entropy},
+year={2015},
+task={Music/Noise segmentation},
+input={2D}
 }
 @article{Zhang2015,
-  title={A Deep Neural Network for Modeling Music},
-  author={Zhang, Pengjing and Zheng, Xiaoqing and Zhang, Wenqiang and Li, Siyan and Qian, Sheng and He, Wenqi and Zhang, Shangtong and Wang, Ziyuan},
-  year={2015}
+title={A Deep Neural Network for Modeling Music},
+author={Zhang, Pengjing and Zheng, Xiaoqing and Zhang, Wenqiang and Li, Siyan and Qian, Sheng and He, Wenqi and Zhang, Shangtong and Wang, Ziyuan},
+year={2015},
+url={https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf},
+archi={CNN},
+task={MGR}
 }
 @article{Park2015b,
-  title={Musical instrument sound classification with deep convolutional neural network using feature fusion approach},
-  author={Park, Taejin and Lee, Taejin},
-  journal={arXiv preprint arXiv:1512.07370},
-  year={2015}
+title={Musical instrument sound classification with deep convolutional neural network using feature fusion approach},
+author={Park, Taejin and Lee, Taejin},
+journal={arXiv preprint arXiv:1512.07370},
+year={2015},
+url={https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf},
+task={Instrument classification},
+dataset={UIOWA MIS}
 }
 @article{Simpson2015,
-  title={Deep Karaoke: Extracting Vocals from Musical Mixtures Using a Convolutional Deep Neural Network},
-  author={Simpson, Andrew JR and Roma, Gerard and Plumbley, Mark D},
-  journal={arXiv preprint arXiv:1504.04658},
-  year={2015}
+title={Deep Karaoke: Extracting Vocals from Musical Mixtures Using a Convolutional Deep Neural Network},
+author={Simpson, Andrew JR and Roma, Gerard and Plumbley, Mark D},
+journal={arXiv preprint arXiv:1504.04658},
+year={2015},
+url={https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50},
+task={Source Separation},
+input={STFT},
+dataset={MedleyDB}
 }
 @article{Sigtia2015,
-  title={An End-to-End Neural Network for Polyphonic Music Transcription},
-  author={Sigtia, Siddharth and Benetos, Emmanouil and Dixon, Simon},
-  journal={arXiv preprint arXiv:1508.01774},
-  year={2015}
+title={An End-to-End Neural Network for Polyphonic Music Transcription},
+author={Sigtia, Siddharth and Benetos, Emmanouil and Dixon, Simon},
+journal={arXiv preprint arXiv:1508.01774},
+year={2015},
+url={https://arxiv.org/pdf/1508.01774.pdf},
+input={CQT},
+task={Transcription}
 }
 @inproceedings{Grill2015,
-  title={Music Boundary Detection Using Neural Networks on Spectrograms and Self-Similarity Lag Matrices},
-  author={Grill, Thomas and Schlüter, Jan},
-  booktitle={Proceedings of the 23rd European Signal Processing Conference (EUSPICO 2015), Nice, France},
-  year={2015}
+title={Music Boundary Detection Using Neural Networks on Spectrograms and Self-Similarity Lag Matrices},
+author={Grill, Thomas and Schlüter, Jan},
+booktitle={EUSPICO},
+address={Nice, France},
+year={2015},
+url={http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf},
+input={STFT},
+task={Boundary detection},
+dataset={SALAMI}
 }
 @inproceedings{Schluter2014,
-  title={Improved musical onset detection with convolutional neural networks},
-  author={Schluter, Jan and Bock, Sebastian},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on},
-  pages={6979--6983},
-  year={2014},
-  organization={IEEE}
+title={Improved musical onset detection with convolutional neural networks},
+author={Schluter, Jan and Bock, Sebastian},
+booktitle={ICASSP},
+pages={6979--6983},
+year={2014},
+organization={IEEE},
+url={http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf},
+archi={CNN},
+task={Onset Detection},
+dataset={Inhouse},
+input={Mel-spectrogram}
 }
 @inproceedings{Dieleman2014,
-  title={End-to-end learning for music audio},
-  author={Dieleman, Sander and Schrauwen, Benjamin},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on},
-  pages={6964--6968},
-  year={2014},
-  organization={IEEE}
+title={End-to-end learning for music audio},
+author={Dieleman, Sander and Schrauwen, Benjamin},
+booktitle={ICASSP},
+pages={6964--6968},
+year={2014},
+organization={IEEE},
+url={http://ieeexplore.ieee.org/abstract/document/6854950/},
+archi={CNN},
+task={MGR},
+dataset={Magnatagatune},
+input={Raw & Mel-spectrogram}
 }
-@inproceedings{zhang2014deep,
-  title={A deep representation for invariance and music classification},
-  author={Zhang, Chiyuan and Evangelopoulos, Georgios and Voinea, Stephen and Rosasco, Lorenzo and Poggio, Tomaso},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on},
-  pages={6984--6988},
-  year={2014},
-  organization={IEEE}
+@inproceedings{Zhang2014,
+title={A deep representation for invariance and music classification},
+author={Zhang, Chiyuan and Evangelopoulos, Georgios and Voinea, Stephen and Rosasco, Lorenzo and Poggio, Tomaso},
+booktitle={ICASSP},
+pages={6984--6988},
+year={2014},
+organization={IEEE},
+url={http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7034-zhang.pdf},
+task={MGR},
+dataset={GTzan},
+archi={CNN}
 }
 @inproceedings{ullrich2014boundary,
-  title={Boundary Detection in Music Structure Analysis using Convolutional Neural Networks},
-  author={Ullrich, Karen and Schlüter, Jan and Grill, Thomas},
-  booktitle={Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014), Taipei, Taiwan},
-  year={2014}
+title={Boundary Detection in Music Structure Analysis using Convolutional Neural Networks},
+author={Ullrich, Karen and Schlüter, Jan and Grill, Thomas},
+booktitle={Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014), Taipei, Taiwan},
+year={2014}
 }
 @inproceedings{humphrey2014music,
-  title={From music audio to chord tablature: Teaching deep convolutional networks toplay guitar},
-  author={Humphrey, Eric J and Bello, Juan P},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on},
-  pages={6974--6978},
-  year={2014},
-  organization={IEEE}
+title={From music audio to chord tablature: Teaching deep convolutional networks toplay guitar},
+author={Humphrey, Eric J and Bello, Juan P},
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on},
+pages={6974--6978},
+year={2014},
+organization={IEEE}
 }
 @article{gwardys2014deep,
-  title={Deep Image Features in Music Information Retrieval},
-  author={Gwardys, Grzegorz and Grzywczak, Daniel},
-  journal={International Journal of Electronics and Telecommunications},
-  volume={60},
-  number={4},
-  pages={321--326},
-  year={2014}
+title={Deep Image Features in Music Information Retrieval},
+author={Gwardys, Grzegorz and Grzywczak, Daniel},
+journal={International Journal of Electronics and Telecommunications},
+volume={60},
+number={4},
+pages={321--326},
+year={2014}
 }
 @inproceedings{van2013deep,
-  title={Deep content-based music recommendation},
-  author={Van den Oord, Aaron and Dieleman, Sander and Schrauwen, Benjamin},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={2643--2651},
-  year={2013}
+title={Deep content-based music recommendation},
+author={Van den Oord, Aaron and Dieleman, Sander and Schrauwen, Benjamin},
+booktitle={Advances in Neural Information Processing Systems},
+pages={2643--2651},
+year={2013}
 }
 @inproceedings{dieleman2013multiscale,
-  title={Multiscale Approaches To Music Audio Feature Learning.},
-  author={Dieleman, Sander and Schrauwen, Benjamin},
-  booktitle={ISMIR},
-  pages={3--8},
-  year={2013}
+title={Multiscale Approaches To Music Audio Feature Learning.},
+author={Dieleman, Sander and Schrauwen, Benjamin},
+booktitle={ISMIR},
+pages={3--8},
+year={2013}
 }
 @inproceedings{schluter2013musical,
-  title={Musical onset detection with convolutional neural networks},
-  author={Schlüter, Jan and Böck, Sebastian},
-  booktitle={6th International Workshop on Machine Learning and Music (MML), Prague, Czech Republic},
-  year={2013}
+title={Musical onset detection with convolutional neural networks},
+author={Schlüter, Jan and Böck, Sebastian},
+booktitle={6th International Workshop on Machine Learning and Music (MML), Prague, Czech Republic},
+year={2013}
 }
 @inproceedings{nakashika2012local,
-  title={Local-feature-map Integration Using Convolutional Neural Networks for Music Genre Classification.},
-  author={Nakashika, Toru and Garcia, Christophe and Takiguchi, Tetsuya and De Lyon, Insa},
-  booktitle={INTERSPEECH},
-  year={2012}
+title={Local-feature-map Integration Using Convolutional Neural Networks for Music Genre Classification.},
+author={Nakashika, Toru and Garcia, Christophe and Takiguchi, Tetsuya and De Lyon, Insa},
+booktitle={INTERSPEECH},
+year={2012}
 }
 @inproceedings{wulfing2012unsupervised,
-  title={Unsupervised Learning of Local Features for Music Classification.},
-  author={Wülfing, Jan and Riedmiller, Martin},
-  booktitle={ISMIR},
-  pages={139--144},
-  year={2012}
+title={Unsupervised Learning of Local Features for Music Classification.},
+author={Wülfing, Jan and Riedmiller, Martin},
+booktitle={ISMIR},
+pages={139--144},
+year={2012}
 }
 @inproceedings{humphrey2012rethinking,
-  title={Rethinking automatic chord recognition with convolutional neural networks},
-  author={Humphrey, Eric J and Bello, Juan P},
-  booktitle={Machine Learning and Applications (ICMLA), 2012 11th International Conference on},
-  volume={2},
-  pages={357--362},
-  year={2012},
-  organization={IEEE}
+title={Rethinking automatic chord recognition with convolutional neural networks},
+author={Humphrey, Eric J and Bello, Juan P},
+booktitle={Machine Learning and Applications (ICMLA), 2012 11th International Conference on},
+volume={2},
+pages={357--362},
+year={2012},
+organization={IEEE}
 }
 @inproceedings{li2010automatic,
-  title={Automatic musical pattern feature extraction using convolutional neural network},
-  author={Li, Tom LH and Chan, Antoni B and Chun, A},
-  booktitle={Proc. Int. Conf. Data Mining and Applications},
-  year={2010}
+title={Automatic musical pattern feature extraction using convolutional neural network},
+author={Li, Tom LH and Chan, Antoni B and Chun, A},
+booktitle={Proc. Int. Conf. Data Mining and Applications},
+year={2010}
 }
 @article{li2010audio,
-  title={Audio musical genre classification using convolutional neural networks and pitch and tempo transformations},
-  author={Li, Lihua},
-  year={2010},
-  publisher={City University of Hong Kong}
+title={Audio musical genre classification using convolutional neural networks and pitch and tempo transformations},
+author={Li, Lihua},
+year={2010},
+publisher={City University of Hong Kong}
 }
 @inproceedings{lee2009unsupervised,
-  title={Unsupervised feature learning for audio classification using convolutional deep belief networks},
-  author={Lee, Honglak and Pham, Peter and Largman, Yan and Ng, Andrew Y},
-  booktitle={Advances in neural information processing systems},
-  pages={1096--1104},
-  year={2009}
+title={Unsupervised feature learning for audio classification using convolutional deep belief networks},
+author={Lee, Honglak and Pham, Peter and Largman, Yan and Ng, Andrew Y},
+booktitle={Advances in neural information processing systems},
+pages={1096--1104},
+year={2009}
 }
 @inproceedings{durand2015downbeat,
-  title={Downbeat tracking with multiple features and deep neural networks},
-  author={Durand, Simon and Bello, Juan P and David, Bertrand and Richard, Gaël},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
-  pages={409--413},
-  year={2015},
-  organization={IEEE}
+title={Downbeat tracking with multiple features and deep neural networks},
+author={Durand, Simon and Bello, Juan P and David, Bertrand and Richard, Gaël},
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
+pages={409--413},
+year={2015},
+organization={IEEE}
 }
 @inproceedings{uhlich2015deep,
-  title={Deep neural network based instrument extraction from music},
-  author={Uhlich, Stefan and Giron, Franck and Mitsufuji, Yuki},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
-  pages={2135--2139},
-  year={2015},
-  organization={IEEE}
+title={Deep neural network based instrument extraction from music},
+author={Uhlich, Stefan and Giron, Franck and Mitsufuji, Yuki},
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on},
+pages={2135--2139},
+year={2015},
+organization={IEEE}
 }
 @inproceedings{deng2016automatic,
-  title={Automatic chord estimation on seventhsbass chord vocabulary using deep neural network},
-  author={Deng, Junqi and Kwok, Yu-Kwong},
-  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on},
-  pages={261--265},
-  year={2016},
-  organization={IEEE}
+title={Automatic chord estimation on seventhsbass chord vocabulary using deep neural network},
+author={Deng, Junqi and Kwok, Yu-Kwong},
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on},
+pages={261--265},
+year={2016},
+organization={IEEE}
 }
 @article{korzeniowski2016feature,
-  title={Feature learning for chord recognition: the deep chroma extractor},
-  author={Korzeniowski, Filip and Widmer, Gerhard},
-  journal={arXiv preprint arXiv:1612.05065},
-  year={2016}
+title={Feature learning for chord recognition: the deep chroma extractor},
+author={Korzeniowski, Filip and Widmer, Gerhard},
+journal={arXiv preprint arXiv:1612.05065},
+year={2016}
 }
 @article{jeonglearning,
-    Author = {Jeong, Il-Young and Lee, Kyogu},
-    Journal = {Proc. of the 17th Int. Society for Music Information Retrieval Conf.(ISMIR)},
-    Title = {LEARNING TEMPORAL FEATURES USING A DEEP NEURAL NETWORK AND ITS APPLICATION TO MUSIC GENRE CLASSIFICATION},
-    Year = {2016}
+Author = {Jeong, Il-Young and Lee, Kyogu},
+Journal = {Proc. of the 17th Int. Society for Music Information Retrieval Conf.(ISMIR)},
+Title = {LEARNING TEMPORAL FEATURES USING A DEEP NEURAL NETWORK AND ITS APPLICATION TO MUSIC GENRE CLASSIFICATION},
+Year = {2016}
 }
 @article{kelz2016potential,
-  title={On the Potential of Simple Framewise Approaches to Piano Transcription},
-  author={Kelz, Rainer and Dorfer, Matthias and Korzeniowski, Filip and Böck, Sebastian and Arzt, Andreas and Widmer, Gerhard},
-  journal={arXiv preprint arXiv:1612.05153},
-  year={2016}
+title={On the Potential of Simple Framewise Approaches to Piano Transcription},
+author={Kelz, Rainer and Dorfer, Matthias and Korzeniowski, Filip and Böck, Sebastian and Arzt, Andreas and Widmer, Gerhard},
+journal={arXiv preprint arXiv:1612.05153},
+year={2016}
 }
 @inproceedings{rigaud2016singing,
-  title={Singing Voice Melody Transcription using Deep Neural Networks},
-  author={Rigaud, Fran{\c{c}}ois and Radenen, Mathieu},
-  booktitle={Proceedings of the International Conference on Music Information Retrieval (ISMIR). New York},
-  pages={737--743},
-  year={2016}
+title={Singing Voice Melody Transcription using Deep Neural Networks},
+author={Rigaud, Fran{\c{c}}ois and Radenen, Mathieu},
+booktitle={Proceedings of the International Conference on Music Information Retrieval (ISMIR). New York},
+pages={737--743},
+year={2016}
 }
 @inproceedings{Xu2017,
-  author={Yong Xu and Qiuqiang Kong and Qiang Huang and Wenwu Wang and Mark D. Plumbley},
-  title={Attention and Localization Based on a Deep Convolutional Recurrent Model for Weakly Supervised Audio Tagging},
-  year={2017},
-  booktitle={Proc. Interspeech 2017},
-  pages={3083--3087},
-  doi={10.21437/Interspeech.2017-486},
-  url={http://dx.doi.org/10.21437/Interspeech.2017-486}
+author={Yong Xu and Qiuqiang Kong and Qiang Huang and Wenwu Wang and Mark D. Plumbley},
+title={Attention and Localization Based on a Deep Convolutional Recurrent Model for Weakly Supervised Audio Tagging},
+year={2017},
+booktitle={Proc. Interspeech 2017},
+pages={3083--3087},
+doi={10.21437/Interspeech.2017-486},
+url={http://dx.doi.org/10.21437/Interspeech.2017-486}
 }
 @conference {Chandna2017,
-  title = {Monoaural Audio Source Separation Using Deep Convolutional Neural Networks},
-  booktitle = {13th International Conference on Latent Variable Analysis and Signal Separation (LVA ICA2017)},
-  year = {2017},
-  month = {Feb.},
-  keywords = {deep learning, neural networks, source separation},
-  author = {Pritish Chandna and Marius Miron and Jordi Janer and Emilia Gomez}
+title = {Monoaural Audio Source Separation Using Deep Convolutional Neural Networks},
+booktitle = {13th International Conference on Latent Variable Analysis and Signal Separation (LVA ICA2017)},
+year = {2017},
+month = {Feb.},
+keywords = {deep learning, neural networks, source separation},
+author = {Pritish Chandna and Marius Miron and Jordi Janer and Emilia Gomez}
 }
 @INPROCEEDINGS{Lewis1988,
 author={Lewis, J. P.},
@@ -335,23 +396,43 @@ pages={76--84},
 year={1988}
 }
 @inproceedings{Lewis1989,
-  title={Algorithms for music composition by neural nets: improved CBR paradigms},
-  author={Lewis, J. P.},
-  year={1989},
-  publisher={Ann Arbor, MI: Michigan Publishing, University of Michigan Library},
-  booktitle={ICMC},
-  url={https://quod.lib.umich.edu/cgi/p/pod/dod-idx/algorithms-for-music-composition.pdf?c=icmc;idno=bbp2372.1989.044;format=pdf},
-  task={Composition}
+title={Algorithms for music composition by neural nets: improved CBR paradigms},
+author={Lewis, J. P.},
+year={1989},
+publisher={Ann Arbor, MI: Michigan Publishing, University of Michigan Library},
+booktitle={ICMC},
+url={https://quod.lib.umich.edu/cgi/p/pod/dod-idx/algorithms-for-music-composition.pdf?c=icmc;idno=bbp2372.1989.044;format=pdf},
+task={Composition}
 }
 @article{Mozer1999,
-  title={Neural network music composition by prediction: Exploring the benefits of psychoacoustic constraints and multi-scale processing},
-  journal={Connection Science},
-  volume={6},
-  number={2-3},
-  pages={247--280},
-  year={1994},
-  publisher={Taylor \& Francis},
-  author={Mozer, Michael C.},
-  task={Composition},
-  url={http://www-labs.iro.umontreal.ca/~pift6080/H09/documents/papers/mozer-music.pdf}
+title={Neural network music composition by prediction: Exploring the benefits of psychoacoustic constraints and multi-scale processing},
+journal={Connection Science},
+volume={6},
+number={2-3},
+pages={247--280},
+year={1994},
+publisher={Taylor \& Francis},
+author={Mozer, Michael C.},
+task={Composition},
+url={http://www-labs.iro.umontreal.ca/~pift6080/H09/documents/papers/mozer-music.pdf}
+}
+@inproceedings{Matityaho1995,
+title={Neural network based model for classification of music type},
+author={Matityaho, Benyamin and Furst, Miriam},
+booktitle={Convention of Electrical and Electronics Engineers},
+pages={4--3},
+year={1995},
+organization={IEEE},
+address = {Israel},
+url={http://ieeexplore.ieee.org/abstract/document/514161/},
+task={MGR}
+}
+@inproceedings{Dannenberg1997,
+title={A machine learning approach to musical style recognition},
+author={Dannenberg, Roger B and Thom, Belinda and Watson, David},
+year={1997},
+publisher={University of Michigan},
+booktitle={ICMC},
+url={http://repository.cmu.edu/cgi/viewcontent.cgi?article=1496&context=compsci},
+task={MSR}
 }
