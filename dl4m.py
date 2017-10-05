@@ -16,6 +16,7 @@ Description of dl4m.py
 Parse dl4m.bib to create a simple and readable ReadMe.md table.
 
 ..todo::
+    bibtexparser accentuation handling
     error handling
     pylint
 
@@ -35,8 +36,6 @@ def read_bib(filen="dl4m.bib"):
     with open(filen, "r", encoding="utf-8") as bibtex_file:
         bibtex_str = bibtex_file.read()
     bib_database = bibtexparser.loads(bibtex_str)
-    # print(bib_database.entries)
-    # bib_database.entries[0]['author'].split(" and ")
     return bib_database.entries
 
 
@@ -99,6 +98,24 @@ def get_nb_articles(bib):
     return len(bib)
 
 
+def get_authors(bib):
+    """Description of get_authors
+    Print in authors.md the alphabetical list of authors
+    """
+    authors = []
+    for entry in bib:
+        for author in entry['author'].split(" and "):
+            authors.append(author)
+    authors = sorted(set(authors))
+    print("There are", len(authors), "researchers working on DL4M.")
+    
+    authors_fn = "authors.md"
+    with open(authors_fn, "w", encoding="utf-8") as filep:
+        for author in authors:
+            filep.write(author + "\n")
+    print("List of authors written in", authors_fn)
+
+
 def main(filen="dl4m.bib"):
     """Description of main
     Main entry point
@@ -108,6 +125,7 @@ def main(filen="dl4m.bib"):
     get_nb_articles(bib)
     articles_per_year(bib)
     generate_summary_table(bib)
+    get_authors(bib)
 
 
 if __name__ == "__main__":
