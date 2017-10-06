@@ -62,11 +62,6 @@ def generate_summary_table(bib):
     """Description of generate_summary_table
     Parse dl4m.bib to create a simple and readable ReadMe.md table.
     """
-
-    # tmp_bib = bib[0]
-    # for entry in bib:
-    #     if entry[""]
-
     articles = ""
     for entry in bib:
         if "title" in entry:

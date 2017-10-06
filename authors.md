@@ -5,7 +5,6 @@ Bammer, Roswitha
 Barbieri, Francesco
 Bazzica, A
 Bello, Juan P
-Bello, Juan P.
 Bello, Juan Pablo
 Ben-Tal, Oded
 Benetos, Emmanouil

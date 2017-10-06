@@ -188,6 +188,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 ## Statistics and visualisations
 
 - 135 articles currently referenced.
+- 281 unique researchers currently referenced. List available here: [authors.md](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
