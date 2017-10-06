@@ -16,7 +16,6 @@ Description of dl4m.py
 Parse dl4m.bib to create a simple and readable ReadMe.md table.
 
 ..todo::
-    remove duplicates
     sort bib
     add Fig for tasks, wordcloud, dataaugmentation
     bibtexparser accentuation handling
@@ -134,7 +133,7 @@ def get_authors(bib):
     with open(authors_fn, "w", encoding="utf-8") as filep:
         filep.write("# List of authors\n\n")
         for author in authors:
-            filep.write(author + "\n")
+            filep.write("- " + author + "\n")
     print("List of authors written in", authors_fn)
 
 
