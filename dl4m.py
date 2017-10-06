@@ -18,7 +18,7 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
 ..todo::
     remove duplicates
     sort bib
-    add task fig
+    add Fig for tasks, wordcloud, dataaugmentation
     bibtexparser accentuation handling
     error handling
     pylint
