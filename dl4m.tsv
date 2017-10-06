@@ -134,3 +134,4 @@ Algorithms for music composition by neural nets: Improved cbr paradigms	Lewis	19
 A connectionist approach to algorithmic composition	Todd	1989	CMJ	https://www.jstor.org/stable/3679551	No	No							Composition			
 Creation by refinement: a creativity paradigm for gradient descent learning networks	Lewis	1988	IEEE_ICNN	http://ieeexplore.ieee.org/document/23933/	No	No							Composition			
 A sequential network design for musical applications	Todd	1988	Connectionist Models Summer School													
+A Hybrid DSP/Deep Learning Approach to Real-Time Full-Band Speech Enhancement	Valin	2017		https://arxiv.org/pdf/1709.08243.pdf	https://github.com/xiph/rnnoise/		RNN		BFCC (22), 1st and 2nd derivatives of first 6 BFCCs, 6 coefficients of DCT of pitch correlation, pitch period, spectral non-stationary metric	4	Custom	No	Noise suppression	 McGill TSP speech database, NTT Multi-Lingual Speech Database for Telephonometry		
