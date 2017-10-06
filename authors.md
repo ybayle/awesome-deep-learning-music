@@ -43,6 +43,7 @@
 - Dixon, Simon
 - Doerfler, Monika
 - Dorfer, Matthias
+- Duppada, Venkatesh
 - Durand, Simon
 - Ellis, Daniel PW
 - Emilia Gomez
@@ -81,6 +82,7 @@
 - Herrera, Jorge
 - Hershey, Shawn
 - Hertel, Lars
+- Hiray, Sushant
 - Hirvonen, Toni
 - Hockman, Jason
 - Holzapfel, Andre

@@ -48,6 +48,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Multiscale approaches to music audio feature learning](http://ismir2013.ismir.net/wp-content/uploads/2013/09/69_Paper.pdf) | No |
 | [End-to-end learning for music audio](http://ieeexplore.ieee.org/abstract/document/6854950/) | No |
 | [Basic filters for convolutional neural networks: Training or design?](https://arxiv.org/pdf/1709.02291.pdf) | No |
+| [Ensemble Of Deep Neural Networks For Acoustic Scene Classification](https://arxiv.org/pdf/1708.05826.pdf) | No |
 | [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | No |
 | [Robust downbeat tracking using an ensemble of convolutional networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | No |
 | [Music signal processing using vector product neural networks](http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf) | No |
@@ -192,7 +193,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 135 articles currently referenced.
+- 137 articles currently referenced.
 - 281 unique researchers currently referenced. List available here: [authors.md](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
