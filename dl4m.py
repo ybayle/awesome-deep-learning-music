@@ -30,6 +30,15 @@ import sys
 import bibtexparser
 import numpy as np
 import matplotlib.pyplot as plt
+from bibtexparser.bwriter import BibTexWriter
+
+
+def write_bib(bib_database, filen="dl4m.bib"):
+    writer = BibTexWriter()
+    writer.indent = '  '
+    writer.order_entries_by = ('noneyear', "author")
+    with open(filen, "w", encoding="utf-8") as bibfile:
+        bibfile.write(writer.write(bib_database))
 
 
 def read_bib(filen="dl4m.bib"):
@@ -39,18 +48,30 @@ def read_bib(filen="dl4m.bib"):
     with open(filen, "r", encoding="utf-8") as bibtex_file:
         bibtex_str = bibtex_file.read()
     bib_database = bibtexparser.loads(bibtex_str)
-    return bib_database.entries
+    return bib_database
+
+
+def load_bib(filen="dl4m.bib"):
+    bib = read_bib(filen)
+    write_bib(bib, filen)
+    bib = read_bib(filen)
+    return bib.entries
 
 
 def generate_summary_table(bib):
     """Description of generate_summary_table
     Parse dl4m.bib to create a simple and readable ReadMe.md table.
     """
+
+    # tmp_bib = bib[0]
+    # for entry in bib:
+    #     if entry[""]
+
     articles = ""
     for entry in bib:
         if "title" in entry:
-            if "url" in entry:
-                articles += "| [" + entry["title"] + "](" + entry["url"] + ") | "
+            if "link" in entry:
+                articles += "| [" + entry["title"] + "](" + entry["link"] + ") | "
             else:
                 articles += "| " + entry["title"] + " | "
             if "code" in entry:
@@ -62,6 +83,8 @@ def generate_summary_table(bib):
                     else:
                         articles += "[Website"
                     articles += "](" + entry["code"] + ") "
+            else:
+                articles += "No "
             articles += "|\n"
     table_fn = "paste_in_ReadMe.md"
     with open(table_fn, "w", encoding="utf-8") as filep:
@@ -124,7 +147,7 @@ def main(filen="dl4m.bib"):
     Main entry point
     input: file name storing articles details
     """
-    bib = read_bib(filen)
+    bib = load_bib(filen)
     get_nb_articles(bib)
     articles_per_year(bib)
     generate_summary_table(bib)
