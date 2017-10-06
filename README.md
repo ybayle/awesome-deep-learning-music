@@ -163,11 +163,14 @@ However, these surveys do not cover music information retrieval tasks that are i
 ## DL4M details
 
 All details for each article are stored in the corresponding bib entry in [dl4m.bib](dl4m.bib). Each entry has the regular bib field:
+
 - `author`
 - `year`
 - `title`
 - `journal` or `booktitle`
+
 Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
+
 - `link` - HTML link to the PDF file
 - `code` - Link to the source code if available
 - `archi` - Neural network architecture

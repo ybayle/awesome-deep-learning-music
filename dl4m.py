@@ -132,6 +132,7 @@ def get_authors(bib):
     
     authors_fn = "authors.md"
     with open(authors_fn, "w", encoding="utf-8") as filep:
+        filep.write("# List of authors\n\n")
         for author in authors:
             filep.write(author + "\n")
     print("List of authors written in", authors_fn)
