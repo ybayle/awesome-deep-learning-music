@@ -234,6 +234,7 @@ Todd, Peter M.
 Tsipas, Nikolaos
 Uhlich, Stefan
 Ullrich, Karen
+Valin, Jean-Marc
 Van Gool, Luc
 Van den Oord, Aaron
 Velarde, Gissel

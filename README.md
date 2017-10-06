@@ -144,6 +144,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A connectionist approach to algorithmic composition](http://www.jstor.org/stable/3679551) | No |
 | [Deep neural network based instrument extraction from music](https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf) | No |
 | [Boundary detection in music structure analysis using convolutional neural networks](https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf) | No |
+| [A hybrid DSP/deep learning approach to real-time full-band speech enhancement](https://arxiv.org/pdf/1709.08243.pdf) | [GitHub](https://github.com/xiph/rnnoise/) |
 | [Deep content-based music recommendation](http://papers.nips.cc/paper/5004-deep-content-based-music-recommendation.pdf) | No |
 | [Convolutional methods for music analysis](http://vbn.aau.dk/files/260308151/PHD_Gissel_Velarde_E_pdf.pdf) | No |
 | [Extending temporal feature integration for semantic audio analysis](http://www.aes.org/e-lib/browse.cfm?elib=18682) | No |
