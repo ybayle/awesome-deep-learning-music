@@ -162,22 +162,23 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## DL4M details
 
-- [dl4m.bib](dl4m.bib) - the corresponding bibliography.
-- [dl4m.tsv](dl4m.tsv) - more details about each article:
-	- First author name
-	- Publication year
-	- Article name
-	- PDF link
-	- Source code link
-	- Source code reproducible (Yes/No) If Yes, indicates to what extent
-	- Neural network architecture
-	- Number of layers
-	- Task
-	- Dataset
-	- Computation time
-	- Hardware
-	- Data augmentation technique if used
-	- Additional notes
+All details for each article are stored in the corresponding bib entry in [dl4m.bib](dl4m.bib). Each entry has the regular bib field:
+- `author`
+- `year`
+- `title`
+- `journal` or `booktitle`
+Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
+- `link` - HTML link to the PDF file
+- `code` - Link to the source code if available
+- `archi` - Neural network architecture
+- `layer` - Number of layers
+- `task` - The proposed tasks studied in the article
+- `dataset` - The names of the dataset used
+- `dataaugmentation` - The type of data augmentation technique used
+- `time` - The computation time
+- `hardware` - The hardware used
+- `note` - Additional notes and information
+- `repro` - Indication to what extent the experiments are reproducible
 
 ## Code without articles
 
@@ -195,22 +196,14 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## How To Contribute
 
-1. Adding/Updating information
-	1. Fork the repo.
-	2. Add one line per article in [dl4m.tsv](dl4m.tsv) with every column correctly filled.
-	3. Submit your pull request and that's it! (Note: the table in the ReadMe is automatically generated thanks to a python script.)
-2. Visualisation
-	- Please submit your idea for new visualisation of the data
-	- I am looking for a way to display relations between articles automatically like a mindmap. Tell me if you know anything able to handle that.
+Contributions are welcome!
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## FAQ
 
-> Why a tsv file instead of a regular csv file for storing the detailed information about the articles?
+> How are the articles sorted?
 
-Because:
-1. Some articles have a comma in their title and the .bib of each article contains commas.
-2. [GitHub currently only displays csv and tsv files](https://help.github.com/articles/rendering-csv-and-tsv-data/).
-The built-in GitHub csv/tsv parser is handy because you can easily take a glance at the file in your browser without downloading anything.
+The articles are first sorted by decreasing year (to keep up with the latest news) and then alphabetically by the main author's family name.
 
 > Why are preprint from arXiv included in the list?
 
@@ -219,10 +212,6 @@ I want to have exhaustive research and the latest news on DL4M. However, one sho
 > How much can I trust the results published in an article?
 
 The list provided here does not guarantee the quality of the articles. You should either try to reproduce the experiments described or submit a request to [ReScience](https://github.com/ReScience/ReScience). Use one article's conclusion at your own risks.
-
-> How are the articles sorted?
-
-In [dl4m.tsv](dl4m.tsv), the articles are first sorted by decreasing year (to keep up with the latest news) and then alphabetically by author's family name.
 
 ## Acronyms used
 
