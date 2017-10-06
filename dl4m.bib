@@ -514,7 +514,7 @@ task={MSR}
 }
 @article{Bammer2017,
   title={Gabor frames and deep scattering networks in audio processing},
-  author={Bammer, Roswitha and Dörfler, Monika},
+  author={Bammer, Roswitha and Doerfler, Monika},
   journal={arXiv preprint arXiv:1706.08818},
   year={2017},
   url={https://arxiv.org/pdf/1706.08818.pdf}
@@ -547,7 +547,7 @@ task={MSR}
   title={Machine listening intelligence},
   author={Cella, Carmine-Emanuele},
   booktitle={IWDLM},
-  year={2017},,
+  year={2017},
   url={http://dorienherremans.com/dlm2017/papers/cella2017mli.pdf}
 }
 @inproceedings{Chen2017,
@@ -598,29 +598,217 @@ task={MSR}
   archi={CRNN},
   task={MGR}
 }
+@article{Costa2017,
+  title={An evaluation of Convolutional Neural Networks for music classification using spectrograms},
+  author={Costa, Yandre MG and Oliveira, Luiz S and Silla, Carlos N},
+  journal={Applied Soft Computing},
+  volume={52},
+  pages={28--38},
+  year={2017},
+  publisher={Elsevier},
+  url={http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf},
+  archi={CNN},
+  dataset={LMD}
+}
+@article{Deng2017,
+  title={Large Vocabulary Automatic Chord Estimation Using Deep Neural Nets: Design Framework, System Variations and Limitations},
+  author={Deng, Junqi and Kwok, Yu-Kwong},
+  journal={arXiv preprint arXiv:1709.07153},
+  year={2017},
+  url={https://arxiv.org/pdf/1709.07153.pdf}
+}
+@article{Doerfler2017,
+  title={Basic Filters for Convolutional Neural Networks: Training or Design?},
+  author={Doerfler, Monika and Grill, Thomas and Bammer, Roswitha and Flexer, Arthur},
+  journal={arXiv preprint arXiv:1709.02291},
+  year={2017},
+  url={https://arxiv.org/pdf/1709.02291.pdf},
+  task={CNN},
+  input={Raw & Mel-spectrogram},
+  task={SVD},
+  dataset={Inhouse},
+  optimizer={Adam},
+  lr={0.001}
+}
+@inproceedings{Fan2017,
+  title={Music Signal Processing Using Vector Product Neural Networks},
+  author={Fan, Zhe-Cheng and Chan, TS and Yang, Yi-Hsuan and Jang, Jyh-Shing R},
+  booktitle={IWDLM},
+  year={2017},
+  url={http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf},
+  archi={VPNN & DNN},
+  task={SVS},
+  dataset={iKala}
+}
+@inproceedings{geng2017transforming,
+  title={Transforming Musical Signals through a Genre Classifying Convolutional Neural Network},
+  booktitle={IWDLM},
+  author={Geng, Shijia and Ren, Gang and Ogihara, Mitsunori},
+  year={2017},
+  url={http://dorienherremans.com/dlm2017/papers/geng2017genre.pdf},
+  archi={CNN},
+  task={Composition},
+  dataset={https://sites.google.com/site/modificationofmusicsignals/audio-files}
+}
+@inproceedings{Gong2017,
+  title={Audio to score matching by combining phonetic and duration information},
+  author={Gong, Rong and Pons, Jordi and Serra, Xavier},
+  booktitle={ISMIR},
+  year={2017},
+  url={https://arxiv.org/pdf/1707.03547.pdf},
+  code={https://github.com/ronggong/jingjuSingingPhraseMatching/tree/v0.1.0}
+}
+@article{Hadjeres2017a,
+  title={Interactive Music Generation with Positional Constraints using Anticipation-RNNs},
+  author={Hadjeres, Gaëtan and Nielsen, Frank},
+  journal={arXiv preprint arXiv:1709.06404},
+  year={2017},
+  url={https://arxiv.org/pdf/1709.06404.pdf},
+  archi={ARNN},
+  task={Composition}
+}
+@article{Hadjeres2017b,
+  title={Deep rank-based transposition-invariant distances on musical sequences},
+  author={Hadjeres, Gaëtan and Nielsen, Frank},
+  journal={arXiv preprint arXiv:1709.00740},
+  year={2017},
+  url={https://arxiv.org/pdf/1709.00740.pdf}
+}
+@article{Hadjeres2017c,
+  title={GLSR-VAE: Geodesic Latent Space Regularization for Variational AutoEncoder Architectures},
+  author={Hadjeres, Gaëtan and Nielsen, Frank and Pachet, François},
+  journal={arXiv preprint arXiv:1707.04588},
+  year={2017},
+  url={https://arxiv.org/pdf/1707.04588.pdf}
+}
+@inproceedings{Hadjeres2016d,
+  title={DeepBach: a Steerable Model for Bach chorales generation},
+  author={Hadjeres, Gaëtan and Pachet, François},
+  booktitle={ICML},
+  year={2016},
+  url={https://arxiv.org/pdf/1612.01010.pdf},
+  code={https://github.com/Ghadjeres/DeepBach}
+}
+@article{Han2017,
+  title={Deep convolutional neural networks for predominant instrument recognition in polyphonic music},
+  author={Han, Yoonchang and Kim, Jaehun and Lee, Kyogu and Han, Yoonchang and Kim, Jaehun and Lee, Kyogu},
+  journal={IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP)},
+  volume={25},
+  number={1},
+  pages={208--221},
+  year={2017},
+  publisher={IEEE Press},
+  url={http://dl.acm.org/citation.cfm?id=3068697},
+  archi={CNN},
+  task={Instrument recognition},
+  dataset={IRMAS}
+}
+@inproceedings{Hershey2017,
+  title={CNN architectures for large-scale audio classification},
+  author={Hershey, Shawn and Chaudhuri, Sourish and Ellis, Daniel PW and Gemmeke, Jort F and Jansen, Aren and Moore, R Channing and Plakal, Manoj and Platt, Devin and Saurous, Rif A and Seybold, Bryan and others},
+  booktitle={ICASSP},
+  pages={131--135},
+  year={2017},
+  organization={IEEE},
+  url={https://arxiv.org/pdf/1609.09430v2.pdf},
+  archi={CNN}
+}
+@inproceedings{Hsu2017,
+  title={DeepSheet: A sheet music generator based on deep learning},
+  author={Hsu, Yu-Lun and Lin, Chi-Po and Lin, Bo-Chen and Kuo, Hsu-Chan and Cheng, Wen-Huang and Hu, Min-Chun},
+  booktitle={IEEE_ICME},
+  pages={285--290},
+  year={2017},
+  organization={IEEE},
+  url={http://ieeexplore.ieee.org/abstract/document/8026272/},
+  task={Composition}
+}
+@inproceedings{Hutchings2017,
+  title={Talking Drums: Generating drum grooves with neural networks},
+  author={Hutchings, P.},
+  booktitle={IWDLM},
+  year={2017},
+  url={http://dorienherremans.com/dlm2017/papers/hutchings2017drums.pdf},
+  archi={RNN},
+  task={Composition}
+}
+@inproceedings{Jeon2017,
+  title={Music Emotion Recognition via End-to-End Multimodal Neural Networks},
+  author={Jeon, Byungsoo and Kim, Chanju and Kim, Adrian and Kim, Dongwon and Park, Jangyeon and Ha, Jung-Woo},
+  url={http://ceur-ws.org/Vol-1905/recsys2017_poster18.pdf},
+  task={MER},
+  dataset={Inhouse},
+  booktitle={RECSYS},
+  archi={CNN}
+}
+@inproceedings{Koops2017,
+  title={Chord Label Personalization through Deep Learning of Integrated Harmonic Interval-based Representations},
+  author={Koops, Hendrik Vincent and de Haas, W Bas and Bransen, Jeroen and Volk, Anja},
+  booktitle={IWDLM},
+  year={2017},
+  url={http://dorienherremans.com/dlm2017/papers/koops2017pers.pdf}
+}
+@article{Korzeniowski2017,
+  title={End-to-End Musical Key Estimation Using a Convolutional Neural Network},
+  author={Korzeniowski, Filip and Widmer, Gerhard},
+  journal={arXiv preprint arXiv:1706.02921},
+  year={2017},
+  url={https://arxiv.org/pdf/1706.02921.pdf}
+}
+@inproceedings{Koutini2017,
+  title={MediaEval 2017 AcousticBrainz Genre Task: Multilayer Perceptron Approach},
+  author={Koutini, Khaled and Imenina, Alina and Dorfer, Matthias and Gruber, Alexander Rudolf and Schedl, Markus},
+  booktitle={MediaEval},
+  url={http://www.cp.jku.at/research/papers/Koutini_2017_mediaeval-acousticbrainz.pdf}
+}
+@inproceedings{Lee2017a,
+  title={Sample-level Deep Convolutional Neural Networks for Music Auto-tagging Using Raw Waveforms},
+  author={Lee, Jongpil and Park, Jiyoung and Kim, Keunhyoung Luke and Nam, Juhan},
+  booktitle={SMC},
+  year={2017},
+  url={https://arxiv.org/pdf/1703.01789v2.pdf}
+}
+@article{Lee2017b,
+  title={Multi-Level and Multi-Scale Feature Aggregation Using Pre-trained Convolutional Neural Networks for Music Auto-tagging},
+  author={Lee, Jongpil and Nam, Juhan},
+  journal={IEEE SIGNAL PROCESSING LETTERS},
+  year={2017},
+  url={https://arxiv.org/pdf/1703.01793v2.pdf}
+}
+@article{Lee2017c,
+  title={Multi-Level and Multi-Scale Feature Aggregation Using Sample-level Deep Convolutional Neural Networks for Music Classification},
+  author={Lee, Jongpil and Nam, Juhan},
+  journal={arXiv preprint arXiv:1706.06810},
+  year={2017},
+  url={https://arxiv.org/pdf/1706.06810.pdf},
+  code={https://github.com/jongpillee/musicTagging_MSD},
+  dataset={MSD}
+}
+@inproceedings{Lim2017,
+  title={Harmonic and Percussive Source Separation Using a Convolutional Auto Encoder},
+  author={Lim, Wootaek and Lee, Taejin},
+  booktitle={EUSIPCO},
+  url={http://www.eurasip.org/Proceedings/Eusipco/Eusipco2017/papers/1570346835.pdf},
+  task={Source separation},
+  dataset={DSD100},
+  archi={CNN}
+}
+@inproceedings{Miron2017a,
+  title={Generating data to train convolutional neural networks for classical music source separation},
+  author={Miron, Marius and Janer Mestres, Jordi and G{\'o}mez Guti{\'e}rrez, Emilia},
+  booktitle={SMC},
+  month={Jul.},
+  address={Espoo, Finland},
+  pages={227},
+  year={2017},
+  organization={Aalto University},
+  url={https://www.researchgate.net/profile/Marius_Miron/publication/318322107_Generating_data_to_train_convolutional_neural_networks_for_classical_music_source_separation/links/59637cc3458515a3575b93c6/Generating-data-to-train-convolutional-neural-networks-for-classical-music-source-separation.pdf?_iepl%5BhomeFeedViewId%5D=WchoMnlUL1Hk9hBLVTeR8Amh&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=p3lQ8M4uZlb4TF5Hv9a2U3P2y4wW7ant5KWj4E5-OcD1Mg53p1ykTKHMG9_zVTB9n6mI8fvZOCL2Xhpru186pCEY-2ZxiYR-CB8_QvwHc1kUG-QE4SHdProR.LoJb2BDOiiQth3iR9xgZUxxCWEJgtTBF4whFrFa01OD49-3YYRxA0WQVN--zhtQU_7C2Pt0rKdwoFxT1pfxFvnKXSXmy2eT1Jpz-pw.U1QLoFO_Uc6aQVr2Nm2FcAi6BqAUfngH2Or5__6wegbCgVvTYoIGt22tmCkYbGTOQ_4PxBgt1LrvsFQiL0oMyogP8Yk8myTj0gs9jw.fGpkufGqAI4R2v8Hfe0ThcXL7M7yN2PuAlx974BGVn50SdUWvNhhIPWBD-zWTn8NKtVJx3XrjKXFrMgi9Cx7qGrNP8tBWpha6Srf6g},
+  archi={CNN},
+  task={Source separation},
+  dataset={RWC & Bach10},
+  code={https://github.com/MTG/DeepConvSep}
+}
 
-An evaluation of convolutional neural networks for music classification using spectrograms  Costa   2017        http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf    No  No  CNN                         LMD     
-Large vocabulary automatic chord estimation using deep neural nets: design framework, system variations and limitations Deng    2017    arXiv   https://arxiv.org/pdf/1709.07153.pdf                                                
-Basic Filters for Convolutional Neural Networks: Training or Design?    Doerfler    2017    arXiv   https://arxiv.org/pdf/1709.02291.pdf    No  No  CNN     Mel-spectro & raw signal    1 to 7      No  SVD Inhouse Adam & lr=0.001 
-Music signal processing using vector product neural networks    Fan 2017    IWDLM   http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf No  No  VPNN & DNN                  No  SVS iKala       
-Transforming musical signals through a genre classifying convolutional neural network   Geng    2017    IWDLM   http://dorienherremans.com/dlm2017/papers/geng2017genre.pdf No  No  CNN         3       No  Composition     https://sites.google.com/site/modificationofmusicsignals/audio-files    
-Audio to score matching by combining phonetic and duration information  Gong    2017    ISMIR   https://arxiv.org/pdf/1707.03547.pdf    https://github.com/ronggong/jingjuSingingPhraseMatching/tree/v0.1.0                                         
-Interactive music generation with positional constraints using anticipation-RNNs    Hadjeres    2017    arXiv   https://arxiv.org/pdf/1709.06404.pdf    No  No  ARNN                        Composition         
-Deep rank-based transposition-invariant distances on musical sequences  Hadjeres    2017    arXiv   https://arxiv.org/pdf/1709.00740.pdf    No  No                                      
-GLSR-VAE: geodesic latent space regularization for variational autoencoder architectures    Hadjeres    2017    arXiv   https://arxiv.org/pdf/1707.04588.pdf    No  No                                      
-DeepBach: a steerable model for Bach chorales generation    Hadjeres    2017    ICML    https://arxiv.org/pdf/1612.01010.pdf    https://github.com/Ghadjeres/DeepBach                               Composition         
-Deep convolutional neural networks for predominant instrument recognition in polyphonic music   Han 2017        http://dl.acm.org/citation.cfm?id=3068697   No  No  CNN                     Instrument recognition  IRMAS       
-CNN architectures for large-scale audio classification  Hershey 2017    ICASSP  https://arxiv.org/pdf/1609.09430v2.pdf  No  No  CNN                                 
-DeepSheet: A sheet music generator based on deep learning   Hsu 2017    IEEE_ICME   http://ieeexplore.ieee.org/abstract/document/8026272/                                   Composition         
-Talking Drums: Generating drum grooves with neural networks Hutchings   2017    IWDLM   http://dorienherremans.com/dlm2017/papers/hutchings2017drums.pdf            RNN         3           Composition         
-Music emotion recognition via end-to-end multimodal neural networks Jeon    2017    RECSYS  http://ceur-ws.org/Vol-1905/recsys2017_poster18.pdf No  No  CNN                     MER Inhouse     
-Chord label personalization through deep learning of integrated harmonic interval-based representations Koops   2017    IWDLM   http://dorienherremans.com/dlm2017/papers/koops2017pers.pdf No  No                                      
-End-to-end musical key estimation using a convolutional neural network  Korzeniowski    2017        https://arxiv.org/pdf/1706.02921.pdf                                                
-MediaEval 2017 AcousticBrainz genre task: multilayer perceptron approach    Koutini 2017    MediaEval   http://www.cp.jku.at/research/papers/Koutini_2017_mediaeval-acousticbrainz.pdf  No  Yes                                     
-Sample-level deep convolutional neural networks for music auto-tagging using raw waveforms  Lee 2017    SMC https://arxiv.org/pdf/1703.01789v2.pdf                                              
-Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification  Lee 2017        https://arxiv.org/pdf/1706.06810.pdf    https://github.com/jongpillee/musicTagging_MSD                                  MSD     
-Harmonic and percussive source separation using a convolutional auto encoder    Lim 2017    EUSIPCO http://www.eurasip.org/Proceedings/Eusipco/Eusipco2017/papers/1570346835.pdf    No  No  CNN                     Source separation   DSD100      
-Generating data to train convolutional neural networks for classical music source separation    Miron   2017    SMC https://www.researchgate.net/profile/Marius_Miron/publication/318322107_Generating_data_to_train_convolutional_neural_networks_for_classical_music_source_separation/links/59637cc3458515a3575b93c6/Generating-data-to-train-convolutional-neural-networks-for-classical-music-source-separation.pdf?_iepl%5BhomeFeedViewId%5D=WchoMnlUL1Hk9hBLVTeR8Amh&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=p3lQ8M4uZlb4TF5Hv9a2U3P2y4wW7ant5KWj4E5-OcD1Mg53p1ykTKHMG9_zVTB9n6mI8fvZOCL2Xhpru186pCEY-2ZxiYR-CB8_QvwHc1kUG-QE4SHdProR.LoJb2BDOiiQth3iR9xgZUxxCWEJgtTBF4whFrFa01OD49-3YYRxA0WQVN--zhtQU_7C2Pt0rKdwoFxT1pfxFvnKXSXmy2eT1Jpz-pw.U1QLoFO_Uc6aQVr2Nm2FcAi6BqAUfngH2Or5__6wegbCgVvTYoIGt22tmCkYbGTOQ_4PxBgt1LrvsFQiL0oMyogP8Yk8myTj0gs9jw.fGpkufGqAI4R2v8Hfe0ThcXL7M7yN2PuAlx974BGVn50SdUWvNhhIPWBD-zWTn8NKtVJx3XrjKXFrMgi9Cx7qGrNP8tBWpha6Srf6g https://github.com/MTG/DeepConvSep      CNN                     Source separation   RWC & Bach10        
 Monaural score-informed source separation for classical music using convolutional neural networks   Miron   2017    ISMIR   https://www.researchgate.net/profile/Marius_Miron/publication/318637038_Monaural_score-informed_source_separation_for_classical_music_using_convolutional_neural_networks/links/597327c6458515e26dfdb007/Monaural-score-informed-source-separation-for-classical-music-using-convolutional-neural-networks.pdf?_iepl%5BhomeFeedViewId%5D=WchoMnlUL1Hk9hBLVTeR8Amh&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=Hp6dDqMepEiRZ5E6WkreaqyjFkFkwMxPFoJvr14etVJsoKZBc5qb99fBnJjVUZrRHLFRhaXvNY9k1sMvYPOouuGbQP0YhEGm28zLw_55Zewu86WGnHck1Tqi.93HH2WqXfTedn6IaZRjjhQGYZVDHBz1X6nr4ABBgMAVv584gvGN3sW5IyBAY-4MBWf5DJFPBGm8zsaC2dKz8G-odZPfosWoXY0afAQ.KoCP2mO9l31lCER0oMZMZBrbuRGvb6ZzeBwHb88pL8AhMfJk03Hj1eLrohQIjPDETBj4hhqb0gniDGJgtZ9GnW64ZNjh9GbQDrIl5A.egNQTyC7t8P26zCQWrbEhf51Pxy2JRBZoTkH6SpRHHhRhFl1_AT_AT481lMcFI34-JbeRq-5oTQR7DpvAuw7iUIivd78ltuxpI9syg   https://github.com/MTG/DeepConvSep      CNN                     Source separation   Bach10      
 Monaural score-informed source separation for classical music using convolutional neural networks   Miron   2017    ISMIR   https://www.researchgate.net/profile/Marius_Miron/publication/318637038_Monaural_score-informed_source_separation_for_classical_music_using_convolutional_neural_networks/links/597327c6458515e26dfdb007/Monaural-score-informed-source-separation-for-classical-music-using-convolutional-neural-networks.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=Xlvhp7_af0NtWzNjBDJMwVFZKXVR_wdy_LSzWeqrWPW_tzGn8rP1TzAOGjBsa5_aQv792tcOmiSt-dV_bV4F3ILb4fLgeUdXuVGe1VdfLfN0ir7Snqiibz4B.nlqiciBhaFRxXVKWmAZPoO8pWJboNtFtNTJMHipjYmAQFU-zpAG-rm1X_c4T8iUbzCIiZ6Pt9lcgkwFebf6I0AsV4c2X5pyeqUafcg.3gQ-LC6mPG47tnGNCPZb6ZvtZgGhK34UJBpBebt8sKK-b2grBaqp0oFOxPj1J70Jln1UVmV64O0qySfw_04TnVJysDd8eSoQf2T7rQ.jqs7NDRUVlKLwic8ZIqLf0CQfUVaebyBESVFo-ndM6yfTpUlJiEG1DV7jvQpYQl_tRnnfCpkyv8BXYq-U6Cub_Ys3BW5BqVMFdon3A  https://github.com/MTG/DeepConvSep      CNN                     Source separation           
 A deep multimodal approach for cold-start music recommendation  Oramas  2017    DLRS    https://arxiv.org/pdf/1706.09739.pdf    https://github.com/sergiooramas/tartarus        CNN                     Recommendation  MSD     
@@ -676,3 +864,4 @@ Learning sparse feature representations for music annotation and retrieval  Nam 
 Audio-based music classification with a pretrained convolutional network    Dieleman    2011    ISMIR   http://www.ismir2011.ismir.net/papers/PS6-3.pdf                                             
 A convolutional-kernel based approach for note onset detection in piano-solo audio signals  Nava    2004        http://www.murase.nuie.nagoya-u.ac.jp/~ide/res/paper/E04-conference-pablo-1.pdf                                             
 A supervised learning approach to musical style recognition Buzzanca    2002        https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf                                             
+replace arxiv with unpublished
