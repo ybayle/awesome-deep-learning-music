@@ -194,7 +194,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 ## Statistics and visualisations
 
 - 137 articles currently referenced.
-- 281 unique researchers currently referenced. List available here: [authors.md](authors.md).
+- 284 unique researchers currently referenced. List available here: [authors.md](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 

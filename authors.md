@@ -6,7 +6,6 @@
 - Bammer, Roswitha
 - Barbieri, Francesco
 - Bazzica, A
-- Bello, Juan P
 - Bello, Juan Pablo
 - Ben-Tal, Oded
 - Benetos, Emmanouil
@@ -45,7 +44,7 @@
 - Dorfer, Matthias
 - Duppada, Venkatesh
 - Durand, Simon
-- Ellis, Daniel PW
+- Ellis, Daniel P. W.
 - Emilia Gomez
 - Evangelopoulos, Georgios
 - Fan, Zhe-Cheng
@@ -59,7 +58,7 @@
 - Gao, Guanglai
 - Garcez, Artur S d'Avila
 - Garcia, Christophe
-- Gemmeke, Jort F
+- Gemmeke, Jort F.
 - Gencoglu, Oguzhan
 - Geng, Shijia
 - Giron, Franck
@@ -154,7 +153,7 @@
 - Mertins, Alfred
 - Miron, Marius
 - Mitsufuji, Yuki
-- Moore, R Channing
+- Moore, R. Channing
 - Mouret, Florian
 - Mozer, Michael C.
 - Mo{\'n}ko, J{\k{e}}drzej
@@ -202,7 +201,7 @@
 - Sandler, Mark
 - Santos, Joao Felipe
 - Santoso, Andri
-- Saurous, Rif A
+- Saurous, Rif A.
 - Schedl, Markus
 - Scherer, Klaus R
 - Schluter, Jan
@@ -257,10 +256,12 @@
 - Wang, Ye
 - Wang, Ziyuan
 - Watson, David
+- Weiss, Ron J.
 - Weninger, Felix
 - Wenwu Wang
 - Weyde, Tillman
 - Widmer, Gerhard
+- Wilson, Kevin
 - Wu, Chung-Hsien
 - Wu, Raymond
 - Wyse, Lonce
@@ -282,5 +283,4 @@
 - Zheng, Xiaoqing
 - Zhou, Ruohua
 - de Haas, W Bas
-- others
 - van Gemert, JC

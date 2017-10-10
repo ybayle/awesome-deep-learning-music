@@ -28,11 +28,12 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | LSTM | Long Short-Term Memory |
 | MER | Music Emotion Recognition |
 | MLP | Multi-Layer Perceptron |
+| MRS | Music Recommender System |
 | MSDAE | Modified Sparse Denoising Autoencoder |
 | MSR | Music Style Recognition |
 | NN | Neural Network |
 | PReLU | Parametric Rectified Linear Unit |
-| RANSAC | RANdom SAmple Concesus |
+| RANSAC | RANdom SAmple Consensus |
 | RBM | Restricted Boltzmann Machine |
 | ReLU | Rectified Linear Unit |
 | RICNN | Rotation Invariant Convolutional Neural Network |
