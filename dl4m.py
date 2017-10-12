@@ -128,7 +128,7 @@ def get_authors(bib):
             authors.append(author)
     authors = sorted(set(authors))
     print("There are", len(authors), "researchers working on DL4M.")
-    
+
     authors_fn = "authors.md"
     with open(authors_fn, "w", encoding="utf-8") as filep:
         filep.write("# List of authors\n\n")

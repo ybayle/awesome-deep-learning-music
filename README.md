@@ -26,19 +26,20 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [An efficient approach for segmentation, feature extraction and classification of audio signals](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
 | [Gabor frames and deep scattering networks in audio processing](https://arxiv.org/pdf/1706.08818.pdf) | No |
 | [Vision-based detection of acoustic timed events: A case study on clarinet note onsets](http://dorienherremans.com/dlm2017/papers/bazzica2017clarinet.pdf) | No |
+| Neural net modeling of music | No |
 | [Deep learning techniques for music generation - A survey](https://arxiv.org/pdf/1709.01620.pdf) | No |
 | [A supervised learning approach to musical style recognition](https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf) | No |
 | [XFlow: 1D <-> 2D cross-modal deep neural networks for audiovisual classification](https://arxiv.org/pdf/1709.00572.pdf) | No |
 | [Machine listening intelligence](http://dorienherremans.com/dlm2017/papers/cella2017mli.pdf) | No |
 | [Deep multimodal network for multi-label classification](http://ieeexplore.ieee.org/abstract/document/8019322/) | No |
+| [A tutorial on deep learning for music information retrieval](https://arxiv.org/pdf/1709.04396.pdf) | [GitHub](https://github.com/keunwoochoi/dl4mir) |
 | [A comparison on audio signal preprocessing methods for deep neural networks on music tagging](https://arxiv.org/pdf/1709.01922.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Text-based LSTM networks for automatic music composition](https://drive.google.com/file/d/0B1OooSxEtl0FcG9MYnY2Ylh5c0U/view) | No |
 | [Towards playlist generation algorithms using RNNs trained on within-track transitions](https://arxiv.org/pdf/1606.02096.pdf) | No |
 | [Automatic tagging using deep convolutional neural networks](https://arxiv.org/pdf/1606.00298.pdf) | No |
-| [Auralisation of deep convolutional neural networks: Listening to learned features](http://ismir2015.uma.es/LBD/LBD24.pdf) | No |
-| [A tutorial on deep learning for music information retrieval](https://arxiv.org/pdf/1709.04396.pdf) | [GitHub](https://github.com/keunwoochoi/dl4mir) |
 | [Transfer learning for music classification and regression tasks](https://arxiv.org/pdf/1703.09179v3.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
+| [Auralisation of deep convolutional neural networks: Listening to learned features](http://ismir2015.uma.es/LBD/LBD24.pdf) | No |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
 | [The munich LSTM-RNN approach to the MediaEval 2014 "Emotion in music" task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | No |
 | [A machine learning approach to musical style recognition](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1496&context=compsci) | No |
@@ -49,8 +50,8 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [End-to-end learning for music audio](http://ieeexplore.ieee.org/abstract/document/6854950/) | No |
 | [Basic filters for convolutional neural networks: Training or design?](https://arxiv.org/pdf/1709.02291.pdf) | No |
 | [Ensemble Of Deep Neural Networks For Acoustic Scene Classification](https://arxiv.org/pdf/1708.05826.pdf) | No |
-| [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | No |
 | [Robust downbeat tracking using an ensemble of convolutional networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | No |
+| [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | No |
 | [Music signal processing using vector product neural networks](http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf) | No |
 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
 | [Multi-phase learning for jazz improvisation and interaction](http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf) | No |
@@ -90,7 +91,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification](https://arxiv.org/pdf/1706.06810.pdf) | [GitHub](https://github.com/jongpillee/musicTagging_MSD) |
 | [Sample-level deep convolutional neural networks for music auto-tagging using raw waveforms](https://arxiv.org/pdf/1703.01789v2.pdf) | No |
 | [Singing voice detection with deep recurrent neural networks](https://hal-imt.archives-ouvertes.fr/hal-01110035/) | No |
-| Creation by refinement: A creativity paradigm for gradient descent learning networks | No |
+| [Creation by refinement: A creativity paradigm for gradient descent learning networks](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=23933) | No |
 | [Algorithms for music composition by neural nets: Improved CBR paradigms](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/algorithms-for-music-composition.pdf?c=icmc;idno=bbp2372.1989.044;format=pdf) | No |
 | [Audio musical genre classification using convolutional neural networks and pitch and tempo transformations](http://lbms03.cityu.edu.hk/theses/c_ftt/mphil-cs-b39478026f.pdf) | No |
 | [Automatic instrument recognition in polyphonic music using convolutional neural networks](https://arxiv.org/pdf/1511.05520.pdf) | No |
@@ -193,7 +194,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 137 articles currently referenced.
+- 138 articles currently referenced.
 - 284 unique researchers currently referenced. List available here: [authors.md](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)

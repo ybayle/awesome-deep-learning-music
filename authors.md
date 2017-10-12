@@ -10,6 +10,7 @@
 - Ben-Tal, Oded
 - Benetos, Emmanouil
 - Berdahl, E
+- Bharucha, J.
 - Bock, Sebastian
 - Boulanger-Lewandowski, Nicolas
 - Brakel, Phil{\'e}mon
@@ -48,8 +49,7 @@
 - Emilia Gomez
 - Evangelopoulos, Georgios
 - Fan, Zhe-Cheng
-- Fazekas, George
-- Fazekas, Gy{\"o}rgy
+- Fazekas, György
 - Feng, Tao
 - Flexer, Arthur
 - Foster, Peter
@@ -195,10 +195,10 @@
 - Richard, Ga{\"e}l
 - Richard, Gaël
 - Riedmiller, Martin
-- Rigaud, Fran{\c{c}}ois
+- Rigaud, François
 - Roma, Gerard
 - Rosasco, Lorenzo
-- Sandler, Mark
+- Sandler, Mark Brian
 - Santos, Joao Felipe
 - Santoso, Andri
 - Saurous, Rif A.
