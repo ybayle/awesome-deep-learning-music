@@ -29,7 +29,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 ## Aggregators
 
-- [arXiv](https://arxiv.org/)
+- [arXiv](https://arxiv.org/) (cs.[AI, CV, IR, LG, MM, NE, SD] and eess.[AS, SP])
 - [PaperScape](http://paperscape.org/)
 - [Scholar](https://scholar.google.com/scholar?q=neural+network+audio+music)
 - [SciRate](https://scirate.com/)
