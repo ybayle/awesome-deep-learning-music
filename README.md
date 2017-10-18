@@ -142,6 +142,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Taking the models back to music practice: Evaluating generative transcription models built using deep learning](http://jcms.org.uk/issues/Vol2Issue1/taking-models-back-to-music-practice/Taking%20the%20Models%20back%20to%20Music%20Practice:%20Evaluating%20Generative%20Transcription%20Models%20built%20using%20Deep%20Learning.pdf) | [GitHub](https://github.com/IraKorshunova/folk-rnn) |
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | No |
 | [Deep convolutional neural networks and data augmentation for acoustic event detection](https://arxiv.org/pdf/1604.07160.pdf) | No |
+| [Generating nontrivial melodies for music as a service](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/178_Paper.pdf) | No |
 | A sequential network design for musical applications | No |
 | [A connectionist approach to algorithmic composition](http://www.jstor.org/stable/3679551) | No |
 | [Deep neural network based instrument extraction from music](https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf) | No |
@@ -194,8 +195,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 138 articles currently referenced.
-- 284 unique researchers currently referenced. List available here: [authors.md](authors.md).
+- 139 articles currently referenced.
+- 287 unique researchers currently referenced. List available here: [authors.md](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 

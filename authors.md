@@ -63,6 +63,7 @@
 - Geng, Shijia
 - Giron, Franck
 - Gong, Rong
+- Goudeseune, Camille
 - Grais, Emad M
 - Griffith, Niall
 - Grill, Thomas
@@ -230,6 +231,7 @@
 - Takahashi, Naoya
 - Takiguchi, Tetsuya
 - Tanaka, Hidehiko
+- Teng, Yifei
 - Thom, Belinda
 - Tian, Jiashen
 - Todd, Peter
@@ -280,6 +282,7 @@
 - Zhang, Shangtong
 - Zhang, Wenqiang
 - Zhang, Xueliang
+- Zhao, An
 - Zheng, Xiaoqing
 - Zhou, Ruohua
 - de Haas, W Bas
