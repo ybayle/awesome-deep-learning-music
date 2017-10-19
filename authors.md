@@ -61,6 +61,7 @@
 - Gemmeke, Jort F.
 - Gencoglu, Oguzhan
 - Geng, Shijia
+- Gerkmann, Timo
 - Giron, Franck
 - Gong, Rong
 - Goudeseune, Camille
@@ -119,6 +120,7 @@
 - Korshunova, Iryna
 - Korzeniowski, Filip
 - Koutini, Khaled
+- Krawczyk-Becker, Martin
 - Kuo, Hsu-Chan
 - Kwok, Yu-Kwong
 - Laden, Bernice

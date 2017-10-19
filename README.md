@@ -112,10 +112,12 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Multi-label music genre classification from audio, text, and images using deep features](https://arxiv.org/abs/1707.04916) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/pdf/1706.09739.pdf) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | No |
+| [Representation learning of music using artist labels](https://arxiv.org/pdf/1710.06648.pdf) | No |
 | [Music-noise segmentation in spectrotemporal domain using convolutional neural networks](http://ismir2015.uma.es/LBD/LBD27.pdf) | No |
 | [Musical instrument sound classification with deep convolutional neural network using feature fusion approach](https://arxiv.org/ftp/arxiv/papers/1512/1512.07370.pdf) | No |
 | [Toward inverse control of physics-based sound synthesis](http://dorienherremans.com/dlm2017/papers/pfalz2017synthesis.pdf) | [Website](https://www.cct.lsu.edu/~apfalz/inverse_control.html) |
 | [Robust audio event recognition with 1-max pooling convolutional neural networks](https://arxiv.org/pdf/1604.06338.pdf) | No |
+| [DNN and CNN with weighted and multi-task loss functions for audio event detection](https://arxiv.org/pdf/1708.03211.pdf) | No |
 | [Environmental sound classification with convolutional neural networks](http://karol.piczak.com/papers/Piczak2015-ESC-ConvNet.pdf) | No |
 | [Score-informed syllable segmentation for a cappella singing voice with convolutional neural networks](https://arxiv.org/pdf/1707.03544.pdf) | [GitHub](https://github.com/ronggong/jingjuSyllabicSegmentaion/tree/v0.1.0) |
 | [Experimenting with musically motivated convolutional neural networks](http://jordipons.me/media/CBMI16.pdf) | [GitHub](https://github.com/jordipons/) |
@@ -159,7 +161,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Unsupervised feature learning based on deep models for environmental audio tagging](https://arxiv.org/pdf/1607.03681.pdf) | No |
 | [Surrey-CVSSP system for DCASE2017 challenge task4](https://www.cs.tut.fi/sgn/arg/dcase2017/documents/challenge_technical_reports/DCASE2017_Xu_146.pdf) | [GitHub](https://github.com/yongxuUSTC/dcase2017_task4_cvssp) |
 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
-| [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](https://sites.google.com/view/xuyong/demos/attention_model) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
+| [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](https://arxiv.org/pdf/1703.06052.pdf) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
 | [A deep representation for invariance and music classification](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7034-zhang.pdf) | No |
 | [A deep neural network for modeling music](https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf) | No |
 
@@ -190,13 +192,14 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 - [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
 - [Deep learning driven jazz generation using Keras & Theano](https://github.com/jisungk/deepjazz)
-- [Pitch Estimation of Choir Music using Deep Learning Strategies: from Solo to Unison Recordings](https://github.com/helenacuesta/choir-pitch-estimation)
+- [End-to-end learning for music audio tagging at scale](https://github.com/jordipons/music-audio-tagging-at-scale-models)
 - [Music Genre classification on GTZAN dataset using CNNs](https://github.com/Hguimaraes/gtzan.keras)
+- [Pitch Estimation of Choir Music using Deep Learning Strategies: from Solo to Unison Recordings](https://github.com/helenacuesta/choir-pitch-estimation)
 
 ## Statistics and visualisations
 
-- 139 articles currently referenced.
-- 287 unique researchers currently referenced. List available here: [authors.md](authors.md).
+- 141 articles currently referenced.
+- 289 unique researchers currently referenced. List available here: [authors.md](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
