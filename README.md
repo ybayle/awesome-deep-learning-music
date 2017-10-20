@@ -21,8 +21,8 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## DL4M summary 
 
-| Articles, Thesis and Reports | Code |
-|---------------------|-------------------------|
+|  Articles, Thesis and Reports | Code |
+|-------------------------------|------|
 | [An efficient approach for segmentation, feature extraction and classification of audio signals](http://file.scirp.org/pdf/CS_2016042615054817.pdf) | No |
 | [Gabor frames and deep scattering networks in audio processing](https://arxiv.org/pdf/1706.08818.pdf) | No |
 | [Vision-based detection of acoustic timed events: A case study on clarinet note onsets](http://dorienherremans.com/dlm2017/papers/bazzica2017clarinet.pdf) | No |
@@ -199,8 +199,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 142 articles currently referenced.
-- 290 unique researchers currently referenced. List available here: [authors.md](authors.md).
+- 142 papers by 290 researchers. See the list of [authors](authors.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 

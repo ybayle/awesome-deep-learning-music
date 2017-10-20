@@ -57,35 +57,6 @@ def load_bib(filen="dl4m.bib"):
     return bib.entries
 
 
-def generate_summary_table(bib):
-    """Description of generate_summary_table
-    Parse dl4m.bib to create a simple and readable ReadMe.md table.
-    """
-    articles = ""
-    for entry in bib:
-        if "title" in entry:
-            if "link" in entry:
-                articles += "| [" + entry["title"] + "](" + entry["link"] + ") | "
-            else:
-                articles += "| " + entry["title"] + " | "
-            if "code" in entry:
-                if "No" in entry["code"]:
-                    articles += "No "
-                else:
-                    if "github" in entry["code"]:
-                        articles += "[GitHub"
-                    else:
-                        articles += "[Website"
-                    articles += "](" + entry["code"] + ") "
-            else:
-                articles += "No "
-            articles += "|\n"
-    table_fn = "paste_in_ReadMe.md"
-    with open(table_fn, "w", encoding="utf-8") as filep:
-        filep.write(articles)
-    print("Summary table saved in", table_fn)
-
-
 def articles_per_year(bib):
     """Description of main
     Display the number of articles published per year
@@ -114,7 +85,7 @@ def get_nb_articles(bib):
     """Description of get_nb_articles
     Count the number of articles in the database
     """
-    print("There are", len(bib), "articles.")
+    print("There are", len(bib), "articles referenced.")
     return len(bib)
 
 
@@ -127,7 +98,8 @@ def get_authors(bib):
         for author in entry['author'].split(" and "):
             authors.append(author)
     authors = sorted(set(authors))
-    print("There are", len(authors), "researchers working on DL4M.")
+    nb_authors = len(authors)
+    print("There are", nb_authors, "researchers working on DL4M.")
 
     authors_fn = "authors.md"
     with open(authors_fn, "w", encoding="utf-8") as filep:
@@ -136,6 +108,54 @@ def get_authors(bib):
             filep.write("- " + author + "\n")
     print("List of authors written in", authors_fn)
 
+    return nb_authors
+
+
+def generate_summary_table(bib):
+    """Description of generate_summary_table
+    Parse dl4m.bib to create a simple and readable ReadMe.md table.
+    """
+    nb_articles = str(get_nb_articles(bib))
+    nb_authors = str(get_authors(bib))
+
+    articles = ""
+    for entry in bib:
+        if "title" in entry:
+            if "link" in entry:
+                articles += "| [" + entry["title"] + "](" + entry["link"] + ") | "
+            else:
+                articles += "| " + entry["title"] + " | "
+            if "code" in entry:
+                if "No" in entry["code"]:
+                    articles += "No "
+                else:
+                    if "github" in entry["code"]:
+                        articles += "[GitHub"
+                    else:
+                        articles += "[Website"
+                    articles += "](" + entry["code"] + ") "
+            else:
+                articles += "No "
+            articles += "|\n"
+    readme_fn = "README.md"
+    readme = ""
+    pasted_articles = False
+    with open(readme_fn, "r", encoding="utf-8") as filep:
+        for line in filep:
+            if "| " in line[:2] and line[2] != " ":
+                if not pasted_articles:
+                    readme += articles
+                    pasted_articles = True
+            elif "papers by" in line[:19]:
+                readme += "- " + nb_articles + " papers by "
+                readme += nb_authors + " researchers."
+                readme += " See the list of [authors](authors.md).\n"
+            else:
+                readme += line
+    with open(readme_fn, "w", encoding="utf-8") as filep:
+        filep.write(readme)
+    print("New ReadMe generated")
+
 
 def main(filen="dl4m.bib"):
     """Description of main
@@ -143,10 +163,8 @@ def main(filen="dl4m.bib"):
     input: file name storing articles details
     """
     bib = load_bib(filen)
-    get_nb_articles(bib)
-    articles_per_year(bib)
     generate_summary_table(bib)
-    get_authors(bib)
+    articles_per_year(bib)
 
 
 if __name__ == "__main__":
