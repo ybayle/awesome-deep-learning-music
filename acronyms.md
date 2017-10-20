@@ -25,6 +25,7 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | GBRCN | Gradient-Boosting Random Convolutional Network |
 | GFNN | Gradient Frequency Neural Networks |
 | GLCM | Gray Level Co-occurrence Matrix |
+| HHDS | HipHop Dataset |
 | LSTM | Long Short-Term Memory |
 | MER | Music Emotion Recognition |
 | MLP | Multi-Layer Perceptron |

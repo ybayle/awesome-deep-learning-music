@@ -2,34 +2,29 @@
 
 Please refer to the list of useful acronyms used in deep learning and music: [acronyms.md](acronyms.md).
 
-- Ballroom
-- Beatles
-- Beatles dataset
-- DSD100
-- Daudet2004
-- FreeSound
-- GTzan
-- HHDS
-- IDMT-SMT-Drums dataset
-- IRMAS
 - Inhouse
-- Jamendo
-- LMD
-- MSD
-- Magnatagatune
-- McGill TSP speech database
-- MedleyDB
-- NTT Multi-Lingual Speech Database for Telephonometry
-- Piano-midi.de
-- RWC
-- RWC Pop
-- SALAMI
-- Synthetic MIDI
-- TIMIT
-- UIOWA MIS
-- US Pop
 - [Bach Corpus](http://musedata.org/)
 - [Bach10](http://music.cs.northwestern.edu/data/Bach10.html)
-- http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset
-- https://sites.google.com/site/modificationofmusicsignals/audio-files
-- iKala
+- [Ballroom](http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html)
+- [Beatles](http://isophonics.net/content/reference-annotations-beatles)
+- [C4S](http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset)
+- [DSD100](http://musicdata.gforge.inria.fr/structureAnnotation.html)
+- [FreeSound](http://freesound.org/)
+- [GTzan](http://marsyas.info/downloads/datasets.html)
+- [HHDS](https://drive.google.com/drive/folders/0B1zpiGdDzFNlbmJyYU1VVFR3OEE)
+- [IDMT-SMT-Drums](https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/drums.html)
+- [IRMAS](https://www.upf.edu/web/mtg/irmas)
+- [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)
+- [LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)
+- [MSD](https://labrosa.ee.columbia.edu/millionsong/)
+- [Magnatagatune](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
+- [MedleyDB](http://medleydb.weebly.com/)
+- [NTT MLS](http://www.ntt-at.com/product/speech/)
+- [Piano-midi.de](Piano-midi.de)
+- [RWC](https://staff.aist.go.jp/m.goto/RWC-MDB/)
+- [SALAMI](http://ddmal.music.mcgill.ca/research/salami/annotations)
+- [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1)
+- [TSP](http://www-mmsp.ece.mcgill.ca/Documents/Data/)
+- [UIOWA MIS](http://theremin.music.uiowa.edu/mis.html)
+- [US Pop](https://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html)
+- [iKala](http://mac.citi.sinica.edu.tw/ikala/)

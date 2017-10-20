@@ -81,7 +81,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Deep learning, audio adversaries, and music content analysis](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6905/pdf/imm6905.pdf) | No |
 | [Deep learning and music adversaries](https://arxiv.org/pdf/1507.04761.pdf) | [GitHub](https://github.com/coreyker/dnn-mgr) |
 | [Chord label personalization through deep learning of integrated harmonic interval-based representations](http://dorienherremans.com/dlm2017/papers/koops2017pers.pdf) | No |
-| [Feature learning for chord recognition: The deep chroma extractor](https://arxiv.org/pdf/1612.05065.pdf) | No |
+| [Feature learning for chord recognition: The deep chroma extractor](https://arxiv.org/pdf/1612.05065.pdf) | [GitHub](https://github.com/fdlm/chordrec/tree/master/experiments/ismir2016) |
 | [A fully convolutional deep auditory model for musical chord recognition](https://www.researchgate.net/profile/Filip_Korzeniowski/publication/305590295_A_Fully_Convolutional_Deep_Auditory_Model_for_Musical_Chord_Recognition/links/579486ba08aed51475cc6958/A-Fully-Convolutional-Deep-Auditory-Model-for-Musical-Chord-Recognition.pdf?_iepl%5BhomeFeedViewId%5D=HTzFFmKPia2YminQ4psHT5at&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=Dz_6LKHzYcPyP-LmgZPF-m63ayZ6k0entFEntooiu_e32zfETNQXKPQSTFOI87NONIIQuUQdnUtwORdomTXfteTrb09KiAIdDtBJnw_02P6JeRr5zu2eyaCG.2Uxsi_eENxtbYL39lvorIK8LofRYhkgpUHzpzmVzkIEiyHc0wUY87rEa4PH1qbXi4k4RyagHUsA2IsZtewnprglORjx2v9Cwbk9ZfQ.cd67BaqtHul_hE6SX6vUFKuldz81aH6dWq-cYMkq5vQKCHcvB8l9zgeM694Efb_r2wBB5GT9idt3OLeME0UxVHI6ROxamgK3LMNlSw.JtZXAo9HhR9t-8Wl3gxJgnoM4--rtmDEUDbXSWezbFyU-CoB_nyfxbRQ4kdoN4-5aJ3Tgx4YHdikicqAhc_cezB2ZntjxkB4rEDx1A) | No |
 | [End-to-end musical key estimation using a convolutional neural network](https://arxiv.org/pdf/1706.02921.pdf) | No |
 | [MediaEval 2017 AcousticBrainz genre task: Multilayer perceptron approach](http://www.cp.jku.at/research/papers/Koutini_2017_mediaeval-acousticbrainz.pdf) | No |
@@ -202,7 +202,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - 142 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 - 290 unique researchers. See the list of [authors](authors.md).
 - 26 tasks investigated. See the list of [tasks](tasks.md).
-- 31 datasets used. See the list of [datasets](datasets.md).
+- 26 datasets used. See the list of [datasets](datasets.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 

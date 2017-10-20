@@ -14,10 +14,12 @@ Here are the steps to follow for adding one (or multiple) article:
     - author
     - year
     - booktitle or journal
-    - dataset (if multiple dataset are used, insert a `&` between each dataset, e.g. `dataset = {GTzan & MSD},`)
-    - archi (if multiple architectures are used, insert a `&` between each of them, e.g. `archi = {CNN & VPNN},`)
+    - dataset (e.g. `dataset = {Inhouse & [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/) & [RWC](https://staff.aist.go.jp/m.goto/RWC-MDB/)},`)
+        1. provide the link to the dataset  
+        2. if multiple dataset are used, insert a ` & ` between each dataset
+    - archi (if multiple architectures are used, insert a ` & ` between each of them, e.g. `archi = {CNN & VPNN},`)
     - link (HTML link to the pdf file)
-    - task (if multiple tasks are performed, insert a `&` between each of them, e.g. `task = {SVS & SVD},`). Please refer to the acronyms listed in [acronyms.md](acronyms.md)
+    - task (if multiple tasks are performed, insert a ` & ` between each of them, e.g. `task = {SVS & SVD},`). Please refer to the acronyms listed in [acronyms.md](acronyms.md)
     - dataaugmentation (if used, the type of data augmentation technique, otherwise `No`)
     - pages (if available)
     - code (HTML link to the code if available, `No` instead)
