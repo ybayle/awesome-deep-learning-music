@@ -187,8 +187,8 @@ def validate_field(field_name):
     """Description of validate_field
     Assert the validity of the field's name
     """
-    fields = ["task", "dataset", "architecture", "author", "dataaugmentation", "link",
-        "title", "year", "journal"]
+    fields = ["task", "dataset", "architecture", "author", "dataaugmentation",
+        "link", "title", "year", "journal", "ENTRYTYPE"]
     error_str = "Invalid field provided: " + field_name + ". "
     error_str += "Valid fields: " + '[%s]' % ', '.join(map(str, fields))
     assert field_name in fields, error_str
