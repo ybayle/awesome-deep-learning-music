@@ -173,6 +173,9 @@ def generate_summary_table(bib):
             elif "datasets used" in line:
                 readme += "- " + nb_datasets + " datasets used. "
                 readme += "See the list of [datasets](datasets.md).\n"
+            elif "architecture used" in line:
+                readme += "- " + nb_archi + " architectures used. "
+                readme += "See the list of [architectures](architectures.md).\n"
             else:
                 readme += line
     with open(readme_fn, "w", encoding="utf-8") as filep:
