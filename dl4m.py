@@ -147,7 +147,8 @@ def generate_summary_table(bib):
     """
     nb_articles = str(get_nb_articles(bib))
     nb_authors = str(get_authors(bib))
-    nb_tasks = str(get_tasks(bib))
+    nb_tasks = str(get_field(bib, "task"))
+    nb_datasets = str(get_field(bib, "dataset"))
     articles = generate_list_articles(bib)
 
     readme_fn = "README.md"
@@ -168,6 +169,9 @@ def generate_summary_table(bib):
             elif "tasks investigated" in line:
                 readme += "- " + nb_tasks + " tasks investigated. "
                 readme += "See the list of [tasks](tasks.md).\n"
+            elif "datasets used" in line:
+                readme += "- " + nb_datasets + " datasets used. "
+                readme += "See the list of [datasets](datasets.md).\n"
             else:
                 readme += line
     with open(readme_fn, "w", encoding="utf-8") as filep:
@@ -175,33 +179,44 @@ def generate_summary_table(bib):
     print("New ReadMe generated")
 
 
-def get_tasks(bib):
+def validate_field(field_name):
+    """Description of validate_field
+    Assert the validity of the field's name
+    """
+    fields = ["task", "dataset"]
+    error_str = "Invalid field provided: " + field_name + ". "
+    error_str += "Valid fields: " + '[%s]' % ', '.join(map(str, fields))
+    assert field_name in fields, error_str
+
+
+def get_field(bib, field_name):
     """Description of tasks
     Generate insights on tasks
     """
-    nb_article_missing_task = 0
-    tasks = []
+    validate_field(field_name)
+    nb_article_missing = 0
+    fields = []
     for entry in bib:
-        if "task" in entry:
-            cur_tasks = entry["task"].split(" & ")
-            for task in cur_tasks:
-                tasks.append(task)
+        if field_name in entry:
+            cur_fields = entry[field_name].split(" & ")
+            for field in cur_fields:
+                fields.append(field)
         else:
-            nb_article_missing_task += 1
-    print(str(nb_article_missing_task) + " entries are missing the task field.")
-    nb_tasks = len(set(tasks))
-    print(str(nb_tasks) + " unique tasks")
+            nb_article_missing += 1
+    print(str(nb_article_missing) + " entries are missing the " + field_name + " field.")
+    nb_fields = len(set(fields))
+    print(str(nb_fields) + " unique " + field_name + ".")
 
-    tasks_fn = "tasks.md"
-    with open(tasks_fn, "w", encoding="utf-8") as filep:
-        filep.write("# List of tasks\n\n")
+    field_fn = field_name + "s.md"
+    with open(field_fn, "w", encoding="utf-8") as filep:
+        filep.write("# List of " + field_name + "s\n\n")
         filep.write("Please refer to the list of useful acronyms used in deep ")
         filep.write("learning and music: [acronyms.md](acronyms.md).\n\n")
-        for task in sorted(set(tasks)):
-            filep.write("- " + task + "\n")
-    print("List of tasks written in", tasks_fn)
+        for field in sorted(set(fields)):
+            filep.write("- " + field + "\n")
+    print("List of " + field_name + "s written in", field_fn)
 
-    return nb_tasks
+    return nb_fields
 
 
 def main(filen="dl4m.bib"):

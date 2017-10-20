@@ -202,6 +202,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - 142 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 - 290 unique researchers. See the list of [authors](authors.md).
 - 26 tasks investigated. See the list of [tasks](tasks.md).
+- 31 datasets used. See the list of [datasets](datasets.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 
