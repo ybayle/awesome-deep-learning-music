@@ -1,6 +1,11 @@
 # Sources
 
-The list of conferences, journals and aggregators used to gather the proposed materials
+The list of website used to gather the proposed materials:
+
+- [Journals](#journals)
+- [Conferences](#conferences)
+- [Workshops](#workshops)
+- [Aggregators](#aggregators)
 
 ## Journals
 
@@ -25,6 +30,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 - [DLRS](http://dlrs-workshop.org/) - Workshop on Deep Learning for Recommender Systems
 - [ESI](http://www.univie.ac.at/nuhag-php/event_NEW/make.php?event=esi17&page=program)
+- [ML4Audio](https://nips.cc/Conferences/2017/Schedule?showEvent=8790) - Machine Learning for Audio Signal Processing at [NIPS](https://nips.cc/)
 - [IWDLM](http://dorienherremans.com/dlm2017/) - International Workshop on Deep Learning for Music
 
 ## Aggregators

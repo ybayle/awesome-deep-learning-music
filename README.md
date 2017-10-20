@@ -241,21 +241,34 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 ## Other useful related lists and resources
 
+#### Audio
+
 - [Slides on DL4M](http://www.jordipons.me/media/DL4Music_Pons.pdf) - A personal (re)view of the state-of-the-art by [Jordi Pons](http://www.jordipons.me/)
 - [DL4MIR tutorial](https://github.com/marl/dl4mir-tutorial) - Python tutorials for learning to solve MIR tasks with DL
 - [Awesome Python Scientific Audio](https://github.com/faroit/awesome-python-scientific-audio) - Python resources for Audio and Machine Learning
-- [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
-- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
-- [Awesome RNNs](https://github.com/kjw0612/awesome-rnn) - RNNs code, theory and applications
 - [ISMIR resources](http://ismir.net/resources.php) - Community maintained list
 - [ISMIR Google group](https://groups.google.com/a/ismir.net/forum/#!forum/community) - Daily dose of general MIR
 - [Awesome Python](https://github.com/vinta/awesome-python#audio) - Audio section of Python resources
 - [Awesome Web Audio](https://github.com/notthetup/awesome-webaudio) - WebAudio packages and resources
 - [Awesome Music](https://github.com/ciconia/awesome-music) - Music softwares
 - [Awesome Music Production](https://github.com/adius/awesome-music-production) - Music creation
-- [Awesome Deep Learning Resources](https://github.com/endymecy/awesome-deeplearning-resources) - Papers regarding deep learning and deep reinforcement learning
-- General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
 - [The Asimov Institute](http://www.asimovinstitute.org/analyzing-deep-learning-tools-music/) - 6 deep learning tools for music generation
-- [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers 
 - [DLM Google group](https://groups.google.com/forum/#!forum/icdlm) - Deep Learning in Music group
 - [MIR community on Slack](https://slackpass.io/mircommunity) - Link to subscribe to the MIR community's Slack
+
+#### Music datasets
+
+- [AudioContentAnalysis nearly exhaustive list of music-related datasets](http://www.audiocontentanalysis.org/data-sets/)
+- [Teaching MIR](https://teachingmir.wikispaces.com/Datasets)
+- [Wikipedia's list of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#cite_ref-215)
+- [Datasets for deep learning](http://deeplearning.net/datasets/)
+- [Awesile public datasets](https://github.com/caesar0301/awesome-public-datasets)
+
+#### Deep learning
+
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
+- [Awesome Deep Learning Resources](https://github.com/endymecy/awesome-deeplearning-resources) - Papers regarding deep learning and deep reinforcement learning
+- [Awesome RNNs](https://github.com/kjw0612/awesome-rnn) - RNNs code, theory and applications
+- [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
+- [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers 
+- General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
