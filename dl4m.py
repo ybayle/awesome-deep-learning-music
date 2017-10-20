@@ -5,7 +5,7 @@
 # E-mails   bayle.yann@live.fr
 # License   MIT
 # Created   16/08/2017
-# Updated   06/10/2017
+# Updated   20/10/2017
 # Version   1.0.0
 #
 
@@ -20,19 +20,18 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
     add Fig for tasks, wordcloud, dataaugmentation
     bibtexparser accentuation handling
     error handling
-    pylint
-
 """
 
-import os
-import sys
-import bibtexparser
 import numpy as np
 import matplotlib.pyplot as plt
+import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 
 
 def write_bib(bib_database, filen="dl4m.bib"):
+    """Description of write_bib
+    Write the items stored in bib_database into filen
+    """
     writer = BibTexWriter()
     writer.indent = '  '
     writer.order_entries_by = ('noneyear', "author")
@@ -51,6 +50,9 @@ def read_bib(filen="dl4m.bib"):
 
 
 def load_bib(filen="dl4m.bib"):
+    """Description of load_bib
+    Load and return the items stored in filen
+    """
     bib = read_bib(filen)
     write_bib(bib, filen)
     bib = read_bib(filen)
@@ -71,11 +73,11 @@ def articles_per_year(bib):
     plt.ylabel('Number of articles')
     year_bins = np.arange(min(years), max(years) + 2.0, 1.0)
     plt.hist(years, bins=year_bins, color="#401153", align="left")
-    ax = plt.gca()
-    ax.spines['right'].set_color('none')
-    ax.spines['top'].set_color('none')
-    ax.xaxis.set_ticks_position('bottom')
-    ax.yaxis.set_ticks_position('left')
+    axe = plt.gca()
+    axe.spines['right'].set_color('none')
+    axe.spines['top'].set_color('none')
+    axe.xaxis.set_ticks_position('bottom')
+    axe.yaxis.set_ticks_position('left')
     fig_fn = "fig/articles_per_year.png"
     plt.savefig(fig_fn, dpi=200)
     print("Fig. with number of articles per year saved in", fig_fn)
@@ -111,13 +113,11 @@ def get_authors(bib):
     return nb_authors
 
 
-def generate_summary_table(bib):
-    """Description of generate_summary_table
-    Parse dl4m.bib to create a simple and readable ReadMe.md table.
+def generate_list_articles(bib):
+    """Description of generate_list_articles
+    From the bib file generates a ReadMe-styled table like:
+    | [Name of the article](Link to the .pdf) | Code's link if available |
     """
-    nb_articles = str(get_nb_articles(bib))
-    nb_authors = str(get_authors(bib))
-
     articles = ""
     for entry in bib:
         if "title" in entry:
@@ -137,6 +137,18 @@ def generate_summary_table(bib):
             else:
                 articles += "No "
             articles += "|\n"
+
+    return articles
+
+
+def generate_summary_table(bib):
+    """Description of generate_summary_table
+    Parse dl4m.bib to create a simple and readable ReadMe.md table.
+    """
+    nb_articles = str(get_nb_articles(bib))
+    nb_authors = str(get_authors(bib))
+    articles = generate_list_articles(bib)
+
     readme_fn = "README.md"
     readme = ""
     pasted_articles = False
