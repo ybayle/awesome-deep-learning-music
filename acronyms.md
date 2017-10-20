@@ -8,8 +8,12 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | AE | AutoEncoder |
 | ANN | Artificial Neural Network |
 | ARNN | Anticipation Recurrent Neural Network |
+| BILSTM | Bidirectional Long Short-Term Memory |
 | BRNN | Bidirectional Recurrent Neural Network |
+| CDBN | Convolutional Deep Belief Networks |
 | CNN | Convolutional Neural Network |
+| ConvNet | Convolutional Neural Network |
+| CRNN | Convolutional Recurrent Neural Network | 
 | DAE | Denoising AutoEncoder |
 | DBM | Deep Boltzmann Machine |
 | DBN | Deep Belief Network |
@@ -18,6 +22,7 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | DNN | Deep Neural Network |
 | DSN | Deep Stacking Network |
 | DWT | Discrete Wavelet Transform |
+| ELM | Extreme Learning Machine |
 | FC | Fully Connected |
 | FCN | Fully Convolutional Network |
 | FC-CNN | Fully Convolutional Convolutional Neural Network |
@@ -33,6 +38,9 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | MSDAE | Modified Sparse Denoising Autoencoder |
 | MSR | Music Style Recognition |
 | NN | Neural Network |
+| NNMODFF | Neural Network based Multi-Onset Detection Function Fusion |
+| ODF | Onset Detection Function |
+| PNN | Probabilistic Neural Network |
 | PReLU | Parametric Rectified Linear Unit |
 | RANSAC | RANdom SAmple Consensus |
 | RBM | Restricted Boltzmann Machine |

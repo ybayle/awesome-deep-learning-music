@@ -149,6 +149,7 @@ def generate_summary_table(bib):
     nb_authors = str(get_authors(bib))
     nb_tasks = str(get_field(bib, "task"))
     nb_datasets = str(get_field(bib, "dataset"))
+    nb_archi = str(get_field(bib, "architecture"))
     articles = generate_list_articles(bib)
 
     readme_fn = "README.md"
@@ -183,7 +184,8 @@ def validate_field(field_name):
     """Description of validate_field
     Assert the validity of the field's name
     """
-    fields = ["task", "dataset"]
+    fields = ["task", "dataset", "architecture", "author", "dataaugmentation", "link",
+        "title", "year", "journal"]
     error_str = "Invalid field provided: " + field_name + ". "
     error_str += "Valid fields: " + '[%s]' % ', '.join(map(str, fields))
     assert field_name in fields, error_str
