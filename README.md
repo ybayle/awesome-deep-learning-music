@@ -199,7 +199,9 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 142 papers by 290 researchers. See the list of [authors](authors.md).
+- 142 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 290 unique researchers. See the list of [authors](authors.md).
+- 26 tasks investigated. See the list of [tasks](tasks.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 

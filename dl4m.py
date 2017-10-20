@@ -147,6 +147,7 @@ def generate_summary_table(bib):
     """
     nb_articles = str(get_nb_articles(bib))
     nb_authors = str(get_authors(bib))
+    nb_tasks = str(get_tasks(bib))
     articles = generate_list_articles(bib)
 
     readme_fn = "README.md"
@@ -158,15 +159,49 @@ def generate_summary_table(bib):
                 if not pasted_articles:
                     readme += articles
                     pasted_articles = True
-            elif "papers by" in line[:19]:
-                readme += "- " + nb_articles + " papers by "
-                readme += nb_authors + " researchers."
-                readme += " See the list of [authors](authors.md).\n"
+            elif "papers referenced" in line:
+                readme += "- " + nb_articles + " papers referenced. "
+                readme += "See the details in [dl4m.bib](dl4m.bib).\n"
+            elif "unique researchers" in line:
+                readme += "- " + nb_authors + " unique researchers. "
+                readme += "See the list of [authors](authors.md).\n"
+            elif "tasks investigated" in line:
+                readme += "- " + nb_tasks + " tasks investigated. "
+                readme += "See the list of [tasks](tasks.md).\n"
             else:
                 readme += line
     with open(readme_fn, "w", encoding="utf-8") as filep:
         filep.write(readme)
     print("New ReadMe generated")
+
+
+def get_tasks(bib):
+    """Description of tasks
+    Generate insights on tasks
+    """
+    nb_article_missing_task = 0
+    tasks = []
+    for entry in bib:
+        if "task" in entry:
+            cur_tasks = entry["task"].split(" & ")
+            for task in cur_tasks:
+                tasks.append(task)
+        else:
+            nb_article_missing_task += 1
+    print(str(nb_article_missing_task) + " entries are missing the task field.")
+    nb_tasks = len(set(tasks))
+    print(str(nb_tasks) + " unique tasks")
+
+    tasks_fn = "tasks.md"
+    with open(tasks_fn, "w", encoding="utf-8") as filep:
+        filep.write("# List of tasks\n\n")
+        filep.write("Please refer to the list of useful acronyms used in deep ")
+        filep.write("learning and music: [acronyms.md](acronyms.md).\n\n")
+        for task in sorted(set(tasks)):
+            filep.write("- " + task + "\n")
+    print("List of tasks written in", tasks_fn)
+
+    return nb_tasks
 
 
 def main(filen="dl4m.bib"):
