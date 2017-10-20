@@ -149,6 +149,7 @@
 - Maass, Marco
 - Marius Miron
 - Mark D. Plumbley
+- Martel Baro, Héctor
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
 - McFee, Brian
