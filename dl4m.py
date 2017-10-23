@@ -18,8 +18,9 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
 ..todo::
     sort bib
     add Fig for tasks, wordcloud, dataaugmentation
-    bibtexparser accentuation handling
+    bibtexparser accentuation handling in authors.md list
     error handling
+    report on nb item per ENTRYTYPE
 """
 
 import numpy as np

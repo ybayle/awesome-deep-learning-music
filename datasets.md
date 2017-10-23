@@ -3,13 +3,13 @@
 Please refer to the list of useful acronyms used in deep learning and music: [acronyms.md](acronyms.md).
 
 - Inhouse
+- [Acoustic Event](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
 - [Bach Corpus](http://musedata.org/)
 - [Bach10](http://music.cs.northwestern.edu/data/Bach10.html)
 - [Ballroom](http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html)
 - [Beatles](http://isophonics.net/content/reference-annotations-beatles)
 - [C4S](http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset)
 - [DSD100](http://musicdata.gforge.inria.fr/structureAnnotation.html)
-- [FreeSound](http://freesound.org/)
 - [GTzan](http://marsyas.info/downloads/datasets.html)
 - [HHDS](https://drive.google.com/drive/folders/0B1zpiGdDzFNlbmJyYU1VVFR3OEE)
 - [IDMT-SMT-Drums](https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/drums.html)
