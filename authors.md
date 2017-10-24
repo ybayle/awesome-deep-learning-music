@@ -9,6 +9,7 @@
 - Bello, Juan Pablo
 - Ben-Tal, Oded
 - Benetos, Emmanouil
+- Bengio, Yoshua
 - Berdahl, E
 - Bharucha, J.
 - Bock, Sebastian
@@ -33,6 +34,7 @@
 - Choi, Keunwoo
 - Chun, A
 - Costa, Yandre MG
+- Courville, Aaron
 - Coutinho, Eduardo
 - Dannenberg, Roger B
 - David, Bertrand
@@ -70,6 +72,7 @@
 - Grill, Thomas
 - Gruber, Alexander Rudolf
 - Grzywczak, Daniel
+- Gulrajani, Ishaan
 - Gwardys, Grzegorz
 - Gygli, Michael
 - G{\'o}mez Guti{\'e}rrez, Emilia
@@ -98,6 +101,7 @@
 - Ide, Ichiro
 - Imenina, Alina
 - Jackson, Philip JB
+- Jain, Shubham
 - Janer Mestres, Jordi
 - Janer, Jordi
 - Jang, Jyh-Shing R
@@ -121,6 +125,8 @@
 - Korzeniowski, Filip
 - Koutini, Khaled
 - Krawczyk-Becker, Martin
+- Kumar, Kundan
+- Kumar, Rithesh
 - Kuo, Hsu-Chan
 - Kwok, Yu-Kwong
 - Laden, Bernice
@@ -153,6 +159,7 @@
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
 - McFee, Brian
+- Mehri, Soroush
 - Meng, Fanhang
 - Mertins, Alfred
 - Miron, Marius
@@ -224,6 +231,7 @@
 - Slizovskaia, Olga
 - Smith, Julius O
 - Sordo, Mohamed
+- Sotelo, Jose
 - Southall, Carl
 - Stables, Ryan
 - Stasiak, Bart{\l}omiej
