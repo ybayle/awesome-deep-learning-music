@@ -14,6 +14,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - MER
 - MGR
 - MSR
+- Mixing
 - Music/Noise segmentation
 - Noise suppression
 - Onset detection

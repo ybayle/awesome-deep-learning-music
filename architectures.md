@@ -10,6 +10,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - CNN
 - CRNN
 - ConvNet
+- DAE
 - DNN
 - ELM
 - FCN

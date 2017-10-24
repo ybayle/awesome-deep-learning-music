@@ -21,6 +21,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Magnatagatune](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
 - [MedleyDB](http://medleydb.weebly.com/)
 - [NTT MLS](http://www.ntt-at.com/product/speech/)
+- [Open Multitrack Testbed](http://www.semanticaudio.co.uk/projects/omtb/)
 - [Piano-midi.de](Piano-midi.de)
 - [RWC](https://staff.aist.go.jp/m.goto/RWC-MDB/)
 - [SALAMI](http://ddmal.music.mcgill.ca/research/salami/annotations)

@@ -14,7 +14,7 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | CNN | Convolutional Neural Network |
 | ConvNet | Convolutional Neural Network |
 | CRNN | Convolutional Recurrent Neural Network | 
-| DAE | Denoising AutoEncoder |
+| DAE | Denoising AutoEncoder or Deep AutoEncoder |
 | DBM | Deep Boltzmann Machine |
 | DBN | Deep Belief Network |
 | DeconvNet | DeConvolutional Neural Network |

@@ -202,6 +202,8 @@
 - Qiang Huang
 - Qiuqiang Kong
 - Radenen, Mathieu
+- Ramírez, Marco A. Martínez
+- Reiss, Joshua D.
 - Ren, Gang
 - Richard, Ga{\"e}l
 - Richard, Gaël
