@@ -1,5 +1,6 @@
 # List of authors
 
+- Adavanne, Sharath
 - Arumugam, Muthumari
 - Arzt, Andreas
 - Badeau, Roland
@@ -45,6 +46,7 @@
 - Dixon, Simon
 - Doerfler, Monika
 - Dorfer, Matthias
+- Drossos, Konstantinos
 - Duppada, Venkatesh
 - Durand, Simon
 - Ellis, Daniel P. W.
@@ -106,6 +108,7 @@
 - Janer, Jordi
 - Jang, Jyh-Shing R
 - Jansen, Aren
+- Jarina, Roman
 - Jeon, Byungsoo
 - Jeong, Il-Young
 - Jordi Janer
@@ -153,6 +156,7 @@
 - Li{\`o}, Pietro
 - Lostanlen, Vincent
 - Maass, Marco
+- Malik, Miroslav
 - Marius Miron
 - Mark D. Plumbley
 - Martel Baro, Héctor
@@ -247,6 +251,7 @@
 - Teng, Yifei
 - Thom, Belinda
 - Tian, Jiashen
+- Ticha, Dasa
 - Todd, Peter
 - Todd, Peter M.
 - Tsipas, Nikolaos

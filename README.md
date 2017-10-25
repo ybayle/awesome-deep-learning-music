@@ -100,6 +100,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Harmonic and percussive source separation using a convolutional auto encoder](http://www.eurasip.org/Proceedings/Eusipco/Eusipco2017/papers/1570346835.pdf) | No |
 | [Event localization in music auto-tagging](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) | [GitHub](https://github.com/ciaua/clip2frame) |
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | [GitHub](https://github.com/lostanlen/ismir2016) |
+| [Stacked convolutional and recurrent neural networks for music emotion recognition](https://arxiv.org/pdf/1706.02292.pdf) | No |
 | [A deep learning approach to source separation and remixing of hiphop music](https://repositori.upf.edu/bitstream/handle/10230/32919/Martel_2017.pdf?sequence=1&isAllowed=y) | No |
 | [Neural network based model for classification of music type](http://ieeexplore.ieee.org/abstract/document/514161/) | No |
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | No |
@@ -201,10 +202,10 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 144 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- 300 unique researchers. See the list of [authors](authors.md).
+- 145 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 305 unique researchers. See the list of [authors](authors.md).
 - 27 tasks investigated. See the list of [tasks](tasks.md).
-- 28 datasets used. See the list of [datasets](datasets.md).
+- 29 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
