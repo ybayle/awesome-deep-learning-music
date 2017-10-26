@@ -18,6 +18,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [IRMAS](https://www.upf.edu/web/mtg/irmas)
 - [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)
 - [LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)
+- [LyricFind](http://lyricfind.com/)
 - [MSD](https://labrosa.ee.columbia.edu/millionsong/)
 - [Magnatagatune](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
 - [MedleyDB](http://medleydb.weebly.com/)

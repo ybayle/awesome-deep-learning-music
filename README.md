@@ -151,6 +151,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Generating nontrivial melodies for music as a service](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/178_Paper.pdf) | No |
 | A sequential network design for musical applications | No |
 | [A connectionist approach to algorithmic composition](http://www.jstor.org/stable/3679551) | No |
+| [Lyrics-based music genre classification using a hierarchical attention network](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/43_Paper.pdf) | [GitHub](https://github.com/alexTsaptsinos/lyricsHAN) |
 | [Deep neural network based instrument extraction from music](https://www.researchgate.net/profile/Stefan_Uhlich/publication/282001406_Deep_neural_network_based_instrument_extraction_from_music/links/5600eeda08ae07629e52b397/Deep-neural-network-based-instrument-extraction-from-music.pdf) | No |
 | [Boundary detection in music structure analysis using convolutional neural networks](https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf) | No |
 | [A hybrid DSP/deep learning approach to real-time full-band speech enhancement](https://arxiv.org/pdf/1709.08243.pdf) | [GitHub](https://github.com/xiph/rnnoise/) |
@@ -202,10 +203,10 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 145 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- 305 unique researchers. See the list of [authors](authors.md).
+- 146 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 306 unique researchers. See the list of [authors](authors.md).
 - 27 tasks investigated. See the list of [tasks](tasks.md).
-- 29 datasets used. See the list of [datasets](datasets.md).
+- 30 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)

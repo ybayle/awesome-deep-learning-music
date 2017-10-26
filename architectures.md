@@ -14,6 +14,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - DNN
 - ELM
 - FCN
+- HAN
 - LSTM
 - MLP
 - NNMODFF
