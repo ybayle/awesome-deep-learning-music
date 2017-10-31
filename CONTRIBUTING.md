@@ -1,6 +1,6 @@
 # How To Contribute
 
-Contributions are welcome!
+Contributions are welcome! Please submit you issues, pull requests, improvements and comments in British English.
 
 ### Adding an article
 

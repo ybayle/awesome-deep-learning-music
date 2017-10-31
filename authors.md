@@ -13,6 +13,7 @@
 - Bengio, Yoshua
 - Berdahl, E
 - Bharucha, J.
+- Bittner, Rachel
 - Bock, Sebastian
 - Boulanger-Lewandowski, Nicolas
 - Brakel, Phil{\'e}mon
@@ -96,7 +97,6 @@
 - Hu, Min-Chun
 - Huang, Allen
 - Huang, Qiang
-- Humphrey, Eric J
 - Humphrey, Eric J.
 - Hutchings, P.
 - Huttunen, Heikki
@@ -108,6 +108,7 @@
 - Janer, Jordi
 - Jang, Jyh-Shing R
 - Jansen, Aren
+- Jansson, Andreas
 - Jarina, Roman
 - Jeon, Byungsoo
 - Jeong, Il-Young
@@ -128,6 +129,7 @@
 - Korzeniowski, Filip
 - Koutini, Khaled
 - Krawczyk-Becker, Martin
+- Kumar, Aparna
 - Kumar, Kundan
 - Kumar, Rithesh
 - Kuo, Hsu-Chan
@@ -168,6 +170,7 @@
 - Mertins, Alfred
 - Miron, Marius
 - Mitsufuji, Yuki
+- Montecchio, Nicola
 - Moore, R. Channing
 - Mouret, Florian
 - Mozer, Michael C.

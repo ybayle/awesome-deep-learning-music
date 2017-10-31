@@ -18,6 +18,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [Sources](#sources)
 - [Contributors](#contributors)
 - [Other useful related lists](#other-useful-related-lists)
+- [Cited by](#cited-by)
 
 ## DL4M summary 
 
@@ -75,6 +76,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Rethinking automatic chord recognition with convolutional neural networks](http://ieeexplore.ieee.org/abstract/document/6406762/) | No |
 | [Moving beyond feature design: Deep architectures and automatic feature learning in music informatics](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.294.2304&rep=rep1&type=pdf) | No |
 | [Talking Drums: Generating drum grooves with neural networks](http://dorienherremans.com/dlm2017/papers/hutchings2017drums.pdf) | No |
+| [Singing voice separation with deep U-Net convolutional networks](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/171_Paper.pdf) | No |
 | [Music emotion recognition via end-to-end multimodal neural networks](http://ceur-ws.org/Vol-1905/recsys2017_poster18.pdf) | No |
 | [Learning temporal features using a deep neural network and its application to music genre classification](https://www.researchgate.net/profile/Il_Young_Jeong/publication/305683876_Learning_temporal_features_using_a_deep_neural_network_and_its_application_to_music_genre_classification/links/5799a27c08aec89db7bb9f92.pdf) | No |
 | [On the potential of simple framewise approaches to piano transcription](https://arxiv.org/pdf/1612.05153.pdf) | No |
@@ -200,11 +202,12 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - [End-to-end learning for music audio tagging at scale](https://github.com/jordipons/music-audio-tagging-at-scale-models)
 - [Music Genre classification on GTZAN dataset using CNNs](https://github.com/Hguimaraes/gtzan.keras)
 - [Pitch Estimation of Choir Music using Deep Learning Strategies: from Solo to Unison Recordings](https://github.com/helenacuesta/choir-pitch-estimation)
+- [Music Genre Classification with LSTMs](https://github.com/ruohoruotsi/LSTM-Music-Genre-Classification)
 
 ## Statistics and visualisations
 
-- 146 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- 306 unique researchers. See the list of [authors](authors.md).
+- 147 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 309 unique researchers. See the list of [authors](authors.md).
 - 27 tasks investigated. See the list of [tasks](tasks.md).
 - 30 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
@@ -251,6 +254,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 #### Audio
 
+- [DL4MIR tutorial with keras](https://github.com/tuwien-musicir/DL_MIR_Tutorial) - Tutorial for Deep Learning on Music Information Retrieval by [Thomas Lidy](http://ifs.tuwien.ac.at/~lidy/)
+- [Video talk from Ron Weiss](https://www.youtube.com/watch?v=sI_8EA0_ha8) - Ron Weiss (Google) Talk on Training neural network acoustic models on waveforms
 - [Slides on DL4M](http://www.jordipons.me/media/DL4Music_Pons.pdf) - A personal (re)view of the state-of-the-art by [Jordi Pons](http://www.jordipons.me/)
 - [DL4MIR tutorial](https://github.com/marl/dl4mir-tutorial) - Python tutorials for learning to solve MIR tasks with DL
 - [Awesome Python Scientific Audio](https://github.com/faroit/awesome-python-scientific-audio) - Python resources for Audio and Machine Learning
@@ -263,6 +268,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [The Asimov Institute](http://www.asimovinstitute.org/analyzing-deep-learning-tools-music/) - 6 deep learning tools for music generation
 - [DLM Google group](https://groups.google.com/forum/#!forum/icdlm) - Deep Learning in Music group
 - [MIR community on Slack](https://slackpass.io/mircommunity) - Link to subscribe to the MIR community's Slack
+- [Unclassified list of MIR-related links](http://www.music.mcgill.ca/~cmckay/links_academic.html) - [Cory McKay](http://www.music.mcgill.ca/~cmckay/)'s list of various links on DL, MIR, ...
+- [MIRDL](http://jordipons.me/wiki/index.php/MIRDL) - Unmaintained list of DL articles for MIR from [Jordi Pons](http://www.jordipons.me/)
 
 #### Music datasets
 
@@ -270,13 +277,27 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Teaching MIR](https://teachingmir.wikispaces.com/Datasets)
 - [Wikipedia's list of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#cite_ref-215)
 - [Datasets for deep learning](http://deeplearning.net/datasets/)
-- [Awesile public datasets](https://github.com/caesar0301/awesome-public-datasets)
+- [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
 
 #### Deep learning
 
+- [Deep Learning as an Engineer](http://www.univie.ac.at/nuhag-php/dateien/talks/3358_schlueter.pdf) - Slides from Jan Schlüter
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
 - [Awesome Deep Learning Resources](https://github.com/endymecy/awesome-deeplearning-resources) - Papers regarding deep learning and deep reinforcement learning
 - [Awesome RNNs](https://github.com/kjw0612/awesome-rnn) - RNNs code, theory and applications
 - [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
 - [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers 
 - General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
+- [Echo State Network](http://minds.jacobs-university.de/sites/default/files/uploads/papers/PracticalESN.pdf)
+- [DL in NLP](http://ruder.io/deep-learning-nlp-best-practices/index.html#introduction) - Best practices for using neural networks by [Sebastian Ruder](http://ruder.io/)
+- [CNN overview](http://cs231n.github.io/convolutional-networks/) - Stanford Course
+- [Dilated Recurrent Neural Networks](https://arxiv.org/pdf/1710.02224.pdf) - How to improve RNNs?
+- [Encoder-Decoder in RNNs](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/?utm_content=buffer0d2a7&utm_medium=social&utm_source=twitter.com&utm_campaign=bufferhttps://blog.recast.ai/ml-spotlight-rnn/?utm_content=bufferf19d3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) - How Does Attention Work in Encoder-Decoder Recurrent Neural Networks
+
+## Cited by
+
+If you use the information contained in this repository, please let us know! This repository is cited by:
+
+[Alexander Schindler](https://twitter.com/Slychief/status/915218386421997568)
+[Meinard Müller, Christof Weiss, Stefan Balke](https://www.audiolabs-erlangen.de/resources/MIR/2017-GI-Tutorial-Musik/2017_MuellerWeissBalke_GI_DeepLearningMIR.pdf)
+[AINewsFeed](https://twitter.com/AINewsFeed/status/897832912351105025)

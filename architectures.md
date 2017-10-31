@@ -20,4 +20,5 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - NNMODFF
 - PNN
 - RNN
+- U-Net
 - VPNN

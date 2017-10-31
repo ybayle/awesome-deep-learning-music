@@ -496,7 +496,7 @@
 }
 
 @inproceedings{Humphrey2014,
-  author = {Humphrey, Eric J and Bello, Juan Pablo},
+  author = {Humphrey, Eric J. and Bello, Juan Pablo},
   booktitle = {ICASSP},
   dataset = {[Beatles](http://isophonics.net/content/reference-annotations-beatles) & [RWC](https://staff.aist.go.jp/m.goto/RWC-MDB/) & [US Pop](https://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html)},
   input = {CQT},
@@ -539,6 +539,26 @@
   link = {http://dorienherremans.com/dlm2017/papers/hutchings2017drums.pdf},
   task = {Composition},
   title = {Talking Drums: Generating drum grooves with neural networks},
+  year = {2017}
+}
+
+@inproceedings{Jansson2017,
+  activation = {Sigmoid},
+  address = {Suzhou, China},
+  architecture = {CNN & U-Net},
+  author = {Jansson, Andreas and Humphrey, Eric J. and Montecchio, Nicola and Bittner, Rachel and Kumar, Aparna and Weyde, Tillman},
+  booktitle = {ISMIR},
+  code = {No},
+  dataaugmentation = {No},
+  dataset = {[iKala](http://mac.citi.sinica.edu.tw/ikala/) & [MedleyDB](http://medleydb.weebly.com/)},
+  link = {https://ismir2017.smcnus.org/wp-content/uploads/2017/10/171_Paper.pdf},
+  month = {Oct.},
+  note = {},
+  optimizer = {Adam},
+  pages = {745--751},
+  reproducible = {No},
+  task = {SVS},
+  title = {Singing voice separation with deep U-Net convolutional networks},
   year = {2017}
 }
 
@@ -854,7 +874,7 @@
 }
 
 @inproceedings{Mcfee2015,
-  author = {McFee, Brian and Humphrey, Eric J and Bello, Juan Pablo},
+  author = {McFee, Brian and Humphrey, Eric J. and Bello, Juan Pablo},
   booktitle = {ISMIR},
   dataset = {[MedleyDB](http://medleydb.weebly.com/)},
   link = {https://bmcfee.github.io/papers/ismir2015_augmentation.pdf},
@@ -1171,8 +1191,10 @@
   author = {Schluter, Jan and Bock, Sebastian},
   booktitle = {ICASSP},
   dataset = {Inhouse},
+  dimension = {3D},
   input = {Mel-spectrogram},
   link = {http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf},
+  note = {3D representation as input: 3 STFT signals computed with different windows, i.e. different time-freq resolutions},
   organization = {IEEE},
   pages = {6979--6983},
   task = {Onset detection},
