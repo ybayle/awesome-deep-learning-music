@@ -244,8 +244,6 @@
 - Southall, Carl
 - Stables, Ryan
 - Stasiak, Bart{\l}omiej
-- Sturm, Bob
-- Sturm, Bob L
 - Sturm, Bob L.
 - Su, Hong
 - Takahashi, Naoya
@@ -255,7 +253,6 @@
 - Thom, Belinda
 - Tian, Jiashen
 - Ticha, Dasa
-- Todd, Peter
 - Todd, Peter M.
 - Tsaptsinos, Alexandros
 - Tsipas, Nikolaos
