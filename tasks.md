@@ -10,6 +10,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - DCASE 2016 Task 4 Domestic audio tagging
 - Event recognition
 - F0
+- General audio classification
 - Instrument recognition
 - MER
 - MGR

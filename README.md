@@ -163,6 +163,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Recognition and retrieval of sound events using sparse coding convolutional neural network](http://ieeexplore.ieee.org/abstract/document/8019552/) | No |
 | [A two-stage approach to note-level transcription of a specific piano](http://www.mdpi.com/2076-3417/7/9/901/htm) | No |
 | [Improving content-based and hybrid music recommendation using deep learning](http://www.smcnus.org/wp-content/uploads/2014/08/reco_MM14.pdf) | No |
+| [Reducing model complexity for DNN based large-scale audio classification](https://arxiv.org/pdf/1711.00229.pdf) | No |
 | [Audio spectrogram representations for processing with convolutional neural networks](http://dorienherremans.com/dlm2017/papers/wyse2017spect.pdf) | [Website](http://lonce.org/research/audioST/) |
 | [Unsupervised learning of local features for music classification](http://www.ismir2012.ismir.net/event/papers/139_ISMIR_2012.pdf) | No |
 | [Unsupervised feature learning based on deep models for environmental audio tagging](https://arxiv.org/pdf/1607.03681.pdf) | No |
@@ -206,10 +207,10 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 147 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- 306 unique researchers. See the list of [authors](authors.md).
-- 27 tasks investigated. See the list of [tasks](tasks.md).
-- 30 datasets used. See the list of [datasets](datasets.md).
+- 148 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- If you are applying DL to music, there are [307 other researchers](authors.md) in your field.
+- 28 tasks investigated. See the list of [tasks](tasks.md).
+- 32 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)

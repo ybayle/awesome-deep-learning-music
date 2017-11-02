@@ -142,6 +142,7 @@
 - Lee, Jongpil
 - Lee, Kyogu
 - Lee, Taejin
+- Lee, Tan
 - Leglaive, Simon
 - Lewis, J. P.
 - Li, Lihua
@@ -285,6 +286,7 @@
 - Wilson, Kevin
 - Wu, Chung-Hsien
 - Wu, Raymond
+- Wu, Yuzhong
 - Wyse, Lonce
 - Wülfing, Jan
 - Xianyu, Haishu

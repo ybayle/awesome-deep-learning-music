@@ -21,6 +21,7 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
     bibtexparser accentuation handling in authors.md list
     error handling
     report on nb item per ENTRYTYPE
+    generate .tsv from .bib
 """
 
 import numpy as np
@@ -147,7 +148,7 @@ def generate_summary_table(bib):
     Parse dl4m.bib to create a simple and readable ReadMe.md table.
     """
     nb_articles = str(get_nb_articles(bib))
-    nb_authors = str(get_authors(bib))
+    nb_authors = str(get_authors(bib) - 1)
     nb_tasks = str(get_field(bib, "task"))
     nb_datasets = str(get_field(bib, "dataset"))
     nb_archi = str(get_field(bib, "architecture"))
@@ -165,9 +166,10 @@ def generate_summary_table(bib):
             elif "papers referenced" in line:
                 readme += "- " + nb_articles + " papers referenced. "
                 readme += "See the details in [dl4m.bib](dl4m.bib).\n"
-            elif "unique researchers" in line:
-                readme += "- " + nb_authors + " unique researchers. "
-                readme += "See the list of [authors](authors.md).\n"
+            elif "other researchers" in line:
+                readme += "- If you are applying DL to music, there are ["
+                readme += nb_authors + " other researchers](authors.md) "
+                readme += "in your field.\n"
             elif "tasks investigated" in line:
                 readme += "- " + nb_tasks + " tasks investigated. "
                 readme += "See the list of [tasks](tasks.md).\n"

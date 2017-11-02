@@ -4,6 +4,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 
 - ANN
 - ARNN
+- AlexNet
 - BILSTM
 - BRNN
 - CDBN
@@ -20,5 +21,6 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - NNMODFF
 - PNN
 - RNN
+- ResNet
 - U-Net
 - VPNN

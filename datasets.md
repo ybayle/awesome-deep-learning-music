@@ -5,6 +5,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - Inhouse
 - [32 Beethoven’s piano sonatas gathered from https://archive.org](https://soundcloud.com/samplernn/sets)
 - [Acoustic Event](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
+- [AudioSet](https://research.google.com/audioset/index.html)
 - [Bach Corpus](http://musedata.org/)
 - [Bach10](http://music.cs.northwestern.edu/data/Bach10.html)
 - [Ballroom](http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html)
@@ -29,6 +30,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [SALAMI](http://ddmal.music.mcgill.ca/research/salami/annotations)
 - [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1)
 - [TSP](http://www-mmsp.ece.mcgill.ca/Documents/Data/)
+- [TUT Acoustic Scenes 2016](http://www.cs.tut.fi/~mesaros/pubs/mesaros_eusipco2016-dcase.pdf)
 - [UIOWA MIS](http://theremin.music.uiowa.edu/mis.html)
 - [US Pop](https://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html)
 - [iKala](http://mac.citi.sinica.edu.tw/ikala/)
