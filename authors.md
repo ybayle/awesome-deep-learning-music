@@ -53,6 +53,7 @@
 - Ellis, Daniel P. W.
 - Emilia Gomez
 - Evangelopoulos, Georgios
+- Ewert, Sebastian
 - Fan, Zhe-Cheng
 - Fazekas, György
 - Feng, Tao
@@ -245,6 +246,7 @@
 - Southall, Carl
 - Stables, Ryan
 - Stasiak, Bart{\l}omiej
+- Stoller, Daniel
 - Sturm, Bob L.
 - Su, Hong
 - Takahashi, Naoya

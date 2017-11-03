@@ -11,6 +11,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Ballroom](http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html)
 - [Beatles](http://isophonics.net/content/reference-annotations-beatles)
 - [C4S](http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset)
+- [CCMixter](https://members.loria.fr/ALiutkus/kam/)
 - [DSD100](http://musicdata.gforge.inria.fr/structureAnnotation.html)
 - [Free music archive](http://freemusicarchive.org/)
 - [GTzan](http://marsyas.info/downloads/datasets.html)

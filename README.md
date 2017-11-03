@@ -145,6 +145,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Automatic drum transcription for polyphonic recordings using soft attention mechanisms and convolutional neural networks](http://www.ryanstables.co.uk/docs/ISMIR2017CamReady.pdf) | [GitHub](https://github.com/CarlSouthall/ADTLib) |
 | [Analysis of time-frequency representations for musical onset detection with convolutional neural network](http://ieeexplore.ieee.org/abstract/document/7733228/) | No |
 | [Note onset detection in musical signals via neural-network-based multi-ODF fusion](https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf) | No |
+| [Adversarial semi-supervised audio source separation applied to singing voice extraction](https://arxiv.org/pdf/1711.00048.pdf) | No |
 | [Taking the models back to music practice: Evaluating generative transcription models built using deep learning](http://jcms.org.uk/issues/Vol2Issue1/taking-models-back-to-music-practice/Taking%20the%20Models%20back%20to%20Music%20Practice:%20Evaluating%20Generative%20Transcription%20Models%20built%20using%20Deep%20Learning.pdf) | [GitHub](https://github.com/IraKorshunova/folk-rnn) |
 | [Music transcription modelling and composition using deep learning](https://drive.google.com/file/d/0B1OooSxEtl0FcTBiOGdvSTBmWnc/view) | [GitHub](https://github.com/IraKorshunova/folk-rnn) |
 | [Folk music style modelling by recurrent neural networks with long short term memory units](http://ismir2015.uma.es/LBD/LBD13.pdf) | [GitHub](https://github.com/IraKorshunova/folk-rnn) |
@@ -207,10 +208,10 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 148 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [307 other researchers](authors.md) in your field.
+- 149 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- If you are applying DL to music, there are [309 other researchers](authors.md) in your field.
 - 28 tasks investigated. See the list of [tasks](tasks.md).
-- 32 datasets used. See the list of [datasets](datasets.md).
+- 33 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
