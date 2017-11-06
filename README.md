@@ -215,6 +215,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
+- Only 35 articles (23%) provide their source code.
+Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 ## How To Contribute
 
@@ -283,6 +285,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 #### Deep learning
 
+- [Model Convertors](https://github.com/ysh329/deep-learning-model-convertor) - Convertors for DL frameworks and backend
+- [Deep architecture genealogy](https://github.com/hunkim/deep_architecture_genealogy) - Genealogy of DL architectures
 - [Deep Learning as an Engineer](http://www.univie.ac.at/nuhag-php/dateien/talks/3358_schlueter.pdf) - Slides from Jan Schlüter
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - General deep learning resources
 - [Awesome Deep Learning Resources](https://github.com/endymecy/awesome-deeplearning-resources) - Papers regarding deep learning and deep reinforcement learning
@@ -295,6 +299,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [CNN overview](http://cs231n.github.io/convolutional-networks/) - Stanford Course
 - [Dilated Recurrent Neural Networks](https://arxiv.org/pdf/1710.02224.pdf) - How to improve RNNs?
 - [Encoder-Decoder in RNNs](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/?utm_content=buffer0d2a7&utm_medium=social&utm_source=twitter.com&utm_campaign=bufferhttps://blog.recast.ai/ml-spotlight-rnn/?utm_content=bufferf19d3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) - How Does Attention Work in Encoder-Decoder Recurrent Neural Networks
+- [On the use of DL](https://twitter.com/randal_olson/status/927157485240311808/photo/1) - Misc fun around DL
 
 ## Cited by
 

@@ -85,6 +85,20 @@ def articles_per_year(bib):
     print("Fig. with number of articles per year saved in", fig_fn)
 
 
+def get_reproducibility(bib):
+    """Description of get_reproducibility
+    Generate insights on reproducibility
+    """
+    cpt = 0
+    for entry in bib:
+        if "code" in entry:
+            if entry["code"][:2] != "No":
+                cpt += 1
+    print(str(cpt) + " articles provide their source code.")
+
+    return cpt
+
+
 def get_nb_articles(bib):
     """Description of get_nb_articles
     Count the number of articles in the database
@@ -147,7 +161,11 @@ def generate_summary_table(bib):
     """Description of generate_summary_table
     Parse dl4m.bib to create a simple and readable ReadMe.md table.
     """
-    nb_articles = str(get_nb_articles(bib))
+    nb_articles = get_nb_articles(bib)
+    nb_repro = get_reproducibility(bib)
+    percent_repro = str(int(nb_repro * 100. / nb_articles))
+    nb_articles = str(nb_articles)
+    nb_repro = str(nb_repro)
     nb_authors = str(get_authors(bib) - 1)
     nb_tasks = str(get_field(bib, "task"))
     nb_datasets = str(get_field(bib, "dataset"))
@@ -179,6 +197,9 @@ def generate_summary_table(bib):
             elif "architecture used" in line:
                 readme += "- " + nb_archi + " architectures used. "
                 readme += "See the list of [architectures](architectures.md).\n"
+            elif "- Only" in line:
+                readme += "- Only " + nb_repro + " articles (" + percent_repro
+                readme += "%) provide their source code.\n"
             else:
                 readme += line
     with open(readme_fn, "w", encoding="utf-8") as filep:
@@ -191,15 +212,15 @@ def validate_field(field_name):
     Assert the validity of the field's name
     """
     fields = ["task", "dataset", "architecture", "author", "dataaugmentation",
-        "link", "title", "year", "journal", "ENTRYTYPE"]
+              "link", "title", "year", "journal", "code", "ENTRYTYPE"]
     error_str = "Invalid field provided: " + field_name + ". "
     error_str += "Valid fields: " + '[%s]' % ', '.join(map(str, fields))
     assert field_name in fields, error_str
 
 
 def get_field(bib, field_name):
-    """Description of tasks
-    Generate insights on tasks
+    """Description of get_field
+    Generate insights on the field_name in the bib file
     """
     validate_field(field_name)
     nb_article_missing = 0
