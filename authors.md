@@ -170,6 +170,7 @@
 - Mehri, Soroush
 - Meng, Fanhang
 - Mertins, Alfred
+- Mimilakis, Stylianos Ioannis
 - Miron, Marius
 - Mitsufuji, Yuki
 - Montecchio, Nicola
@@ -221,7 +222,7 @@
 - Roma, Gerard
 - Rosasco, Lorenzo
 - Sandler, Mark Brian
-- Santos, Joao Felipe
+- Santos, João Felipe
 - Santoso, Andri
 - Saurous, Rif A.
 - Schedl, Markus
@@ -231,6 +232,7 @@
 - Schlüter, Jan
 - Schrauwen, Benjamin
 - Schuller, Bj{\"o}rn W
+- Schuller, Gerald
 - Senac, Christine
 - Serra, Xavier
 - Seybold, Bryan
