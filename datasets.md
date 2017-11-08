@@ -12,7 +12,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Beatles](http://isophonics.net/content/reference-annotations-beatles)
 - [C4S](http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset)
 - [CCMixter](https://members.loria.fr/ALiutkus/kam/)
-- [DSD100](http://musicdata.gforge.inria.fr/structureAnnotation.html)
+- [DSD100](http://sisec17.audiolabs-erlangen.de/#/dataset)
 - [Free music archive](http://freemusicarchive.org/)
 - [GTzan](http://marsyas.info/downloads/datasets.html)
 - [HHDS](https://drive.google.com/drive/folders/0B1zpiGdDzFNlbmJyYU1VVFR3OEE)
