@@ -901,7 +901,7 @@
   activation = {ReLU},
   architecture = {RNN & DNN},
   author = {Mimilakis, Stylianos Ioannis and Drossos, Konstantinos and Santos, João Felipe and Schuller, Gerald and Virtanen, Tuomas and Bengio, Yoshua},
-  batche = {16},
+  batch = {16},
   code = {https://github.com/Js-Mim/mss_pytorch},
   dataaugmentation = {No},
   dataset = {[MedleyDB](http://medleydb.weebly.com/) & [DSD100](http://musicdata.gforge.inria.fr/structureAnnotation.html)},
@@ -923,6 +923,7 @@
   address = {Espoo, Finland},
   architecture = {CNN},
   author = {Miron, Marius and Janer Mestres, Jordi and G{\'o}mez Guti{\'e}rrez, Emilia},
+  batch = {32},
   booktitle = {SMC},
   code = {https://github.com/MTG/DeepConvSep},
   dataset = {[RWC](https://staff.aist.go.jp/m.goto/RWC-MDB/) & [Bach10](http://music.cs.northwestern.edu/data/Bach10.html)},
@@ -1000,12 +1001,15 @@
 }
 
 @inproceedings{Oramas2017b,
+  address = {Suzhou, China},
   architecture = {CNN},
   author = {Oramas, Sergio and Nieto, Oriol and Barbieri, Francesco and Serra, Xavier},
+  batch = {No},
   booktitle = {ISMIR},
   code = {https://github.com/sergiooramas/tartarus},
   dataset = {[MSD](https://labrosa.ee.columbia.edu/millionsong/)},
-  link = {https://arxiv.org/abs/1707.04916},
+  link = {https://ismir2017.smcnus.org/wp-content/uploads/2017/10/126_Paper.pdf},
+  month = {Oct.},
   task = {MGR},
   title = {Multi-label music genre classification from audio, text, and images using deep features},
   year = {2017}
@@ -1014,6 +1018,7 @@
 @inproceedings{Oramas2017a,
   architecture = {CNN},
   author = {Oramas, Sergio and Nieto, Oriol and Sordo, Mohamed and Serra, Xavier},
+  batch = {32},
   booktitle = {DLRS},
   code = {https://github.com/sergiooramas/tartarus},
   dataset = {[MSD](https://labrosa.ee.columbia.edu/millionsong/)},
@@ -1026,6 +1031,7 @@
 
 @inproceedings{Park2017a,
   author = {Park, Hyunsin and Yoo, Chang D},
+  batch = {No},
   booktitle = {ICASSP},
   link = {http://ieeexplore.ieee.org/abstract/document/7952660/},
   organization = {IEEE},
@@ -1047,6 +1053,7 @@
 
 @article{Park2015a,
   author = {Park, Taejin and Lee, Taejin},
+  batch = {No},
   booktitle = {ISMIR},
   input = {2D},
   link = {http://ismir2015.uma.es/LBD/LBD27.pdf},
@@ -1107,10 +1114,14 @@
 }
 
 @inproceedings{Pons2017a,
+  address = {Suzhou, China},
   author = {Pons, Jordi and Gong, Rong and Serra, Xavier},
+  batch = {128},
   booktitle = {ISMIR},
   code = {https://github.com/ronggong/jingjuSyllabicSegmentaion/tree/v0.1.0},
-  link = {https://arxiv.org/pdf/1707.03544.pdf},
+  link = {https://ismir2017.smcnus.org/wp-content/uploads/2017/10/46_Paper.pdf},
+  month = {Oct.},
+  optimizer = {Adam},
   task = {Syllable segmentation},
   title = {Score-informed syllable segmentation for a cappella singing voice with convolutional neural networks},
   year = {2017}
@@ -1130,6 +1141,29 @@
   researchfields = {MIR},
   title = {Experimenting with musically motivated convolutional neural networks},
   year = {2016}
+}
+
+@inproceedings{Pons2017d,
+  activation = {ReLU},
+  address = {Long Beach, CA, USA},
+  architecture = {CNN},
+  author = {Pons, Jordi and Nieto, Oriol and Prockup, Matthew and Schmidt, Erik M. and Ehmann, Andreas F. and Serra, Xavier},
+  backend = {Tensorflow},
+  batch = {16},
+  booktitle = {[NIPS_ML4Audio](https://nips.cc/Conferences/2017/Schedule?showEvent=8790)},
+  code = {https://github.com/jordipons/music-audio-tagging-at-scale-models},
+  dataaugmentation = {No},
+  epochs = {No},
+  gpu = {No},
+  learningrate = {0.001},
+  link = {https://arxiv.org/pdf/1711.02520.pdf},
+  month = {Dec.},
+  note = {Demo: http://www.jordipons.me/apps/music-audio-tagging-at-scale-demo/ and 15sec moving window to process the whole song},
+  optimizer = {Adam},
+  pages = {1--5},
+  task = {General audio classification},
+  title = {End-to-end learning for music audio tagging at scale},
+  year = {2017}
 }
 
 @inproceedings{Pons2017c,

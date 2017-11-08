@@ -50,6 +50,7 @@
 - Drossos, Konstantinos
 - Duppada, Venkatesh
 - Durand, Simon
+- Ehmann, Andreas F.
 - Ellis, Daniel P. W.
 - Emilia Gomez
 - Evangelopoulos, Georgios
@@ -207,6 +208,7 @@
 - Poggio, Tomaso
 - Pons, Jordi
 - Pritish Chandna
+- Prockup, Matthew
 - Qian, Jiyuan
 - Qian, Sheng
 - Qiang Huang
@@ -230,6 +232,7 @@
 - Schluter, Jan
 - Schl{\"u}ter, Jan
 - Schlüter, Jan
+- Schmidt, Erik M.
 - Schrauwen, Benjamin
 - Schuller, Bj{\"o}rn W
 - Schuller, Gerald

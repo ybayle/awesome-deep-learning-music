@@ -115,7 +115,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A deep bag-of-features model for music auto-tagging](https://arxiv.org/pdf/1508.04999v1.pdf) | No |
 | [Learning sparse feature representations for music annotation and retrieval](https://pdfs.semanticscholar.org/099d/85f25e9336f48ff64287a4b53ee5fb64ab51.pdf) | No |
 | [A convolutional-kernel based approach for note onset detection in piano-solo audio signals](http://www.murase.nuie.nagoya-u.ac.jp/~ide/res/paper/E04-conference-pablo-1.pdf) | No |
-| [Multi-label music genre classification from audio, text, and images using deep features](https://arxiv.org/abs/1707.04916) | [GitHub](https://github.com/sergiooramas/tartarus) |
+| [Multi-label music genre classification from audio, text, and images using deep features](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/126_Paper.pdf) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [A deep multimodal approach for cold-start music recommendation](https://arxiv.org/pdf/1706.09739.pdf) | [GitHub](https://github.com/sergiooramas/tartarus) |
 | [Melody extraction and detection through LSTM-RNN with harmonic sum loss](http://ieeexplore.ieee.org/abstract/document/7952660/) | No |
 | [Representation learning of music using artist labels](https://arxiv.org/pdf/1710.06648.pdf) | No |
@@ -125,8 +125,9 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Robust audio event recognition with 1-max pooling convolutional neural networks](https://arxiv.org/pdf/1604.06338.pdf) | No |
 | [DNN and CNN with weighted and multi-task loss functions for audio event detection](https://arxiv.org/pdf/1708.03211.pdf) | No |
 | [Environmental sound classification with convolutional neural networks](http://karol.piczak.com/papers/Piczak2015-ESC-ConvNet.pdf) | No |
-| [Score-informed syllable segmentation for a cappella singing voice with convolutional neural networks](https://arxiv.org/pdf/1707.03544.pdf) | [GitHub](https://github.com/ronggong/jingjuSyllabicSegmentaion/tree/v0.1.0) |
+| [Score-informed syllable segmentation for a cappella singing voice with convolutional neural networks](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/46_Paper.pdf) | [GitHub](https://github.com/ronggong/jingjuSyllabicSegmentaion/tree/v0.1.0) |
 | [Experimenting with musically motivated convolutional neural networks](http://jordipons.me/media/CBMI16.pdf) | [GitHub](https://github.com/jordipons/) |
+| [End-to-end learning for music audio tagging at scale](https://arxiv.org/pdf/1711.02520.pdf) | [GitHub](https://github.com/jordipons/music-audio-tagging-at-scale-models) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | [Timbre analysis of music audio signals with convolutional neural networks](https://github.com/ronggong/EUSIPCO2017) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | [Monoaural audio source separation using deep convolutional neural networks](http://mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
@@ -210,14 +211,14 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 150 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [311 other researchers](authors.md) in your field.
+- 151 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- If you are applying DL to music, there are [314 other researchers](authors.md) in your field.
 - 28 tasks investigated. See the list of [tasks](tasks.md).
 - 33 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- Only 36 articles (24%) provide their source code.
+- Only 37 articles (24%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 ## How To Contribute
