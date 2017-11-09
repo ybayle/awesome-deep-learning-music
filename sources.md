@@ -15,6 +15,7 @@ The list of website used to gather the proposed materials:
 
 ## Conferences
 
+- [AAAI](https://aaai.org/Conferences/AAAI-18/) - Association for the Advancement of Artificial Intelligence Conference on Artificial Intelligence
 - [CSMC](https://csmc2016.wordpress.com/) - Conference on Computer Simulation of Musical Creativity
 - [ICASSP](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002) - IEEE International Conference on Acoustics, Speech, and Signal Processing
 - [ICMC](http://www.computermusic.org/) - International Computer Music Conference

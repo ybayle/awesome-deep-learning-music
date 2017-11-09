@@ -303,6 +303,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Dilated Recurrent Neural Networks](https://arxiv.org/pdf/1710.02224.pdf) - How to improve RNNs?
 - [Encoder-Decoder in RNNs](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/?utm_content=buffer0d2a7&utm_medium=social&utm_source=twitter.com&utm_campaign=bufferhttps://blog.recast.ai/ml-spotlight-rnn/?utm_content=bufferf19d3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) - How Does Attention Work in Encoder-Decoder Recurrent Neural Networks
 - [On the use of DL](https://twitter.com/randal_olson/status/927157485240311808/photo/1) - Misc fun around DL
+- [ML from scratch](https://github.com/eriklindernoren/ML-From-Scratch) - Python implementations of ML models and algorithms from scratch from Data Mining to DL 
 
 ## Cited by
 
