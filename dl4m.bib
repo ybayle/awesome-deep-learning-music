@@ -51,6 +51,7 @@
   booktitle = {Music and Artificial Intelligence. Additional Proceedings of the Second International Conference, ICMAI},
   link = {https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf},
   pages = {167},
+  task = {MGR},
   title = {A supervised learning approach to musical style recognition},
   volume = {2002},
   year = {2002}
@@ -78,6 +79,7 @@
   link = {http://ieeexplore.ieee.org/abstract/document/8019322/},
   organization = {IEEE},
   pages = {955--960},
+  task = {General audio classification},
   title = {Deep multimodal network for multi-label classification},
   year = {2017}
 }
@@ -87,6 +89,7 @@
   code = {https://github.com/keunwoochoi/dl4mir},
   journal = {arXiv preprint arXiv:1709.04396},
   link = {https://arxiv.org/pdf/1709.04396.pdf},
+  task = {General audio classification},
   title = {A tutorial on deep learning for music information retrieval},
   year = {2017}
 }
@@ -135,9 +138,13 @@
 
 @inproceedings{Choi2017c,
   author = {Choi, Keunwoo and Fazekas, György and Sandler, Mark Brian and Cho, Kyunghyun},
+  batch = {No},
   booktitle = {ISMIR},
   code = {https://github.com/keunwoochoi/transfer_learning_music},
+  dataset = {[MSD](https://labrosa.ee.columbia.edu/millionsong/)},
   link = {https://arxiv.org/pdf/1703.09179v3.pdf},
+  optimizer = {Adam},
+  task = {General audio classification},
   title = {Transfer learning for music classification and regression tasks},
   year = {2017}
 }
@@ -171,11 +178,16 @@
 @article{Costa2017,
   architecture = {CNN},
   author = {Costa, Yandre MG and Oliveira, Luiz S and Silla, Carlos N},
+  batch = {128},
   dataset = {[LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)},
+  framework = {Caffe},
+  gpu = {Tesla C2050},
   journal = {Applied Soft Computing},
+  learningrate = {0.001},
   link = {http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf},
   pages = {28--38},
   publisher = {Elsevier},
+  task = {General audio classification},
   title = {An evaluation of convolutional neural networks for music classification using spectrograms},
   volume = {52},
   year = {2017}
@@ -216,6 +228,7 @@
   author = {Deng, Junqi and Kwok, Yu-Kwong},
   journal = {arXiv preprint arXiv:1709.07153},
   link = {https://arxiv.org/pdf/1709.07153.pdf},
+  task = {Chord recognition},
   title = {Large vocabulary automatic chord estimation using deep neural nets: Design framework, system variations and limitations},
   year = {2017}
 }
@@ -296,6 +309,7 @@
   link = {http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf},
   organization = {IEEE},
   pages = {409--413},
+  task = {Beat detection},
   title = {Downbeat tracking with multiple features and deep neural networks},
   year = {2015}
 }
