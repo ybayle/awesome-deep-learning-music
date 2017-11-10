@@ -87,6 +87,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A fully convolutional deep auditory model for musical chord recognition](https://www.researchgate.net/profile/Filip_Korzeniowski/publication/305590295_A_Fully_Convolutional_Deep_Auditory_Model_for_Musical_Chord_Recognition/links/579486ba08aed51475cc6958/A-Fully-Convolutional-Deep-Auditory-Model-for-Musical-Chord-Recognition.pdf?_iepl%5BhomeFeedViewId%5D=HTzFFmKPia2YminQ4psHT5at&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=Dz_6LKHzYcPyP-LmgZPF-m63ayZ6k0entFEntooiu_e32zfETNQXKPQSTFOI87NONIIQuUQdnUtwORdomTXfteTrb09KiAIdDtBJnw_02P6JeRr5zu2eyaCG.2Uxsi_eENxtbYL39lvorIK8LofRYhkgpUHzpzmVzkIEiyHc0wUY87rEa4PH1qbXi4k4RyagHUsA2IsZtewnprglORjx2v9Cwbk9ZfQ.cd67BaqtHul_hE6SX6vUFKuldz81aH6dWq-cYMkq5vQKCHcvB8l9zgeM694Efb_r2wBB5GT9idt3OLeME0UxVHI6ROxamgK3LMNlSw.JtZXAo9HhR9t-8Wl3gxJgnoM4--rtmDEUDbXSWezbFyU-CoB_nyfxbRQ4kdoN4-5aJ3Tgx4YHdikicqAhc_cezB2ZntjxkB4rEDx1A) | No |
 | [End-to-end musical key estimation using a convolutional neural network](https://arxiv.org/pdf/1706.02921.pdf) | No |
 | [MediaEval 2017 AcousticBrainz genre task: Multilayer perceptron approach](http://www.cp.jku.at/research/papers/Koutini_2017_mediaeval-acousticbrainz.pdf) | No |
+| [Classification-based singing melody extraction using deep convolutional neural networks](https://www.preprints.org/manuscript/201711.0027/v1) | No |
 | [The representation of pitch in a neural net model of chord classification](http://www.jstor.org/stable/3679550) | No |
 | [Unsupervised feature learning for audio classification using convolutional deep belief networks](http://papers.nips.cc/paper/3674-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks.pdf) | No |
 | [Multi-level and multi-scale feature aggregation using pre-trained convolutional neural networks for music auto-tagging](https://arxiv.org/pdf/1703.01793v2.pdf) | No |
@@ -211,10 +212,10 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 151 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [314 other researchers](authors.md) in your field.
+- 152 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- If you are applying DL to music, there are [315 other researchers](authors.md) in your field.
 - 28 tasks investigated. See the list of [tasks](tasks.md).
-- 33 datasets used. See the list of [datasets](datasets.md).
+- 36 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
