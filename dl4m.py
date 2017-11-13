@@ -22,6 +22,7 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
     error handling
     report on nb item per ENTRYTYPE
     generate .tsv from .bib
+    wordcloud titles, abstract, articles
 """
 
 import numpy as np
@@ -263,7 +264,7 @@ def create_table(bib, outfilen="dl4m.tsv"):
 
     print("Available fields:")
     print(fields)
-    fields = ["year", "title", "author", "ENTRYTYPE", "link", "code", "task", 
+    fields = ["year", "ENTRYTYPE", "title", "author", "link", "code", "task", 
         "reproducible", "dataset", "framework", "backend", "architecture",
         "batch", "epochs", "dataaugmentation", "input", "dimension", "dropout",
         "activation", "loss", "learningrate", "optimizer", "gpu"]

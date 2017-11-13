@@ -180,6 +180,8 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A deep representation for invariance and music classification](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7034-zhang.pdf) | No |
 | [A deep neural network for modeling music](https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf) | No |
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 ## DL4M details
 
 A human-readable table summarized version if displayed in the file [dl4m.tsv](dl4m.tsv). All details for each article are stored in the corresponding bib entry in [dl4m.bib](dl4m.bib). Each entry has the regular bib field:
@@ -203,6 +205,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - `note` - Additional notes and information
 - `repro` - Indication to what extent the experiments are reproducible
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 ## Code without articles
 
 - [Audio Classifier in Keras using Convolutional Neural Network](https://github.com/drscotthawley/audio-classifier-keras-cnn)
@@ -212,6 +216,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - [Pitch Estimation of Choir Music using Deep Learning Strategies: from Solo to Unison Recordings](https://github.com/helenacuesta/choir-pitch-estimation)
 - [Music Genre Classification with LSTMs](https://github.com/ruohoruotsi/LSTM-Music-Genre-Classification)
 - [CNN based Music Emotion Classification using TensorFlow](https://github.com/rickiepark/cnn_mer)
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## Statistics and visualisations
 
@@ -225,10 +231,14 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - Only 37 articles (24%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 ## How To Contribute
 
 Contributions are welcome!
 Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## FAQ
 
@@ -244,13 +254,19 @@ I want to have exhaustive research and the latest news on DL4M. However, one sho
 
 The list provided here does not guarantee the quality of the articles. You should either try to reproduce the experiments described or submit a request to [ReScience](https://github.com/ReScience/ReScience). Use one article's conclusion at your own risks.
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 ## Acronyms used
 
 A list of useful acronyms used in deep learning and music is stored in [acronyms.md](acronyms.md).
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 ## Sources
 
 The list of conferences, journals and aggregators used to gather the proposed materials is stored in [sources.md](sources.md). 
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## Contributors
 
@@ -260,6 +276,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Bob L. Sturm](http://www.eecs.qmul.ac.uk/~sturm/) ([GitHub](https://github.com/boblsturm))
 - [Stefan Balke](https://www.audiolabs-erlangen.de/fau/assistant/balke) ([GitHub](https://github.com/stefan-balke))
 - [Jordi Pons](http://www.jordipons.me/) ([GitHub](https://github.com/jordipons))
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## Other useful related lists and resources
 
@@ -282,6 +300,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Unclassified list of MIR-related links](http://www.music.mcgill.ca/~cmckay/links_academic.html) - [Cory McKay](http://www.music.mcgill.ca/~cmckay/)'s list of various links on DL, MIR, ...
 - [MIRDL](http://jordipons.me/wiki/index.php/MIRDL) - Unmaintained list of DL articles for MIR from [Jordi Pons](http://www.jordipons.me/)
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 #### Music datasets
 
 - [AudioContentAnalysis nearly exhaustive list of music-related datasets](http://www.audiocontentanalysis.org/data-sets/)
@@ -289,6 +309,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Wikipedia's list of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#cite_ref-215)
 - [Datasets for deep learning](http://deeplearning.net/datasets/)
 - [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 #### Deep learning
 
@@ -309,6 +331,8 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [On the use of DL](https://twitter.com/randal_olson/status/927157485240311808/photo/1) - Misc fun around DL
 - [ML from scratch](https://github.com/eriklindernoren/ML-From-Scratch) - Python implementations of ML models and algorithms from scratch from Data Mining to DL 
 
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
 ## Cited by
 
 If you use the information contained in this repository, please let us know! This repository is cited by:
@@ -316,3 +340,5 @@ If you use the information contained in this repository, please let us know! Thi
 - [Alexander Schindler](https://twitter.com/Slychief/status/915218386421997568)
 - [Meinard Müller, Christof Weiss, Stefan Balke](https://www.audiolabs-erlangen.de/resources/MIR/2017-GI-Tutorial-Musik/2017_MuellerWeissBalke_GI_DeepLearningMIR.pdf)
 - [AINewsFeed](https://twitter.com/AINewsFeed/status/897832912351105025)
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
