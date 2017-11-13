@@ -1,3 +1,5 @@
+**TL;DR** List of scientific articles for deep learning and music: [summary](#dl4m-summary) (few info), [details (table - more info)](dl4m.tsv), [details (bib - all info)](dl4m.bib)
+
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 The role of this curated list is to gather scientific articles, thesis and reports that use deep learning approaches applied to music.
@@ -180,7 +182,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## DL4M details
 
-All details for each article are stored in the corresponding bib entry in [dl4m.bib](dl4m.bib). Each entry has the regular bib field:
+A human-readable table summarized version if displayed in the file [dl4m.tsv](dl4m.tsv). All details for each article are stored in the corresponding bib entry in [dl4m.bib](dl4m.bib). Each entry has the regular bib field:
 
 - `author`
 - `year`

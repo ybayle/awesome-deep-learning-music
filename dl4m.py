@@ -248,6 +248,42 @@ def get_field(bib, field_name):
     return nb_fields
 
 
+def create_table(bib, outfilen="dl4m.tsv"):
+    """Description of create_table
+    Generate human-readable table in .tsv form.
+    """
+
+    print("Generating the human-readable table as .tsv")
+    # Gather all existing field in bib
+    fields = []
+    for entry in bib:
+        for key in entry:
+            fields.append(key)
+    fields = set(fields)
+
+    print("Available fields:")
+    print(fields)
+    fields = ["year", "title", "author", "ENTRYTYPE", "link", "code", "task", 
+        "reproducible", "dataset", "framework", "backend", "architecture",
+        "batch", "epochs", "dataaugmentation", "input", "dimension", "dropout",
+        "activation", "loss", "learningrate", "optimizer", "gpu"]
+    print("Fields taken in order (in this order):")
+    print(fields)
+    
+    separator = "\t"
+    str2write = ""
+    for field in fields:
+        str2write += field.title() + separator
+    for entry in bib:
+        for field in fields:
+            if field in entry:
+                str2write += entry[field]
+            str2write += separator
+        str2write += "\n"
+    with open(outfilen, "w") as filep:
+        filep.write(str2write)
+
+
 def main(filen="dl4m.bib"):
     """Description of main
     Main entry point
@@ -256,6 +292,7 @@ def main(filen="dl4m.bib"):
     bib = load_bib(filen)
     generate_summary_table(bib)
     articles_per_year(bib)
+    create_table(bib)
 
 
 if __name__ == "__main__":
