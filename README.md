@@ -217,8 +217,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 - 153 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 - If you are applying DL to music, there are [315 other researchers](authors.md) in your field.
-- 30 tasks investigated. See the list of [tasks](tasks.md).
-- 40 datasets used. See the list of [datasets](datasets.md).
+- 31 tasks investigated. See the list of [tasks](tasks.md).
+- 41 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)

@@ -20,6 +20,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - Music/Noise segmentation
 - Noise suppression
 - Onset detection
+- Pitch determination
 - Playlist generation
 - Polyphonic music sequence modelling
 - Recommendation

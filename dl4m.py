@@ -274,6 +274,7 @@ def create_table(bib, outfilen="dl4m.tsv"):
     str2write = ""
     for field in fields:
         str2write += field.title() + separator
+    str2write += "\n"
     for entry in bib:
         for field in fields:
             if field in entry:
