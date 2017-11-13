@@ -4,6 +4,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 
 - Inhouse
 - [32 Beethoven’s piano sonatas gathered from https://archive.org](https://soundcloud.com/samplernn/sets)
+- [7digital](https://7digital.com)
 - [ADC2004](http://labrosa.ee.columbia.edu/projects/melody/)
 - [Acoustic Event](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
 - [AudioSet](https://research.google.com/audioset/index.html)
@@ -14,6 +15,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [C4S](http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset)
 - [CCMixter](https://members.loria.fr/ALiutkus/kam/)
 - [DSD100](http://sisec17.audiolabs-erlangen.de/#/dataset)
+- [Echo Nest Taste Profile Subset](https://labrosa.ee.columbia.edu/millionsong/tasteprofile)
 - [Free music archive](http://freemusicarchive.org/)
 - [GTzan](http://marsyas.info/downloads/datasets.html)
 - [HHDS](https://drive.google.com/drive/folders/0B1zpiGdDzFNlbmJyYU1VVFR3OEE)
@@ -23,6 +25,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)
 - [LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)
 - [LabROSA](http://labrosa.ee.columbia.edu/projects/melody/)
+- [Last.fm](https://www.last.fm/)
 - [LyricFind](http://lyricfind.com/)
 - [MIR-1K](https://sites.google.com/site/unvoicedsoundseparation/mir-1k)
 - [MSD](https://labrosa.ee.columbia.edu/millionsong/)

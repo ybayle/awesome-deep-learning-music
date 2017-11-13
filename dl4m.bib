@@ -199,7 +199,7 @@
   booktitle = {MediaEval},
   link = {https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf},
   task = {MER},
-  title = {The munich LSTM-RNN approach to the MediaEval 2014 "Emotion in music" task},
+  title = {The munich LSTM-RNN approach to the MediaEval 2014 Emotion In Music task},
   year = {2014}
 }
 
@@ -1625,12 +1625,17 @@
 }
 
 @inproceedings{Oord2013,
+  activation = {ReLU},
+  architecture = {CNN},
   author = {Van den Oord, Aaron and Dieleman, Sander and Schrauwen, Benjamin},
   booktitle = {NIPS},
-  dataset = {[MSD](https://labrosa.ee.columbia.edu/millionsong/)},
+  dataset = {[MSD](https://labrosa.ee.columbia.edu/millionsong/) & [Echo Nest Taste Profile Subset](https://labrosa.ee.columbia.edu/millionsong/tasteprofile) & [Last.fm](https://www.last.fm/)},
+  framework = {Theano},
   input = {MFCC & Mel-Spectro},
   link = {http://papers.nips.cc/paper/5004-deep-content-based-music-recommendation.pdf},
+  metric = {MSE},
   pages = {2643--2651},
+  task = {Recommendation},
   title = {Deep content-based music recommendation},
   year = {2013}
 }
@@ -1679,11 +1684,19 @@
 }
 
 @inproceedings{Wang2014,
+  architecture = {DBN},
   author = {Wang, Xinxi and Wang, Ye},
   booktitle = {ACM_ICM},
+  computationtime = {4 hours single GPU},
+  dataset = {[Echo Nest Taste Profile Subset](https://labrosa.ee.columbia.edu/millionsong/tasteprofile) & [7digital](https://7digital.com)},
+  epoch = {No},
+  framework = {Theano},
+  gpu = {15 nodes of 2 Tesla M2090},
   link = {http://www.smcnus.org/wp-content/uploads/2014/08/reco_MM14.pdf},
+  metric = {RMSE},
   organization = {ACM},
   pages = {627--636},
+  task = {Recommendation},
   title = {Improving content-based and hybrid music recommendation using deep learning},
   year = {2014}
 }
@@ -1711,6 +1724,7 @@
   booktitle = {IWDLM},
   code = {http://lonce.org/research/audioST/},
   link = {http://dorienherremans.com/dlm2017/papers/wyse2017spect.pdf},
+  task = {Review & Comparison},
   title = {Audio spectrogram representations for processing with convolutional neural networks},
   year = {2017}
 }
@@ -1722,6 +1736,7 @@
   input = {CQT},
   link = {http://www.ismir2012.ismir.net/event/papers/139_ISMIR_2012.pdf},
   pages = {139--144},
+  task = {MGR},
   title = {Unsupervised learning of local features for music classification},
   year = {2012}
 }

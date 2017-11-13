@@ -6,6 +6,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - Beat detection
 - Boundary detection
 - Chord recognition
+- Comparison
 - Composition
 - DCASE 2016 Task 4 Domestic audio tagging
 - Event recognition
@@ -23,6 +24,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - Polyphonic music sequence modelling
 - Recommendation
 - Remixing
+- Review
 - SVD
 - SVS
 - Source separation

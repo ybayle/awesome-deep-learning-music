@@ -44,7 +44,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Convolutional recurrent neural networks for music classification](http://ieeexplore.ieee.org/abstract/document/7952585/) | [GitHub](https://github.com/keunwoochoi/icassp_2017) |
 | [Auralisation of deep convolutional neural networks: Listening to learned features](http://ismir2015.uma.es/LBD/LBD24.pdf) | No |
 | [An evaluation of convolutional neural networks for music classification using spectrograms](http://www.inf.ufpr.br/lesoliveira/download/ASOC2017.pdf) | No |
-| [The munich LSTM-RNN approach to the MediaEval 2014 "Emotion in music" task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | No |
+| [The munich LSTM-RNN approach to the MediaEval 2014 Emotion In Music task](https://pdfs.semanticscholar.org/8a24/c5131d5a28165f719697028c34b00e6d3f60.pdf) | No |
 | [A machine learning approach to musical style recognition](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1496&context=compsci) | No |
 | [Automatic chord estimation on seventhsbass chord vocabulary using deep neural network](http://ieeexplore.ieee.org/abstract/document/7471677/) | No |
 | [Large vocabulary automatic chord estimation using deep neural nets: Design framework, system variations and limitations](https://arxiv.org/pdf/1709.07153.pdf) | No |
@@ -217,8 +217,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 - 153 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 - If you are applying DL to music, there are [315 other researchers](authors.md) in your field.
-- 28 tasks investigated. See the list of [tasks](tasks.md).
-- 37 datasets used. See the list of [datasets](datasets.md).
+- 30 tasks investigated. See the list of [tasks](tasks.md).
+- 40 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)

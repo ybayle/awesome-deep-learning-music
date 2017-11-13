@@ -40,6 +40,7 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | MLP | Multi-Layer Perceptron |
 | MRS | Music Recommender System |
 | MSDAE | Modified Sparse Denoising Autoencoder |
+| MSE | Mean Squared Error |
 | MSR | Music Style Recognition |
 | NN | Neural Network |
 | NNMODFF | Neural Network based Multi-Onset Detection Function Fusion |
@@ -59,3 +60,4 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | VAD | Voice Activity Detection |
 | VAE | Variational AutoEncoder |
 | VPNN | Vector Product Neural Network |
+| WPE | Weighted Prediction Error |
