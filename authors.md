@@ -31,6 +31,7 @@
 - Chen, Tanfang
 - Chen, Wenxiao
 - Cheng, Wen-Huang
+- Chesmore, David
 - Chiang, Chin-Chin
 - Cho, Kyunghyun
 - Choi, Keunwoo
@@ -169,6 +170,7 @@
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
 - McFee, Brian
+- Medhat, Fady
 - Mehri, Soroush
 - Meng, Fanhang
 - Mertins, Alfred
@@ -222,6 +224,7 @@
 - Richard, Gaël
 - Riedmiller, Martin
 - Rigaud, François
+- Robinson, John
 - Roma, Gerard
 - Rosasco, Lorenzo
 - Sandler, Mark Brian

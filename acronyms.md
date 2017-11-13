@@ -11,8 +11,10 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | BILSTM | Bidirectional Long Short-Term Memory |
 | BRNN | Bidirectional Recurrent Neural Network |
 | CDBN | Convolutional Deep Belief Networks |
+| CLNN | ConditionaL Neural Networks |
 | CNN | Convolutional Neural Network |
 | ConvNet | Convolutional Neural Network |
+| CRBM | Conditional Restricted Boltzmann Machine |
 | CRNN | Convolutional Recurrent Neural Network | 
 | DAE | Denoising AutoEncoder or Deep AutoEncoder |
 | DBM | Deep Boltzmann Machine |
@@ -33,6 +35,7 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | HAN | Hierarchical Attention Network |
 | HHDS | HipHop Dataset |
 | LSTM | Long Short-Term Memory |
+| MCLNN |Masked ConditionaL Neural Networks |
 | MER | Music Emotion Recognition |
 | MLP | Multi-Layer Perceptron |
 | MRS | Music Recommender System |

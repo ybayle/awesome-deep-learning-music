@@ -107,6 +107,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A deep learning approach to source separation and remixing of hiphop music](https://repositori.upf.edu/bitstream/handle/10230/32919/Martel_2017.pdf?sequence=1&isAllowed=y) | No |
 | [Neural network based model for classification of music type](http://ieeexplore.ieee.org/abstract/document/514161/) | No |
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | No |
+| [Music Genre Classification Using Masked Conditional Neural Networks](https://link.springer.com/chapter/10.1007%2F978-3-319-70096-0_49) | No |
 | [SampleRNN: An unconditional end-to-end neural audio generation model](https://openreview.net/pdf?id=SkxKPDv5xl) | [GitHub](https://github.com/soroushmehr/sampleRNN_ICLR2017) |
 | [Monaural Singing Voice Separation with Skip-Filtering Connections and Recurrent Inference of Time-Frequency Mask](https://arxiv.org/pdf/1711.01437.pdf) | [GitHub](https://github.com/Js-Mim/mss_pytorch) |
 | [Generating data to train convolutional neural networks for classical music source separation](https://www.researchgate.net/profile/Marius_Miron/publication/318322107_Generating_data_to_train_convolutional_neural_networks_for_classical_music_source_separation/links/59637cc3458515a3575b93c6/Generating-data-to-train-convolutional-neural-networks-for-classical-music-source-separation.pdf?_iepl%5BhomeFeedViewId%5D=WchoMnlUL1Hk9hBLVTeR8Amh&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=p3lQ8M4uZlb4TF5Hv9a2U3P2y4wW7ant5KWj4E5-OcD1Mg53p1ykTKHMG9_zVTB9n6mI8fvZOCL2Xhpru186pCEY-2ZxiYR-CB8_QvwHc1kUG-QE4SHdProR.LoJb2BDOiiQth3iR9xgZUxxCWEJgtTBF4whFrFa01OD49-3YYRxA0WQVN--zhtQU_7C2Pt0rKdwoFxT1pfxFvnKXSXmy2eT1Jpz-pw.U1QLoFO_Uc6aQVr2Nm2FcAi6BqAUfngH2Or5__6wegbCgVvTYoIGt22tmCkYbGTOQ_4PxBgt1LrvsFQiL0oMyogP8Yk8myTj0gs9jw.fGpkufGqAI4R2v8Hfe0ThcXL7M7yN2PuAlx974BGVn50SdUWvNhhIPWBD-zWTn8NKtVJx3XrjKXFrMgi9Cx7qGrNP8tBWpha6Srf6g) | [GitHub](https://github.com/MTG/DeepConvSep) |
@@ -212,10 +213,10 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 152 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [315 other researchers](authors.md) in your field.
+- 153 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- If you are applying DL to music, there are [318 other researchers](authors.md) in your field.
 - 28 tasks investigated. See the list of [tasks](tasks.md).
-- 36 datasets used. See the list of [datasets](datasets.md).
+- 37 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)

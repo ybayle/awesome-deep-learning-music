@@ -17,6 +17,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Free music archive](http://freemusicarchive.org/)
 - [GTzan](http://marsyas.info/downloads/datasets.html)
 - [HHDS](https://drive.google.com/drive/folders/0B1zpiGdDzFNlbmJyYU1VVFR3OEE)
+- [Homburg](http://www-ai.cs.uni-dortmund.de/audio.html)
 - [IDMT-SMT-Drums](https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/drums.html)
 - [IRMAS](https://www.upf.edu/web/mtg/irmas)
 - [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)

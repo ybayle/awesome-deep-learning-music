@@ -8,6 +8,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - BILSTM
 - BRNN
 - CDBN
+- CLNN
 - CNN
 - CRNN
 - ConvNet
@@ -17,6 +18,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - FCN
 - HAN
 - LSTM
+- MCLNN
 - MLP
 - NNMODFF
 - PNN
