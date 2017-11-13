@@ -6,7 +6,7 @@
 - Badeau, Roland
 - Bammer, Roswitha
 - Barbieri, Francesco
-- Bazzica, A
+- Bazzica, Alessio
 - Bello, Juan Pablo
 - Ben-Tal, Oded
 - Benetos, Emmanouil
@@ -16,13 +16,13 @@
 - Bittner, Rachel
 - Bock, Sebastian
 - Boulanger-Lewandowski, Nicolas
-- Brakel, Phil{\'e}mon
+- Brakel, Philémon
 - Bransen, Jeroen
 - Briot, Jean-Pierre
 - Buzzanca, Giuseppe
 - Böck, Sebastian
 - Cai, Lianhong
-- Cangea, C{\u{a}}t{\u{a}}lina
+- Cangea, Cătălina
 - Cella, Carmine-Emanuele
 - Chan, Antoni B
 - Chan, TS
@@ -41,6 +41,7 @@
 - Coutinho, Eduardo
 - Dannenberg, Roger B
 - David, Bertrand
+- De Haas, W Bas
 - De Lyon, Insa
 - Deng, Junqi
 - Dieleman, Sander
@@ -81,8 +82,8 @@
 - Gulrajani, Ishaan
 - Gwardys, Grzegorz
 - Gygli, Michael
-- G{\'o}mez Guti{\'e}rrez, Emilia
-- G{\'o}mez, Emilia
+- Gómez Gutiérrez, Emilia
+- Gómez, Emilia
 - Ha, Jung-Woo
 - Hadjeres, Gaëtan
 - Han, Yoonchang
@@ -160,7 +161,7 @@
 - Lin, Bo-Chen
 - Lin, Chi-Po
 - Liu, Jen-Yu
-- Li{\`o}, Pietro
+- Liò, Pietro
 - Lostanlen, Vincent
 - Maass, Marco
 - Malik, Miroslav
@@ -181,7 +182,7 @@
 - Moore, R. Channing
 - Mouret, Florian
 - Mozer, Michael C.
-- Mo{\'n}ko, J{\k{e}}drzej
+- Mońko, Jędrzej
 - Nakashika, Toru
 - Nam, Juhan
 - Nava, Gabriel Pablo
@@ -220,7 +221,6 @@
 - Ramírez, Marco A. Martínez
 - Reiss, Joshua D.
 - Ren, Gang
-- Richard, Ga{\"e}l
 - Richard, Gaël
 - Riedmiller, Martin
 - Rigaud, François
@@ -233,12 +233,10 @@
 - Saurous, Rif A.
 - Schedl, Markus
 - Scherer, Klaus R
-- Schluter, Jan
-- Schl{\"u}ter, Jan
 - Schlüter, Jan
 - Schmidt, Erik M.
 - Schrauwen, Benjamin
-- Schuller, Bj{\"o}rn W
+- Schuller, Björn W
 - Schuller, Gerald
 - Senac, Christine
 - Serra, Xavier
@@ -254,7 +252,7 @@
 - Sotelo, Jose
 - Southall, Carl
 - Stables, Ryan
-- Stasiak, Bart{\l}omiej
+- Stasiak, Bartłomiej
 - Stoller, Daniel
 - Sturm, Bob L.
 - Su, Hong
@@ -271,10 +269,11 @@
 - Uhlich, Stefan
 - Ullrich, Karen
 - Valin, Jean-Marc
+- Van Gemert, JC
 - Van Gool, Luc
 - Van den Oord, Aaron
 - Velarde, Gissel
-- Veli{\v{c}}kovi{\'c}, Petar
+- Veličković, Petar
 - Virtanen, Tuomas
 - Voinea, Stephen
 - Volk, Anja
@@ -317,5 +316,3 @@
 - Zhao, An
 - Zheng, Xiaoqing
 - Zhou, Ruohua
-- de Haas, W Bas
-- van Gemert, JC

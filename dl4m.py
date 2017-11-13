@@ -280,7 +280,7 @@ def create_table(bib, outfilen="dl4m.tsv"):
                 str2write += entry[field]
             str2write += separator
         str2write += "\n"
-    with open(outfilen, "w") as filep:
+    with open(outfilen, "w", encoding="UTF-8") as filep:
         filep.write(str2write)
 
 

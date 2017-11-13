@@ -1,4 +1,4 @@
-**TL;DR** List of scientific articles for deep learning and music: [summary](#dl4m-summary) (few info), [details (table - more info)](dl4m.tsv), [details (bib - all info)](dl4m.bib)
+**TL;DR** List of scientific articles for deep learning and music: [summary](#dl4m-summary) (few info), [details](dl4m.tsv) (table - more info), [details](dl4m.bib) (bib - all info)
 
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -22,7 +22,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [Other useful related lists](#other-useful-related-lists)
 - [Cited by](#cited-by)
 
-## DL4M summary 
+## DL4M summary
 
 |  Articles, Thesis and Reports | Code |
 |-------------------------------|------|
@@ -138,11 +138,11 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Deep learning and intelligent audio mixing](http://www.semanticaudio.co.uk/wp-content/uploads/2017/09/WIMP2017_Martinez-RamirezReiss.pdf) | No |
 | [Singing voice melody transcription using deep neural networks](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf) | No |
 | [Singing voice separation using deep neural networks and F0 estimation](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) | [Website](http://cvssp.org/projects/maruss/mirex2016/) |
-| [Improved musical onset detection with convolutional neural networks](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf) | No |
-| [Exploring data augmentation for improved singing voice detection with neural networks](https://grrrr.org/pub/schlueter-2015-ismir.pdf) | [GitHub](https://github.com/f0k/ismir2015) |
 | [Learning to pinpoint singing voice from weakly labeled examples](http://www.ofai.at/~jan.schlueter/pubs/2016_ismir.pdf) | No |
 | [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
+| [Improved musical onset detection with convolutional neural networks](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf) | No |
 | [Musical onset detection with convolutional neural networks](http://phenicx.upf.edu/system/files/publications/Schlueter_MML13.pdf) | No |
+| [Exploring data augmentation for improved singing voice detection with neural networks](https://grrrr.org/pub/schlueter-2015-ismir.pdf) | [GitHub](https://github.com/f0k/ismir2015) |
 | [Music feature maps with convolutional neural networks for music genre classification](https://www.researchgate.net/profile/Thomas_Pellegrini/publication/319326354_Music_Feature_Maps_with_Convolutional_Neural_Networks_for_Music_Genre_Classification/links/59ba5ae3458515bb9c4c6724/Music-Feature-Maps-with-Convolutional-Neural-Networks-for-Music-Genre-Classification.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=wzXuHZAa5zAnqEmErYyZwIRr2H0q01LnNEd4Wd7A15CQfdVLwdy98pmE-AdnrDvoc3-bVENSFrHt0yhaOiE2mQrYllVS9CJZOk-c9R0j_R1rbgcZugS6RtQ_.AUjPuJSF5P_DMngf-woH7W-7jdnQlbNQziR4_h6NnCHfR_zGcEa8vOyyOz5gx5nc4azqKTPQ5ZgGGLUxkLj1qCQLEQ5ThkhGlWHLyA.s6MBZE20-EO_RjRGCOCV4wk0WSFdN56Aloiraxz9hKCbJwRM2Et27RHVUA8jj9H8qvXIB6f7zSIrQgjXGrL2yCpyQlLffuf57rzSwg.KMMXbZrHsihV8DJM53xkHAWf3VebCJESi4KU4btNv9nQsyK2KnkhSQaTILKv0DSZY3c70a61LzywCBuoHtIhVOFhW5hVZN2n5O9uKQ) | No |
 | [Singer traits identification using deep neural network](https://cs224d.stanford.edu/reports/SkiZhengshan.pdf) | No |
 | [A hybrid recurrent neural network for music transcription](https://arxiv.org/pdf/1411.1623.pdf) | No |
@@ -216,7 +216,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 ## Statistics and visualisations
 
 - 153 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [318 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [315 other researchers](authors.md) in your field.
 - 28 tasks investigated. See the list of [tasks](tasks.md).
 - 37 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
