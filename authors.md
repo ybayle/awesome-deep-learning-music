@@ -61,6 +61,7 @@
 - Fazekas, György
 - Feng, Tao
 - Flexer, Arthur
+- Foster, Dean
 - Foster, Peter
 - Franklin, Judy A
 - Furst, Miriam
@@ -88,6 +89,7 @@
 - Hadjeres, Gaëtan
 - Han, Yoonchang
 - Hanjalic, A
+- Harchaoui, Zaid
 - He, Wenqi
 - Hennequin, Romain
 - Herrera, Jorge
@@ -117,6 +119,7 @@
 - Jeon, Byungsoo
 - Jeong, Il-Young
 - Jordi Janer
+- Kakade, Sham M.
 - Kaliappan, Mala
 - Keefe, Douglas H.
 - Kelz, Rainer
@@ -260,6 +263,7 @@
 - Takiguchi, Tetsuya
 - Tanaka, Hidehiko
 - Teng, Yifei
+- Thickstun, John
 - Thom, Belinda
 - Tian, Jiashen
 - Ticha, Dasa

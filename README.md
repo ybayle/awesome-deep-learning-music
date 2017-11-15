@@ -158,6 +158,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Convolutional neural network for robust pitch determination](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202016/pdfs/0000579.pdf) | No |
 | [Deep convolutional neural networks and data augmentation for acoustic event detection](https://arxiv.org/pdf/1604.07160.pdf) | [Website](https://bitbucket.org/naoya1/aenet_release) |
 | [Generating nontrivial melodies for music as a service](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/178_Paper.pdf) | No |
+| [Invariances and data augmentation for supervised music transcription](https://arxiv.org/pdf/1711.04845.pdf) | [GitHub](https://github.com/jthickstun/thickstun2018invariances/) |
 | A sequential network design for musical applications | No |
 | [A connectionist approach to algorithmic composition](http://www.jstor.org/stable/3679551) | No |
 | [Lyrics-based music genre classification using a hierarchical attention network](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/43_Paper.pdf) | [GitHub](https://github.com/alexTsaptsinos/lyricsHAN) |
@@ -216,19 +217,20 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - [Pitch Estimation of Choir Music using Deep Learning Strategies: from Solo to Unison Recordings](https://github.com/helenacuesta/choir-pitch-estimation)
 - [Music Genre Classification with LSTMs](https://github.com/ruohoruotsi/LSTM-Music-Genre-Classification)
 - [CNN based Music Emotion Classification using TensorFlow](https://github.com/rickiepark/cnn_mer)
+- [Separating singing voice from music based on deep neural networks in Tensorflow](https://github.com/andabi/music-source-separation)
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## Statistics and visualisations
 
-- 153 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [315 other researchers](authors.md) in your field.
+- 154 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- If you are applying DL to music, there are [319 other researchers](authors.md) in your field.
 - 31 tasks investigated. See the list of [tasks](tasks.md).
-- 41 datasets used. See the list of [datasets](datasets.md).
+- 42 datasets used. See the list of [datasets](datasets.md).
 - 17 architectures used. See the list of [architectures](architectures.md).
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- Only 37 articles (24%) provide their source code.
+- Only 38 articles (24%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
@@ -314,6 +316,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 #### Deep learning
 
+- [DLPaper2Code: Auto-generation of Code from Deep Learning Research Papers](https://arxiv.org/abs/1711.03543) - 
 - [Model Convertors](https://github.com/ysh329/deep-learning-model-convertor) - Convertors for DL frameworks and backend
 - [Deep architecture genealogy](https://github.com/hunkim/deep_architecture_genealogy) - Genealogy of DL architectures
 - [Deep Learning as an Engineer](http://www.univie.ac.at/nuhag-php/dateien/talks/3358_schlueter.pdf) - Slides from Jan Schlüter
