@@ -73,7 +73,7 @@ def articles_per_year(bib):
         years.append(year)
 
     plt.xlabel('Years')
-    plt.ylabel('Number of articles')
+    plt.ylabel('Number of Deep Learning articles\n related to Music Information Retrieval')
     year_bins = np.arange(min(years), max(years) + 2.0, 1.0)
     plt.hist(years, bins=year_bins, color="#401153", align="left")
     axe = plt.gca()
@@ -171,6 +171,7 @@ def generate_summary_table(bib):
     nb_tasks = str(get_field(bib, "task"))
     nb_datasets = str(get_field(bib, "dataset"))
     nb_archi = str(get_field(bib, "architecture"))
+    nb_framework = str(get_field(bib, "framework"))
     articles = generate_list_articles(bib)
 
     readme_fn = "README.md"
@@ -213,7 +214,8 @@ def validate_field(field_name):
     Assert the validity of the field's name
     """
     fields = ["task", "dataset", "architecture", "author", "dataaugmentation",
-              "link", "title", "year", "journal", "code", "ENTRYTYPE"]
+              "link", "title", "year", "journal", "code", "ENTRYTYPE",
+              "framework"]
     error_str = "Invalid field provided: " + field_name + ". "
     error_str += "Valid fields: " + '[%s]' % ', '.join(map(str, fields))
     assert field_name in fields, error_str
@@ -265,7 +267,7 @@ def create_table(bib, outfilen="dl4m.tsv"):
     print("Available fields:")
     print(fields)
     fields = ["year", "ENTRYTYPE", "title", "author", "link", "code", "task", 
-        "reproducible", "dataset", "framework", "backend", "architecture",
+        "reproducible", "dataset", "framework", "architecture",
         "batch", "epochs", "dataaugmentation", "input", "dimension", "dropout",
         "activation", "loss", "learningrate", "optimizer", "gpu"]
     print("Fields taken in order (in this order):")
@@ -286,6 +288,27 @@ def create_table(bib, outfilen="dl4m.tsv"):
         filep.write(str2write)
 
 
+def where_published(bib):
+    """
+    """
+    journals = []
+    conf = []
+    for entry in bib:
+        if "article" in entry["ENTRYTYPE"]:
+            journals.append(entry["journal"])
+        elif "inproceedings" in entry["ENTRYTYPE"]:
+            conf.append(entry["booktitle"])
+    journals = sorted(set(journals))
+    conf = sorted(set(conf))
+
+    with open("publication_type.md", "w") as filep:
+        filep.write("# List of publications type\n\n### Journals:\n\n- ")
+        filep.write("\n- ".join(journals))
+        filep.write("\n\n### Conferences:\n\n- ")
+        filep.write("\n- ".join(conf))
+        filep.write("\n")
+
+
 def main(filen="dl4m.bib"):
     """Description of main
     Main entry point
@@ -295,6 +318,7 @@ def main(filen="dl4m.bib"):
     generate_summary_table(bib)
     articles_per_year(bib)
     create_table(bib)
+    # where_published(bib)
 
 
 if __name__ == "__main__":
