@@ -17,3 +17,4 @@ Below is a list of useful links for reproducibility and replicability in MIR and
 - [Anonymous GitHub for double-blind peer-review](https://github.com/tdurieux/anonymous_github/)
 - [Automated collection and reporting of citations for used software/methods/datasets](https://github.com/duecredit/duecredit)
 - [EvalAI](https://github.com/Cloud-CV/EvalAI) - Evaluating state of the art in AI
+- [Open Science List](https://github.com/INRIA/awesome-open-science-software) - Awesome open list of pointers about open science for software and computational science
