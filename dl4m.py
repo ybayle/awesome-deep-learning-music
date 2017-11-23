@@ -318,7 +318,7 @@ def main(filen="dl4m.bib"):
     generate_summary_table(bib)
     articles_per_year(bib)
     create_table(bib)
-    # where_published(bib)
+    where_published(bib)
 
 
 if __name__ == "__main__":
