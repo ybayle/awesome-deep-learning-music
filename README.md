@@ -31,6 +31,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Vision-based detection of acoustic timed events: A case study on clarinet note onsets](http://dorienherremans.com/dlm2017/papers/bazzica2017clarinet.pdf) | No |
 | Neural net modeling of music | No |
 | [Deep learning techniques for music generation - A survey](https://arxiv.org/pdf/1709.01620.pdf) | No |
+| [JamBot: Music theory aware chord based generation of polyphonic music with LSTMs](https://arxiv.org/pdf/1711.07682.pdf) | [GitHub](https://github.com/brunnergino/JamBot) |
 | [A supervised learning approach to musical style recognition](https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf) | No |
 | [XFlow: 1D <-> 2D cross-modal deep neural networks for audiovisual classification](https://arxiv.org/pdf/1709.00572.pdf) | No |
 | [Machine listening intelligence](http://dorienherremans.com/dlm2017/papers/cella2017mli.pdf) | No |
@@ -223,23 +224,24 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 154 papers referenced. See the details in [dl4m.bib](dl4m.bib).
-- If you are applying DL to music, there are [319 other researchers](authors.md) in your field.
+- 155 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+There are more papers from 2017 than any other years combined.
+Number of articles per year:
+![Number of articles per year](fig/articles_per_year.png)
+- If you are applying DL to music, there are [323 other researchers](authors.md) in your field.
 - 31 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
-- 42 datasets used. See the list of [datasets](datasets.md).
+- 43 datasets used. See the list of [datasets](datasets.md).
 Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
 - 25 architectures used. See the list of [architectures](architectures.md).
 Architectures pie chart:
 ![Architectures pie chart](fig/pie_chart_architecture.png)
-- 7 frameworks used. See the list of [frameworks](frameworks.md).
+- 8 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
-- Number of articles per year:
-![Number of articles per year](fig/articles_per_year.png)
-- Only 38 articles (24%) provide their source code.
+- Only 39 articles (25%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)

@@ -4,6 +4,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 
 - Caffe
 - Keras
+- Keras-TensorFlow
 - Keras-Theano
 - Not disclosed
 - PyTorch

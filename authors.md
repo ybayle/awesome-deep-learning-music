@@ -19,6 +19,7 @@
 - Brakel, Philémon
 - Bransen, Jeroen
 - Briot, Jean-Pierre
+- Brunner, Gino
 - Buzzanca, Giuseppe
 - Böck, Sebastian
 - Cai, Lianhong
@@ -290,13 +291,16 @@
 - Wang, Wenwu
 - Wang, Xinxi
 - Wang, Ye
+- Wang, Yuyi
 - Wang, Ziyuan
 - Watson, David
+- Wattenhofer, Roger
 - Weiss, Ron J.
 - Weninger, Felix
 - Wenwu Wang
 - Weyde, Tillman
 - Widmer, Gerhard
+- Wiesendanger, Jonas
 - Wilson, Kevin
 - Wu, Chung-Hsien
 - Wu, Raymond

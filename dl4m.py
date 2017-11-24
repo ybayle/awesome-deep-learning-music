@@ -235,7 +235,7 @@ def make_autopct(values):
     return my_autopct
 
 
-def pie_chart(items, field_name, max_nb_slice=7):
+def pie_chart(items, field_name, max_nb_slice=8):
     """Description of pie_chart
     Display a pie_chart from the items given in input
     """

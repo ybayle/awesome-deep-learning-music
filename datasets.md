@@ -25,6 +25,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)
 - [LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)
 - [LabROSA](http://labrosa.ee.columbia.edu/projects/melody/)
+- [Lakh MIDI](https://labrosa.ee.columbia.edu/sounds/music/)
 - [Last.fm](https://www.last.fm/)
 - [LyricFind](http://lyricfind.com/)
 - [MAPS](http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/)
