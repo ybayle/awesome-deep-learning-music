@@ -226,16 +226,16 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - 154 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 - If you are applying DL to music, there are [319 other researchers](authors.md) in your field.
 - 31 tasks investigated. See the list of [tasks](tasks.md).
-- Tasks pie chart:
-![Tasks pie chart](fig/pie_chart_tasks.png)
+Tasks pie chart:
+![Tasks pie chart](fig/pie_chart_task.png)
 - 42 datasets used. See the list of [datasets](datasets.md).
-- Datasets pie chart:
+Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
 - 25 architectures used. See the list of [architectures](architectures.md).
-- Architectures pie chart:
+Architectures pie chart:
 ![Architectures pie chart](fig/pie_chart_architecture.png)
 - 7 frameworks used. See the list of [frameworks](frameworks.md).
-- Frameworks pie chart:
+Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
 - Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
