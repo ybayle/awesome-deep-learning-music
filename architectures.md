@@ -18,12 +18,12 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - ELM
 - FCN
 - HAN
-- LSTM
 - MCLNN
 - MLP
 - NNMODFF
 - PNN
 - RNN
+- RNN-LSTM
 - ResNet
 - U-Net
 - VPNN

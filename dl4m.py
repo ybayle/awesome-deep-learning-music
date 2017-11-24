@@ -196,9 +196,12 @@ def generate_summary_table(bib):
             elif "datasets used" in line:
                 readme += "- " + nb_datasets + " datasets used. "
                 readme += "See the list of [datasets](datasets.md).\n"
-            elif "architecture used" in line:
+            elif "architectures used" in line:
                 readme += "- " + nb_archi + " architectures used. "
                 readme += "See the list of [architectures](architectures.md).\n"
+            elif "frameworks used" in line:
+                readme += "- " + nb_framework + " frameworks used. "
+                readme += "See the list of [frameworks](frameworks.md).\n"
             elif "- Only" in line:
                 readme += "- Only " + nb_repro + " articles (" + percent_repro
                 readme += "%) provide their source code.\n"
@@ -219,6 +222,69 @@ def validate_field(field_name):
     error_str = "Invalid field provided: " + field_name + ". "
     error_str += "Valid fields: " + '[%s]' % ', '.join(map(str, fields))
     assert field_name in fields, error_str
+
+def make_autopct(values):
+    """Wrapper for the custom values to display in the pie chart slices
+    """
+    def my_autopct(pct):
+        """Define custom value to print in pie chart
+        """
+        total = sum(values)
+        val = int(round(pct*total/100.0))
+        return '{p:.1f}%  ({v:d})'.format(p=pct, v=val)
+    return my_autopct
+
+
+def pie_chart(items, field_name, max_nb_slice=7):
+    """Description of pie_chart
+    Display a pie_chart from the items given in input
+    """
+    # plt.figure(figsize=(14, 10))
+    sizes = []
+    labels = sorted(set(items))
+    for label in labels:
+        sizes.append(items.count(label))
+
+    labels = np.array(labels)
+    sizes = np.array(sizes)
+    if len(sizes) > max_nb_slice:
+        new_labels = []
+        new_sizes = []
+        for _ in range(0, max_nb_slice):
+            index = np.where(sizes == max(sizes))[0]
+            if len(index) == len(labels):
+                break
+            new_labels.append(labels[index][0])
+            new_sizes.append(sizes[index][0])
+            labels = np.delete(labels, index)
+            sizes = np.delete(sizes, index)
+        new_labels.append(str(len(labels)) + " others")
+        new_sizes.append(sum(sizes))
+        labels = np.array(new_labels)
+        sizes = np.array(new_sizes)
+
+    colors = ["gold", "yellowgreen", "lightcoral", "lightskyblue",
+              "red", "green", "bisque", "lightgrey"]
+
+    tmp_labels = []
+    for label in labels:
+        if "[" in label:
+            label = label[1:].split("]")[0]
+        tmp_labels.append(label)
+    labels = np.array(tmp_labels)
+
+    # h = plt.pie(sizes, labels=labels, colors=colors, shadow=False,
+    plt.pie(sizes, labels=labels, colors=colors, shadow=False,
+            startangle=90, autopct=make_autopct(sizes))
+
+    # Display the legend
+    # leg = plt.legend(h[0], labels, bbox_to_anchor=(0.08, 0.4))
+    # leg.draw_frame(False)
+    plt.axis('equal')
+    fig_fn = "fig/pie_chart_" + field_name + ".png"
+    plt.savefig(fig_fn, dpi=200)
+    plt.close()
+    print("Fig. with number of articles per year saved in", fig_fn)
 
 
 def get_field(bib, field_name):
@@ -248,6 +314,8 @@ def get_field(bib, field_name):
             filep.write("- " + field + "\n")
     print("List of " + field_name + "s written in", field_fn)
 
+    pie_chart(fields, field_name)
+
     return nb_fields
 
 
@@ -262,17 +330,16 @@ def create_table(bib, outfilen="dl4m.tsv"):
     for entry in bib:
         for key in entry:
             fields.append(key)
-    fields = set(fields)
 
     print("Available fields:")
-    print(fields)
-    fields = ["year", "ENTRYTYPE", "title", "author", "link", "code", "task", 
-        "reproducible", "dataset", "framework", "architecture",
-        "batch", "epochs", "dataaugmentation", "input", "dimension", "dropout",
-        "activation", "loss", "learningrate", "optimizer", "gpu"]
+    print(set(fields))
+    fields = ["year", "ENTRYTYPE", "title", "author", "link", "code", "task",
+              "reproducible", "dataset", "framework", "architecture", "dropout",
+              "batch", "epochs", "dataaugmentation", "input", "dimension",
+              "activation", "loss", "learningrate", "optimizer", "gpu"]
     print("Fields taken in order (in this order):")
     print(fields)
-    
+
     separator = "\t"
     str2write = ""
     for field in fields:
@@ -289,7 +356,7 @@ def create_table(bib, outfilen="dl4m.tsv"):
 
 
 def where_published(bib):
-    """
+    """Display insights on where the articles have been published
     """
     journals = []
     conf = []
