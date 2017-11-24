@@ -19,7 +19,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [Acronyms used](#acronyms-used)
 - [Sources](#sources)
 - [Contributors](#contributors)
-- [Other useful related lists](#other-useful-related-lists-and-references)
+- [Other useful related lists](#other-useful-related-lists-and-resources)
 - [Cited by](#cited-by)
 
 ## DL4M summary
