@@ -229,16 +229,16 @@ There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
 - If you are applying DL to music, there are [323 other researchers](authors.md) in your field.
-- 31 tasks investigated. See the list of [tasks](tasks.md).
+- 33 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
-- 43 datasets used. See the list of [datasets](datasets.md).
+- 47 datasets used. See the list of [datasets](datasets.md).
 Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
-- 25 architectures used. See the list of [architectures](architectures.md).
+- 26 architectures used. See the list of [architectures](architectures.md).
 Architectures pie chart:
 ![Architectures pie chart](fig/pie_chart_architecture.png)
-- 8 frameworks used. See the list of [frameworks](frameworks.md).
+- 9 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
 - Only 39 articles (25%) provide their source code.

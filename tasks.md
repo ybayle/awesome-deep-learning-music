@@ -16,6 +16,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - MER
 - MGR
 - MSR
+- Manifesto
 - Mixing
 - Music/Noise segmentation
 - Noise suppression
@@ -30,6 +31,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - SVS
 - Source separation
 - Speaker gender recognition
+- Survey
 - Syllable segmentation
 - Transcription
 - VAD

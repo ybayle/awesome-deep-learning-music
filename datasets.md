@@ -3,6 +3,7 @@
 Please refer to the list of useful acronyms used in deep learning and music: [acronyms.md](acronyms.md).
 
 - Inhouse
+- No
 - [32 Beethoven’s piano sonatas gathered from https://archive.org](https://soundcloud.com/samplernn/sets)
 - [7digital](https://7digital.com)
 - [ADC2004](http://labrosa.ee.columbia.edu/projects/melody/)
@@ -22,8 +23,10 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Homburg](http://www-ai.cs.uni-dortmund.de/audio.html)
 - [IDMT-SMT-Drums](https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/drums.html)
 - [IRMAS](https://www.upf.edu/web/mtg/irmas)
+- [JSB Chorales](ftp://i11ftp.ira.uka.de/pub/neuro/dominik/midifiles/bach.zip)
 - [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)
 - [LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)
+- [LSDB](lsdb.flow-machines.com/)
 - [LabROSA](http://labrosa.ee.columbia.edu/projects/melody/)
 - [Lakh MIDI](https://labrosa.ee.columbia.edu/sounds/music/)
 - [Last.fm](https://www.last.fm/)
@@ -39,6 +42,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Piano-midi.de](Piano-midi.de)
 - [RWC](https://staff.aist.go.jp/m.goto/RWC-MDB/)
 - [SALAMI](http://ddmal.music.mcgill.ca/research/salami/annotations)
+- [Symbolic music data](http://users.cecs.anu.edu.au/~christian.walder/)
 - [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1)
 - [TSP](http://www-mmsp.ece.mcgill.ca/Documents/Data/)
 - [TUT Acoustic Scenes 2016](http://www.cs.tut.fi/~mesaros/pubs/mesaros_eusipco2016-dcase.pdf)

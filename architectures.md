@@ -21,6 +21,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - MCLNN
 - MLP
 - NNMODFF
+- No
 - PNN
 - RNN
 - RNN-LSTM

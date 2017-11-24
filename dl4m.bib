@@ -1,11 +1,13 @@
 @article{Arumugam2016,
   architecture = {PNN},
   author = {Arumugam, Muthumari and Kaliappan, Mala},
+  dataset = {[GTzan](http://marsyas.info/downloads/datasets.html)},
   journal = {[Circuits and Systems](http://www.scirp.org/journal/cs/)},
   link = {http://file.scirp.org/pdf/CS_2016042615054817.pdf},
   number = {04},
   pages = {255},
   publisher = {Scientific Research Publishing},
+  task = {MGR & Instrument recognition},
   title = {An efficient approach for segmentation, feature extraction and classification of audio signals},
   volume = {7},
   year = {2016}
@@ -13,7 +15,6 @@
 
 @unpublished{Bammer2017,
   author = {Bammer, Roswitha and Doerfler, Monika},
-  journal = {arXiv preprint arXiv:1706.08818},
   link = {https://arxiv.org/pdf/1706.08818.pdf},
   title = {Gabor frames and deep scattering networks in audio processing},
   year = {2017}
@@ -39,9 +40,11 @@
 }
 
 @unpublished{Briot2017,
+  architecture = {No},
   author = {Briot, Jean-Pierre and Hadjeres, Gaëtan and Pachet, François},
-  journal = {arXiv preprint arXiv:1709.01620},
+  dataset = {[JSB Chorales](ftp://i11ftp.ira.uka.de/pub/neuro/dominik/midifiles/bach.zip) & [MusicNet](https://homes.cs.washington.edu/~thickstn/musicnet.html) & [Symbolic music data](http://users.cecs.anu.edu.au/~christian.walder/) & [LSDB](lsdb.flow-machines.com/)},
   link = {https://arxiv.org/pdf/1709.01620.pdf},
+  task = {Survey & Composition},
   title = {Deep learning techniques for music generation - A survey},
   year = {2017}
 }
@@ -90,9 +93,23 @@
 }
 
 @inproceedings{Cella2017,
+  activation = {No},
+  architecture = {No},
   author = {Cella, Carmine-Emanuele},
+  batch = {No},
   booktitle = {IWDLM},
+  code = {No},
+  dataaugmentation = {No},
+  dataset = {No},
+  dropout = {No},
+  epochs = {No},
+  framework = {No},
+  gpu = {No},
+  learningrate = {No},
   link = {http://dorienherremans.com/dlm2017/papers/cella2017mli.pdf},
+  optimizer = {No},
+  reproducible = {No},
+  task = {Manifesto},
   title = {Machine listening intelligence},
   year = {2017}
 }
@@ -258,10 +275,24 @@
 }
 
 @inproceedings{Dieleman2011,
+  activation = {Custom},
+  architecture = {CNN & MLP},
   author = {Dieleman, Sander and Brakel, Philémon and Schrauwen, Benjamin},
+  batch = {No},
   booktitle = {ISMIR},
+  code = {No},
+  dataaugmentation = {No},
+  dataset = {[MSD](https://labrosa.ee.columbia.edu/millionsong/)},
+  dropout = {0.3},
+  epochs = {1},
+  framework = {Theano},
+  gpu = {No},
+  learningrate = {0.005 & 0.0001},
   link = {http://www.ismir2011.ismir.net/papers/PS6-3.pdf},
+  optimizer = {No},
   pages = {669--674},
+  reproducible = {No},
+  task = {MGR & Artist recognition},
   title = {Audio-based music classification with a pretrained convolutional network},
   year = {2011}
 }
