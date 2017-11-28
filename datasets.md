@@ -29,6 +29,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [LSDB](lsdb.flow-machines.com/)
 - [LabROSA](http://labrosa.ee.columbia.edu/projects/melody/)
 - [Lakh MIDI](https://labrosa.ee.columbia.edu/sounds/music/)
+- [Lakh Pianoroll Datase](https://github.com/salu133445/musegan/blob/master/docs/dataset.md)
 - [Last.fm](https://www.last.fm/)
 - [LyricFind](http://lyricfind.com/)
 - [MAPS](http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/)

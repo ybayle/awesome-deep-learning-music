@@ -70,6 +70,7 @@ Here are the steps to follow for adding one (or multiple) article:
         note = {},
         optimizer = {},
         pages = {},
+        reproducible = {},
         task = {},
         title = {},
         year = {},

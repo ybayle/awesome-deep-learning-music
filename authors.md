@@ -49,6 +49,7 @@
 - Dimoulas, Charalampos
 - Dixon, Simon
 - Doerfler, Monika
+- Dong, Hao-Wen
 - Dorfer, Matthias
 - Drossos, Konstantinos
 - Duppada, Venkatesh
@@ -100,6 +101,7 @@
 - Hirvonen, Toni
 - Hockman, Jason
 - Holzapfel, Andre
+- Hsiao, Wen-Yi
 - Hsu, Yu-Lun
 - Hu, Min-Chun
 - Huang, Allen
@@ -311,6 +313,7 @@
 - Xu, Mingxing
 - Xu, Yong
 - Yan, Yonghong
+- Yang, Li-Chia
 - Yang, Yi-Hsuan
 - Ycart, Adrien
 - Yong Xu

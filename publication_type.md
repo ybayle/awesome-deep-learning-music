@@ -16,6 +16,7 @@
 
 ### Conferences:
 
+- AAAI
 - ACM_MM
 - Audio Engineering Society Convention
 - Biennial Symposium for Arts and Technology
