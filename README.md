@@ -219,6 +219,8 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - [Music Genre Classification with LSTMs](https://github.com/ruohoruotsi/LSTM-Music-Genre-Classification)
 - [CNN based Music Emotion Classification using TensorFlow](https://github.com/rickiepark/cnn_mer)
 - [Separating singing voice from music based on deep neural networks in Tensorflow](https://github.com/andabi/music-source-separation)
+- [Music tag classification model using CRNN](https://github.com/kristijanbartol/Deep-Music-Tagger)
+- [Finding the genre of a song with Deep Learning](https://github.com/despoisj/DeepAudioClassification)
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
@@ -344,6 +346,10 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Encoder-Decoder in RNNs](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/?utm_content=buffer0d2a7&utm_medium=social&utm_source=twitter.com&utm_campaign=bufferhttps://blog.recast.ai/ml-spotlight-rnn/?utm_content=bufferf19d3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) - How Does Attention Work in Encoder-Decoder Recurrent Neural Networks
 - [On the use of DL](https://twitter.com/randal_olson/status/927157485240311808/photo/1) - Misc fun around DL
 - [ML from scratch](https://github.com/eriklindernoren/ML-From-Scratch) - Python implementations of ML models and algorithms from scratch from Data Mining to DL 
+- [Comparison of DL frameworks](https://project.inria.fr/deeplearning/files/2016/05/DLFrameworks.pdf) - Presentation describing the different existing frameworks for DL
+- [ELU > ReLU](https://arxiv.org/pdf/1511.07289.pdf) - Article describing the differences between ELU and ReLU
+- [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf) - Book about reinforcement learning
+- [Estimating Optimal Learning Rate](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) - Blog post on the learning rate optimisation
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 

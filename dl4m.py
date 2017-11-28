@@ -23,6 +23,7 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
     report on nb item per ENTRYTYPE
     generate .tsv from .bib
     wordcloud titles, abstract, articles
+    valid bib field https://www.openoffice.org/bibliographic/bibtex-defs.html
 """
 
 import numpy as np
