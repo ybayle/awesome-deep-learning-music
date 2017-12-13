@@ -1,4 +1,4 @@
-**TL;DR** List of scientific articles for deep learning and music: [summary](#dl4m-summary) (few info), [details](dl4m.tsv) (table - more info), [details](dl4m.bib) (bib - all info)
+**TL;DR** Non-exhaustive list of scientific articles on deep learning for music: [summary](#dl4m-summary) (Article title, pdf link and code), [details](dl4m.tsv) (table - more info), [details](dl4m.bib) (bib - all info)
 
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -315,6 +315,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [MIR community on Slack](https://slackpass.io/mircommunity) - Link to subscribe to the MIR community's Slack
 - [Unclassified list of MIR-related links](http://www.music.mcgill.ca/~cmckay/links_academic.html) - [Cory McKay](http://www.music.mcgill.ca/~cmckay/)'s list of various links on DL, MIR, ...
 - [MIRDL](http://jordipons.me/wiki/index.php/MIRDL) - Unmaintained list of DL articles for MIR from [Jordi Pons](http://www.jordipons.me/)
+- [WWW 2018 Challenge](https://www.crowdai.org/challenges/www-2018-challenge-learning-to-recognize-musical-genre) - Learning to Recognize Musical Genre on the [FMA](https://github.com/mdeff/fma) dataset
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
@@ -360,6 +361,7 @@ If you use the information contained in this repository, please let us know! Thi
 
 - [Alexander Schindler](https://twitter.com/Slychief/status/915218386421997568)
 - [Meinard Müller, Christof Weiss, Stefan Balke](https://www.audiolabs-erlangen.de/resources/MIR/2017-GI-Tutorial-Musik/2017_MuellerWeissBalke_GI_DeepLearningMIR.pdf)
+- [WWW 2018 Challenge: Learning to Recognize Musical Genre](https://www.crowdai.org/challenges/www-2018-challenge-learning-to-recognize-musical-genre)
 - [AINewsFeed](https://twitter.com/AINewsFeed/status/897832912351105025)
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
