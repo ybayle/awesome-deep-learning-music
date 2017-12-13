@@ -1,6 +1,6 @@
 # Reproducibility and replicability
 
-Out of the 154 papers listed in this repository, only 38 articles provide their source code.
+Out of the 156 papers listed in this repository, only 41 articles provide their source code.
 Repeatability is the key to good science.
 Below is a list of useful links for reproducibility and replicability in MIR and ML:
 
@@ -18,3 +18,5 @@ Below is a list of useful links for reproducibility and replicability in MIR and
 - [Automated collection and reporting of citations for used software/methods/datasets](https://github.com/duecredit/duecredit)
 - [EvalAI](https://github.com/Cloud-CV/EvalAI) - Evaluating state of the art in AI
 - [Open Science List](https://github.com/INRIA/awesome-open-science-software) - Awesome open list of pointers about open science for software and computational science
+- [Twitter post](https://twitter.com/goodfellow_ian/status/935886522607271937) - Advice from Ian Goodfellow
+- [Dissemin](https://dissem.in/) - Open Access facilitator from [Dissemin](https://twitter.com/disseminOA/status/923469525827440641)
