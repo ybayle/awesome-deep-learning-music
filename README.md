@@ -80,7 +80,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Rethinking automatic chord recognition with convolutional neural networks](http://ieeexplore.ieee.org/abstract/document/6406762/) | No |
 | [Moving beyond feature design: Deep architectures and automatic feature learning in music informatics](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.294.2304&rep=rep1&type=pdf) | No |
 | [Talking Drums: Generating drum grooves with neural networks](http://dorienherremans.com/dlm2017/papers/hutchings2017drums.pdf) | No |
-| [Singing voice separation with deep U-Net convolutional networks](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/171_Paper.pdf) | No |
+| [Singing voice separation with deep U-Net convolutional networks](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/171_Paper.pdf) | [GitHub](https://github.com/Xiao-Ming/UNet-VocalSeparation-Chainer) |
 | [Music emotion recognition via end-to-end multimodal neural networks](http://ceur-ws.org/Vol-1905/recsys2017_poster18.pdf) | No |
 | [Learning temporal features using a deep neural network and its application to music genre classification](https://www.researchgate.net/profile/Il_Young_Jeong/publication/305683876_Learning_temporal_features_using_a_deep_neural_network_and_its_application_to_music_genre_classification/links/5799a27c08aec89db7bb9f92.pdf) | No |
 | [On the potential of simple framewise approaches to piano transcription](https://arxiv.org/pdf/1612.05153.pdf) | No |
@@ -244,7 +244,7 @@ Architectures pie chart:
 - 9 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
-- Only 40 articles (25%) provide their source code.
+- Only 41 articles (26%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
@@ -352,6 +352,9 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [ELU > ReLU](https://arxiv.org/pdf/1511.07289.pdf) - Article describing the differences between ELU and ReLU
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf) - Book about reinforcement learning
 - [Estimating Optimal Learning Rate](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) - Blog post on the learning rate optimisation
+- [GitHub repo for sklearn add-on for imbalanced learning](https://github.com/scikit-learn-contrib/imbalanced-learn) - ML in uneven datasets
+- [Video on DL from Nando de Freitas, Scott Reed and Oriol Vinyals](https://www.youtube.com/watch?v=YJnddoa8sHk) - Deep Learning: Practice and Trends (NIPS 2017 Tutorial, parts I & II)
+- [Article "Are GANs Created Equal? A Large-Scale Study"](https://arxiv.org/abs/1711.10337) - Actually comparing DL algorithms
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
