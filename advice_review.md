@@ -8,24 +8,25 @@ For technical guidelines on deep learning and music you can use this humble foll
 Check for completeness of details about:
 
 - **Music aspects**
-  - datasets, please refer to [datasets.md](https://github.com/ybayle/awesome-deep-learning-music/blob/master/datasets.md)
-  - data augmentation
+  - datasets used, please refer to [datasets.md](https://github.com/ybayle/awesome-deep-learning-music/blob/master/datasets.md)
+  - data augmentation (Pitch shift, Time-stretch, Mixing, Circular shift, Noise addition, Filter, Dropout, ...)
+  - input type (Raw signal, Time-frequency representation, ...)
+  - number of dimension used as input (1D, 2D, ...) 
 
 - **Deep learning aspects**:
   - architectures, please refer to [architectures.md](https://github.com/ybayle/awesome-deep-learning-music/blob/master/architectures.md)
-  - learning rate
+  - learning rate (Fixed or changing and range)
   - framework, please refer to [frameworks.md](https://github.com/ybayle/awesome-deep-learning-music/blob/master/frameworks.md)
   - reproducibility, please refer to [reproducibility.md](https://github.com/ybayle/awesome-deep-learning-music/blob/master/reproducibility.md)
-  - activation function
+  - activation function (ReLU, Leaky ReLU, Sigmoid, Softmax, ...)
   - number of epochs
-  - batch size
-  - loss function
+  - batch size (the bigger the better but generally between 16 and 150)
+  - loss function (RMSE, Cross-entropy, ...)
   - number of layers
   - dropout ratio
   - cpu or gpu usage and description
-  - computation time
-  - number of dimension used as input
-  - optimizer
+  - computation time (Global or per epoch)
+  - optimizer (Adam, SGD, ...)
 
 - **General aspects**:
   - source code provided
