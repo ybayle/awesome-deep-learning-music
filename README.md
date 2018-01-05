@@ -14,6 +14,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [DL4M details](#dl4m-details)
 - [Code without articles](#code-without-articles)
 - [Statistics and visualisations](#statistics-and-visualisations)
+- [Advices for reviewers of dl4m articles](#advices-for-reviewers-of-dl4m-articles)
 - [How To Contribute](#how-to-contribute)
 - [FAQ](#faq)
 - [Acronyms used](#acronyms-used)
@@ -249,6 +250,10 @@ Frameworks pie chart:
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
+## Advices for reviewers of dl4m articles
+
+Please refer to the [advice_review.md](advice_review.md) file.
 
 ## How To Contribute
 
