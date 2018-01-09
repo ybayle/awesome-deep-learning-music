@@ -361,6 +361,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [GitHub repo for sklearn add-on for imbalanced learning](https://github.com/scikit-learn-contrib/imbalanced-learn) - ML in uneven datasets
 - [Video on DL from Nando de Freitas, Scott Reed and Oriol Vinyals](https://www.youtube.com/watch?v=YJnddoa8sHk) - Deep Learning: Practice and Trends (NIPS 2017 Tutorial, parts I & II)
 - [Article "Are GANs Created Equal? A Large-Scale Study"](https://arxiv.org/abs/1711.10337) - Actually comparing DL algorithms
+- [Battle of the Deep Learning frameworks](https://towardsdatascience.com/battle-of-the-deep-learning-frameworks-part-i-cff0e3841750) - DL frameworks comparison and evolution
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
