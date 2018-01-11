@@ -372,6 +372,7 @@ If you use the information contained in this repository, please let us know! Thi
 - [Alexander Schindler](https://twitter.com/Slychief/status/915218386421997568)
 - [Meinard Müller, Christof Weiss, Stefan Balke](https://www.audiolabs-erlangen.de/resources/MIR/2017-GI-Tutorial-Musik/2017_MuellerWeissBalke_GI_DeepLearningMIR.pdf)
 - [WWW 2018 Challenge: Learning to Recognize Musical Genre](https://www.crowdai.org/challenges/www-2018-challenge-learning-to-recognize-musical-genre)
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 - [AINewsFeed](https://twitter.com/AINewsFeed/status/897832912351105025)
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
