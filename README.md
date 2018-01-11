@@ -322,6 +322,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Unclassified list of MIR-related links](http://www.music.mcgill.ca/~cmckay/links_academic.html) - [Cory McKay](http://www.music.mcgill.ca/~cmckay/)'s list of various links on DL, MIR, ...
 - [MIRDL](http://jordipons.me/wiki/index.php/MIRDL) - Unmaintained list of DL articles for MIR from [Jordi Pons](http://www.jordipons.me/)
 - [WWW 2018 Challenge](https://www.crowdai.org/challenges/www-2018-challenge-learning-to-recognize-musical-genre) - Learning to Recognize Musical Genre on the [FMA](https://github.com/mdeff/fma) dataset
+- [Music generation with DL](https://github.com/umbrellabeach/music-generation-with-DL) - List of resources on music generation with deep learning
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
