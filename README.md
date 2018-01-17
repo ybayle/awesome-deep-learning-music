@@ -110,6 +110,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Event localization in music auto-tagging](http://mac.citi.sinica.edu.tw/~yang/pub/liu16mm.pdf) | [GitHub](https://github.com/ciaua/clip2frame) |
 | [Deep convolutional networks on the pitch spiral for musical instrument recognition](https://github.com/lostanlen/ismir2016/blob/master/paper/lostanlen_ismir2016.pdf) | [GitHub](https://github.com/lostanlen/ismir2016) |
 | [Stacked convolutional and recurrent neural networks for music emotion recognition](https://arxiv.org/pdf/1706.02292.pdf) | No |
+| [Neural networks for note onset detection in piano music](https://www.researchgate.net/profile/Matija_Marolt/publication/2473938_Neural_Networks_for_Note_Onset_Detection_in_Piano_Music/links/00b49525efccc79fed000000.pdf) | No |
 | [A deep learning approach to source separation and remixing of hiphop music](https://repositori.upf.edu/bitstream/handle/10230/32919/Martel_2017.pdf?sequence=1&isAllowed=y) | No |
 | [Neural network based model for classification of music type](http://ieeexplore.ieee.org/abstract/document/514161/) | No |
 | [A software framework for musical data augmentation](https://bmcfee.github.io/papers/ismir2015_augmentation.pdf) | No |
@@ -230,11 +231,11 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 157 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 158 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [328 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [331 other researchers](authors.md) in your field.
 - 33 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
@@ -247,7 +248,7 @@ Architectures pie chart:
 - 9 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
-- Only 41 articles (26%) provide their source code.
+- Only 41 articles (25%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)

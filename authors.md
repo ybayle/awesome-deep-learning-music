@@ -125,6 +125,7 @@
 - Jordi Janer
 - Kakade, Sham M.
 - Kaliappan, Mala
+- Kavcic, Alenka
 - Keefe, Douglas H.
 - Kelz, Rainer
 - Kereliuk, Corey
@@ -174,6 +175,7 @@
 - Malik, Miroslav
 - Marius Miron
 - Mark D. Plumbley
+- Marolt, Matija
 - Martel Baro, Héctor
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
@@ -219,6 +221,7 @@
 - Poggio, Tomaso
 - Pons, Jordi
 - Pritish Chandna
+- Privosnik, Marko
 - Prockup, Matthew
 - Qian, Jiyuan
 - Qian, Sheng
