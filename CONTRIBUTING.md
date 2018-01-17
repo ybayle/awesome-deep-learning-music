@@ -32,9 +32,10 @@ Here are the steps to follow for adding one (or multiple) article:
     - loss (if given in the paper or the code, the loss function, otherwise `No`)
     - layers (if given in the paper or the code, the number of layers, otherwise `No`)
     - dropout (if given in the paper or the code, the loss function, otherwise `No`)
-    - gpu (if given in the paper or the code, the loss function, otherwise `No`)
-    - metric (if given in the paper or the code, the loss function, otherwise `No`)
-    - computationtime (if given in the paper or the code, the loss function, otherwise `No`)
+    - momentum (if given in the paper or the code, the momentum, otherwise `No`)
+    - gpu (if given in the paper or the code, the type and number of GPUs, otherwise `No`)
+    - metric (if given in the paper or the code, the metric, otherwise `No`)
+    - computationtime (if given in the paper or the code, the global computation time and per epoch, otherwise `No`)
     - dimension (if given in the paper or the code, the number of dimension, otherwise `No`)
     - optimizer (if given in the paper or the code, the optimize function, otherwise `No`)
     - input (if given in the paper or the code, the input type, otherwise `No`)
@@ -66,6 +67,7 @@ Here are the steps to follow for adding one (or multiple) article:
         link = {},
         loss = {},
         metric = {},
+        momentum = {},
         month = {},
         note = {},
         optimizer = {},

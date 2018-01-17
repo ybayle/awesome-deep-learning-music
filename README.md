@@ -58,6 +58,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Ensemble Of Deep Neural Networks For Acoustic Scene Classification](https://arxiv.org/pdf/1708.05826.pdf) | No |
 | [Robust downbeat tracking using an ensemble of convolutional networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | No |
 | [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | No |
+| [Finding temporal structure in music: Blues improvisation with LSTM recurrent networks](ftp://ftp.idsia.ch/pub/juergen/2002_ieee.pdf) | No |
 | [Music signal processing using vector product neural networks](http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf) | No |
 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
 | [Multi-phase learning for jazz improvisation and interaction](http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf) | No |
@@ -229,11 +230,11 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 156 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 157 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [326 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [328 other researchers](authors.md) in your field.
 - 33 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)

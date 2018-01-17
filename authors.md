@@ -54,6 +54,7 @@
 - Drossos, Konstantinos
 - Duppada, Venkatesh
 - Durand, Simon
+- Eck, Douglas
 - Ehmann, Andreas F.
 - Ellis, Daniel P. W.
 - Emilia Gomez
@@ -240,6 +241,7 @@
 - Schedl, Markus
 - Scherer, Klaus R
 - Schlüter, Jan
+- Schmidhuber, Juergen
 - Schmidt, Erik M.
 - Schrauwen, Benjamin
 - Schuller, Björn W

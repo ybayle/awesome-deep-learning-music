@@ -56,3 +56,4 @@
 - [IEEE_ICTAI](http://ictai2017.org/)
 - [NIPS](https://nips.cc/)
 - [NIPS_ML4Audio](https://nips.cc/Conferences/2017/Schedule?showEvent=8790)
+- [NNSP](http://cogsys.imm.dtu.dk/nnsp2002/)

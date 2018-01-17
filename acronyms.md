@@ -10,8 +10,10 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | ANN | Artificial Neural Network |
 | ARNN | Anticipation Recurrent Neural Network |
 | BILSTM | Bidirectional Long Short-Term Memory |
+| BPTT | Back-Propagation Through Time |
 | BRNN | Bidirectional Recurrent Neural Network |
 | CDBN | Convolutional Deep Belief Networks |
+| CEC | Constant Error Carousel |
 | CLNN | ConditionaL Neural Networks |
 | CNN | Convolutional Neural Network |
 | ConvNet | Convolutional Neural Network |
@@ -54,8 +56,10 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | ReLU | Rectified Linear Unit |
 | RICNN | Rotation Invariant Convolutional Neural Network |
 | RNN | Recurrent Neural Network |
+| RTRL | Real-Time Recurrent Learning |
 | SAE | Stacked AE |
 | SDAE | Stacked DAE |
+| SGD | Stochastic Gradient Descent |
 | SVM | Support Vector Machine |
 | SVD | Singing Voice Detection |
 | SVS | Singing Voice Separation |
