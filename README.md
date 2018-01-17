@@ -36,6 +36,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A supervised learning approach to musical style recognition](https://www.researchgate.net/profile/Giuseppe_Buzzanca/publication/228588086_A_supervised_learning_approach_to_musical_style_recognition/links/54b43ee90cf26833efd0109f.pdf) | No |
 | [XFlow: 1D <-> 2D cross-modal deep neural networks for audiovisual classification](https://arxiv.org/pdf/1709.00572.pdf) | No |
 | [Machine listening intelligence](http://dorienherremans.com/dlm2017/papers/cella2017mli.pdf) | No |
+| [Monoaural audio source separation using deep convolutional neural networks](http://mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
 | [Deep multimodal network for multi-label classification](http://ieeexplore.ieee.org/abstract/document/8019322/) | No |
 | [A tutorial on deep learning for music information retrieval](https://arxiv.org/pdf/1709.04396.pdf) | [GitHub](https://github.com/keunwoochoi/dl4mir) |
 | [A comparison on audio signal preprocessing methods for deep neural networks on music tagging](https://arxiv.org/pdf/1709.01922.pdf) | [GitHub](https://github.com/keunwoochoi/transfer_learning_music) |
@@ -139,7 +140,6 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [End-to-end learning for music audio tagging at scale](https://arxiv.org/pdf/1711.02520.pdf) | [GitHub](https://github.com/jordipons/music-audio-tagging-at-scale-models) |
 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | [Timbre analysis of music audio signals with convolutional neural networks](https://github.com/ronggong/EUSIPCO2017) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
-| [Monoaural audio source separation using deep convolutional neural networks](http://mtg.upf.edu/system/files/publications/monoaural-audio-source_0.pdf) | [GitHub](https://github.com/MTG/DeepConvSep) |
 | [Deep learning and intelligent audio mixing](http://www.semanticaudio.co.uk/wp-content/uploads/2017/09/WIMP2017_Martinez-RamirezReiss.pdf) | No |
 | [Singing voice melody transcription using deep neural networks](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/163_Paper.pdf) | No |
 | [Singing voice separation using deep neural networks and F0 estimation](http://www.music-ir.org/mirex/abstracts/2016/RSGP1.pdf) | [Website](http://cvssp.org/projects/maruss/mirex2016/) |
@@ -180,9 +180,9 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Audio spectrogram representations for processing with convolutional neural networks](http://dorienherremans.com/dlm2017/papers/wyse2017spect.pdf) | [Website](http://lonce.org/research/audioST/) |
 | [Unsupervised learning of local features for music classification](http://www.ismir2012.ismir.net/event/papers/139_ISMIR_2012.pdf) | No |
 | [Unsupervised feature learning based on deep models for environmental audio tagging](https://arxiv.org/pdf/1607.03681.pdf) | No |
+| [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](https://arxiv.org/pdf/1703.06052.pdf) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
 | [Surrey-CVSSP system for DCASE2017 challenge task4](https://www.cs.tut.fi/sgn/arg/dcase2017/documents/challenge_technical_reports/DCASE2017_Xu_146.pdf) | [GitHub](https://github.com/yongxuUSTC/dcase2017_task4_cvssp) |
 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
-| [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](https://arxiv.org/pdf/1703.06052.pdf) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
 | [A deep representation for invariance and music classification](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7034-zhang.pdf) | No |
 | [A deep neural network for modeling music](https://www.researchgate.net/profile/Xiaoqing_Zheng3/publication/275347034_A_Deep_Neural_Network_for_Modeling_Music/links/5539d2060cf2239f4e7dad0d/A-Deep-Neural-Network-for-Modeling-Music.pdf) | No |
 
@@ -235,7 +235,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [331 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [323 other researchers](authors.md) in your field.
 - 33 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)

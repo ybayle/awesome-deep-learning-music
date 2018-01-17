@@ -27,6 +27,7 @@
 - Cella, Carmine-Emanuele
 - Chan, Antoni B
 - Chan, TS
+- Chandna, Pritish
 - Chaudhuri, Sourish
 - Chen, Shiyu
 - Chen, Tanfang
@@ -57,7 +58,6 @@
 - Eck, Douglas
 - Ehmann, Andreas F.
 - Ellis, Daniel P. W.
-- Emilia Gomez
 - Evangelopoulos, Georgios
 - Ewert, Sebastian
 - Fan, Zhe-Cheng
@@ -78,7 +78,7 @@
 - Giron, Franck
 - Gong, Rong
 - Goudeseune, Camille
-- Grais, Emad M
+- Grais, Emad M.
 - Griffith, Niall
 - Grill, Thomas
 - Gruber, Alexander Rudolf
@@ -112,7 +112,7 @@
 - Huttunen, Heikki
 - Ide, Ichiro
 - Imenina, Alina
-- Jackson, Philip JB
+- Jackson, Philip J. B.
 - Jain, Shubham
 - Janer Mestres, Jordi
 - Janer, Jordi
@@ -122,7 +122,6 @@
 - Jarina, Roman
 - Jeon, Byungsoo
 - Jeong, Il-Young
-- Jordi Janer
 - Kakade, Sham M.
 - Kaliappan, Mala
 - Kavcic, Alenka
@@ -173,8 +172,6 @@
 - Lostanlen, Vincent
 - Maass, Marco
 - Malik, Miroslav
-- Marius Miron
-- Mark D. Plumbley
 - Marolt, Matija
 - Martel Baro, Héctor
 - Mathulaprangsan, Seksan
@@ -217,16 +214,13 @@
 - Pinquier, Julien
 - Plakal, Manoj
 - Platt, Devin
-- Plumbley, Mark D
+- Plumbley, Mark D.
 - Poggio, Tomaso
 - Pons, Jordi
-- Pritish Chandna
 - Privosnik, Marko
 - Prockup, Matthew
 - Qian, Jiyuan
 - Qian, Sheng
-- Qiang Huang
-- Qiuqiang Kong
 - Radenen, Mathieu
 - Ramírez, Marco A. Martínez
 - Reiss, Joshua D.
@@ -255,7 +249,7 @@
 - Shi, Zhengshan
 - Sigtia, Siddharth
 - Silla, Carlos N
-- Simpson, Andrew JR
+- Simpson, Andrew J. R.
 - Slaney, Malcolm
 - Slizovskaia, Olga
 - Smith, Julius O
@@ -304,7 +298,6 @@
 - Wattenhofer, Roger
 - Weiss, Ron J.
 - Weninger, Felix
-- Wenwu Wang
 - Weyde, Tillman
 - Widmer, Gerhard
 - Wiesendanger, Jonas
@@ -321,7 +314,6 @@
 - Yang, Li-Chia
 - Yang, Yi-Hsuan
 - Ycart, Adrien
-- Yong Xu
 - Yoo, Chang D
 - Zhang, Chiyuan
 - Zhang, Hui
