@@ -58,7 +58,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [Ensemble Of Deep Neural Networks For Acoustic Scene Classification](https://arxiv.org/pdf/1708.05826.pdf) | No |
 | [Robust downbeat tracking using an ensemble of convolutional networks](http://ieeexplore.ieee.org/abstract/document/7728057/) | No |
 | [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | No |
-| [Finding temporal structure in music: Blues improvisation with LSTM recurrent networks](ftp://ftp.idsia.ch/pub/juergen/2002_ieee.pdf) | No |
+| [Finding temporal structure in music: Blues improvisation with LSTM recurrent networks](http://www-perso.iro.umontreal.ca/~eckdoug/papers/2002_ieee.pdf) | No |
 | [Music signal processing using vector product neural networks](http://dorienherremans.com/dlm2017/papers/fan2017vector.pdf) | No |
 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
 | [Multi-phase learning for jazz improvisation and interaction](http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf) | No |
