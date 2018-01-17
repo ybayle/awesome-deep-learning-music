@@ -265,7 +265,7 @@ def pie_chart(items, field_name, max_nb_slice=8):
         sizes = np.array(new_sizes)
 
     colors = ["gold", "yellowgreen", "lightcoral", "lightskyblue",
-              "red", "green", "bisque", "lightgrey"]
+              "red", "green", "bisque", "lightgrey", "#555555"]
 
     tmp_labels = []
     for label in labels:
