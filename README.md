@@ -335,6 +335,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Wikipedia's list of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#cite_ref-215)
 - [Datasets for deep learning](http://deeplearning.net/datasets/)
 - [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
+- [Awesome music listening](https://github.com/ybayle/awesome-music-listening)
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
