@@ -2,7 +2,7 @@
 
 Out of the 158 papers listed in this repository, only 41 articles provide their source code.
 Repeatability is the key to good science.
-Below is a list of useful links for reproducibility and replicability in MIR and ML:
+Below is a list of useful links for reproducibility and replicability in Science:
 
 - [DLPaper2Code: Auto-generation of Code from Deep Learning Research Papers](https://arxiv.org/abs/1711.03543)
 - [Audio Processing Seminar 2016: Reproducible Research](https://github.com/audiolabs/APSRR-2016)
@@ -20,3 +20,4 @@ Below is a list of useful links for reproducibility and replicability in MIR and
 - [Open Science List](https://github.com/INRIA/awesome-open-science-software) - Awesome open list of pointers about open science for software and computational science
 - [Twitter post](https://twitter.com/goodfellow_ian/status/935886522607271937) - Advice from Ian Goodfellow
 - [Dissemin](https://dissem.in/) - Open Access facilitator from [Dissemin](https://twitter.com/disseminOA/status/923469525827440641)
+- [Do software and data products advance biology more than papers?](http://ivory.idyll.org/blog/2018-software-and-data-better-than-papers.html)
