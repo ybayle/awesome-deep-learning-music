@@ -153,6 +153,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | [A hybrid recurrent neural network for music transcription](https://arxiv.org/pdf/1411.1623.pdf) | No |
 | [An end-to-end neural network for polyphonic music transcription](https://arxiv.org/pdf/1508.01774.pdf) | No |
 | [Deep karaoke: Extracting vocals from musical mixtures using a convolutional deep neural network](https://link.springer.com/chapter/10.1007/978-3-319-22482-4_50) | No |
+| [Recognition of music types](https://www.ri.cmu.edu/pub_files/pub1/soltau_hagen_1998_2/soltau_hagen_1998_2.pdf) | No |
 | [Automatic drum transcription for polyphonic recordings using soft attention mechanisms and convolutional neural networks](http://www.ryanstables.co.uk/docs/ISMIR2017CamReady.pdf) | [GitHub](https://github.com/CarlSouthall/ADTLib) |
 | [Analysis of time-frequency representations for musical onset detection with convolutional neural network](http://ieeexplore.ieee.org/abstract/document/7733228/) | No |
 | [Note onset detection in musical signals via neural-network-based multi-ODF fusion](https://www.degruyter.com/downloadpdf/j/amcs.2016.26.issue-1/amcs-2016-0014/amcs-2016-0014.pdf) | No |
@@ -231,11 +232,11 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 158 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 159 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [323 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [327 other researchers](authors.md) in your field.
 - 33 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
