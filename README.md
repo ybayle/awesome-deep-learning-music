@@ -1,9 +1,11 @@
-**TL;DR** Non-exhaustive list of scientific articles on deep learning for music: [summary](#dl4m-summary) (Article title, pdf link and code), [details](dl4m.tsv) (table - more info), [details](dl4m.bib) (bib - all info)
-
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+By [Yann Bayle](http://yannbayle.fr/english/index.php) ([GitHub](https://github.com/ybayle))
+
+**TL;DR** Non-exhaustive list of scientific articles on deep learning for music: [summary](#dl4m-summary) (Article title, pdf link and code), [details](dl4m.tsv) (table - more info), [details](dl4m.bib) (bib - all info)
+
 The role of this curated list is to gather scientific articles, thesis and reports that use deep learning approaches applied to music.
-The list is currently under construction but feel free to contribute to the missing fields and to add other resources.
+The list is currently under construction but feel free to contribute to the missing fields and to add other resources! To do so, please refer to the [How To Contribute](#how-to-contribute) section.
 The resources provided here come from my review of the state-of-the-art for my PhD Thesis for which an article is being written.
 There are already surveys on deep learning for [music generation](https://arxiv.org/pdf/1709.01620.pdf), [speech separation](https://arxiv.org/ftp/arxiv/papers/1708/1708.07524.pdf) and [speaker identification](https://www.researchgate.net/profile/Seyed_Reza_Shahamiri/publication/319158024_Speaker_Identification_Features_Extraction_Methods_A_Systematic_Review/links/599e2816aca272dff12fdef1/Speaker-Identification-Features-Extraction-Methods-A-Systematic-Review.pdf).
 However, these surveys do not cover music information retrieval tasks that are included in this repository.
@@ -22,6 +24,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 - [Contributors](#contributors)
 - [Other useful related lists](#other-useful-related-lists-and-resources)
 - [Cited by](#cited-by)
+- [License](#license)
 
 ## DL4M summary
 
@@ -380,5 +383,18 @@ If you use the information contained in this repository, please let us know! Thi
 - [WWW 2018 Challenge: Learning to Recognize Musical Genre](https://www.crowdai.org/challenges/www-2018-challenge-learning-to-recognize-musical-genre)
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 - [AINewsFeed](https://twitter.com/AINewsFeed/status/897832912351105025)
+
+[Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
+
+## License
+
+You are free to copy, modify, and distribute ***Deep Learning for Music (DL4M)*** with attribution under the terms of the MIT license. See the LICENSE file for details.
+This project use another projects and you may refer to them for appropriate license information :
+
+- [Readme checklist](https://github.com/ddbeck/readme-checklist) - To build an universal Readme.
+- [Pylint](https://www.pylint.org/) - To clean the python code.
+- [Numpy](http://www.numpy.org/) - To manage python structure.
+- [Matplotlib](https://matplotlib.org/) - To plot nice figures.
+- [Bibtexparser](https://github.com/sciunto-org/python-bibtexparser) - To deal with the bib entries.
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
