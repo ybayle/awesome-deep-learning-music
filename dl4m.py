@@ -26,6 +26,7 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
     valid bib field https://www.openoffice.org/bibliographic/bibtex-defs.html
 """
 
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import bibtexparser
@@ -139,6 +140,11 @@ def generate_list_articles(bib):
     articles = ""
     for entry in bib:
         if "title" in entry:
+            if "year" in entry:
+                articles += "| " + entry["year"] + " "
+            else:
+                print("ERROR: Missing year for ", entry)
+                sys.exit()
             if "link" in entry:
                 articles += "| [" + entry["title"] + "](" + entry["link"] + ") | "
             else:
@@ -155,6 +161,9 @@ def generate_list_articles(bib):
             else:
                 articles += "No "
             articles += "|\n"
+        else:
+            print("ERROR: Missing title for ", entry)
+            sys.exit()
 
     return articles
 
