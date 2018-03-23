@@ -5,8 +5,8 @@
 # E-mails   bayle.yann@live.fr
 # License   MIT
 # Created   16/08/2017
-# Updated   20/10/2017
-# Version   1.0.0
+# Updated   23/03/2018
+# Version   1.0.1
 #
 
 """
@@ -38,7 +38,7 @@ def write_bib(bib_database, filen="dl4m.bib"):
     """
     writer = BibTexWriter()
     writer.indent = '  '
-    writer.order_entries_by = ('noneyear', "author")
+    writer.order_entries_by = ('year', "author")
     with open(filen, "w", encoding="utf-8") as bibfile:
         bibfile.write(writer.write(bib_database))
 
