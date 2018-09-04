@@ -1,3 +1,5 @@
+![Logo by @mirzazulfan](fig/logo.png)
+
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 By [Yann Bayle](http://yannbayle.fr/english/index.php) ([Website](http://yannbayle.fr/english/index.php), [GitHub](https://github.com/ybayle)) from LaBRI ([Website](http://www.labri.fr/), [Twitter](https://twitter.com/labriOfficial/)), Univ. Bordeaux ([Website](https://www.u-bordeaux.fr/), [Twitter](https://twitter.com/univbordeaux)), CNRS ([Website](http://www.cnrs.fr/), [Twitter](https://twitter.com/CNRS)) and SCRIME ([Website](https://scrime.u-bordeaux.fr/)).
@@ -304,6 +306,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Bob L. Sturm](http://www.eecs.qmul.ac.uk/~sturm/) ([GitHub](https://github.com/boblsturm))
 - [Stefan Balke](https://www.audiolabs-erlangen.de/fau/assistant/balke) ([GitHub](https://github.com/stefan-balke))
 - [Jordi Pons](http://www.jordipons.me/) ([GitHub](https://github.com/jordipons))
+- Mirza Zulfan ([GitHub](https://github.com/mirzazulfan)) for the logo
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
