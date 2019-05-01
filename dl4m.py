@@ -5,8 +5,8 @@
 # E-mails   bayle.yann@live.fr
 # License   MIT
 # Created   16/08/2017
-# Updated   20/10/2017
-# Version   1.0.0
+# Updated   23/03/2018
+# Version   1.0.1
 #
 
 """
@@ -16,6 +16,7 @@ Description of dl4m.py
 Parse dl4m.bib to create a simple and readable ReadMe.md table.
 
 ..todo::
+    add function that test and report dead http links
     sort bib
     add Fig for tasks, wordcloud, dataaugmentation
     bibtexparser accentuation handling in authors.md list
@@ -26,6 +27,7 @@ Parse dl4m.bib to create a simple and readable ReadMe.md table.
     valid bib field https://www.openoffice.org/bibliographic/bibtex-defs.html
 """
 
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import bibtexparser
@@ -38,7 +40,7 @@ def write_bib(bib_database, filen="dl4m.bib"):
     """
     writer = BibTexWriter()
     writer.indent = '  '
-    writer.order_entries_by = ('noneyear', "author")
+    writer.order_entries_by = ('year', "author")
     with open(filen, "w", encoding="utf-8") as bibfile:
         bibfile.write(writer.write(bib_database))
 
@@ -139,6 +141,11 @@ def generate_list_articles(bib):
     articles = ""
     for entry in bib:
         if "title" in entry:
+            if "year" in entry:
+                articles += "| " + entry["year"] + " "
+            else:
+                print("ERROR: Missing year for ", entry)
+                sys.exit()
             if "link" in entry:
                 articles += "| [" + entry["title"] + "](" + entry["link"] + ") | "
             else:
@@ -155,6 +162,9 @@ def generate_list_articles(bib):
             else:
                 articles += "No "
             articles += "|\n"
+        else:
+            print("ERROR: Missing title for ", entry)
+            sys.exit()
 
     return articles
 

@@ -243,6 +243,7 @@
 - Schrauwen, Benjamin
 - Schuller, Björn W
 - Schuller, Gerald
+- Schultz, Tanja
 - Senac, Christine
 - Serra, Xavier
 - Seybold, Bryan
@@ -253,6 +254,7 @@
 - Slaney, Malcolm
 - Slizovskaia, Olga
 - Smith, Julius O
+- Soltau, Hagen
 - Sordo, Mohamed
 - Sotelo, Jose
 - Southall, Carl
@@ -284,6 +286,7 @@
 - Voinea, Stephen
 - Volk, Anja
 - Vrysis, Lazaros
+- Waibel, Alex
 - Wang, Chien-Yao
 - Wang, Jia-Ching
 - Wang, Qi
@@ -298,6 +301,7 @@
 - Wattenhofer, Roger
 - Weiss, Ron J.
 - Weninger, Felix
+- Westphal, Martin
 - Weyde, Tillman
 - Widmer, Gerhard
 - Wiesendanger, Jonas

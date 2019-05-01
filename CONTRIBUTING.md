@@ -1,6 +1,8 @@
 # How To Contribute
 
-Contributions are welcome! Please submit you issues, pull requests, improvements and comments in British English.
+Contributions are welcome!
+Please submit you issues, pull requests, improvements and comments in British English.
+You can look at the issues and help to solve them or you can add some missing articles as described below.
 
 ### Adding an article
 
@@ -78,8 +80,12 @@ Here are the steps to follow for adding one (or multiple) article:
         year = {},
     }
     ```
-4. Launch the python script `python dl4m.py`.
-5. Submit your pull request!
+4. Check that you have installed this python package:
+    1. numpy
+    2. matplotlib
+    3. bibtexparser
+5. Launch the python script `python dl4m.py`.
+6. Submit your pull request!
 
 ### Missing or incorrect field for an article
 

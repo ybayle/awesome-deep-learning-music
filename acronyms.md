@@ -40,6 +40,7 @@ A list of useful acronyms used in deep learning and music sorted alphabetically.
 | LSTM | Long Short-Term Memory |
 | MCLNN |Masked ConditionaL Neural Networks |
 | MER | Music Emotion Recognition |
+| MGR | Music Genre Recognition |
 | MLM | Music Language Models | 
 | MLP | Multi-Layer Perceptron |
 | MRS | Music Recommender System |
