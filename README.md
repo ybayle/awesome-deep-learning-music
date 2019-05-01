@@ -30,9 +30,8 @@ However, these surveys do not cover music information retrieval tasks that are i
 
 ## DL4M summary
 
-<<<<<<< HEAD
-|  Articles, Thesis and Reports | Code |
-|-------------------------------|------|
+| Year |  Articles, Thesis and Reports | Code |
+|------|-------------------------------|------|
 | 1988 | Neural net modeling of music | No |
 | 1988 | [Creation by refinement: A creativity paradigm for gradient descent learning networks](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=23933) | No |
 | 1988 | A sequential network design for musical applications | No |
@@ -71,7 +70,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2014 | [Boundary detection in music structure analysis using convolutional neural networks](https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf) | No |
 | 2014 | [Improving content-based and hybrid music recommendation using deep learning](http://www.smcnus.org/wp-content/uploads/2014/08/reco_MM14.pdf) | No |
 | 2014 | [A deep representation for invariance and music classification](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7034-zhang.pdf) | No |
-| 2015 | [Auralisation of deep convolutional neural networks: Listening to learned features](http://ismir2015.uma.es/LBD/LBD24.pdf) | No |
+| 2015 | [Auralisation of deep convolutional neural networks: Listening to learned features](http://ismir2015.uma.es/LBD/LBD24.pdf) | [Github](https://github.com/keunwoochoi/Auralisation) |
 | 2015 | [Downbeat tracking with multiple features and deep neural networks](http://perso.telecom-paristech.fr/~grichard/Publications/2015-durand-icassp.pdf) | No |
 | 2015 | [Music boundary detection using neural networks on spectrograms and self-similarity lag matrices](http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf) | No |
 | 2015 | [Classification of spatial audio location and content using convolutional neural networks](https://www.researchgate.net/profile/Toni_Hirvonen/publication/276061831_Classification_of_Spatial_Audio_Location_and_Content_Using_Convolutional_Neural_Networks/links/5550665908ae12808b37fe5a/Classification-of-Spatial-Audio-Location-and-Content-Using-Convolutional-Neural-Networks.pdf) | No |
@@ -192,10 +191,6 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [Surrey-CVSSP system for DCASE2017 challenge task4](https://www.cs.tut.fi/sgn/arg/dcase2017/documents/challenge_technical_reports/DCASE2017_Xu_146.pdf) | [GitHub](https://github.com/yongxuUSTC/dcase2017_task4_cvssp) |
 | 2017 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
 | 2018 | [MuseGAN: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment](https://arxiv.org/pdf/1709.06298.pdf) | [GitHub](https://github.com/salu133445/musegan) |
-=======
-| Year |  Articles, Thesis and Reports | Code |
-|------|-------------------------------|------|
->>>>>>> ef5f6fccede5ea065c4e59771db4cf428a932f6a
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
