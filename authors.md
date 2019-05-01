@@ -124,6 +124,7 @@
 - Jeong, Il-Young
 - Kakade, Sham M.
 - Kaliappan, Mala
+- Kaminsky, I.
 - Kavcic, Alenka
 - Keefe, Douglas H.
 - Kelz, Rainer
@@ -174,6 +175,7 @@
 - Malik, Miroslav
 - Marolt, Matija
 - Martel Baro, Héctor
+- Materka, Andrzej
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
 - McFee, Brian
