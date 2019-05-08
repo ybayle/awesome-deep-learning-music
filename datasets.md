@@ -32,6 +32,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Lakh Pianoroll Datase](https://github.com/salu133445/musegan/blob/master/docs/dataset.md)
 - [Last.fm](https://www.last.fm/)
 - [LyricFind](http://lyricfind.com/)
+- [MAESTRO](https://magenta.tensorflow.org/datasets/maestro/)
 - [MAPS](http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/)
 - [MIR-1K](https://sites.google.com/site/unvoicedsoundseparation/mir-1k)
 - [MSD](https://labrosa.ee.columbia.edu/millionsong/)
