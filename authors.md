@@ -1,8 +1,11 @@
 # List of authors
 
 - Adavanne, Sharath
+- Alec Radford
+- Andrew M. Dai
 - Arumugam, Muthumari
 - Arzt, Andreas
+- Ashish Vaswani
 - Badeau, Roland
 - Bammer, Roswitha
 - Barbieri, Francesco
@@ -33,6 +36,7 @@
 - Chen, Tanfang
 - Chen, Wenxiao
 - Cheng, Wen-Huang
+- Cheng{-}Zhi Anna Huang
 - Chesmore, David
 - Chiang, Chin-Chin
 - Cho, Kyunghyun
@@ -41,6 +45,7 @@
 - Costa, Yandre MG
 - Courville, Aaron
 - Coutinho, Eduardo
+- Curtis Hawthorne
 - Dannenberg, Roger B
 - David, Bertrand
 - De Haas, W Bas
@@ -52,6 +57,7 @@
 - Doerfler, Monika
 - Dong, Hao-Wen
 - Dorfer, Matthias
+- Douglas Eck
 - Drossos, Konstantinos
 - Duppada, Venkatesh
 - Durand, Simon
@@ -111,9 +117,11 @@
 - Hutchings, P.
 - Huttunen, Heikki
 - Ide, Ichiro
+- Ilya Sutskever
 - Imenina, Alina
 - Jackson, Philip J. B.
 - Jain, Shubham
+- Jakob Uszkoreit
 - Janer Mestres, Jordi
 - Janer, Jordi
 - Jang, Jyh-Shing R
@@ -158,6 +166,7 @@
 - Lee, Tan
 - Leglaive, Simon
 - Lewis, J. P.
+- Li, Juncheng
 - Li, Lihua
 - Li, Peter
 - Li, Siyan
@@ -178,11 +187,13 @@
 - Materka, Andrzej
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
+- Matthew D. Hoffman
 - McFee, Brian
 - Medhat, Fady
 - Mehri, Soroush
 - Meng, Fanhang
 - Mertins, Alfred
+- Metze, Florian
 - Mimilakis, Stylianos Ioannis
 - Miron, Marius
 - Mitsufuji, Yuki
@@ -198,6 +209,7 @@
 - Nielsen, Frank
 - Nieto, Oriol
 - Niewiadomski, Adam
+- Noam Shazeer
 - Ogihara, Mitsunori
 - Oliveira, Luiz S
 - Oramas, Sergio
@@ -223,10 +235,12 @@
 - Prockup, Matthew
 - Qian, Jiyuan
 - Qian, Sheng
+- Qu, Shuhui
 - Radenen, Mathieu
 - Ramírez, Marco A. Martínez
 - Reiss, Joshua D.
 - Ren, Gang
+- Rewon Child
 - Richard, Gaël
 - Riedmiller, Martin
 - Rigaud, François
@@ -234,6 +248,7 @@
 - Roma, Gerard
 - Rosasco, Lorenzo
 - Sandler, Mark Brian
+- Sang{-}gil Lee
 - Santos, João Felipe
 - Santoso, Andri
 - Saurous, Rif A.
@@ -246,7 +261,9 @@
 - Schuller, Björn W
 - Schuller, Gerald
 - Schultz, Tanja
+- Scott Gray
 - Senac, Christine
+- Seonwoo Min
 - Serra, Xavier
 - Seybold, Bryan
 - Shi, Zhengshan
@@ -265,6 +282,7 @@
 - Stoller, Daniel
 - Sturm, Bob L.
 - Su, Hong
+- Sungroh Yoon
 - Takahashi, Naoya
 - Takiguchi, Tetsuya
 - Tanaka, Hidehiko
@@ -277,6 +295,7 @@
 - Tsaptsinos, Alexandros
 - Tsipas, Nikolaos
 - Uhlich, Stefan
+- Uiwon Hwang
 - Ullrich, Karen
 - Valin, Jean-Marc
 - Van Gemert, JC

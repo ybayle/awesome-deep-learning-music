@@ -1,3 +1,5 @@
+@comment{}}
+
 @inproceedings{Bharucha1988,
   author = {Bharucha, J.},
   booktitle = {Proceedings of the First Workshop on Artificial Intelligence and Music},
@@ -1782,6 +1784,23 @@
   year = {2017}
 }
 
+@inproceedings{Lee2017,
+  architecture = {SeqGAN},
+  author = {Sang{-}gil Lee and Uiwon Hwang and Seonwoo Min and Sungroh Yoon},
+  batch = {No},
+  booktitle = {CoRR},
+  code = {https://github.com/L0SG/seqgan-music},
+  dataaugmentation = {No},
+  dataset = {[Nottingham dataset](http://abc.sourceforge.net/NMD/)},
+  framework = {Tensorflow},
+  input = {MIDI},
+  link = {https://arxiv.org/pdf/1710.11418v2.pdf},
+  loss = {No},
+  task = {Polyphonic music sequence modelling},
+  title = {A SeqGAN for Polyphonic Music Generation},
+  year = {2017}
+}
+
 @phdthesis{Schlueter2017,
   author = {Schlüter, Jan},
   link = {http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf},
@@ -2034,6 +2053,22 @@
   year = {2017}
 }
 
+@inproceedings{Huang2018,
+  architecture = {Transformer & RNN},
+  author = {Cheng{-}Zhi Anna Huang and Ashish Vaswani and Jakob Uszkoreit and Noam Shazeer and Curtis Hawthorne and Andrew M. Dai and Matthew D. Hoffman and Douglas Eck},
+  batch = {No},
+  booktitle = {CoRR},
+  dataaugmentation = {Time Stretches & pitch transcription},
+  dataset = {[J.S. Bach chorales dataset](https://github.com/czhuang/JSB-Chorales-dataset) & [Piano-e-Competition dataset (competition history)](http://www.piano-e-competition.com/)},
+  framework = {tensor2tensor},
+  input = {MIDI},
+  link = {https://arxiv.org/pdf/1809.04281.pdf},
+  loss = {No},
+  task = {Polyphonic music sequence modelling},
+  title = {MUSIC TRANSFORMER:GENERATING MUSIC WITH LONG-TERM STRUCTURE},
+  year = {2018}
+}
+
 @inproceedings{Dong2018,
   activation = {ReLU & Leaky ReLU},
   architecture = {GAN & CNN},
@@ -2063,5 +2098,29 @@
   task = {Composition},
   title = {MuseGAN: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment},
   year = {2018}
+}
+
+@article{Li2018,
+  architecture = {CNN & RNN},
+  author = {Li, Juncheng and Qu, Shuhui and Metze, Florian},
+  link = {https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf},
+  task = {Music Transcription},
+  title = {Music Theory Inspired Policy Gradient Method for Piano Music Transcription},
+  year = {2018}
+}
+
+@unpublished{Child2019,
+  architecture = {Transformer},
+  author = {Rewon Child and Scott Gray and Alec Radford and Ilya Sutskever},
+  batch = {No},
+  code = {https://github.com/openai/sparse_attention},
+  input = {Raw Audio},
+  link = {https://arxiv.org/pdf/1904.10509.pdf},
+  loss = {No},
+  note = {this paper is mainly about how sparse transformer are implemented},
+  pages = {8--9},
+  task = {audio generation},
+  title = {Generating Long Sequences with Sparse Transformers},
+  year = {2019}
 }
 
