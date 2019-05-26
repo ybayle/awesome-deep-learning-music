@@ -27,5 +27,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - RNN
 - RNN-LSTM
 - ResNet
+- SeqGAN
+- Transformer
 - U-Net
 - VPNN

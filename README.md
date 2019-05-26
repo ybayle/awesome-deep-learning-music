@@ -172,6 +172,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | 2017 | [Timbre analysis of music audio signals with convolutional neural networks](https://github.com/ronggong/EUSIPCO2017) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | 2017 | [Deep learning and intelligent audio mixing](http://www.semanticaudio.co.uk/wp-content/uploads/2017/09/WIMP2017_Martinez-RamirezReiss.pdf) | No |
+| 2017 | [A SeqGAN for Polyphonic Music Generation](https://arxiv.org/pdf/1710.11418v2.pdf) | [GitHub](https://github.com/L0SG/seqgan-music) |
 | 2017 | [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
 | 2017 | [Music feature maps with convolutional neural networks for music genre classification](https://www.researchgate.net/profile/Thomas_Pellegrini/publication/319326354_Music_Feature_Maps_with_Convolutional_Neural_Networks_for_Music_Genre_Classification/links/59ba5ae3458515bb9c4c6724/Music-Feature-Maps-with-Convolutional-Neural-Networks-for-Music-Genre-Classification.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=wzXuHZAa5zAnqEmErYyZwIRr2H0q01LnNEd4Wd7A15CQfdVLwdy98pmE-AdnrDvoc3-bVENSFrHt0yhaOiE2mQrYllVS9CJZOk-c9R0j_R1rbgcZugS6RtQ_.AUjPuJSF5P_DMngf-woH7W-7jdnQlbNQziR4_h6NnCHfR_zGcEa8vOyyOz5gx5nc4azqKTPQ5ZgGGLUxkLj1qCQLEQ5ThkhGlWHLyA.s6MBZE20-EO_RjRGCOCV4wk0WSFdN56Aloiraxz9hKCbJwRM2Et27RHVUA8jj9H8qvXIB6f7zSIrQgjXGrL2yCpyQlLffuf57rzSwg.KMMXbZrHsihV8DJM53xkHAWf3VebCJESi4KU4btNv9nQsyK2KnkhSQaTILKv0DSZY3c70a61LzywCBuoHtIhVOFhW5hVZN2n5O9uKQ) | No |
 | 2017 | [Automatic drum transcription for polyphonic recordings using soft attention mechanisms and convolutional neural networks](https://carlsouthall.files.wordpress.com/2017/12/ismir2017adt.pdf) | [GitHub](https://github.com/CarlSouthall/ADTLib) |
@@ -191,7 +192,10 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](https://arxiv.org/pdf/1703.06052.pdf) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
 | 2017 | [Surrey-CVSSP system for DCASE2017 challenge task4](https://www.cs.tut.fi/sgn/arg/dcase2017/documents/challenge_technical_reports/DCASE2017_Xu_146.pdf) | [GitHub](https://github.com/yongxuUSTC/dcase2017_task4_cvssp) |
 | 2017 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
+| 2018 | [MUSIC TRANSFORMER:GENERATING MUSIC WITH LONG-TERM STRUCTURE](https://arxiv.org/pdf/1809.04281.pdf) | No |
 | 2018 | [MuseGAN: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment](https://arxiv.org/pdf/1709.06298.pdf) | [GitHub](https://github.com/salu133445/musegan) |
+| 2018 | [Music Theory Inspired Policy Gradient Method for Piano Music Transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
+| 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
@@ -233,29 +237,30 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - [Music tag classification model using CRNN](https://github.com/kristijanbartol/Deep-Music-Tagger)
 - [Finding the genre of a song with Deep Learning](https://github.com/despoisj/DeepAudioClassification)
 - [Composing music using neural nets](https://github.com/fephsun/neuralnetmusic)
+- [Performance-RNN-PyTorch](https://github.com/djosix/Performance-RNN-PyTorch)
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## Statistics and visualisations
 
-- 160 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 164 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [329 other researchers](authors.md) in your field.
-- 33 tasks investigated. See the list of [tasks](tasks.md).
+- If you are applying DL to music, there are [348 other researchers](authors.md) in your field.
+- 35 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
-- 48 datasets used. See the list of [datasets](datasets.md).
+- 51 datasets used. See the list of [datasets](datasets.md).
 Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
-- 27 architectures used. See the list of [architectures](architectures.md).
+- 29 architectures used. See the list of [architectures](architectures.md).
 Architectures pie chart:
 ![Architectures pie chart](fig/pie_chart_architecture.png)
-- 9 frameworks used. See the list of [frameworks](frameworks.md).
+- 10 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
-- Only 42 articles (26%) provide their source code.
+- Only 44 articles (26%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)

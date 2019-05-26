@@ -22,6 +22,7 @@
 - Biennial Symposium for Arts and Technology
 - CBMI
 - CSMC
+- CoRR
 - Connectionist Models Summer School
 - Convention of Electrical and Electronics Engineers
 - DLRS
