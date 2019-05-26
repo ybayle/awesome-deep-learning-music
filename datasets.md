@@ -5,6 +5,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - Inhouse
 - No
 - [32 Beethoven’s piano sonatas gathered from https://archive.org](https://soundcloud.com/samplernn/sets)
+- [413 hours of recorded solo piano music](http://papers.nips.cc/paper/8023-the-challenge-of-realistic-music-generation-modelling-raw-audio-at-scale-supplemental.zip)
 - [7digital](https://7digital.com)
 - [ADC2004](http://labrosa.ee.columbia.edu/projects/melody/)
 - [Acoustic Event](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
@@ -24,7 +25,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [IDMT-SMT-Drums](https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/drums.html)
 - [IRMAS](https://www.upf.edu/web/mtg/irmas)
 - [J.S. Bach chorales dataset](https://github.com/czhuang/JSB-Chorales-dataset)
-- [JSB Chorales](ftp://i11ftp.ira.uka.de/pub/neuro/dominik/midifiles/bach.zip)
+- [JSB Chorales](https://github.com/czhuang/JSB-Chorales-dataset)
 - [Jamendo](http://www.mathieuramona.com/wp/data/jamendo/)
 - [LMD](https://sites.google.com/site/carlossillajr/resources/the-latin-music-database-lmd)
 - [LSDB](lsdb.flow-machines.com/)

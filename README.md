@@ -154,6 +154,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [Multi-level and multi-scale feature aggregation using pre-trained convolutional neural networks for music auto-tagging](https://arxiv.org/pdf/1703.01793v2.pdf) | No |
 | 2017 | [Multi-level and multi-scale feature aggregation using sample-level deep convolutional neural networks for music classification](https://arxiv.org/pdf/1706.06810.pdf) | [GitHub](https://github.com/jongpillee/musicTagging_MSD) |
 | 2017 | [Sample-level deep convolutional neural networks for music auto-tagging using raw waveforms](https://arxiv.org/pdf/1703.01789v2.pdf) | No |
+| 2017 | [A SeqGAN for Polyphonic Music Generation](https://arxiv.org/pdf/1710.11418.pdf) | [GitHub](https://github.com/L0SG/seqgan-music) |
 | 2017 | [Harmonic and percussive source separation using a convolutional auto encoder](http://www.eurasip.org/Proceedings/Eusipco/Eusipco2017/papers/1570346835.pdf) | No |
 | 2017 | [Stacked convolutional and recurrent neural networks for music emotion recognition](https://arxiv.org/pdf/1706.02292.pdf) | No |
 | 2017 | [A deep learning approach to source separation and remixing of hiphop music](https://repositori.upf.edu/bitstream/handle/10230/32919/Martel_2017.pdf?sequence=1&isAllowed=y) | No |
@@ -172,7 +173,6 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | 2017 | [Timbre analysis of music audio signals with convolutional neural networks](https://github.com/ronggong/EUSIPCO2017) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
 | 2017 | [Deep learning and intelligent audio mixing](http://www.semanticaudio.co.uk/wp-content/uploads/2017/09/WIMP2017_Martinez-RamirezReiss.pdf) | No |
-| 2017 | [A SeqGAN for Polyphonic Music Generation](https://arxiv.org/pdf/1710.11418v2.pdf) | [GitHub](https://github.com/L0SG/seqgan-music) |
 | 2017 | [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
 | 2017 | [Music feature maps with convolutional neural networks for music genre classification](https://www.researchgate.net/profile/Thomas_Pellegrini/publication/319326354_Music_Feature_Maps_with_Convolutional_Neural_Networks_for_Music_Genre_Classification/links/59ba5ae3458515bb9c4c6724/Music-Feature-Maps-with-Convolutional-Neural-Networks-for-Music-Genre-Classification.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=wzXuHZAa5zAnqEmErYyZwIRr2H0q01LnNEd4Wd7A15CQfdVLwdy98pmE-AdnrDvoc3-bVENSFrHt0yhaOiE2mQrYllVS9CJZOk-c9R0j_R1rbgcZugS6RtQ_.AUjPuJSF5P_DMngf-woH7W-7jdnQlbNQziR4_h6NnCHfR_zGcEa8vOyyOz5gx5nc4azqKTPQ5ZgGGLUxkLj1qCQLEQ5ThkhGlWHLyA.s6MBZE20-EO_RjRGCOCV4wk0WSFdN56Aloiraxz9hKCbJwRM2Et27RHVUA8jj9H8qvXIB6f7zSIrQgjXGrL2yCpyQlLffuf57rzSwg.KMMXbZrHsihV8DJM53xkHAWf3VebCJESi4KU4btNv9nQsyK2KnkhSQaTILKv0DSZY3c70a61LzywCBuoHtIhVOFhW5hVZN2n5O9uKQ) | No |
 | 2017 | [Automatic drum transcription for polyphonic recordings using soft attention mechanisms and convolutional neural networks](https://carlsouthall.files.wordpress.com/2017/12/ismir2017adt.pdf) | [GitHub](https://github.com/CarlSouthall/ADTLib) |
@@ -192,10 +192,17 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [Attention and localization based on a deep convolutional recurrent model for weakly supervised audio tagging](https://arxiv.org/pdf/1703.06052.pdf) | [GitHub](https://github.com/yongxuUSTC/att_loc_cgrnn) |
 | 2017 | [Surrey-CVSSP system for DCASE2017 challenge task4](https://www.cs.tut.fi/sgn/arg/dcase2017/documents/challenge_technical_reports/DCASE2017_Xu_146.pdf) | [GitHub](https://github.com/yongxuUSTC/dcase2017_task4_cvssp) |
 | 2017 | [A study on LSTM networks for polyphonic music sequence modelling](https://qmro.qmul.ac.uk/xmlui/handle/123456789/24946) | [Website](http://www.eecs.qmul.ac.uk/~ay304/code/ismir17) |
-| 2018 | [MUSIC TRANSFORMER:GENERATING MUSIC WITH LONG-TERM STRUCTURE](https://arxiv.org/pdf/1809.04281.pdf) | No |
 | 2018 | [MuseGAN: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment](https://arxiv.org/pdf/1709.06298.pdf) | [GitHub](https://github.com/salu133445/musegan) |
-| 2018 | [Music Theory Inspired Policy Gradient Method for Piano Music Transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
+| 2018 | [Music transformer: Generating music with long-term structure](https://arxiv.org/pdf/1809.04281.pdf) | No |
+| 2018 | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
 | 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
+address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
+reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
+address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
+reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
+epochs = {100} | [A SeqGAN for Polyphonic Music Generation](https://arxiv.org/pdf/1710.11418.pdf) | [GitHub](https://github.com/L0SG/seqgan-music) |
+address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
+reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
@@ -247,17 +254,17 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [348 other researchers](authors.md) in your field.
-- 35 tasks investigated. See the list of [tasks](tasks.md).
+- If you are applying DL to music, there are [352 other researchers](authors.md) in your field.
+- 34 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
-- 51 datasets used. See the list of [datasets](datasets.md).
+- 52 datasets used. See the list of [datasets](datasets.md).
 Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
-- 29 architectures used. See the list of [architectures](architectures.md).
+- 30 architectures used. See the list of [architectures](architectures.md).
 Architectures pie chart:
 ![Architectures pie chart](fig/pie_chart_architecture.png)
-- 10 frameworks used. See the list of [frameworks](frameworks.md).
+- 9 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
 - Only 44 articles (26%) provide their source code.

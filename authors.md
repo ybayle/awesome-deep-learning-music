@@ -2,10 +2,8 @@
 
 - Adavanne, Sharath
 - Alec Radford
-- Andrew M. Dai
 - Arumugam, Muthumari
 - Arzt, Andreas
-- Ashish Vaswani
 - Badeau, Roland
 - Bammer, Roswitha
 - Barbieri, Francesco
@@ -36,7 +34,6 @@
 - Chen, Tanfang
 - Chen, Wenxiao
 - Cheng, Wen-Huang
-- Cheng{-}Zhi Anna Huang
 - Chesmore, David
 - Chiang, Chin-Chin
 - Cho, Kyunghyun
@@ -45,19 +42,20 @@
 - Costa, Yandre MG
 - Courville, Aaron
 - Coutinho, Eduardo
-- Curtis Hawthorne
+- Dai, Andrew M.
 - Dannenberg, Roger B
+- Das, Samarjit
 - David, Bertrand
 - De Haas, W Bas
 - De Lyon, Insa
 - Deng, Junqi
 - Dieleman, Sander
 - Dimoulas, Charalampos
+- Dinculescu, Monica
 - Dixon, Simon
 - Doerfler, Monika
 - Dong, Hao-Wen
 - Dorfer, Matthias
-- Douglas Eck
 - Drossos, Konstantinos
 - Duppada, Venkatesh
 - Durand, Simon
@@ -99,6 +97,7 @@
 - Han, Yoonchang
 - Hanjalic, A
 - Harchaoui, Zaid
+- Hawthorne, Curtis
 - He, Wenqi
 - Hennequin, Romain
 - Herrera, Jorge
@@ -107,21 +106,23 @@
 - Hiray, Sushant
 - Hirvonen, Toni
 - Hockman, Jason
+- Hoffman, Matthew D.
 - Holzapfel, Andre
 - Hsiao, Wen-Yi
 - Hsu, Yu-Lun
 - Hu, Min-Chun
 - Huang, Allen
+- Huang, Cheng-Zhi Anna
 - Huang, Qiang
 - Humphrey, Eric J.
 - Hutchings, P.
 - Huttunen, Heikki
+- Hwang, Uiwon
 - Ide, Ichiro
 - Ilya Sutskever
 - Imenina, Alina
 - Jackson, Philip J. B.
 - Jain, Shubham
-- Jakob Uszkoreit
 - Janer Mestres, Jordi
 - Janer, Jordi
 - Jang, Jyh-Shing R
@@ -162,6 +163,7 @@
 - Lee, Honglak
 - Lee, Jongpil
 - Lee, Kyogu
+- Lee, Sang-gil
 - Lee, Taejin
 - Lee, Tan
 - Leglaive, Simon
@@ -171,6 +173,7 @@
 - Li, Peter
 - Li, Siyan
 - Li, Tom LH
+- Li, Xinjian
 - Li, Xinxing
 - Lidy, Thomas
 - Liem, CCS
@@ -187,7 +190,6 @@
 - Materka, Andrzej
 - Mathulaprangsan, Seksan
 - Matityaho, Benyamin
-- Matthew D. Hoffman
 - McFee, Brian
 - Medhat, Fady
 - Mehri, Soroush
@@ -195,6 +197,7 @@
 - Mertins, Alfred
 - Metze, Florian
 - Mimilakis, Stylianos Ioannis
+- Min, Seonwoo
 - Miron, Marius
 - Mitsufuji, Yuki
 - Montecchio, Nicola
@@ -209,7 +212,6 @@
 - Nielsen, Frank
 - Nieto, Oriol
 - Niewiadomski, Adam
-- Noam Shazeer
 - Ogihara, Mitsunori
 - Oliveira, Luiz S
 - Oramas, Sergio
@@ -248,7 +250,6 @@
 - Roma, Gerard
 - Rosasco, Lorenzo
 - Sandler, Mark Brian
-- Sang{-}gil Lee
 - Santos, João Felipe
 - Santoso, Andri
 - Saurous, Rif A.
@@ -263,12 +264,13 @@
 - Schultz, Tanja
 - Scott Gray
 - Senac, Christine
-- Seonwoo Min
 - Serra, Xavier
 - Seybold, Bryan
+- Shazeer, Noam
 - Shi, Zhengshan
 - Sigtia, Siddharth
 - Silla, Carlos N
+- Simon, Ian
 - Simpson, Andrew J. R.
 - Slaney, Malcolm
 - Slizovskaia, Olga
@@ -282,7 +284,6 @@
 - Stoller, Daniel
 - Sturm, Bob L.
 - Su, Hong
-- Sungroh Yoon
 - Takahashi, Naoya
 - Takiguchi, Tetsuya
 - Tanaka, Hidehiko
@@ -295,12 +296,13 @@
 - Tsaptsinos, Alexandros
 - Tsipas, Nikolaos
 - Uhlich, Stefan
-- Uiwon Hwang
 - Ullrich, Karen
+- Uszkoreit, Jakob
 - Valin, Jean-Marc
 - Van Gemert, JC
 - Van Gool, Luc
 - Van den Oord, Aaron
+- Vaswani, Ashish
 - Velarde, Gissel
 - Veličković, Petar
 - Virtanen, Tuomas
@@ -316,6 +318,7 @@
 - Wang, Wenwu
 - Wang, Xinxi
 - Wang, Ye
+- Wang, Yun
 - Wang, Yuyi
 - Wang, Ziyuan
 - Watson, David
@@ -340,6 +343,7 @@
 - Yang, Yi-Hsuan
 - Ycart, Adrien
 - Yoo, Chang D
+- Yoon, Sungroh
 - Zhang, Chiyuan
 - Zhang, Hui
 - Zhang, Pengjing

@@ -3,6 +3,7 @@
 Please refer to the list of useful acronyms used in deep learning and music: [acronyms.md](acronyms.md).
 
 - Artist recognition
+- Audio generation
 - Beat detection
 - Boundary detection
 - Chord recognition
@@ -18,7 +19,6 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - MSR
 - Manifesto
 - Mixing
-- Music Transcription
 - Music/Noise segmentation
 - Noise suppression
 - Onset detection
@@ -36,4 +36,3 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - Syllable segmentation
 - Transcription
 - VAD
-- audio generation
