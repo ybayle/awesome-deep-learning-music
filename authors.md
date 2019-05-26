@@ -62,6 +62,8 @@
 - Eck, Douglas
 - Ehmann, Andreas F.
 - Ellis, Daniel P. W.
+- Elsen, Erich
+- Engel, Jesse
 - Evangelopoulos, Georgios
 - Ewert, Sebastian
 - Fan, Zhe-Cheng
@@ -246,6 +248,7 @@
 - Richard, Gaël
 - Riedmiller, Martin
 - Rigaud, François
+- Roberts, Adam
 - Robinson, John
 - Roma, Gerard
 - Rosasco, Lorenzo
@@ -281,6 +284,7 @@
 - Southall, Carl
 - Stables, Ryan
 - Stasiak, Bartłomiej
+- Stasyuk, Andriy
 - Stoller, Daniel
 - Sturm, Bob L.
 - Su, Hong

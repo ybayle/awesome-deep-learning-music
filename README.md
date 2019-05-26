@@ -195,6 +195,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2018 | [MuseGAN: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment](https://arxiv.org/pdf/1709.06298.pdf) | [GitHub](https://github.com/salu133445/musegan) |
 | 2018 | [Music transformer: Generating music with long-term structure](https://arxiv.org/pdf/1809.04281.pdf) | No |
 | 2018 | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
+| 2019 | [Enabling factorized piano music modeling and generation with the MAESTRO dataset](https://arxiv.org/abs/1810.12247) | No |
 | 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
 address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
 reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
@@ -250,15 +251,15 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 164 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 165 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [352 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [356 other researchers](authors.md) in your field.
 - 34 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
-- 52 datasets used. See the list of [datasets](datasets.md).
+- 53 datasets used. See the list of [datasets](datasets.md).
 Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
 - 30 architectures used. See the list of [architectures](architectures.md).
@@ -321,6 +322,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Jordi Pons](http://www.jordipons.me/) ([GitHub](https://github.com/jordipons))
 - Mirza Zulfan ([GitHub](https://github.com/mirzazulfan)) for the logo
 - [Devin Walters](https://github.com/devn)
+- https://github.com/LegendJ
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
