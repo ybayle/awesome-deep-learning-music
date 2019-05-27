@@ -197,13 +197,6 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2018 | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
 | 2019 | [Enabling factorized piano music modeling and generation with the MAESTRO dataset](https://arxiv.org/abs/1810.12247) | No |
 | 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
-address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
-reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
-address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
-reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
-epochs = {100} | [A SeqGAN for Polyphonic Music Generation](https://arxiv.org/pdf/1710.11418.pdf) | [GitHub](https://github.com/L0SG/seqgan-music) |
-address = {Montreal, Canada} | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
-reproducible = {No} | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
