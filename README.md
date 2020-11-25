@@ -195,7 +195,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2018 | [MuseGAN: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment](https://arxiv.org/pdf/1709.06298.pdf) | [GitHub](https://github.com/salu133445/musegan) |
 | 2018 | [Music transformer: Generating music with long-term structure](https://arxiv.org/pdf/1809.04281.pdf) | No |
 | 2018 | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
-| 2019 | [Enabling factorized piano music modeling and generation with the MAESTRO dataset](https://arxiv.org/abs/1810.12247) | No |
+| 2019 | [Enabling factorized piano music modeling and generation with the MAESTRO dataset](https://arxiv.org/abs/1810.12247) | [GitHub](https://github.com/magenta/magenta/tree/master/magenta/models/onsets_frames_transcription) |
 | 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
@@ -261,7 +261,7 @@ Architectures pie chart:
 - 9 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
-- Only 44 articles (26%) provide their source code.
+- Only 45 articles (27%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
