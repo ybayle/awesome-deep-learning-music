@@ -66,7 +66,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2014 | [Deep learning for music genre classification](https://courses.engr.illinois.edu/ece544na/fa2014/Tao_Feng.pdf) | No |
 | 2014 | [Recognition of acoustic events using deep neural networks](https://www.cs.tut.fi/sgn/arg/music/tuomasv/dnn_eusipco2014.pdf) | No |
 | 2014 | [Deep image features in music information retrieval](https://www.degruyter.com/downloadpdf/j/eletel.2014.60.issue-4/eletel-2014-0042/eletel-2014-0042.pdf) | No |
-| 2014 | [From music audio to chord tablature: Teaching deep convolutional networks to play guitar](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7024-humphrey.pdf) | No |
+| 2014 | [From music audio to chord tablature: Teaching deep convolutional networks to play guitar](https://ejhumphrey.com/assets/pdf/humphrey2014music.pdf) | No |
 | 2014 | [Improved musical onset detection with convolutional neural networks](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p7029-schluter.pdf) | No |
 | 2014 | [Boundary detection in music structure analysis using convolutional neural networks](https://dav.grrrr.org/public/pub/ullrich_schlueter_grill-2014-ismir.pdf) | No |
 | 2014 | [Improving content-based and hybrid music recommendation using deep learning](http://www.smcnus.org/wp-content/uploads/2014/08/reco_MM14.pdf) | No |
