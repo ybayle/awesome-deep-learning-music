@@ -16,6 +16,7 @@ Please refer to the list of useful acronyms used in deep learning and music: [ac
 - [Beatles](http://isophonics.net/content/reference-annotations-beatles)
 - [C4S](http://mmc.tudelft.nl/users/alessio-bazzica#C4S-dataset)
 - [CCMixter](https://members.loria.fr/ALiutkus/kam/)
+- [dadaGP](https://github.com/dada-bots/dadaGP)
 - [DSD100](http://sisec17.audiolabs-erlangen.de/#/dataset)
 - [Echo Nest Taste Profile Subset](https://labrosa.ee.columbia.edu/millionsong/tasteprofile)
 - [Free music archive](http://freemusicarchive.org/)
