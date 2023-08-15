@@ -359,6 +359,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 #### Deep learning
 
+- [Synthical](https://synthical.com) - AI-powered collaborative research environment. You can use it to get recommendations of articles based on reading history, simplify papers, find out what articles are trending, search articles by meaning (not just keywords), create and share folders of articles, see lists of articles from specific companies and universities, and so on.
 - [DLPaper2Code: Auto-generation of Code from Deep Learning Research Papers](https://arxiv.org/abs/1711.03543) - 
 - [Model Convertors](https://github.com/ysh329/deep-learning-model-convertor) - Convertors for DL frameworks and backend
 - [Deep architecture genealogy](https://github.com/hunkim/deep_architecture_genealogy) - Genealogy of DL architectures
