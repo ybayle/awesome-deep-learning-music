@@ -174,7 +174,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [End-to-end learning for music audio tagging at scale](https://arxiv.org/pdf/1711.02520.pdf) | [GitHub](https://github.com/jordipons/music-audio-tagging-at-scale-models) |
 | 2017 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | 2017 | [Timbre analysis of music audio signals with convolutional neural networks](https://github.com/ronggong/EUSIPCO2017) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
-| 2017 | [The MUSDB18 corpus for music separation](https://doi.org/10.5281/zenodo.1117372) | [Website]() |
+| 2017 | [The MUSDB18 corpus for music separation](https://doi.org/10.5281/zenodo.1117372) | [GitHub](https://github.com/sigsep/website) |
 | 2017 | [Deep learning and intelligent audio mixing](http://www.semanticaudio.co.uk/wp-content/uploads/2017/09/WIMP2017_Martinez-RamirezReiss.pdf) | No |
 | 2017 | [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
 | 2017 | [Music feature maps with convolutional neural networks for music genre classification](https://www.researchgate.net/profile/Thomas_Pellegrini/publication/319326354_Music_Feature_Maps_with_Convolutional_Neural_Networks_for_Music_Genre_Classification/links/59ba5ae3458515bb9c4c6724/Music-Feature-Maps-with-Convolutional-Neural-Networks-for-Music-Genre-Classification.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=wzXuHZAa5zAnqEmErYyZwIRr2H0q01LnNEd4Wd7A15CQfdVLwdy98pmE-AdnrDvoc3-bVENSFrHt0yhaOiE2mQrYllVS9CJZOk-c9R0j_R1rbgcZugS6RtQ_.AUjPuJSF5P_DMngf-woH7W-7jdnQlbNQziR4_h6NnCHfR_zGcEa8vOyyOz5gx5nc4azqKTPQ5ZgGGLUxkLj1qCQLEQ5ThkhGlWHLyA.s6MBZE20-EO_RjRGCOCV4wk0WSFdN56Aloiraxz9hKCbJwRM2Et27RHVUA8jj9H8qvXIB6f7zSIrQgjXGrL2yCpyQlLffuf57rzSwg.KMMXbZrHsihV8DJM53xkHAWf3VebCJESi4KU4btNv9nQsyK2KnkhSQaTILKv0DSZY3c70a61LzywCBuoHtIhVOFhW5hVZN2n5O9uKQ) | No |
@@ -200,7 +200,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2018 | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
 | 2019 | [Enabling factorized piano music modeling and generation with the MAESTRO dataset](https://arxiv.org/abs/1810.12247) | [GitHub](https://github.com/magenta/magenta/tree/master/magenta/models/onsets_frames_transcription) |
 | 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
-| 2021 | [{DadaGP: a Dataset of Tokenized GuitarPro Songs for Sequence Models}](https://archives.ismir.net/ismir2021/paper/000076.pdf) | [GitHub](https://github.com/dada-bots/dadaGP) |
+| 2021 | [DadaGP: a Dataset of Tokenized GuitarPro Songs for Sequence Models](https://archives.ismir.net/ismir2021/paper/000076.pdf) | [GitHub](https://github.com/dada-bots/dadaGP) |
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
