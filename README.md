@@ -1,3 +1,5 @@
+⚠️ This repo is unmaintained. While the info are still relevant, contributions to keep it up to date are welcome! A good starting point are the articles referenced here: https://github.com/ybayle/awesome-deep-learning-music/issues/5
+
 <img align="right" src="fig/logo.png">
 
 # Deep Learning for Music (DL4M) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
@@ -172,6 +174,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2017 | [End-to-end learning for music audio tagging at scale](https://arxiv.org/pdf/1711.02520.pdf) | [GitHub](https://github.com/jordipons/music-audio-tagging-at-scale-models) |
 | 2017 | [Designing efficient architectures for modeling temporal features with convolutional neural networks](http://ieeexplore.ieee.org/document/7952601/) | [GitHub](https://github.com/jordipons/ICASSP2017) |
 | 2017 | [Timbre analysis of music audio signals with convolutional neural networks](https://github.com/ronggong/EUSIPCO2017) | [GitHub](https://github.com/jordipons/EUSIPCO2017) |
+| 2017 | [The MUSDB18 corpus for music separation](https://doi.org/10.5281/zenodo.1117372) | [Website]() |
 | 2017 | [Deep learning and intelligent audio mixing](http://www.semanticaudio.co.uk/wp-content/uploads/2017/09/WIMP2017_Martinez-RamirezReiss.pdf) | No |
 | 2017 | [Deep learning for event detection, sequence labelling and similarity estimation in music signals](http://ofai.at/~jan.schlueter/pubs/phd/phd.pdf) | No |
 | 2017 | [Music feature maps with convolutional neural networks for music genre classification](https://www.researchgate.net/profile/Thomas_Pellegrini/publication/319326354_Music_Feature_Maps_with_Convolutional_Neural_Networks_for_Music_Genre_Classification/links/59ba5ae3458515bb9c4c6724/Music-Feature-Maps-with-Convolutional-Neural-Networks-for-Music-Genre-Classification.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=wzXuHZAa5zAnqEmErYyZwIRr2H0q01LnNEd4Wd7A15CQfdVLwdy98pmE-AdnrDvoc3-bVENSFrHt0yhaOiE2mQrYllVS9CJZOk-c9R0j_R1rbgcZugS6RtQ_.AUjPuJSF5P_DMngf-woH7W-7jdnQlbNQziR4_h6NnCHfR_zGcEa8vOyyOz5gx5nc4azqKTPQ5ZgGGLUxkLj1qCQLEQ5ThkhGlWHLyA.s6MBZE20-EO_RjRGCOCV4wk0WSFdN56Aloiraxz9hKCbJwRM2Et27RHVUA8jj9H8qvXIB6f7zSIrQgjXGrL2yCpyQlLffuf57rzSwg.KMMXbZrHsihV8DJM53xkHAWf3VebCJESi4KU4btNv9nQsyK2KnkhSQaTILKv0DSZY3c70a61LzywCBuoHtIhVOFhW5hVZN2n5O9uKQ) | No |
@@ -197,6 +200,7 @@ However, these surveys do not cover music information retrieval tasks that are i
 | 2018 | [Music theory inspired policy gradient method for piano music transcription](https://nips2018creativity.github.io/doc/music_theory_inspired_policy_gradient.pdf) | No |
 | 2019 | [Enabling factorized piano music modeling and generation with the MAESTRO dataset](https://arxiv.org/abs/1810.12247) | [GitHub](https://github.com/magenta/magenta/tree/master/magenta/models/onsets_frames_transcription) |
 | 2019 | [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) | [GitHub](https://github.com/openai/sparse_attention) |
+| 2021 | [{DadaGP: a Dataset of Tokenized GuitarPro Songs for Sequence Models}](https://archives.ismir.net/ismir2021/paper/000076.pdf) | [GitHub](https://github.com/dada-bots/dadaGP) |
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
@@ -244,15 +248,15 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 
 ## Statistics and visualisations
 
-- 165 papers referenced. See the details in [dl4m.bib](dl4m.bib).
+- 167 papers referenced. See the details in [dl4m.bib](dl4m.bib).
 There are more papers from 2017 than any other years combined.
 Number of articles per year:
 ![Number of articles per year](fig/articles_per_year.png)
-- If you are applying DL to music, there are [356 other researchers](authors.md) in your field.
+- If you are applying DL to music, there are [364 other researchers](authors.md) in your field.
 - 34 tasks investigated. See the list of [tasks](tasks.md).
 Tasks pie chart:
 ![Tasks pie chart](fig/pie_chart_task.png)
-- 53 datasets used. See the list of [datasets](datasets.md).
+- 55 datasets used. See the list of [datasets](datasets.md).
 Datasets pie chart:
 ![Datasets pie chart](fig/pie_chart_dataset.png)
 - 30 architectures used. See the list of [architectures](architectures.md).
@@ -261,7 +265,7 @@ Architectures pie chart:
 - 9 frameworks used. See the list of [frameworks](frameworks.md).
 Frameworks pie chart:
 ![Frameworks pie chart](fig/pie_chart_framework.png)
-- Only 45 articles (27%) provide their source code.
+- Only 47 articles (28%) provide their source code.
 Repeatability is the key to good science, so check out the [list of useful resources on reproducibility for MIR and ML](reproducibility.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
@@ -301,13 +305,13 @@ A list of useful acronyms used in deep learning and music is stored in [acronyms
 
 ## Sources
 
-The list of conferences, journals and aggregators used to gather the proposed materials is stored in [sources.md](sources.md). 
+The list of conferences, journals and aggregators used to gather the proposed materials is stored in [sources.md](sources.md).
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
 ## Contributors
 
-- [Yann Bayle](http://yannbayle.fr/english/index.php) ([GitHub](https://github.com/ybayle)) - Instigator and principal maintainer 
+- [Yann Bayle](http://yannbayle.fr/english/index.php) ([GitHub](https://github.com/ybayle)) - Instigator and principal maintainer
 - Vincent Lostanlen ([GitHub](https://github.com/lostanlen))
 - [Keunwoo Choi](https://keunwoochoi.wordpress.com/) ([GitHub](https://github.com/keunwoochoi))
 - [Bob L. Sturm](http://www.eecs.qmul.ac.uk/~sturm/) ([GitHub](https://github.com/boblsturm))
@@ -359,7 +363,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 
 #### Deep learning
 
-- [DLPaper2Code: Auto-generation of Code from Deep Learning Research Papers](https://arxiv.org/abs/1711.03543) - 
+- [DLPaper2Code: Auto-generation of Code from Deep Learning Research Papers](https://arxiv.org/abs/1711.03543) -
 - [Model Convertors](https://github.com/ysh329/deep-learning-model-convertor) - Convertors for DL frameworks and backend
 - [Deep architecture genealogy](https://github.com/hunkim/deep_architecture_genealogy) - Genealogy of DL architectures
 - [Deep Learning as an Engineer](http://www.univie.ac.at/nuhag-php/dateien/talks/3358_schlueter.pdf) - Slides from Jan Schlüter
@@ -367,7 +371,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Awesome Deep Learning Resources](https://github.com/endymecy/awesome-deeplearning-resources) - Papers regarding deep learning and deep reinforcement learning
 - [Awesome RNNs](https://github.com/kjw0612/awesome-rnn) - RNNs code, theory and applications
 - [Cheatsheets AI](https://github.com/kailashahirwar/cheatsheets-ai) - Cheat Sheets for Keras, neural networks, scikit-learn,...
-- [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers 
+- [DL PaperNotes](https://github.com/dennybritz/deeplearning-papernotes) - Summaries and notes on general deep learning research papers
 - General [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) lists
 - [Echo State Network](http://minds.jacobs-university.de/sites/default/files/uploads/papers/PracticalESN.pdf)
 - [DL in NLP](http://ruder.io/deep-learning-nlp-best-practices/index.html#introduction) - Best practices for using neural networks by [Sebastian Ruder](http://ruder.io/)
@@ -375,7 +379,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Dilated Recurrent Neural Networks](https://arxiv.org/pdf/1710.02224.pdf) - How to improve RNNs?
 - [Encoder-Decoder in RNNs](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/?utm_content=buffer0d2a7&utm_medium=social&utm_source=twitter.com&utm_campaign=bufferhttps://blog.recast.ai/ml-spotlight-rnn/?utm_content=bufferf19d3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) - How Does Attention Work in Encoder-Decoder Recurrent Neural Networks
 - [On the use of DL](https://twitter.com/randal_olson/status/927157485240311808/photo/1) - Misc fun around DL
-- [ML from scratch](https://github.com/eriklindernoren/ML-From-Scratch) - Python implementations of ML models and algorithms from scratch from Data Mining to DL 
+- [ML from scratch](https://github.com/eriklindernoren/ML-From-Scratch) - Python implementations of ML models and algorithms from scratch from Data Mining to DL
 - [Comparison of DL frameworks](https://project.inria.fr/deeplearning/files/2016/05/DLFrameworks.pdf) - Presentation describing the different existing frameworks for DL
 - [ELU > ReLU](https://arxiv.org/pdf/1511.07289.pdf) - Article describing the differences between ELU and ReLU
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf) - Book about reinforcement learning

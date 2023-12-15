@@ -48,6 +48,7 @@
 - MIREX
 - MediaEval
 - Music and Artificial Intelligence. Additional Proceedings of the Second International Conference, ICMAI
+- No
 - Proceedings of the First Workshop on Artificial Intelligence and Music
 - RECSYS
 - SMC

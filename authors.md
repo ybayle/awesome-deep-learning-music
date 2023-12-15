@@ -7,6 +7,7 @@
 - Badeau, Roland
 - Bammer, Roswitha
 - Barbieri, Francesco
+- Barthet, Mathieu
 - Bazzica, Alessio
 - Bello, Juan Pablo
 - Ben-Tal, Oded
@@ -25,6 +26,7 @@
 - Böck, Sebastian
 - Cai, Lianhong
 - Cangea, Cătălina
+- Carr, CJ
 - Cella, Carmine-Emanuele
 - Chan, Antoni B
 - Chan, TS
@@ -153,6 +155,7 @@
 - Koutini, Khaled
 - Krawczyk-Becker, Martin
 - Kum, Sangeun
+- Kumar, Adarsh
 - Kumar, Aparna
 - Kumar, Kundan
 - Kumar, Rithesh
@@ -183,6 +186,7 @@
 - Lin, Bo-Chen
 - Lin, Chi-Po
 - Liu, Jen-Yu
+- Liutkus, Antoine
 - Liò, Pietro
 - Lostanlen, Vincent
 - Maass, Marco
@@ -241,6 +245,7 @@
 - Qian, Sheng
 - Qu, Shuhui
 - Radenen, Mathieu
+- Rafii, Zafar
 - Ramírez, Marco A. Martínez
 - Reiss, Joshua D.
 - Ren, Gang
@@ -255,6 +260,7 @@
 - Sandler, Mark Brian
 - Santos, João Felipe
 - Santoso, Andri
+- Sarmento, Pedro
 - Saurous, Rif A.
 - Schedl, Markus
 - Scherer, Klaus R
@@ -287,6 +293,7 @@
 - Stasyuk, Andriy
 - Stoller, Daniel
 - Sturm, Bob L.
+- Stöter, Fabian-Robert
 - Su, Hong
 - Takahashi, Naoya
 - Takiguchi, Tetsuya
@@ -357,3 +364,4 @@
 - Zhao, An
 - Zheng, Xiaoqing
 - Zhou, Ruohua
+- Zukowski, Zack
