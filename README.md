@@ -243,6 +243,7 @@ Each entry in [dl4m.bib](dl4m.bib) also displays additional information:
 - [Finding the genre of a song with Deep Learning](https://github.com/despoisj/DeepAudioClassification)
 - [Composing music using neural nets](https://github.com/fephsun/neuralnetmusic)
 - [Performance-RNN-PyTorch](https://github.com/djosix/Performance-RNN-PyTorch)
+- [voicetoinstrument.com](https://voicetoinstrument.com) - Convert voice to instrument tracks using AI
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
