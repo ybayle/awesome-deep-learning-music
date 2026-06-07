@@ -347,6 +347,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Music generation with DL](https://github.com/umbrellabeach/music-generation-with-DL) - List of resources on music generation with deep learning
 - [Auditory Scene Analysis](https://mitpress.mit.edu/books/auditory-scene-analysis) - Book about the perceptual organization of sound by [Albert Bregman](https://en.wikipedia.org/wiki/Albert_Bregman), the "father of [Auditory Scene Analysis](https://en.wikipedia.org/wiki/Auditory_scene_analysis)".
   - [Demonstrations of Auditory Scene Analysis](http://webpages.mcgill.ca/staff/Group2/abregm1/web/downloadstoc.htm) - Audio demonstrations, which illustrate examples of auditory perceptual organization.
+- [Building Speech AI: A Practitioner's Guide](https://prdeepakbabu.github.io/building-speech-ai) - Book on speech representation, ASR, neural TTS, self-supervised speech models, and audio language models, with companion code.
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
