@@ -326,6 +326,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 ## Other useful related lists and resources
 
 #### Audio
+- [Needle](https://github.com/Yvsleyen00941/Needle) - Elegant native macOS music companion for your desktop.
 
 - [DL4MIR tutorial with keras](https://github.com/tuwien-musicir/DL_MIR_Tutorial) - Tutorial for Deep Learning on Music Information Retrieval by [Thomas Lidy](http://ifs.tuwien.ac.at/~lidy/)
 - [Video talk from Ron Weiss](https://www.youtube.com/watch?v=sI_8EA0_ha8) - Ron Weiss (Google) Talk on Training neural network acoustic models on waveforms
