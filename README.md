@@ -389,6 +389,7 @@ The list of conferences, journals and aggregators used to gather the proposed ma
 - [Article "Are GANs Created Equal? A Large-Scale Study"](https://arxiv.org/abs/1711.10337) - Actually comparing DL algorithms
 - [Battle of the Deep Learning frameworks](https://towardsdatascience.com/battle-of-the-deep-learning-frameworks-part-i-cff0e3841750) - DL frameworks comparison and evolution
 - [Black-box optimization](http://timvieira.github.io/blog/post/2018/03/16/black-box-optimization/) - There are other optimization algorithms than just gradient descent
+- [No Stairs Please](https://nostairsplease.com/mcp) - Live-music venue directory and hosted MCP server covering 6,500+ venues across the US and Canada
 
 [Go back to top](https://github.com/ybayle/awesome-deep-learning-music#deep-learning-for-music-dl4m-)
 
